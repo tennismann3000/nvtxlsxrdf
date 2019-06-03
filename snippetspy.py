@@ -141,3 +141,6 @@ for idx, i in enumerate(pr_clean.columns):
         print(["N", idx])
     else:
         print(["L", idx, i])
+
+        pr_clean.iloc[:, 6:27] = pr_clean.iloc[:, 6:27].apply(refreplace, axis=1).apply(supersplit, axis=1)
+pr_clean.iloc[:, 31:35] = pr_clean.iloc[:, 31:35].apply(refreplace, axis=1).apply(supersplit, axis=1)

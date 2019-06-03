@@ -1,0 +1,203 @@
+@prefix nvt: <http://lod.iti-germany.de/resource/> .
+@prefix nvto: <http://lod.iti-germany.de/schema/nvto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nvt:pr_12_traeume_des_dr_fridkin a nvto:PerformingArtsProduction .
+
+nvt:pr_aber_macht_keine_dummheiten a nvto:PerformingArtsProduction .
+
+nvt:pr_amapola a nvto:PerformingArtsProduction .
+
+nvt:pr_ameriques a nvto:PerformingArtsProduction .
+
+nvt:pr_aufstand_der_traeume a nvto:PerformingArtsProduction .
+
+nvt:pr_august_august a nvto:PerformingArtsProduction .
+
+nvt:pr_avat_theater a nvto:PerformingArtsProduction .
+
+nvt:pr_baustelle a nvto:PerformingArtsProduction .
+
+nvt:pr_beauti_fools a nvto:PerformingArtsProduction .
+
+nvt:pr_berliner_ballonfieber_1803 a nvto:PerformingArtsProduction .
+
+nvt:pr_bilder_einer_ausstellung a nvto:PerformingArtsProduction .
+
+nvt:pr_blaubart a nvto:PerformingArtsProduction .
+
+nvt:pr_bremer_stadtmusikanten a nvto:PerformingArtsProduction .
+
+nvt:pr_cafe_fatal a nvto:PerformingArtsProduction .
+
+nvt:pr_caoutchouc a nvto:PerformingArtsProduction .
+
+nvt:pr_capitombola a nvto:PerformingArtsProduction .
+
+nvt:pr_carambolage_d_amour a nvto:PerformingArtsProduction .
+
+nvt:pr_clean_spleen a nvto:PerformingArtsProduction .
+
+nvt:pr_clownerien a nvto:PerformingArtsProduction .
+
+nvt:pr_clownonade a nvto:PerformingArtsProduction .
+
+nvt:pr_clowns_non_stop a nvto:PerformingArtsProduction .
+
+nvt:pr_clownsfamily a nvto:PerformingArtsProduction .
+
+nvt:pr_confusion a nvto:PerformingArtsProduction .
+
+nvt:pr_crazy_music a nvto:PerformingArtsProduction .
+
+nvt:pr_das_narrenschiff a nvto:PerformingArtsProduction .
+
+nvt:pr_der_erste_schritt a nvto:PerformingArtsProduction .
+
+nvt:pr_der_grosse_nepomuk a nvto:PerformingArtsProduction .
+
+nvt:pr_die_7schwaben a nvto:PerformingArtsProduction .
+
+nvt:pr_die_fremde_haut a nvto:PerformingArtsProduction .
+
+nvt:pr_die_verwandlung a nvto:PerformingArtsProduction .
+
+nvt:pr_don_juan_und_genovefa a nvto:PerformingArtsProduction .
+
+nvt:pr_don_quichote_in_murzedelo a nvto:PerformingArtsProduction .
+
+nvt:pr_don_quichotte a nvto:PerformingArtsProduction .
+
+nvt:pr_egotrips a nvto:PerformingArtsProduction .
+
+nvt:pr_es_regnet_langsam_ein_loch_in_die_nacht a nvto:PerformingArtsProduction .
+
+nvt:pr_graefin_genowefa a nvto:PerformingArtsProduction .
+
+nvt:pr_hamlet a nvto:PerformingArtsProduction .
+
+nvt:pr_hanswurst a nvto:PerformingArtsProduction .
+
+nvt:pr_happy_end_station a nvto:PerformingArtsProduction .
+
+nvt:pr_hasid a nvto:PerformingArtsProduction .
+
+nvt:pr_himmelhoelle a nvto:PerformingArtsProduction .
+
+nvt:pr_hoellenfahrt_des_doktor_faust a nvto:PerformingArtsProduction .
+
+nvt:pr_home_sweet_home a nvto:PerformingArtsProduction .
+
+nvt:pr_horatier_kuriatier a nvto:PerformingArtsProduction .
+
+nvt:pr_hot_shots a nvto:PerformingArtsProduction .
+
+nvt:pr_human_powerflight a nvto:PerformingArtsProduction .
+
+nvt:pr_humor_der_bewegung a nvto:PerformingArtsProduction .
+
+nvt:pr_ich_bin_k_ein_clown a nvto:PerformingArtsProduction .
+
+nvt:pr_illusionen_und_die_alten a nvto:PerformingArtsProduction .
+
+nvt:pr_jeder_hat_recht a nvto:PerformingArtsProduction .
+
+nvt:pr_kisseljow_und_gruppe_1988 a nvto:PerformingArtsProduction .
+
+nvt:pr_la_croisade a nvto:PerformingArtsProduction .
+
+nvt:pr_la_station_debout a nvto:PerformingArtsProduction .
+
+nvt:pr_ladenhueter_der_pantomime a nvto:PerformingArtsProduction .
+
+nvt:pr_le_petit_dictateur a nvto:PerformingArtsProduction .
+
+nvt:pr_macbeth a nvto:PerformingArtsProduction .
+
+nvt:pr_mit_oder_ohne_nase a nvto:PerformingArtsProduction .
+
+nvt:pr_mit_und_ohne_nase a nvto:PerformingArtsProduction .
+
+nvt:pr_number_9 a nvto:PerformingArtsProduction .
+
+nvt:pr_orfeus a nvto:PerformingArtsProduction .
+
+nvt:pr_phantasie a nvto:PerformingArtsProduction .
+
+nvt:pr_plastik a nvto:PerformingArtsProduction .
+
+nvt:pr_platz_an_der_sonne a nvto:PerformingArtsProduction .
+
+nvt:pr_programm_mobile a nvto:PerformingArtsProduction .
+
+nvt:pr_programm_salto_vitale a nvto:PerformingArtsProduction .
+
+nvt:pr_rockspektakel a nvto:PerformingArtsProduction .
+
+nvt:pr_roeteln_im_plaenterwald a nvto:PerformingArtsProduction .
+
+nvt:pr_rotes_konzert a nvto:PerformingArtsProduction .
+
+nvt:pr_rotkaeppchen_packt_aus a nvto:PerformingArtsProduction .
+
+nvt:pr_schatten a nvto:PerformingArtsProduction .
+
+nvt:pr_seance_friction a nvto:PerformingArtsProduction .
+
+nvt:pr_silberner_wind a nvto:PerformingArtsProduction .
+
+nvt:pr_solo_duo a nvto:PerformingArtsProduction .
+
+nvt:pr_spielen_wir_pantomime a nvto:PerformingArtsProduction .
+
+nvt:pr_spritzer a nvto:PerformingArtsProduction .
+
+nvt:pr_stadtgang a nvto:PerformingArtsProduction .
+
+nvt:pr_sucking_stones a nvto:PerformingArtsProduction .
+
+nvt:pr_sunny_side_up_oder_ein_stueck_von_der_leiter a nvto:PerformingArtsProduction .
+
+nvt:pr_svatba a nvto:PerformingArtsProduction .
+
+nvt:pr_szenen a nvto:PerformingArtsProduction .
+
+nvt:pr_tanzschule a nvto:PerformingArtsProduction .
+
+nvt:pr_the_faust_quest a nvto:PerformingArtsProduction .
+
+nvt:pr_tief_in_uns a nvto:PerformingArtsProduction .
+
+nvt:pr_traumwelt a nvto:PerformingArtsProduction .
+
+nvt:pr_ueber_den_berg_kommen a nvto:PerformingArtsProduction .
+
+nvt:pr_ullyssee_ullyssee a nvto:PerformingArtsProduction .
+
+nvt:pr_und_alle_haben_ein_gesicht a nvto:PerformingArtsProduction .
+
+nvt:pr_unternehmen_strassentheater a nvto:PerformingArtsProduction .
+
+nvt:pr_valentino a nvto:PerformingArtsProduction .
+
+nvt:pr_verruecktwaerts a nvto:PerformingArtsProduction .
+
+nvt:pr_viele_dinge_sind_in_einem_ding a nvto:PerformingArtsProduction .
+
+nvt:pr_vogelmogel a nvto:PerformingArtsProduction .
+
+nvt:pr_von_kalaf_und_prinzessin_turandot a nvto:PerformingArtsProduction .
+
+nvt:pr_wer_hat_angst_vorm_schwarzen_mann a nvto:PerformingArtsProduction .
+
+nvt:pr_wir_wohner a nvto:PerformingArtsProduction .
+
+nvt:pr_wir_wohner_ii a nvto:PerformingArtsProduction .
+
+nvt:pr_wir_wohner_iii a nvto:PerformingArtsProduction .
+
+nvt:pr_zwischen_tuer_und_angel a nvto:PerformingArtsProduction .
+
