@@ -169,3 +169,54 @@ country_graph = Graph(identifier="http://lod.iti-germany.de/contexts/countries")
 col_graph = Graph(identifier="http://lod.iti-germany.de/contexts/collections")
 series_graph = Graph(identifier="http://lod.iti-germany.de/contexts/series")
 concept_graph = Graph(identifier="http://lod.iti-germany.de/contexts/concepts")
+
+for idx, i in enumerate(pr_clean_test.iloc[:, 11]):
+    pr_id = pr_clean_test["ID"].iloc[idx][0]
+    if isinstance(i, (list,)):
+        for j in i:
+            pr_graph.add((nvt[str(pr_id)], nvto.hasDirector, nvt[str(j)]))
+            person_graph.add((nvt[str(j)], rdf.type, nvto.Agent))
+            
+for i in pr_clean.iloc[:, 0]:
+    for j in i:
+        pr_graph.add((nvt[str(j)], rdf.type, nvto.PerformingArtsProduction))
+        
+for idx, i in enumerate(pr_clean_test.iterrows()):
+    pr_id = pr_clean_test["ID"].iloc[idx][0]
+    director_id = [i for i in pr_clean_test["Regie"].iloc[idx] if pr_clean_test["Regie"].iloc[idx] != "HEINZHOENIG"]
+    print(director_id)
+    pr_graph.add((nvt[str(pr_id)], rdf.type, nvto.PerformingArtsProduction))
+    for idx, j in enumerate(director_id):
+        pr_graph.add((nvt[str(pr_id)], nvto.hasDirector, nvt[str(director_id[idx])]))
+        
+for idx, i in enumerate(pr_clean_test.iterrows()):
+    pr_id = (pr_clean_test["ID"].iloc[idx])[0]
+    pr_graph.add((nvt[str(pr_id)], rdf.type, nvto.PerformingArtsProduction))
+    
+    
+    director_id = [i for i in pr_clean_test["Regie"].iloc[idx] if pr_clean_test["Regie"].iloc[idx] != "HEINZHOENIG"]
+    
+    
+    
+for idx, j in enumerate(director_id):
+    pr_graph.add((nvt[str(pr_id)], nvto.hasDirector, nvt[str(director_id[idx])]))
+    
+start = time.time()
+for idx, i in enumerate(pr_clean_test.iterrows()):
+    pr_id = pr_clean_test.iloc[idx]["ID"][0]
+    print(pr_id)
+end = time.time()
+print(end - start)
+
+start = time.time()
+for idx, i in enumerate(pr_clean_test.iterrows()):
+    pr_id = (pr_clean_test["ID"].iloc[idx])[0]
+    print(pr_id)
+end = time.time()
+print(end - start)
+
+start = time.time()
+for index, row in pr_clean.iterrows():
+    print(row["ID"][0])
+end = time.time()
+print(end - start)

@@ -1,0 +1,1318 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix nvt: <http://lod.iti-germany.de/resource/> .
+@prefix nvto: <http://lod.iti-germany.de/schema/nvto/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nvt:Spielzeit nvto:beginsAtTime "1978-08-02T00:00:00"^^xsd:dateTime,
+        "1987-07-11T00:00:00"^^xsd:dateTime,
+        "NaN"^^xsd:double,
+        "1988-03-27:16:00" .
+
+nvt:pr_12_traeume_des_dr_fridkin a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:tscheljabinsk,
+        nvt:udssr ;
+    dcterms:contributor nvt:g_version ;
+    dcterms:title "12 Träume des Dr. Fridkin" ;
+    skos:prefLabel "12 Träume des Dr. Fridkin" .
+
+nvt:pr_aber_macht_keine_dummheiten a nvto:PerformingArtsProduction ;
+    nvto:hasComposer nvt:oliviero_giovannoni ;
+    nvto:hasConceptOriginator nvt:jakob_dimitri ;
+    nvto:hasCostumedesigner nvt:jakob_dimitri,
+        nvt:nelly_aeby ;
+    nvto:hasDirector nvt:jakob_dimitri ;
+    nvto:hasPerformer nvt:alberto_foletti,
+        nvt:esther_rietschin,
+        nvt:joe_sebastian_fenner,
+        nvt:szilard_szekely ;
+    dcterms:contributor nvt:g_compagnia_teatro_dimitri ;
+    dcterms:title "Aber, macht keine Dummheiten" ;
+    skos:prefLabel "Aber, macht keine Dummheiten" .
+
+nvt:pr_amapola a nvto:PerformingArtsProduction ;
+    nvto:hasCostumedesigner nvt:doris_haussmann ;
+    nvto:hasDirector nvt:eberhard_kube,
+        nvt:ernstgeorg_hering,
+        nvt:helmut_strassburger ;
+    nvto:hasPerformer nvt:eberhard_kube,
+        nvt:lothar_tarelkin,
+        nvt:margrit_strassburger,
+        nvt:winfried_wagner ;
+    nvto:hasSetDesigner nvt:jochen_finke ;
+    dcterms:title "Amapola" ;
+    skos:prefLabel "Amapola" .
+
+nvt:pr_ameriques a nvto:PerformingArtsProduction ;
+    dcterms:title "Ameriques" ;
+    skos:prefLabel "Ameriques" .
+
+nvt:pr_aufstand_der_traeume a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:ddr,
+        nvt:jena ;
+    nvto:hasCostumedesigner nvt:dagmar_melchers ;
+    nvto:hasDirector nvt:andreas_ittner,
+        nvt:harald_seime ;
+    nvto:hasMaskDesigner nvt:johannes_ohla ;
+    nvto:hasPerformer nvt:andreas_ittner,
+        nvt:arne_willebrand,
+        nvt:birgit_wilski,
+        nvt:gislen_engelmann,
+        nvt:harald_seime,
+        nvt:juergen_mueller,
+        nvt:maike_schoernick,
+        nvt:michel_willebrand,
+        nvt:silke_schreiner,
+        nvt:simone_bechtum ;
+    nvto:hasSetDesigner nvt:dagmar_melchers ;
+    dcterms:contributor nvt:christoffer_petschow,
+        nvt:falko_seime,
+        nvt:g_pantomime_ensemble_jena,
+        nvt:michel_willebrand ;
+    dcterms:title "Aufstand der Träume" ;
+    skos:prefLabel "Aufstand der Träume" .
+
+nvt:pr_august_august a nvto:PerformingArtsProduction ;
+    nvto:hasComposer nvt:dietrich_petzold ;
+    nvto:hasConceptOriginator nvt:peter_baumgart ;
+    nvto:hasDirector nvt:peter_baumgart ;
+    nvto:hasPerformer nvt:burkhart_seidemann,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:peter_baumgart ;
+    dcterms:title "August, August" ;
+    skos:prefLabel "August, August" .
+
+nvt:pr_avat_theater a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:algerien,
+        nvt:oran ;
+    nvto:hasComposer nvt:cheikh_abdelaoui ;
+    nvto:hasDirector nvt:fethi_osmane,
+        nvt:said_benyoucef ;
+    nvto:hasPerformer nvt:abdelkader_belkeriou,
+        nvt:bachir_hammouda,
+        nvt:el_hadj_seghir,
+        nvt:fethi_osmane,
+        nvt:mokhtar_benyahlou,
+        nvt:said_benyoucef ;
+    nvto:hasSetDesigner nvt:said_benyoucef ;
+    dcterms:contributor nvt:abdelwahab_salah,
+        nvt:djelloul_abdelhak,
+        nvt:g_theatre_regional_doran,
+        nvt:laid_abderahmane,
+        nvt:said_missoum,
+        nvt:salem_safir ;
+    dcterms:title "Avant-Theater" ;
+    skos:prefLabel "Avant-Theater" .
+
+nvt:pr_baustelle a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:schweiz ;
+    nvto:hasDirector nvt:peter_honegger ;
+    nvto:hasPerformer nvt:brigitt_maag,
+        nvt:ernesto_graf,
+        nvt:markus_heller,
+        nvt:martha_zuercher,
+        nvt:martin_brosch,
+        nvt:paul_weilenmann ;
+    dcterms:contributor nvt:g_karls_kuehne_gassenschau ;
+    dcterms:title "Baustelle" ;
+    skos:prefLabel "Baustelle" .
+
+nvt:pr_beauti_fools a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:schweiz ;
+    nvto:hasConceptOriginator nvt:christian_mattis ;
+    nvto:hasDirector nvt:christian_mattis ;
+    nvto:hasLightDesigner nvt:johannes_knoth ;
+    nvto:hasPerformer nvt:andreas_haake,
+        nvt:claudia_tschach,
+        nvt:katharina_hanhart,
+        nvt:martin_henzi,
+        nvt:monique_schnyder ;
+    dcterms:contributor nvt:johannes_knoth ;
+    dcterms:title "beautiFOOLS" ;
+    skos:prefLabel "beautiFOOLS" .
+
+nvt:pr_berliner_ballonfieber_1803 a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_zirkuszelt ;
+    nvto:hasComposer nvt:dietrich_petzold,
+        nvt:uwe_hilprecht ;
+    nvto:hasConceptOriginator nvt:gotthold_gloger ;
+    nvto:hasCostumedesigner nvt:christine_stromberg,
+        nvt:irmgard_lorenz ;
+    nvto:hasDirector nvt:burkhart_seidemann ;
+    nvto:hasDramaturge nvt:susanne_thelemann ;
+    nvto:hasFirstPerformanceDate "1987-07-13" ;
+    nvto:hasLastPerformanceDate "1987-07-13" ;
+    nvto:hasMaskDesigner nvt:wolfgang_utzt ;
+    nvto:hasMusician nvt:andreas_albrecht,
+        nvt:andreas_nickler,
+        nvt:dietrich_petzold,
+        nvt:eckard_ewert,
+        nvt:hans_joachim_mueller,
+        nvt:klaus_richter,
+        nvt:manfred_ketzler,
+        nvt:tobias_dutschke ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:christoph_posselt,
+        nvt:elisabeth_richter,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:karin_jerosch,
+        nvt:katrin_klein,
+        nvt:mike_luft,
+        nvt:monika_bienert,
+        nvt:peter_baumgart,
+        nvt:peter_reusse,
+        nvt:peter_waschinsky,
+        nvt:simone_von_zglinicki ;
+    nvto:hasSeason nvt:season_pr_berliner_ballonfieber_1803_1987_1978 ;
+    nvto:hasSetDesigner nvt:heinz_wenzel ;
+    dcterms:contributor nvt:g_4_litres_12,
+        nvt:g_amateurstudio,
+        nvt:g_dt_pe ;
+    dcterms:title "Berliner Ballonfieber 1803 oder Verfolgung und Verklärung des entsprungenen Sträfling Jakob Daluschke, genannt Knetsch" ;
+    skos:prefLabel "Berliner Ballonfieber 1803 oder Verfolgung und Verklärung des entsprungenen Sträfling Jakob Daluschke, genannt Knetsch" .
+
+nvt:pr_bilder_einer_ausstellung a nvto:PerformingArtsProduction ;
+    nvto:hasComposer nvt:isao_tomita,
+        nvt:modest_petrowitsch_mussorgski ;
+    nvto:hasConceptOriginator nvt:andras_m_kecskes ;
+    nvto:hasPerformer nvt:andras_m_kecskes ;
+    dcterms:title "Bilder einer Ausstellung" ;
+    skos:prefLabel "Bilder einer Ausstellung" .
+
+nvt:pr_blaubart a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_apollosaalds,
+        nvt:loc_dtks,
+        nvt:loc_kaf ;
+    nvto:hasComposer nvt:dietrich_petzold,
+        nvt:hermann_naehring,
+        nvt:ruediger_philipp ;
+    nvto:hasCostumedesigner nvt:heinz_wenzel ;
+    nvto:hasDirector nvt:burkhart_seidemann ;
+    nvto:hasFirstPerformanceDate "1981-11-14" ;
+    nvto:hasLastPerformanceDate "1981-11-14" ;
+    nvto:hasMaskDesigner nvt:wolfgang_utzt ;
+    nvto:hasPerformer nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:conny_hege,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:karin_jerosch,
+        nvt:michael_pan,
+        nvt:peter_baumgart ;
+    nvto:hasSetDesigner nvt:heinz_wenzel ;
+    dcterms:contributor nvt:fritz_schimmelpfennig,
+        nvt:g_dt_pe,
+        nvt:gerhard_henschel,
+        nvt:gertrau_listmann,
+        nvt:irmgard_lorenz,
+        nvt:karl_rhinow,
+        nvt:katharina_hallier,
+        nvt:klaus_rex,
+        nvt:monika_bienert,
+        nvt:monika_kwiatkowski,
+        nvt:siegline_budack,
+        nvt:werner_becker,
+        nvt:werner_lange,
+        nvt:wolfgang_ritter ;
+    dcterms:title "Blaubart. Fünf Burlesken in einem Spiel" ;
+    dcterms:type nvt:urauffuehrungsversion ;
+    skos:prefLabel "Blaubart. Fünf Burlesken in einem Spiel" .
+
+nvt:pr_bremer_stadtmusikanten a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:ddr ;
+    nvto:hasDirector nvt:gabriele_haenel ;
+    nvto:hasDramaturge nvt:dieter_kraft ;
+    nvto:hasPerformer nvt:guenther_lindner,
+        nvt:iduna_hegen,
+        nvt:uta_schulz ;
+    nvto:hasSetDesigner nvt:christian_werdin ;
+    dcterms:contributor nvt:g_zinnober ;
+    dcterms:title "Bremer Stadtmusikanten" ;
+    skos:prefLabel "Bremer Stadtmusikanten" .
+
+nvt:pr_cafe_fatal a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasComposer nvt:nino_sandow ;
+    nvto:hasDirector nvt:christoph_posselt ;
+    nvto:hasFirstPerformanceDate "1988-04-07" ;
+    nvto:hasLastPerformanceDate "1988-04-07" ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:burkhart_seidemann,
+        nvt:gisela_bohmann,
+        nvt:peter_baumgart ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:title "Café Fatal. Eine Groteske" ;
+    skos:prefLabel "Café Fatal. Eine Groteske" .
+
+nvt:pr_caoutchouc a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:niederlande ;
+    nvto:hasFirstPerformanceDate "1988-00-00" ;
+    nvto:hasLastPerformanceDate "1988-00-00" ;
+    nvto:hasPerformer nvt:hanninka_luitwieder,
+        nvt:kika_groszkopf ;
+    dcterms:contributor nvt:g_griftheater ;
+    dcterms:title "Caoutchouc" ;
+    skos:prefLabel "Caoutchouc" .
+
+nvt:pr_capitombola a nvto:PerformingArtsProduction ;
+    nvto:hasComposer nvt:oliviero_giovannoni ;
+    nvto:hasDirector nvt:hans_peter_fitzi ;
+    nvto:hasPerformer nvt:alberto_foletti,
+        nvt:esther_rietschin,
+        nvt:joe_sebastian_fenner ;
+    dcterms:contributor nvt:g_compagnia_teatro_dimitri ;
+    dcterms:title "Capitombola" ;
+    skos:prefLabel "Capitombola" .
+
+nvt:pr_carambolage_d_amour a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:ddr,
+        nvt:dresden,
+        nvt:loc_theater_50 ;
+    nvto:hasFirstPerformanceDate "1986-00-00" ;
+    nvto:hasLastPerformanceDate "1986-00-00" ;
+    dcterms:contributor nvt:g_salto_vitale ;
+    dcterms:title "Caramboulage d'Amour" ;
+    skos:prefLabel "Caramboulage d'Amour" .
+
+nvt:pr_clean_spleen a nvto:PerformingArtsProduction ;
+    dcterms:contributor nvt:g_finke_faltz ;
+    dcterms:title "Clean Splean. Ein galaktisches Intermezzo" ;
+    skos:prefLabel "Clean Splean. Ein galaktisches Intermezzo" .
+
+nvt:pr_clownerien a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_tip ;
+    nvto:hasDirector nvt:volkmar_otte ;
+    nvto:hasFirstPerformanceDate "1980-05-12" ;
+    nvto:hasLastPerformanceDate "1980-05-12" ;
+    nvto:hasMusician nvt:doelling_andreas,
+        nvt:helm_gunnar ;
+    nvto:hasPerformer nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintisch,
+        nvt:peter_baumgart ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:title "Clownerien" ;
+    skos:prefLabel "Clownerien" .
+
+nvt:pr_clownonade a nvto:PerformingArtsProduction ;
+    nvto:hasMusician nvt:dietrich_petzold ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:peter_baumgart ;
+    dcterms:title "Clownonade" ;
+    skos:prefLabel "Clownonade" .
+
+nvt:pr_clowns_non_stop a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:ddr,
+        nvt:dresden,
+        nvt:theater_50 ;
+    nvto:hasPerformer nvt:alf_mahlow,
+        nvt:christina_busch,
+        nvt:constance_debus,
+        nvt:lutz_jope,
+        nvt:matthias_krahnert,
+        nvt:rainer_koenig ;
+    dcterms:contributor nvt:g_salto_vitale ;
+    dcterms:title "Clowns non stop" ;
+    skos:prefLabel "Clowns non stop" .
+
+nvt:pr_clownsfamily a nvto:PerformingArtsProduction ;
+    nvto:hasComposer nvt:dietrich_petzold ;
+    nvto:hasConceptOriginator nvt:peter_baumgart ;
+    nvto:hasDirector nvt:peter_baumgart ;
+    nvto:hasPerformer nvt:burkhart_seidemann,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:peter_baumgart ;
+    dcterms:title "Clownsfamily" ;
+    skos:prefLabel "Clownsfamily" .
+
+nvt:pr_confusion a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:frankreich ;
+    nvto:hasDirector nvt:pierre_byland ;
+    nvto:hasPerformer nvt:mareike_schnitker,
+        nvt:pierre_byland ;
+    dcterms:contributor nvt:g_la_compagnie_les_fusains ;
+    dcterms:title "Confusion" ;
+    skos:prefLabel "Confusion" .
+
+nvt:pr_crazy_music a nvto:PerformingArtsProduction ;
+    nvto:hasComposer nvt:dietrich_petzold ;
+    nvto:hasConceptOriginator nvt:peter_baumgart ;
+    nvto:hasDirector nvt:peter_baumgart ;
+    nvto:hasPerformer nvt:burkhart_seidemann,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:peter_baumgart ;
+    dcterms:title "Crazy Music" ;
+    skos:prefLabel "Crazy Music" .
+
+nvt:pr_das_narrenschiff a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:csfr,
+        nvt:prag ;
+    nvto:hasDirector nvt:ctibor_turba ;
+    dcterms:contributor nvt:g_alfred_spol ;
+    dcterms:title "Das Narrenschiff" ;
+    skos:prefLabel "Das Narrenschiff" .
+
+nvt:pr_der_erste_schritt a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:loc_kreiskulturhaus_prater ;
+    nvto:hasFirstPerformanceDate "1961-00-00" ;
+    nvto:hasLastPerformanceDate "1961-00-00" ;
+    dcterms:contributor nvt:g_studio_61 ;
+    dcterms:title "Der erste Schritt" ;
+    skos:prefLabel "Der erste Schritt" .
+
+nvt:pr_der_grosse_nepomuk a nvto:PerformingArtsProduction ;
+    dcterms:contributor nvt:g_pt_pb ;
+    dcterms:title "Der große Nepomuk" ;
+    skos:prefLabel "Der große Nepomuk" .
+
+nvt:pr_die_7schwaben a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace <http://lod.iti-germany.de/resource/3_stock_der_berliner_volksbuehne> ;
+    nvto:hasFirstPerformanceDate "1967-00-00" ;
+    nvto:hasLastPerformanceDate "1967-00-00" ;
+    dcterms:contributor nvt:g_studio_61 ;
+    dcterms:title "Die 7 Schwaben" ;
+    skos:prefLabel "Die 7 Schwaben" .
+
+nvt:pr_die_fremde_haut a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_probenbuehnebe ;
+    nvto:hasCostumedesigner nvt:volkmar_otte ;
+    nvto:hasDirector nvt:volkmar_otte ;
+    nvto:hasDramaturge nvt:eva_maria_otte ;
+    nvto:hasFirstPerformanceDate "1980-09-19" ;
+    nvto:hasLastPerformanceDate "1980-09-19" ;
+    nvto:hasPerformer nvt:annette_jacob,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:conny_hege,
+        nvt:eva_maria_otte,
+        nvt:gerolf_ristau,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintisch,
+        nvt:joachim_kaps,
+        nvt:karin_jerosch,
+        nvt:peter_baumgart ;
+    nvto:hasSetDesigner nvt:volkmar_otte ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:title "Die fremde Haut" ;
+    dcterms:type nvt:urauffuehrungsversion ;
+    skos:prefLabel "Die fremde Haut" .
+
+nvt:pr_die_verwandlung a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kaf ;
+    nvto:hasComposer nvt:hermann_naehring ;
+    nvto:hasCostumedesigner nvt:rosalind_lindemann ;
+    nvto:hasDirector nvt:bernd_hahnke ;
+    nvto:hasFirstPerformanceDate "1982-07-07" ;
+    nvto:hasLastPerformanceDate "1982-07-07" ;
+    nvto:hasPerformer nvt:burkhart_seidemann,
+        nvt:conny_hege,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:karin_jerosch,
+        nvt:peter_baumgart ;
+    nvto:hasSetDesigner nvt:bernd_hahnke ;
+    dcterms:contributor nvt:elisabeth_lappe,
+        nvt:fritz_schimmelpfennig,
+        nvt:g_dt_pe,
+        nvt:gerhard_henschel,
+        nvt:gertraud_listmann,
+        nvt:heidelinde_schroeder,
+        nvt:karl_rhinow,
+        nvt:klaus_rex,
+        nvt:monika_bienert,
+        nvt:werner_becker,
+        nvt:werner_lange,
+        nvt:wolfgang_ritter ;
+    dcterms:title "Die Verwandlung" ;
+    dcterms:type nvt:urauffuehrungsversion ;
+    skos:prefLabel "Die Verwandlung" .
+
+nvt:pr_don_juan_und_genovefa a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasComposer nvt:milos_stedron ;
+    nvto:hasConceptOriginator nvt:eva_talska ;
+    nvto:hasCostumedesigner nvt:jana_zborilova ;
+    nvto:hasDirector nvt:eva_talska ;
+    nvto:hasDramaturge nvt:petr_oslzly ;
+    nvto:hasMusician nvt:dagmar_jandova,
+        nvt:dagmar_valesova,
+        nvt:iva_bittova,
+        nvt:milos_stedron,
+        nvt:zdenek_fintes ;
+    nvto:hasPerformer nvt:irena_visnarova,
+        nvt:iva_bittova,
+        nvt:ivana_kaslova,
+        nvt:jiri_pecha,
+        nvt:lenka_loubalova,
+        nvt:martin_havelka,
+        nvt:miroslav_donutil,
+        nvt:mojmir_maderic,
+        nvt:pavel_zatloukal,
+        nvt:petr_malac,
+        nvt:vladimir_hauser,
+        nvt:vlastim_bartos ;
+    nvto:hasSetDesigner nvt:jana_zborilova ;
+    dcterms:contributor nvt:dagmar_jandova,
+        nvt:g_theater_an_der_schnur,
+        nvt:iva_bittova ;
+    dcterms:title "Don Juan und Genovefa" ;
+    skos:prefLabel "Don Juan und Genovefa" .
+
+nvt:pr_don_quichote_in_murzedelo a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasCostumedesigner nvt:christine_stromberg,
+        nvt:eberhard_keienburg_ ;
+    nvto:hasDirector nvt:volkmar_otte ;
+    nvto:hasFirstPerformanceDate "1976-09-16" ;
+    nvto:hasLastPerformanceDate "1976-09-16" ;
+    nvto:hasMusician nvt:gundula_sonsalla ;
+    nvto:hasPerformer nvt:annette_jacob,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christine_bandlow,
+        nvt:christoph_posselt,
+        nvt:eva_maria_otte,
+        nvt:gabriele_acker,
+        nvt:gerty_koerner,
+        nvt:guenter_richter,
+        nvt:karin_jerosch,
+        nvt:michael_pan,
+        nvt:peter_baumgart ;
+    nvto:hasSetDesigner nvt:eberhard_keienburg ;
+    dcterms:contributor nvt:elisabeth_lappe,
+        nvt:erich_mueller,
+        nvt:fritz_schimmelpfennig,
+        nvt:g_amateurstudio,
+        nvt:g_dt_pe,
+        nvt:gerhard_durna,
+        nvt:gertraud_listmann,
+        nvt:gustav_hoffmann,
+        nvt:hans_juergen_nikulka,
+        nvt:juergen_liebau,
+        nvt:karl_rhinow,
+        nvt:klaus_rex,
+        nvt:margit_schroeder,
+        nvt:monika_bienert,
+        nvt:reinhard_boehm,
+        nvt:rosa_anna_beck,
+        nvt:werner_lange ;
+    dcterms:title "Don Quichote in Murzedelo" ;
+    dcterms:type nvt:urauffuehrungsversion ;
+    skos:prefLabel "Don Quichote in Murzedelo" .
+
+nvt:pr_don_quichotte a nvto:PerformingArtsProduction ;
+    nvto:hasCostumedesigner nvt:alexandr_mollow ;
+    nvto:hasDirector nvt:veljo_goranow ;
+    nvto:hasSetDesigner nvt:alexandr_mollow ;
+    dcterms:contributor nvt:g_studio_pantomima ;
+    dcterms:title "Bolero. Don Quichotte" ;
+    skos:prefLabel "Bolero. Don Quichotte" .
+
+nvt:pr_egotrips a nvto:PerformingArtsProduction ;
+    nvto:hasDirector nvt:peter_baumgart ;
+    dcterms:title "Egotrips" ;
+    skos:prefLabel "Egotrips" .
+
+nvt:pr_es_regnet_langsam_ein_loch_in_die_nacht a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:frankreich,
+        nvt:paris ;
+    dcterms:contributor nvt:g_mimobile ;
+    dcterms:title "Es regnet langsam ein Loch in die Nacht" ;
+    skos:prefLabel "Es regnet langsam ein Loch in die Nacht" .
+
+nvt:pr_graefin_genowefa a nvto:PerformingArtsProduction ;
+    nvto:hasComposer nvt:dagmar_jandova,
+        nvt:dagmar_valesova,
+        nvt:iva_bittova,
+        nvt:milos_stedron,
+        nvt:zdenek_fintes ;
+    nvto:hasConceptOriginator nvt:eva_talska ;
+    nvto:hasCostumedesigner nvt:jana_zborilova ;
+    nvto:hasDirector nvt:eva_talska ;
+    nvto:hasDramaturge nvt:petr_oslzly ;
+    nvto:hasPerformer nvt:irena_visnarova,
+        nvt:iva_bittova,
+        nvt:ivana_kaslova,
+        nvt:jiri_pecha,
+        nvt:lenka_loubalova,
+        nvt:martin_havelka,
+        nvt:miroslav_donutil,
+        nvt:mojmir_maderic,
+        nvt:pavel_zatloukal,
+        nvt:petr_malac,
+        nvt:vladimir_hauser,
+        nvt:vlastim_bartos ;
+    dcterms:contributor nvt:g_theater_an_der_schnur,
+        nvt:ida_kelarova,
+        nvt:iva_bittova ;
+    dcterms:title "Gräfin Genowefa" ;
+    skos:prefLabel "Gräfin Genowefa" .
+
+nvt:pr_hamlet a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:brd_001 ;
+    nvto:hasDirector nvt:bernd_lafrenz ;
+    nvto:hasPerformer nvt:bernd_lafrenz ;
+    dcterms:contributor nvt:g_theater_koenig_alfons ;
+    dcterms:title "Hamlet" ;
+    skos:prefLabel "Hamlet" .
+
+nvt:pr_hanswurst a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasComposer nvt:hermann_naehring ;
+    nvto:hasCostumedesigner nvt:heinz_wenzel ;
+    nvto:hasDirector nvt:burkhart_seidemann ;
+    nvto:hasFirstPerformanceDate "1987-02-28" ;
+    nvto:hasLastPerformanceDate "1987-02-28" ;
+    nvto:hasMaskDesigner nvt:wolfgang_utzt ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:christoph_posselt,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:hermann_naehring,
+        nvt:karin_jerosch,
+        nvt:michael_sens,
+        nvt:peter_baumgart ;
+    nvto:hasSetDesigner nvt:heinz_wenzel ;
+    dcterms:contributor nvt:fritz_schimmelpfennig,
+        nvt:g_dt_pe,
+        nvt:gerhard_henschel,
+        nvt:heinz_richter,
+        nvt:inge_hoefig,
+        nvt:irmgard_lorenz,
+        nvt:katharina_hallier,
+        nvt:klaus_rex,
+        nvt:monika_bienert,
+        nvt:monika_rodis,
+        nvt:peter_goebel,
+        nvt:sabine_eckert,
+        nvt:werner_becker,
+        nvt:werner_keller,
+        nvt:werner_lange,
+        nvt:wolfgang_ritter ;
+    dcterms:title "Hanswurst oder die Notdurft des Lachens" ;
+    dcterms:type nvt:urauffuehrungsversion ;
+    skos:prefLabel "Hanswurst oder die Notdurft des Lachens" .
+
+nvt:pr_happy_end_station a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasComposer nvt:michael_sens ;
+    nvto:hasConceptOriginator nvt:burkhart_seidemann ;
+    nvto:hasDirector nvt:peter_baumgart ;
+    nvto:hasFirstPerformanceDate "1990-11-14" ;
+    nvto:hasLastPerformanceDate "1990-11-14" ;
+    nvto:hasMaskDesigner nvt:juergen_liebau ;
+    nvto:hasPerformer nvt:burkhart_seidemann,
+        nvt:constanze_schwendler,
+        nvt:guenter_richter,
+        nvt:maria_elisabeth_klein,
+        nvt:michael_sens,
+        nvt:peter_baumgart ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:title "Happy End Station oder die Unmöglichkeit zu lachen ohne zu weinen" ;
+    dcterms:type nvt:urauffuehrungsversion ;
+    skos:prefLabel "Happy End Station oder die Unmöglichkeit zu lachen ohne zu weinen" .
+
+nvt:pr_hasid a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:kanada,
+        nvt:toronto ;
+    nvto:hasDirector nvt:richard_nieoczym ;
+    nvto:hasPerformer nvt:richard_nieoczym ;
+    dcterms:title "Hasid" ;
+    skos:prefLabel "Hasid" .
+
+nvt:pr_himmelhoelle a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasComposer nvt:fritz_schimmelpfennig,
+        nvt:gertraud_listmann,
+        nvt:heinz_richter,
+        nvt:horst_j_lonius,
+        nvt:ingo_greiser,
+        nvt:katharina_hallier,
+        nvt:katja_noelte,
+        nvt:klaus_rex,
+        nvt:maria_pawlowa,
+        nvt:marion_jesionek,
+        nvt:monika_rodis,
+        nvt:petra_hofmann,
+        nvt:rene_ley,
+        nvt:sabine_balkow,
+        nvt:ulrich_belaschk,
+        nvt:werner_becker,
+        nvt:werner_keller,
+        nvt:werner_lange,
+        nvt:wolfgang_ritter ;
+    nvto:hasCostumedesigner nvt:eberhard_keienburg ;
+    nvto:hasDirector nvt:guenter_richter ;
+    nvto:hasFirstPerformanceDate "1988-12-03" ;
+    nvto:hasLastPerformanceDate "1988-12-03" ;
+    nvto:hasMaskDesigner nvt:wolfgang_utzt ;
+    nvto:hasMusician nvt:michael_vogt ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:constanze_schwendler,
+        nvt:gisela_bohmann,
+        nvt:hans_otto_reintsch,
+        nvt:peter_baumgart ;
+    nvto:hasSetDesigner nvt:eberhard_keienburg ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:title "Himmelhölle. Ein Lebensreigen " ;
+    skos:prefLabel "Himmelhölle. Ein Lebensreigen " .
+
+nvt:pr_hoellenfahrt_des_doktor_faust a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks,
+        nvt:loc_kaf ;
+    nvto:hasComposer nvt:hermann_naehring ;
+    nvto:hasConceptOriginator nvt:burkhart_seidemann,
+        nvt:peter_baumgart ;
+    nvto:hasCostumedesigner nvt:eberhard_keienburg ;
+    nvto:hasDirector nvt:burkhart_seidemann ;
+    nvto:hasFirstPerformanceDate "1982-12-22" ;
+    nvto:hasLastPerformanceDate "1982-12-22" ;
+    nvto:hasPerformer nvt:bernd_hahnke,
+        nvt:christoph_posselt,
+        nvt:conny_hege,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:gunnar_helm,
+        nvt:hans_otto_reintsch,
+        nvt:karin_jerosch,
+        nvt:michael_pan,
+        nvt:peter_baumgart ;
+    nvto:hasSetDesigner nvt:eberhard_keienburg ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:title "Höllenfahrt des Doktor Faust" ;
+    dcterms:type nvt:urauffuehrungsversion ;
+    skos:prefLabel "Höllenfahrt des Doktor Faust" .
+
+nvt:pr_home_sweet_home a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:usa ;
+    nvto:hasConceptOriginator nvt:georgo_peugot,
+        nvt:jack_millet ;
+    nvto:hasPerformer nvt:georgo_peugot,
+        nvt:jack_millet ;
+    dcterms:title "Home sweet home" ;
+    skos:prefLabel "Home sweet home" .
+
+nvt:pr_horatier_kuriatier a nvto:PerformingArtsProduction ;
+    dcterms:title "Die Horatier und die Kuriatier" ;
+    dcterms:type nvt:tschechoslowakische_erstauffuehrung ;
+    skos:prefLabel "Die Horatier und die Kuriatier" .
+
+nvt:pr_hot_shots a nvto:PerformingArtsProduction ;
+    nvto:hasDirector nvt:georgo_peugot,
+        nvt:jack_millet ;
+    nvto:hasPerformer nvt:georgo_peugot,
+        nvt:jack_millet ;
+    dcterms:contributor nvt:g_impro_comedy_co ;
+    dcterms:title "Hot Shots" ;
+    skos:prefLabel "Hot Shots" .
+
+nvt:pr_human_powerflight a nvto:PerformingArtsProduction ;
+    nvto:hasChoreographer nvt:mitsuro_sasaki ;
+    nvto:hasDirector nvt:mitsuro_sasaki ;
+    nvto:hasPerformer nvt:mitsuro_sasaki ;
+    dcterms:title "Human Powerflight" ;
+    skos:prefLabel "Human Powerflight" .
+
+nvt:pr_humor_der_bewegung a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:ungarn ;
+    nvto:hasConceptOriginator nvt:gabor_dvorak,
+        nvt:peter_nagyivanyi ;
+    nvto:hasPerformer nvt:gabor_dvorak,
+        nvt:peter_nagyivanyi ;
+    dcterms:contributor nvt:g_ludens ;
+    dcterms:title "Humor der Bewegung" ;
+    skos:prefLabel "Humor der Bewegung" .
+
+nvt:pr_ich_bin_k_ein_clown a nvto:PerformingArtsProduction ;
+    nvto:hasFirstPerformanceDate "1985-00-00" ;
+    nvto:hasLastPerformanceDate "1985-00-00" ;
+    nvto:hasPerformer nvt:christoph_posselt ;
+    dcterms:title "Ich bin (k)ein Clown" ;
+    skos:prefLabel "Ich bin (k)ein Clown" .
+
+nvt:pr_illusionen_und_die_alten a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:ungarn ;
+    nvto:hasConceptOriginator nvt:gabor_dvorak,
+        nvt:peter_nagyivanyi ;
+    nvto:hasPerformer nvt:gabor_dvorak,
+        nvt:peter_nagyivanyi ;
+    dcterms:contributor nvt:g_ludens ;
+    dcterms:title "Illusionen der alten" ;
+    skos:prefLabel "Illusionen der alten" .
+
+nvt:pr_jeder_hat_recht a nvto:PerformingArtsProduction ;
+    dcterms:title "Jeder hat Recht" ;
+    skos:prefLabel "Jeder hat Recht" .
+
+nvt:pr_kisseljow_und_gruppe_1988 a nvto:PerformingArtsProduction ;
+    nvto:hasConceptOriginator nvt:oleg_kisseljow ;
+    dcterms:title "Programm O. Kisseljow und Gruppe" ;
+    skos:prefLabel "Programm O. Kisseljow und Gruppe" .
+
+nvt:pr_la_croisade a nvto:PerformingArtsProduction ;
+    nvto:hasDirector nvt:corinne_soum,
+        nvt:steven_wasson ;
+    dcterms:contributor nvt:g_theatre_de_l_ange_fou ;
+    dcterms:title "La Croisade" ;
+    skos:prefLabel "La Croisade" .
+
+nvt:pr_la_station_debout a nvto:PerformingArtsProduction ;
+    dcterms:contributor nvt:g_4_litres_12 ;
+    dcterms:title "La station debout" ;
+    skos:prefLabel "La station debout" .
+
+nvt:pr_ladenhueter_der_pantomime a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:loc_kreiskulturhaus_prater ;
+    nvto:hasFirstPerformanceDate "1963-00-00" ;
+    nvto:hasLastPerformanceDate "1963-00-00" ;
+    dcterms:contributor nvt:g_studio_61 ;
+    dcterms:title "Ladenhüter der Pantomime" ;
+    skos:prefLabel "Ladenhüter der Pantomime" .
+
+nvt:pr_le_petit_dictateur a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:frankreich,
+        nvt:paris ;
+    nvto:hasConceptOriginator nvt:corinne_soum,
+        nvt:steven_wasson ;
+    nvto:hasPerformer nvt:corinne_soum,
+        nvt:steven_wasson ;
+    dcterms:contributor nvt:g_theatre_de_l_ange_fou ;
+    dcterms:title "Le petit dictateur" ;
+    skos:prefLabel "Le petit dictateur" .
+
+nvt:pr_macbeth a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:brd_001 ;
+    nvto:hasDirector nvt:bernd_lafrenz ;
+    nvto:hasPerformer nvt:bernd_lafrenz ;
+    dcterms:contributor nvt:g_theater_koenig_alfons ;
+    dcterms:title "Macbeth" ;
+    skos:prefLabel "Macbeth" .
+
+nvt:pr_mit_oder_ohne_nase a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasDirector nvt:bernd_hahnke ;
+    nvto:hasFirstPerformanceDate "1988-00-00" ;
+    nvto:hasLastPerformanceDate "1988-00-00" ;
+    nvto:hasMaskDesigner nvt:wolfgang_utzt ;
+    dcterms:title "Mit oder ohne Nase" ;
+    skos:prefLabel "Mit oder ohne Nase" .
+
+nvt:pr_mit_und_ohne_nase a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:loc_dtks_foyer ;
+    nvto:hasComposer nvt:hermann_naehring ;
+    nvto:hasMaskDesigner nvt:wolfgang_utzt ;
+    nvto:hasSeason nvt:season_pr_mit_und_ohne_nase_1988 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:title "Mit und ohne Nase" ;
+    dcterms:type nvt:urauffuehrungsversion ;
+    skos:prefLabel "Mit und ohne Nase" .
+
+nvt:pr_number_9 a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:tscheljabinsk,
+        nvt:udssr ;
+    nvto:hasAdaptor nvt:vladimir_filonow ;
+    dcterms:contributor nvt:g_prospekt ;
+    dcterms:title "Number 9" ;
+    skos:prefLabel "Number 9" .
+
+nvt:pr_orfeus a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasComposer nvt:hermann_naehring ;
+    nvto:hasCostumedesigner nvt:heinz_wenzel ;
+    nvto:hasDirector nvt:burkhart_seidemann ;
+    nvto:hasFirstPerformanceDate "1985-11-30" ;
+    nvto:hasLastPerformanceDate "1985-11-30" ;
+    nvto:hasMaskDesigner nvt:uwe_pahl,
+        nvt:wolfgang_utzt ;
+    nvto:hasSetDesigner nvt:heinz_wenzel ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:title "Orfeus" ;
+    dcterms:type nvt:urauffuehrungsversion ;
+    skos:prefLabel "Orfeus" .
+
+nvt:pr_phantasie a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_hdjt ;
+    nvto:hasDirector nvt:eua_saaun ;
+    dcterms:contributor nvt:g_pantomimen_studio_berlin ;
+    dcterms:title "Phantasie" ;
+    skos:prefLabel "Phantasie" .
+
+nvt:pr_plastik a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:brd_001,
+        nvt:essen ;
+    dcterms:contributor nvt:g_antagon_theater ;
+    dcterms:title "Plastik - der Stoff aus dem die Schäume sind - Ein Polymerchen" ;
+    skos:prefLabel "Plastik - der Stoff aus dem die Schäume sind - Ein Polymerchen" .
+
+nvt:pr_platz_an_der_sonne a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:brd_001 ;
+    nvto:hasDirector nvt:rudi_rhode ;
+    nvto:hasPerformer nvt:rudi_rhode ;
+    dcterms:title "Ein Platz an der Sonne" ;
+    skos:prefLabel "Ein Platz an der Sonne" .
+
+nvt:pr_programm_mobile a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:brd_001,
+        nvt:koeln ;
+    nvto:hasFirstPerformanceDate "1988-00-00" ;
+    nvto:hasLastPerformanceDate "1988-00-00" ;
+    dcterms:contributor nvt:g_mobile ;
+    dcterms:title "Programm von Mobile" ;
+    skos:prefLabel "Programm von Mobile" .
+
+nvt:pr_programm_salto_vitale a nvto:PerformingArtsProduction ;
+    dcterms:contributor nvt:g_salto_vitale ;
+    dcterms:title "Programm Salto Vitale" ;
+    skos:prefLabel "Programm Salto Vitale" .
+
+nvt:pr_rockspektakel a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:udssr,
+        nvt:ufa ;
+    dcterms:contributor nvt:g_musikalisches_theater_plastisches_drama ;
+    dcterms:title "Rock-Spektakel" ;
+    skos:prefLabel "Rock-Spektakel" .
+
+nvt:pr_roeteln_im_plaenterwald a nvto:PerformingArtsProduction ;
+    nvto:hasDirector nvt:peter_baumgart ;
+    nvto:hasFirstPerformanceDate "1988-04-07" ;
+    nvto:hasLastPerformanceDate "1988-04-07" ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:christoph_posselt,
+        nvt:gisela_bohmann ;
+    dcterms:contributor nvt:fritz_schimmelpfennig,
+        nvt:g_dt_pe,
+        nvt:ingo_greiser,
+        nvt:klaus_rex,
+        nvt:werner_keller,
+        nvt:wolfgang_ritter ;
+    dcterms:title "Röteln im Plänterwald. Eine Bagatelle" ;
+    skos:prefLabel "Röteln im Plänterwald. Eine Bagatelle" .
+
+nvt:pr_rotes_konzert a nvto:PerformingArtsProduction ;
+    dcterms:contributor nvt:g_himbeerbeet ;
+    dcterms:title "Rotes Konzert" ;
+    skos:prefLabel "Rotes Konzert" .
+
+nvt:pr_rotkaeppchen_packt_aus a nvto:PerformingArtsProduction ;
+    nvto:hasConceptOriginator nvt:burkhart_seidemann ;
+    nvto:hasFirstPerformanceDate "1985-00-00" ;
+    nvto:hasLastPerformanceDate "1985-00-00" ;
+    nvto:hasMusician nvt:petzold_dietrich ;
+    nvto:hasPerformer nvt:bernd_hahnke,
+        nvt:christoph_posselt,
+        nvt:constanze_schwendler ;
+    dcterms:title "Rotkäppchen packt aus" ;
+    skos:prefLabel "Rotkäppchen packt aus" .
+
+nvt:pr_schatten a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:bulgarien,
+        nvt:sofia ;
+    nvto:hasDirector nvt:walentin_andrejew ;
+    dcterms:contributor nvt:g_studio_pantomime_sofia ;
+    dcterms:title "Schatten" ;
+    skos:prefLabel "Schatten" .
+
+nvt:pr_seance_friction a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:frankreich,
+        nvt:paris ;
+    nvto:hasDirector nvt:yves_kerboul ;
+    nvto:hasPerformer nvt:elisabeth_cauchetiez,
+        nvt:gerard_chabanier,
+        nvt:gilbert_epron,
+        nvt:jean_marc_molines,
+        nvt:laurent_carouana,
+        nvt:lea_giovanelli,
+        nvt:marie_noel_bordeaux,
+        nvt:philippe_barrier ;
+    dcterms:contributor nvt:g_theatre_de_la_mie_de_pain ;
+    dcterms:title "Seance Friction" ;
+    skos:prefLabel "Seance Friction" .
+
+nvt:pr_silberner_wind a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:bruenn,
+        nvt:loc_theater_gans_an_der_schnur,
+        nvt:tschechoslowakei ;
+    nvto:hasDirector nvt:peter_scherhaufer ;
+    dcterms:contributor nvt:g_nositel_radu_prace,
+        nvt:g_stani_divadlo_brno ;
+    dcterms:title "Silberner Wind / Stríbrný vítr" ;
+    skos:prefLabel "Silberner Wind / Stríbrný vítr" .
+
+nvt:pr_solo_duo a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:niederlande ;
+    nvto:hasConceptOriginator nvt:ingrid_kuypers,
+        nvt:karina_holla ;
+    nvto:hasFirstPerformanceDate "1986-00-00" ;
+    nvto:hasLastPerformanceDate "1986-00-00" ;
+    nvto:hasPerformer nvt:ingrid_kuypers,
+        nvt:karina_holla ;
+    dcterms:title "Solo/Duo" ;
+    skos:prefLabel "Solo/Duo" .
+
+nvt:pr_spielen_wir_pantomime a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:ungarn ;
+    nvto:hasConceptOriginator nvt:gabor_dvorak,
+        nvt:peter_nagyivanyi ;
+    nvto:hasPerformer nvt:gabor_dvorak,
+        nvt:peter_nagyivanyi ;
+    dcterms:contributor nvt:g_ludens ;
+    dcterms:title "Spielken wir Pantomime" ;
+    skos:prefLabel "Spielken wir Pantomime" .
+
+nvt:pr_spritzer a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:frankreich ;
+    nvto:hasConceptOriginator nvt:francois_pollawrence_small ;
+    nvto:hasDirector nvt:francois_pollawrence_small ;
+    nvto:hasFirstPerformanceDate "1986-00-00" ;
+    nvto:hasLastPerformanceDate "1986-00-00" ;
+    nvto:hasPerformer nvt:francois_pollawrence_small ;
+    dcterms:title "Spritzer" ;
+    skos:prefLabel "Spritzer" .
+
+nvt:pr_stadtgang a nvto:PerformingArtsProduction ;
+    dcterms:title "Stadtgang" ;
+    skos:prefLabel "Stadtgang" .
+
+nvt:pr_sucking_stones a nvto:PerformingArtsProduction ;
+    nvto:hasConceptOriginator nvt:paul_clark ;
+    nvto:hasPerformer nvt:paul_clark ;
+    dcterms:title "Sucking Stones" ;
+    skos:prefLabel "Sucking Stones" .
+
+nvt:pr_sunny_side_up_oder_ein_stueck_von_der_leiter a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:oesterreich,
+        nvt:wien ;
+    nvto:hasComposer nvt:ludwig_van_beethoven,
+        nvt:richard_strauss,
+        nvt:walter_werzowa,
+        nvt:wolfgang_amadeus_mozart ;
+    nvto:hasCostumedesigner nvt:clarisse_praun,
+        nvt:gera_graf ;
+    nvto:hasDirector nvt:patrice_bigel ;
+    nvto:hasPerformer nvt:walter_bartussek ;
+    nvto:hasSetDesigner nvt:clarisse_praun,
+        nvt:gera_graf ;
+    dcterms:contributor nvt:alexander_munkas,
+        nvt:anja_maedel,
+        nvt:clair,
+        nvt:g_compagnie_patrice_bigel,
+        nvt:g_la_rumeur,
+        nvt:g_studio_gold_egg,
+        nvt:heidelore_gramser,
+        nvt:jean_charles,
+        nvt:ruth_bartussek ;
+    dcterms:title "Sunny Side Up oder ein Stück von der Leiter" ;
+    skos:prefLabel "Sunny Side Up oder ein Stück von der Leiter" .
+
+nvt:pr_svatba a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:bruenn,
+        nvt:loc_theater_gans_an_der_schnur,
+        nvt:tschechoslowakei ;
+    nvto:hasDirector nvt:peter_scherhaufer ;
+    dcterms:title "Die Hochzeit / Svatba" ;
+    skos:prefLabel "Die Hochzeit / Svatba" .
+
+nvt:pr_szenen a nvto:PerformingArtsProduction ;
+    nvto:hasConceptOriginator nvt:abel_aboualitan,
+        nvt:monique_bertin,
+        nvt:philippe_monella ;
+    nvto:hasPerformer nvt:abel_aboualitan,
+        nvt:monique_bertin,
+        nvt:philippe_monella ;
+    dcterms:contributor nvt:g_le_theatre_nu ;
+    dcterms:title "Szenen" ;
+    skos:prefLabel "Szenen" .
+
+nvt:pr_tanzschule a nvto:PerformingArtsProduction ;
+    dcterms:title "Tanzschule" ;
+    skos:prefLabel "Tanzschule" .
+
+nvt:pr_the_faust_quest a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_west,
+        nvt:brd_001,
+        nvt:loc_hebbel_theater ;
+    nvto:hasDirector nvt:richard_nieoczym ;
+    nvto:hasPerformer nvt:richard_nieoczym ;
+    dcterms:contributor nvt:g_actors_theatre_laboratorium ;
+    dcterms:title "The Faust Quest / Luzifers Lament" ;
+    skos:prefLabel "The Faust Quest / Luzifers Lament" .
+
+nvt:pr_tief_in_uns a nvto:PerformingArtsProduction ;
+    nvto:hasPerformer nvt:constance_debus,
+        nvt:lutz_jope ;
+    dcterms:contributor nvt:g_salto_vitale ;
+    dcterms:title "Tief in uns. Seelisches Krankenblatt zweier Clowns" ;
+    skos:prefLabel "Tief in uns. Seelisches Krankenblatt zweier Clowns" .
+
+nvt:pr_traumwelt a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:bruenn,
+        nvt:loc_theater_gans_an_der_schnur,
+        nvt:tschechoslowakei ;
+    nvto:hasDirector nvt:eva_talska ;
+    dcterms:contributor nvt:g_nositel_radu_prace,
+        nvt:g_stani_divadlo_brno ;
+    dcterms:title "Traumwelt / Svět Snů" ;
+    skos:prefLabel "Traumwelt / Svět Snů" .
+
+nvt:pr_ueber_den_berg_kommen a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:brd_001,
+        nvt:moosach ;
+    nvto:hasPerformer nvt:axel_tangerding,
+        nvt:regula_siegfried,
+        nvt:ulrike_doepfer ;
+    dcterms:contributor nvt:g_werkhaus_moosbach ;
+    dcterms:title "Über den Berg kommen" ;
+    skos:prefLabel "Über den Berg kommen" .
+
+nvt:pr_ullyssee_ullyssee a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:frankreich ;
+    nvto:hasConceptOriginator nvt:jean_pierre_amiel ;
+    nvto:hasPerformer nvt:jean_pierre_amiel ;
+    dcterms:title "Ullysee, Ullyssee!" ;
+    skos:prefLabel "Ullysee, Ullyssee!" .
+
+nvt:pr_und_alle_haben_ein_gesicht a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace <http://lod.iti-germany.de/resource/3_stock_der_berliner_volksbuehne> ;
+    nvto:hasConceptOriginator nvt:eberhard_kube ;
+    nvto:hasCostumedesigner nvt:volkmar_otte ;
+    nvto:hasDirector nvt:eberhard_kube ;
+    nvto:hasFirstPerformanceDate "1967-00-00" ;
+    nvto:hasLastPerformanceDate "1967-00-00" ;
+    nvto:hasPerformer nvt:a_oloff,
+        nvt:a_wandtke,
+        nvt:b_hackert,
+        nvt:e_beyer,
+        nvt:e_grecki,
+        nvt:g_barz,
+        nvt:h_meinhard,
+        nvt:j_thiele,
+        nvt:k_katzenstein,
+        nvt:peter_baumgart,
+        nvt:r_kardetz,
+        nvt:volkmar_otte ;
+    nvto:hasSetDesigner nvt:volkmar_otte ;
+    dcterms:contributor nvt:g_studio_61,
+        nvt:g_wroblewsky,
+        nvt:k_katzenstein,
+        nvt:m_klein ;
+    dcterms:title "und alle haben ein Gesicht" ;
+    skos:prefLabel "und alle haben ein Gesicht" .
+
+nvt:pr_unternehmen_strassentheater a nvto:PerformingArtsProduction ;
+    dcterms:title "Unternehmen Straßentheater" ;
+    skos:prefLabel "Unternehmen Straßentheater" .
+
+nvt:pr_valentino a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:birmingham,
+        nvt:grossbritannien ;
+    nvto:hasFirstPerformanceDate "1989-00-00" ;
+    nvto:hasLastPerformanceDate "1989-00-00" ;
+    dcterms:contributor nvt:g_the_birmingham_rep,
+        nvt:g_the_snarling_beasties ;
+    dcterms:title "Valentino" ;
+    skos:prefLabel "Valentino" .
+
+nvt:pr_verruecktwaerts a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasComposer nvt:dietrich_petzold ;
+    nvto:hasConceptOriginator nvt:peter_baumgart ;
+    nvto:hasCostumedesigner nvt:vaclav_sramek ;
+    nvto:hasDirector nvt:peter_baumgart ;
+    nvto:hasFirstPerformanceDate "1984-11-24" ;
+    nvto:hasLastPerformanceDate "1984-11-24" ;
+    nvto:hasMusician nvt:dietrich_petzold ;
+    nvto:hasPerformer nvt:burkhart_seidemann,
+        nvt:gisela_bohmann,
+        nvt:gunnar_helm,
+        nvt:hans_otto_reintsch ;
+    nvto:hasSetDesigner nvt:vaclav_sramek ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:title "Verrücktwärts. Zwei Grotesken zur Nacht" ;
+    skos:prefLabel "Verrücktwärts. Zwei Grotesken zur Nacht" .
+
+nvt:pr_viele_dinge_sind_in_einem_ding a nvto:PerformingArtsProduction ;
+    dcterms:title "Viele Dinge sind in einem Ding" ;
+    skos:prefLabel "Viele Dinge sind in einem Ding" .
+
+nvt:pr_vogelmogel a nvto:PerformingArtsProduction ;
+    nvto:hasConceptOriginator nvt:jens_finke,
+        nvt:matthias_faltz,
+        nvt:matthias_falz ;
+    nvto:hasPerformer nvt:jens_finke,
+        nvt:matthias_falz ;
+    dcterms:contributor nvt:g_finke_faltz ;
+    dcterms:title "Vogelmogel" ;
+    skos:prefLabel "Vogelmogel" .
+
+nvt:pr_von_kalaf_und_prinzessin_turandot a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasComposer nvt:reiner_bredemeyer ;
+    nvto:hasCostumedesigner nvt:jochen_finke ;
+    nvto:hasDirector nvt:volkmar_otte ;
+    nvto:hasDramaturge nvt:eva_maria_otte ;
+    nvto:hasFirstPerformanceDate "1977-10-29" ;
+    nvto:hasLastPerformanceDate "1977-10-29" ;
+    nvto:hasMaskDesigner nvt:guenter_weinhold ;
+    nvto:hasPerformer nvt:annette_jacob,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christine_bandlow,
+        nvt:christoph_posselt,
+        nvt:eva_maria_otte,
+        nvt:gerolf_ristau,
+        nvt:gerty_koerner,
+        nvt:guenter_richter,
+        nvt:karin_jerosch,
+        nvt:peter_baumgart,
+        nvt:ulrich_hoch ;
+    nvto:hasSetDesigner nvt:jochen_finke ;
+    dcterms:contributor nvt:elisabeth_lappe,
+        nvt:erich_mueller,
+        nvt:fritz_schimmelpfennig,
+        nvt:g_dt_pe,
+        nvt:gerhard_henschel,
+        nvt:gertraud_listmann,
+        nvt:heinz_richter,
+        nvt:irmgard_lorenz,
+        nvt:juergen_liebau,
+        nvt:karl_rhinow,
+        nvt:monika_bienert,
+        nvt:rainer_kretzschmar,
+        nvt:sabine_eckert,
+        nvt:werner_lange ;
+    dcterms:title "Von Kalaf und Prinzessin Turandot" ;
+    dcterms:type nvt:urauffuehrungsversion ;
+    skos:prefLabel "Von Kalaf und Prinzessin Turandot" .
+
+nvt:pr_wer_hat_angst_vorm_schwarzen_mann a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtfoyer,
+        nvt:loc_dtks,
+        nvt:loc_ei,
+        nvt:loc_kaf ;
+    nvto:hasComposer nvt:uwe_hilprecht ;
+    nvto:hasCostumedesigner nvt:volkmar_otte ;
+    nvto:hasDirector nvt:volkmar_otte ;
+    nvto:hasDramaturge nvt:eva_maria_otte ;
+    nvto:hasFirstPerformanceDate "1979-10-23" ;
+    nvto:hasLastPerformanceDate "1979-10-23" ;
+    nvto:hasMaskDesigner nvt:wolfgang_utzt ;
+    nvto:hasMusician nvt:hilprecht_uwe ;
+    nvto:hasPerformer nvt:anreas_doelling,
+        nvt:barbara_schnitzler,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seiemann,
+        nvt:guenter_richter,
+        nvt:peter_baumgart ;
+    nvto:hasSetDesigner nvt:volkmar_otte ;
+    dcterms:contributor nvt:erich_mueller,
+        nvt:g_dt_pe,
+        nvt:gerhard_henschel,
+        nvt:gertraud_listmann,
+        nvt:klaus_rex,
+        nvt:uwe_hilprecht,
+        nvt:werner_becker,
+        nvt:werner_lange ;
+    dcterms:title "Wer hat Angst vor'm schwarzen Mann" ;
+    skos:prefLabel "Wer hat Angst vor'm schwarzen Mann" .
+
+nvt:pr_wir_wohner a nvto:PerformingArtsProduction ;
+    dcterms:title "Wir Wohner" ;
+    skos:prefLabel "Wir Wohner" .
+
+nvt:pr_wir_wohner_ii a nvto:PerformingArtsProduction ;
+    dcterms:title "Wir Wohner II" ;
+    skos:prefLabel "Wir Wohner II" .
+
+nvt:pr_wir_wohner_iii a nvto:PerformingArtsProduction ;
+    dcterms:title "Wir Wohner III" ;
+    skos:prefLabel "Wir Wohner III" .
+
+nvt:pr_zwischen_tuer_und_angel a nvto:PerformingArtsProduction ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasComposer nvt:hans_otto_jerosch ;
+    nvto:hasCostumedesigner nvt:juergen_heidenreich ;
+    nvto:hasDirector nvt:volkmar_otte ;
+    nvto:hasFirstPerformanceDate "1975-12-04" ;
+    nvto:hasLastPerformanceDate "1975-12-04" ;
+    nvto:hasPerformer nvt:birgit_edenharter,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:eva_maria_otte,
+        nvt:guenter_richter,
+        nvt:karin_jerosch,
+        nvt:michael_pan,
+        nvt:peter_baumgart ;
+    nvto:hasSetDesigner nvt:juergen_heidenreich ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:title "Zwischen Tür und Angel" ;
+    skos:prefLabel "Zwischen Tür und Angel" .
+
