@@ -1,0 +1,3358 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix nvt: <http://lod.iti-germany.de/resource/> .
+@prefix nvto: <http://lod.iti-germany.de/schema/nvto/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nvt:ev_12_traeume_des_dr_fridkin_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kuenstlerhaus_bethanien ;
+    dcterms:contributor nvt:g_version ;
+    dcterms:date "1990-07-04" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_12_traeume_des_dr_fridkin ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "12 Träume des Dr. Fridkin" .
+
+nvt:ev_12_traeume_des_dr_fridkin_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kuenstlerhaus_bethanien ;
+    dcterms:contributor nvt:g_version ;
+    dcterms:date "1990-07-05" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_12_traeume_des_dr_fridkin ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "12 Träume des Dr. Fridkin" .
+
+nvt:ev_12_traeume_des_dr_fridkin_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kuenstlerhaus_bethanien ;
+    dcterms:contributor nvt:g_version ;
+    dcterms:date "1990-07-06" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_12_traeume_des_dr_fridkin ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "12 Träume des Dr. Fridkin" .
+
+nvt:ev_aber_macht_keine_dummheit_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasSeason nvt:timespan_ev_aber_macht_keine_dummheit_001_1985 ;
+    dcterms:contributor nvt:g_compagnia_teatro_dimitri ;
+    dcterms:date "1985-12-04" ;
+    dcterms:isPartOf nvt:ev_internationale_tage_der_pantomime_1985_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Aber, macht keine Dummheit" .
+
+nvt:ev_aber_macht_keine_dummheit_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasSeason nvt:timespan_ev_aber_macht_keine_dummheit_002_1985 ;
+    dcterms:contributor nvt:g_compagnia_teatro_dimitri ;
+    dcterms:date "1985-12-05" ;
+    dcterms:isPartOf nvt:ev_internationale_tage_der_pantomime_1985_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Aber, macht keine Dummheit" .
+
+nvt:ev_aikido_gw_1986_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasConceptOriginator nvt:gerd_walter,
+        nvt:horst_spaetling ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1986_001,
+        nvt:ev_gestische_woche_1987_001 ;
+    dcterms:mediator nvt:gerd_walter,
+        nvt:horst_spaetling ;
+    dcterms:type nvt:workshop ;
+    skos:prefLabel "Aikido Workshop" .
+
+nvt:ev_amapola_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_volksbuehne ;
+    dcterms:date "1982-12-00" ;
+    dcterms:isPartOf nvt:pr_amapola ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Amapola" .
+
+nvt:ev_ameriques_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    dcterms:contributor nvt:g_theatre_a_louer ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001,
+        nvt:pr_ameriques ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Ameriques" .
+
+nvt:ev_aufstand_der_traeume_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_filmtheater_am_friedrichshain ;
+    dcterms:contributor nvt:g_pantomime_ensemble_jena ;
+    dcterms:date "1988-07-4" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_aufstand_der_traeume ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Aufstand der Träume" .
+
+nvt:ev_aufstand_der_traeume_002 a nvto:Event ;
+    dcterms:contributor nvt:g_pantomime_ensemble_jena ;
+    dcterms:isPartOf nvt:ev_internationale_tage_der_pantomime_1985_001,
+        nvt:pr_aufstand_der_traeume ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Aufstand der Träume" .
+
+nvt:ev_august_august_001 a nvto:Event ;
+    nvto:hasDirector nvt:peter_baumgart ;
+    nvto:hasMusician nvt:dietrich_petzold ;
+    nvto:hasPerformer nvt:burkhart_seidemann,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:peter_baumgart ;
+    nvto:hasSeason nvt:timespan_ev_august_august_001_1988 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988-12-05" ;
+    dcterms:isPartOf nvt:ev_theater_in_bewegung_1988_001,
+        nvt:pr_august_august,
+        nvt:pr_clownsfamily,
+        nvt:pr_crazy_music ;
+    dcterms:source """Beschreibung: - Ein Spiel über Emanzipierung durch Angst und Hilflosigkeit oder Wie sich der von seinem Direktor als Dressurobjekt mißbrauchte August zu einem Subjekt mausert, …
+- Intelligent-witzige Improvisation auf der Geige, der Baßflöte und diversen Percussions-Instrumenten.
+- Ein groteskes Spiel über die eskalierenden Schwierigkeiten einer in die Jahre gekommenen (Clowns-)Familie, der kleinsten Zelle der menschlichen Gesellschaft Quelle: CW; txt-007-001""" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "August, August / Crazy Music / Clownsfamily" .
+
+nvt:ev_august_august_002 a nvto:Event ;
+    nvto:hasDirector nvt:peter_baumgart ;
+    nvto:hasMusician nvt:dietrich_petzold ;
+    nvto:hasPerformer nvt:burkhart_seidemann,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:peter_baumgart ;
+    nvto:hasSeason nvt:timespan_ev_august_august_002_1988 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988-12-08" ;
+    dcterms:isPartOf nvt:ev_theater_in_bewegung_1988_001,
+        nvt:pr_august_august,
+        nvt:pr_clownsfamily,
+        nvt:pr_crazy_music ;
+    dcterms:source """Beschreibung: - Ein Spiel über Emanzipierung durch Angst und Hilflosigkeit oder Wie sich der von seinem Direktor als Dressurobjekt mißbrauchte August zu einem Subjekt mausert, …
+- Intelligent-witzige Improvisation auf der Geige, der Baßflöte und diversen Percussions-Instrumenten.
+- Ein groteskes Spiel über die eskalierenden Schwierigkeiten einer in die Jahre gekommenen (Clowns-)Familie, der kleinsten Zelle der menschlichen Gesellschaft Quelle: CW; txt-007-001""" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "August, August / Crazy Music / Clownsfamily" .
+
+nvt:ev_august_august_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasDirector nvt:peter_baumgart ;
+    nvto:hasMusician nvt:dietrich_petzold ;
+    nvto:hasPerformer nvt:burkhart_seidemann,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:peter_baumgart ;
+    nvto:hasSeason nvt:timespan_ev_august_august_003_1988 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988-12-10" ;
+    dcterms:isPartOf nvt:ev_theater_in_bewegung_1988_001,
+        nvt:pr_august_august,
+        nvt:pr_clownsfamily,
+        nvt:pr_crazy_music ;
+    dcterms:source """Beschreibung: - Ein Spiel über Emanzipierung durch Angst und Hilflosigkeit oder Wie sich der von seinem Direktor als Dressurobjekt mißbrauchte August zu einem Subjekt mausert, …
+- Intelligent-witzige Improvisation auf der Geige, der Baßflöte und diversen Percussions-Instrumenten.
+- Ein groteskes Spiel über die eskalierenden Schwierigkeiten einer in die Jahre gekommenen (Clowns-)Familie, der kleinsten Zelle der menschlichen Gesellschaft Quelle: CW; txt-007-001""" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "August, August / Crazy Music / Clownsfamily" .
+
+nvt:ev_avant_theater_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasComposer nvt:cheikh_abdelaoui ;
+    nvto:hasDirector nvt:fethi_osmane,
+        nvt:said_benyoucef ;
+    nvto:hasPerformer nvt:abdelkader_belkeriou,
+        nvt:bachir_hammouda,
+        nvt:el_hadj_seghir,
+        nvt:fethi_osmane,
+        nvt:mokhtar_benyahlou,
+        nvt:said_benyoucef ;
+    nvto:hasSeason nvt:timespan_ev_avant_theater_001_1988 ;
+    nvto:hasSetDesigner nvt:said_benyoucef ;
+    dcterms:contributor nvt:g_theatre_regional_doran ;
+    dcterms:date "1988-12-08" ;
+    dcterms:isPartOf nvt:ev_theater_in_bewegung_1988_001,
+        nvt:pr_avat_theater ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Avant-Theater" .
+
+nvt:ev_avant_theater_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasComposer nvt:cheikh_abdelaoui ;
+    nvto:hasDirector nvt:fethi_osmane,
+        nvt:said_benyoucef ;
+    nvto:hasPerformer nvt:abdelkader_belkeriou,
+        nvt:bachir_hammouda,
+        nvt:el_hadj_seghir,
+        nvt:fethi_osmane,
+        nvt:mokhtar_benyahlou,
+        nvt:said_benyoucef ;
+    nvto:hasSeason nvt:timespan_ev_avant_theater_002_1988 ;
+    nvto:hasSetDesigner nvt:said_benyoucef ;
+    dcterms:contributor nvt:g_theatre_regional_doran ;
+    dcterms:date "1988-12-09" ;
+    dcterms:isPartOf nvt:ev_theater_in_bewegung_1988_001,
+        nvt:pr_avat_theater ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Avant-Theater" .
+
+nvt:ev_baustelle_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_pratergarten ;
+    nvto:hasDirector nvt:peter_honegger ;
+    nvto:hasPerformer nvt:brigitt_maag,
+        nvt:ernesto_graf,
+        nvt:markus_heller,
+        nvt:martha_zuercher,
+        nvt:martin_brosch,
+        nvt:paul_weilenmann ;
+    dcterms:contributor nvt:g_karls_kuehne_gassenschau ;
+    dcterms:date "1990-06-29:21:30" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_baustelle ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Baustelle" .
+
+nvt:ev_baustelle_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_pratergarten ;
+    nvto:hasDirector nvt:peter_honegger ;
+    nvto:hasPerformer nvt:brigitt_maag,
+        nvt:ernesto_graf,
+        nvt:markus_heller,
+        nvt:martha_zuercher,
+        nvt:martin_brosch,
+        nvt:paul_weilenmann ;
+    dcterms:contributor nvt:g_karls_kuehne_gassenschau ;
+    dcterms:date "1990-06-30:21:30" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_baustelle ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Baustelle" .
+
+nvt:ev_baustelle_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_pratergarten ;
+    nvto:hasDirector nvt:peter_honegger ;
+    nvto:hasPerformer nvt:brigitt_maag,
+        nvt:ernesto_graf,
+        nvt:markus_heller,
+        nvt:martha_zuercher,
+        nvt:martin_brosch,
+        nvt:paul_weilenmann ;
+    dcterms:contributor nvt:g_karls_kuehne_gassenschau ;
+    dcterms:date "1990-07-01:21:30" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_baustelle ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Baustelle" .
+
+nvt:ev_baustelle_004 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_pratergarten ;
+    nvto:hasDirector nvt:peter_honegger ;
+    nvto:hasPerformer nvt:brigitt_maag,
+        nvt:ernesto_graf,
+        nvt:markus_heller,
+        nvt:martha_zuercher,
+        nvt:martin_brosch,
+        nvt:paul_weilenmann ;
+    dcterms:contributor nvt:g_karls_kuehne_gassenschau ;
+    dcterms:date "1990-07-02:21:30" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_baustelle ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Baustelle" .
+
+nvt:ev_baustelle_005 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_pratergarten ;
+    nvto:hasDirector nvt:peter_honegger ;
+    nvto:hasPerformer nvt:brigitt_maag,
+        nvt:ernesto_graf,
+        nvt:markus_heller,
+        nvt:martha_zuercher,
+        nvt:martin_brosch,
+        nvt:paul_weilenmann ;
+    dcterms:contributor nvt:g_karls_kuehne_gassenschau ;
+    dcterms:date "1990-07-03:21:30" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_baustelle ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Baustelle" .
+
+nvt:ev_beauti_fools_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_west,
+        nvt:brd_001,
+        nvt:loc_hebbel_theater ;
+    nvto:hasConceptOriginator nvt:christian_mattis ;
+    nvto:hasDirector nvt:christian_mattis ;
+    nvto:hasLightDesigner nvt:johannes_knoth ;
+    nvto:hasPerformer nvt:andreas_haake,
+        nvt:claudia_tschach,
+        nvt:katharina_hanhart,
+        nvt:martin_henzi,
+        nvt:monique_schnyder ;
+    dcterms:contributor nvt:g_paradogs ;
+    dcterms:date "1990-06-30:20:00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_beauti_fools ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "beautiFOOLS" .
+
+nvt:ev_beauti_fools_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_west,
+        nvt:brd_001,
+        nvt:loc_hebbel_theater ;
+    nvto:hasConceptOriginator nvt:christian_mattis ;
+    nvto:hasDirector nvt:christian_mattis ;
+    nvto:hasLightDesigner nvt:johannes_knoth ;
+    nvto:hasPerformer nvt:andreas_haake,
+        nvt:claudia_tschach,
+        nvt:katharina_hanhart,
+        nvt:martin_henzi,
+        nvt:monique_schnyder ;
+    dcterms:contributor nvt:g_paradogs ;
+    dcterms:date "1990-07-01:20:00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_beauti_fools ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "beautiFOOLS" .
+
+nvt:ev_berliner_ballonfieber_1803_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_zirkuszelt ;
+    nvto:hasConceptOriginator nvt:burkhart_seidemann ;
+    nvto:hasDirector nvt:burkhart_seidemann ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1987-07-13" ;
+    dcterms:isPartOf nvt:pr_berliner_ballonfieber_1803 ;
+    dcterms:type nvt:premiere ;
+    skos:prefLabel "Berliner Ballonfieber 1803" .
+
+nvt:ev_berliner_ballonfieber_1803_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_zirkuszelt ;
+    nvto:hasSeason nvt:timespan_ev_berliner_ballonfieber_1803_002_1987_1978 ;
+    skos:prefLabel "Berliner Ballonfieber 1803" .
+
+nvt:ev_bilder_einer_ausstellung_1988_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_theater_unterm_dach ;
+    nvto:hasConceptOriginator nvt:andras_m_kecskes ;
+    nvto:hasPerformer nvt:andras_m_kecskes ;
+    dcterms:date "1988-07-5" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_bilder_einer_ausstellung ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Bilder einer Ausstellung" .
+
+nvt:ev_bilder_einer_ausstellung_1988_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_theater_unterm_dach ;
+    nvto:hasConceptOriginator nvt:andras_m_kecskes ;
+    nvto:hasPerformer nvt:andras_m_kecskes ;
+    dcterms:date "1988-07-6" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_bilder_einer_ausstellung ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Bilder einer Ausstellung" .
+
+nvt:ev_blaubart_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_apollosaalds ;
+    nvto:hasConceptOriginator nvt:burkhart_seidemann ;
+    nvto:hasDirector nvt:burkhart_seidemann ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1981-11-14" ;
+    dcterms:isPartOf nvt:pr_blaubart ;
+    dcterms:type nvt:premiere ;
+    skos:prefLabel "Blaubart" .
+
+nvt:ev_blaubart_002 a nvto:Event ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1981-11-10" ;
+    dcterms:isPartOf nvt:pr_blaubart ;
+    dcterms:source "Beschreibung: Erste Hauptprobe Quelle: aus img-012" ;
+    dcterms:type nvt:probe ;
+    skos:prefLabel "Blaubart" .
+
+nvt:ev_boris_hybner_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasConceptOriginator nvt:boris_hybner ;
+    nvto:hasPerformer nvt:boris_hybner ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Programm von Boris Hybner" .
+
+nvt:ev_bremer_stadtmusikanten_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_theater_unterm_dach ;
+    dcterms:contributor nvt:g_zinnober ;
+    dcterms:date "1988-07-10;10:00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_bremer_stadtmusikanten ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Bremer Stadtmusikanten" .
+
+nvt:ev_bremer_stadtmusikanten_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_theater_unterm_dach ;
+    dcterms:contributor nvt:g_zinnober ;
+    dcterms:date "1988-07-10;14:00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_bremer_stadtmusikanten ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Bremer Stadtmusikanten" .
+
+nvt:ev_caf_fatal_001 a nvto:Event ;
+    nvto:hasConceptOriginator nvt:christoph_posselt ;
+    nvto:hasDirector nvt:christoph_posselt ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:burkhart_seidemann,
+        nvt:gisela_bohmann,
+        nvt:peter_baumgart ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001,
+        nvt:pr_cafe_fatal ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Café Fatal" .
+
+nvt:ev_cafe_fatal_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:frankreich,
+        nvt:paris ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1987" ;
+    dcterms:isPartOf nvt:pr_cafe_fatal ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Café Fatal" .
+
+nvt:ev_cafe_fatal_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:brd_001,
+        nvt:koeln ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1987" ;
+    dcterms:isPartOf nvt:pr_cafe_fatal ;
+    dcterms:source "Beschreibung: Gastspiel beim Internationalen Gaukler-Festival Quelle: CW; txt-080-001" ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Café Fatal" .
+
+nvt:ev_cafe_fatal_004 a nvto:Event ;
+    nvto:happenedAtPlace nvt:oesterreich,
+        nvt:wien ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988" ;
+    dcterms:isPartOf nvt:pr_cafe_fatal ;
+    dcterms:source "Beschreibung: Gastspiel bei den Wiener Festwochen Quelle: CW; txt-080-001" ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Café Fatal" .
+
+nvt:ev_cafe_fatal_005 a nvto:Event ;
+    nvto:happenedAtPlace nvt:niederlande ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988" ;
+    dcterms:isPartOf nvt:pr_cafe_fatal ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Café Fatal" .
+
+nvt:ev_cafe_fatal_006 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_west,
+        nvt:brd_001 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1989" ;
+    dcterms:isPartOf nvt:pr_cafe_fatal ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Café Fatal" .
+
+nvt:ev_cafe_fatal_007 a nvto:Event ;
+    nvto:happenedAtPlace nvt:brd_001 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1990" ;
+    dcterms:isPartOf nvt:pr_cafe_fatal ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Café Fatal" .
+
+nvt:ev_cafe_fatal_008 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_west,
+        nvt:brd_001 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1990" ;
+    dcterms:isPartOf nvt:pr_cafe_fatal ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Café Fatal" .
+
+nvt:ev_cafe_fatal_009 a nvto:Event ;
+    nvto:happenedAtPlace nvt:aarhus,
+        nvt:daenemark ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1990" ;
+    dcterms:isPartOf nvt:pr_cafe_fatal ;
+    dcterms:source "Beschreibung: Gastspiel beim Aarhus-Festival Dänemark Quelle: CW; txt-080-001" ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Café Fatal" .
+
+nvt:ev_cafe_fatal_010 a nvto:Event ;
+    nvto:happenedAtPlace nvt:nicaragua ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1990" ;
+    dcterms:isPartOf nvt:pr_cafe_fatal ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Café Fatal" .
+
+nvt:ev_caoutchouc_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kreiskulturhaus_prater ;
+    nvto:hasPerformer nvt:hanninka_luitwieler,
+        nvt:kika_groszkopf ;
+    dcterms:contributor nvt:g_griftheater ;
+    dcterms:date "1988-07-05" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_caoutchouc ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Caoutchouc" .
+
+nvt:ev_caoutchouc_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kreiskulturhaus_prater ;
+    nvto:hasPerformer nvt:hanninka_luitwieler,
+        nvt:kika_groszkopf ;
+    dcterms:contributor nvt:g_griftheater ;
+    dcterms:date "1988-07-06" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_caoutchouc ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Caoutchouc" .
+
+nvt:ev_caoutchouc_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kreiskulturhaus_prater ;
+    nvto:hasPerformer nvt:hanninka_luitwieler,
+        nvt:kika_groszkopf ;
+    dcterms:contributor nvt:g_griftheater ;
+    dcterms:date "1988-07-07" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_caoutchouc ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Caoutchouc" .
+
+nvt:ev_capitombola_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasSeason nvt:timespan_ev_capitombola_001_1985 ;
+    dcterms:contributor nvt:g_compagnia_teatro_dimitri ;
+    dcterms:date "1985-12-06" ;
+    dcterms:isPartOf nvt:ev_internationale_tage_der_pantomime_1985_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Capitombola" .
+
+nvt:ev_carambolage_d_amour_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    dcterms:contributor nvt:g_salto_vitale ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001,
+        nvt:pr_carambolage_d_amour ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Carambolage d'Amour" .
+
+nvt:ev_chi_kung_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasConceptOriginator nvt:brigitte_bergese ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001 ;
+    dcterms:mediator nvt:brigitte_bergese ;
+    dcterms:type nvt:workshop ;
+    skos:prefLabel "Ch'i Kung Workshop" .
+
+nvt:ev_clownerien_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_tip ;
+    nvto:hasSeason nvt:timespan_ev_clownerien_001_1980_1980 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1980-05-12" ;
+    dcterms:isPartOf nvt:pr_clownerien ;
+    dcterms:type nvt:premiere ;
+    skos:prefLabel "Clownerien" .
+
+nvt:ev_clownerien_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_tip ;
+    nvto:hasDirector nvt:volkmar_otte ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1980-06-02" ;
+    dcterms:isPartOf nvt:pr_clownerien ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Clownerien" .
+
+nvt:ev_clownerien_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_tip ;
+    nvto:hasDirector nvt:volkmar_otte ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1980-06-03" ;
+    dcterms:isPartOf nvt:pr_clownerien ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Clownerien" .
+
+nvt:ev_clownerien_004 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasSeason nvt:timespan_ev_clownerien_004_1985 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1985-12-04" ;
+    dcterms:isPartOf nvt:ev_internationale_tage_der_pantomime_1985_001,
+        nvt:pr_clownerien ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Clownerien" .
+
+nvt:ev_clownerien_005 a nvto:Event ;
+    nvto:happenedAtPlace nvt:budapest,
+        nvt:ungarn ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1984" ;
+    dcterms:isPartOf nvt:pr_clownerien ;
+    dcterms:source "Beschreibung: Gastspiel beim Frühlingsfestival Budapest 1984 Quelle: CW; txt-080-001" ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Clownerien" .
+
+nvt:ev_clownerien_006 a nvto:Event ;
+    nvto:happenedAtPlace nvt:brd_001,
+        nvt:koeln ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1987" ;
+    dcterms:isPartOf nvt:pr_clownerien ;
+    dcterms:source "Beschreibung: Gastspiel beim Internationalen Gaukler-Festival Quelle: CW; txt-080-001" ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Clownerien" .
+
+nvt:ev_clownonade_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasMusician nvt:dietrich_petzold ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:peter_baumgart ;
+    nvto:hasSeason nvt:timespan_ev_clownonade_001_1988 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988-12-04" ;
+    dcterms:isPartOf nvt:ev_theater_in_bewegung_1988_001,
+        nvt:pr_clownonade ;
+    dcterms:source "Beschreibung: Pantomimisches Spektakel für Kinder zwishen Sieben und Siebzig. Ein turbulentes Spiel, geboren aus den komischen Einfällen einer ihrer Langeweile überdrüssigen Clown-Gesellschaft. Drehungen und Wendungen einer blühenden Phantasie, die aus dem Nichts die Gefahren einer Raubtierdressur, einer verrückten Seereise, eines Schiffbruchs oder die haarsträubenden Abenteuer einer Dschungeltour zaubert und dabei immer wieder das Publikum zum Mitmachen anstiftet. Ein unterhaltsamer Spaß für jeden, der seine Kindheit nicht vergessen hat. Quelle: CW; txt-007-001" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Clownonade" .
+
+nvt:ev_clownonade_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasMusician nvt:dietrich_petzold ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:peter_baumgart ;
+    nvto:hasSeason nvt:timespan_ev_clownonade_002_1988 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988-12-05" ;
+    dcterms:isPartOf nvt:ev_theater_in_bewegung_1988_001,
+        nvt:pr_clownonade ;
+    dcterms:source "Beschreibung: Pantomimisches Spektakel für Kinder zwishen Sieben und Siebzig. Ein turbulentes Spiel, geboren aus den komischen Einfällen einer ihrer Langeweile überdrüssigen Clown-Gesellschaft. Drehungen und Wendungen einer blühenden Phantasie, die aus dem Nichts die Gefahren einer Raubtierdressur, einer verrückten Seereise, eines Schiffbruchs oder die haarsträubenden Abenteuer einer Dschungeltour zaubert und dabei immer wieder das Publikum zum Mitmachen anstiftet. Ein unterhaltsamer Spaß für jeden, der seine Kindheit nicht vergessen hat. Quelle: CW; txt-007-001" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Clownonade" .
+
+nvt:ev_clownonade_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasMusician nvt:dietrich_petzold ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:peter_baumgart ;
+    nvto:hasSeason nvt:timespan_ev_clownonade_003_1988 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988-12-09" ;
+    dcterms:isPartOf nvt:ev_theater_in_bewegung_1988_001,
+        nvt:pr_clownonade ;
+    dcterms:source "Beschreibung: Pantomimisches Spektakel für Kinder zwishen Sieben und Siebzig. Ein turbulentes Spiel, geboren aus den komischen Einfällen einer ihrer Langeweile überdrüssigen Clown-Gesellschaft. Drehungen und Wendungen einer blühenden Phantasie, die aus dem Nichts die Gefahren einer Raubtierdressur, einer verrückten Seereise, eines Schiffbruchs oder die haarsträubenden Abenteuer einer Dschungeltour zaubert und dabei immer wieder das Publikum zum Mitmachen anstiftet. Ein unterhaltsamer Spaß für jeden, der seine Kindheit nicht vergessen hat. Quelle: CW; txt-007-001" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Clownonade" .
+
+nvt:ev_clownonade_004 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasMusician nvt:dietrich_petzold ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:peter_baumgart ;
+    nvto:hasSeason nvt:timespan_ev_clownonade_004_1988 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988-12-11" ;
+    dcterms:isPartOf nvt:ev_theater_in_bewegung_1988_001,
+        nvt:pr_clownonade ;
+    dcterms:source "Beschreibung: Pantomimisches Spektakel für Kinder zwishen Sieben und Siebzig. Ein turbulentes Spiel, geboren aus den komischen Einfällen einer ihrer Langeweile überdrüssigen Clown-Gesellschaft. Drehungen und Wendungen einer blühenden Phantasie, die aus dem Nichts die Gefahren einer Raubtierdressur, einer verrückten Seereise, eines Schiffbruchs oder die haarsträubenden Abenteuer einer Dschungeltour zaubert und dabei immer wieder das Publikum zum Mitmachen anstiftet. Ein unterhaltsamer Spaß für jeden, der seine Kindheit nicht vergessen hat. Quelle: CW; txt-007-001" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Clownonade" .
+
+nvt:ev_clownonade_005 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasComposer nvt:hermann_naehring ;
+    nvto:hasMusician nvt:hermann_naehring ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:peter_baumgart ;
+    nvto:hasSeason nvt:timespan_ev_clownonade_005_0000 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "0000-07-03" ;
+    dcterms:isPartOf nvt:ev_sommer_clowns_und_maskenspiele_001,
+        nvt:pr_clownonade ;
+    dcterms:source "Beschreibung: Clownsrevue mit sechs Clowns, die der Langeweile mit phantasievollen Einfällen entfliehen. Quelle: CW; txt-008-001" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Clownonade" .
+
+nvt:ev_clownonade_006 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasComposer nvt:hermann_naehring ;
+    nvto:hasMusician nvt:hermann_naehring ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:peter_baumgart ;
+    nvto:hasSeason nvt:timespan_ev_clownonade_006_0000 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "0000-07-05" ;
+    dcterms:isPartOf nvt:ev_sommer_clowns_und_maskenspiele_001,
+        nvt:pr_clownonade ;
+    dcterms:source "Beschreibung: Clownsrevue mit sechs Clowns, die der Langeweile mit phantasievollen Einfällen entfliehen. Quelle: CW; txt-008-001" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Clownonade" .
+
+nvt:ev_clownonade_007 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasComposer nvt:hermann_naehring ;
+    nvto:hasMusician nvt:hermann_naehring ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:peter_baumgart ;
+    nvto:hasSeason nvt:timespan_ev_clownonade_007_0000 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "0000-07-07" ;
+    dcterms:isPartOf nvt:ev_sommer_clowns_und_maskenspiele_001,
+        nvt:pr_clownonade ;
+    dcterms:source "Beschreibung: Clownsrevue mit sechs Clowns, die der Langeweile mit phantasievollen Einfällen entfliehen. Quelle: CW; txt-008-001" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Clownonade" .
+
+nvt:ev_clownonade_008 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer,
+        nvt:vietnam ;
+    nvto:hasComposer nvt:hermann_naehring ;
+    nvto:hasMusician nvt:hermann_naehring ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:peter_baumgart ;
+    nvto:hasSeason nvt:timespan_ev_clownonade_008_0000 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "0000-07-09",
+        "1989" ;
+    dcterms:isPartOf nvt:ev_sommer_clowns_und_maskenspiele_001,
+        nvt:pr_clownonade ;
+    dcterms:source "Beschreibung: Clownsrevue mit sechs Clowns, die der Langeweile mit phantasievollen Einfällen entfliehen. Quelle: CW; txt-008-001" ;
+    dcterms:type nvt:auffuehrung,
+        nvt:gastspiel ;
+    skos:prefLabel "Clownonade" .
+
+nvt:ev_clownonade_009 a nvto:Event ;
+    nvto:happenedAtPlace nvt:laos ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1989" ;
+    dcterms:isPartOf nvt:pr_clownonade ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Clownonade" .
+
+nvt:ev_clownonade_010 a nvto:Event ;
+    nvto:happenedAtPlace nvt:kambodscha ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1989" ;
+    dcterms:isPartOf nvt:pr_clownonade ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Clownonade" .
+
+nvt:ev_clownonade_011 a nvto:Event ;
+    nvto:happenedAtPlace nvt:aarhus,
+        nvt:daenemark ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1990" ;
+    dcterms:isPartOf nvt:pr_clownonade ;
+    dcterms:source "Beschreibung: Gastspiel beim Aarhus-Festival Dänemark Quelle: CW; txt-080-001" ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Clownonade" .
+
+nvt:ev_clownonade_012 a nvto:Event ;
+    nvto:happenedAtPlace nvt:nicaragua ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1990" ;
+    dcterms:isPartOf nvt:pr_clownonade ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Clownonade" .
+
+nvt:ev_clowns_non_stop a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_west,
+        nvt:brd_001,
+        nvt:loc_hebbel_theater ;
+    nvto:hasPerformer nvt:alf_mahlow,
+        nvt:christina_busch,
+        nvt:constance_debus,
+        nvt:lutz_jope,
+        nvt:matthias_krahnert,
+        nvt:rainer_koenig ;
+    dcterms:contributor nvt:g_salto_vitale ;
+    dcterms:date "1990-06-29" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_clowns_non_stop ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Clowns non stop" .
+
+nvt:ev_clowns_non_stop_002 a nvto:Event ;
+    nvto:hasSeason nvt:timespan_ev_clowns_non_stop_002_1985 ;
+    dcterms:contributor nvt:g_salto_vitale ;
+    dcterms:date "1985-12-01" ;
+    dcterms:isPartOf nvt:ev_internationale_tage_der_pantomime_1985_001,
+        nvt:pr_clowns_non_stop ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Clowns non stop" .
+
+nvt:ev_clownsfamily_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:udssr ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1986" ;
+    dcterms:isPartOf nvt:pr_clownsfamily ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Clownsfamily" .
+
+nvt:ev_clownsfamily_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:frankreich,
+        nvt:paris ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1987" ;
+    dcterms:isPartOf nvt:pr_clownsfamily ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Clownsfamily" .
+
+nvt:ev_clownsfamily_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:brd_001,
+        nvt:koeln ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1987" ;
+    dcterms:isPartOf nvt:pr_clownsfamily ;
+    dcterms:source "Beschreibung: Gastspiel beim Internationalen Gaukler-Festival Quelle: CW; txt-080-001" ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Clownsfamily" .
+
+nvt:ev_clownsfamily_004 a nvto:Event ;
+    nvto:happenedAtPlace nvt:budapest,
+        nvt:ungarn ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1984" ;
+    dcterms:isPartOf nvt:pr_clownsfamily ;
+    dcterms:source "Beschreibung: Gastspiel beim Frühlingsfestival Budapest 1984 Quelle: CW; txt-080-001" ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Clownsfamily" .
+
+nvt:ev_confusion_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    nvto:hasDirector nvt:pierre_byland ;
+    nvto:hasMaskDesigner nvt:amleto_sartori ;
+    nvto:hasPerformer nvt:mareike_schnitker,
+        nvt:pierre_byland ;
+    dcterms:contributor nvt:g_la_compagnie_les_fusains ;
+    dcterms:date "1990-07-02" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_confusion ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Confusion" .
+
+nvt:ev_confusion_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    nvto:hasDirector nvt:pierre_byland ;
+    nvto:hasMaskDesigner nvt:amleto_sartori ;
+    nvto:hasPerformer nvt:mareike_schnitker,
+        nvt:pierre_byland ;
+    dcterms:contributor nvt:g_la_compagnie_les_fusains ;
+    dcterms:date "1990-07-03" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_confusion ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Confusion" .
+
+nvt:ev_daniel_stein_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_filmtheater_am_friedrichshain ;
+    nvto:hasConceptOriginator nvt:daniel_stein ;
+    nvto:hasCostumedesigner nvt:paula_sandovale_stein ;
+    nvto:hasMaskDesigner nvt:paula_sandovale_stein ;
+    nvto:hasPerformer nvt:daniel_stein ;
+    dcterms:date "1988-07-2" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Solo von Daniel Stein" .
+
+nvt:ev_daniel_stein_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_filmtheater_am_friedrichshain ;
+    nvto:hasConceptOriginator nvt:daniel_stein ;
+    nvto:hasCostumedesigner nvt:paula_sandovale_stein ;
+    nvto:hasMaskDesigner nvt:paula_sandovale_stein ;
+    nvto:hasPerformer nvt:daniel_stein ;
+    dcterms:date "1988-07-3" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Solo von Daniel Stein" .
+
+nvt:ev_das_narrenschiff_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_west,
+        nvt:brd_001,
+        nvt:loc_hebbel_theater ;
+    nvto:hasDirector nvt:ctibor_turba ;
+    dcterms:contributor nvt:g_alfred_spol ;
+    dcterms:date "1990-07-05" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_das_narrenschiff ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Das Narrenschiff" .
+
+nvt:ev_das_narrenschiff_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_west,
+        nvt:brd_001,
+        nvt:loc_hebbel_theater ;
+    nvto:hasDirector nvt:ctibor_turba ;
+    dcterms:contributor nvt:g_alfred_spol ;
+    dcterms:date "1990-07-05" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_das_narrenschiff ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Das Narrenschiff" .
+
+nvt:ev_der_erste_schritt_001 a nvto:Event ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Der erste Schritt" .
+
+nvt:ev_die_7schwaben_001 a nvto:Event ;
+    dcterms:isPartOf nvt:ev_und_alle_haben_ein_gesicht_001,
+        nvt:pr_die_7schwaben,
+        nvt:pr_und_alle_haben_ein_gesicht ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Die 7 Schwaben" .
+
+nvt:ev_die_fremde_haut_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:loc_probenbuehnebe ;
+    nvto:hasConceptOriginator nvt:burkhart_seidemann,
+        nvt:volkmar_otte ;
+    nvto:hasDirector nvt:volkmar_otte ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1980-09-19" ;
+    dcterms:isPartOf nvt:pr_die_fremde_haut ;
+    dcterms:type nvt:premiere ;
+    skos:prefLabel "Die fremde Haut" .
+
+nvt:ev_die_verwandlung_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kaf ;
+    nvto:hasDirector nvt:bernd_hahnke ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988-07-07" ;
+    dcterms:isPartOf nvt:pr_die_verwandlung ;
+    dcterms:type nvt:premiere ;
+    skos:prefLabel "Die Verwandlung" .
+
+nvt:ev_don_juan_genovefa_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasSeason nvt:timespan_ev_don_juan_genovefa_001_1985 ;
+    dcterms:contributor nvt:g_theater_an_der_schnur ;
+    dcterms:date "1985-12-02" ;
+    dcterms:isPartOf nvt:ev_internationale_tage_der_pantomime_1985_001,
+        nvt:pr_don_juan,
+        nvt:pr_graefin_genowefa ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Don Juan / Genovefa" .
+
+nvt:ev_don_juan_genovefa_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasSeason nvt:timespan_ev_don_juan_genovefa_002_1985 ;
+    dcterms:contributor nvt:g_theater_an_der_schnur ;
+    dcterms:date "1985-12-03" ;
+    dcterms:isPartOf nvt:ev_internationale_tage_der_pantomime_1985_001,
+        nvt:pr_don_juan,
+        nvt:pr_graefin_genowefa ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Don Juan / Genovefa" .
+
+nvt:ev_don_quichote_in_muzedelo_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasConceptOriginator nvt:burkhart_seidemann,
+        nvt:volkmar_otte ;
+    nvto:hasDirector nvt:volkmar_otte ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1976-09-16" ;
+    dcterms:isPartOf nvt:pr_don_quichote_in_murzedelo ;
+    dcterms:type nvt:premiere ;
+    skos:prefLabel "Don Quichote in Murzedelo" .
+
+nvt:ev_dt_pantomime_ensemble_ungeschminkt_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasMusician nvt:dietrich_petzold,
+        nvt:hermann_naehring ;
+    nvto:hasSeason nvt:timespan_ev_dt_pantomime_ensemble_ungeschminkt_001_1985 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1985-12-01" ;
+    dcterms:isPartOf nvt:ev_internationale_tage_der_pantomime_1985_001 ;
+    dcterms:source "Beschreibung: \"Eine Werkstatt im Foyer der Kammerspiele zusammen mit den Jazz-Musikern Hermann Naehring und Dietrich Petzold\" Quelle: CW; txt-074-002" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "DT-Pantomimen ungeschminkt " .
+
+nvt:ev_egotrips_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_west,
+        nvt:brd_001 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1990" ;
+    dcterms:isPartOf nvt:pr_egotrips ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Egotrips" .
+
+nvt:ev_es_regnet_langsam_ein_loch_in_die_nacht_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasPerformer nvt:hugues_hollenstein,
+        nvt:joern_gehlker,
+        nvt:maya_brosch,
+        nvt:paul_loomans ;
+    dcterms:contributor nvt:g_mimobile ;
+    dcterms:date "1986-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1986_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Es regnet langsam ein Loch in die Nacht" .
+
+nvt:ev_experimentelles_schauspiel_gw_1990_001 a nvto:Event ;
+    nvto:hasConceptOriginator nvt:richard_nieoczym ;
+    dcterms:date "1990-00-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:mediator nvt:richard_nieoczym ;
+    dcterms:source """Beschreibung: Der Workshop von Richard Nieoczym versteht sich als Theater-Erkundungs-Projekt, in das zwei selbständige Teile integriert sind. Während der erste Teil sich der unmittelbaren Schauspielausbildung stellt, orientiert sich der zweite auf die Erarbeitung einer Theaterproduktion.
+
+Vom Workshop zur Aufführung; vom Privaten zum Öffentlichen; von der Suche des Schauspielers zur Realisierung von Arbeitsprozessen in der Aufführung vor Publikum. 
+
+Die Praxis der Kunst der Schauspieler wird mit dem Begriff der Erkundung beschrieben: einzudringen, in die Tiefe zu gehen, zu erforschen. Der wesentliche Schwerpunkt des Arbeitsprozesses ist der Körper des Schauspielers: wie man etwas tut. Wie man den Körper von Konventionen und Gewohnheiten befreit; wie man sich bewegt, wie man mit der Stimme arbeitet und spielt, wie man Text spricht; wie man eine Rolle entwickelt, wie man Monologe, Dialoge, Gemeinschaftsarbeit behandelt. Ziel der Erfahrung: Theater zu produzieren, in dem das Publikum nicht ignoriert wird, sondern als essentieller Betsandteil der Theatererfahrung begriffen ist. 
+
+Das Theater als Communitas: teilen und kommunizieren. Quelle: Programmheft Woche des Gestischen Theaters 1990""" ;
+    dcterms:type nvt:workshop ;
+    skos:prefLabel "Workshop Experimentelles Schauspiel" .
+
+nvt:ev_feldenkrais_gw_1986_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_studio_pantomimen_theater ;
+    dcterms:date "1986-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1986_001 ;
+    dcterms:mediator nvt:anna_triebel ;
+    dcterms:type nvt:workshop ;
+    skos:prefLabel "Kurs für Bewegungsdozenten: Bewußtheit durch Bewegung nach Feldenkrais" .
+
+nvt:ev_feldenkrais_gw_1987_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasConceptOriginator nvt:anna_triebel ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001 ;
+    dcterms:mediator nvt:anna_triebel ;
+    dcterms:type nvt:workshop ;
+    skos:prefLabel "Feldenkrais Workshop" .
+
+nvt:ev_feldenkrais_gw_1990_001 a nvto:Event ;
+    nvto:hasConceptOriginator nvt:irene_sieben ;
+    dcterms:date "1990-00-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:mediator nvt:irene_sieben ;
+    dcterms:source """Beschreibung: Workshopbeschreibung:
+
+Menschen haben kein genaues Gespür mehr dafür, was eigentlich "ohne überflüssige Anstrengung" bedeutet. Die meisten von uns denken, etwas falle ihnen leicht, was in Wahrheit mühevoll ist, denn sie strengen sich gewohnheitsmäßig viel mehr an, als eine Situation es verlangt. Es gilt also, das brachliegende Gespür für den eigenen Kraftaufwand wiederzubeleben. Das ist möglich durch das Schulen unseres Differenzierungsvermögens. In einer Feldenkrais-Lektion erleben wir bewußt unterschiedlichste Möglichkeiten, ein und dieselbe Handlung durchzuführen. Nur so haben wir die Möglichkeit, zu vergleichen und zu wählen.
+
+Im Unterricht durchleben die Schüler eine Vielzahl von Empfindungen. Da jede unserer Lebenserfahrungen als Muster in unserem Gehirn und in unserem Körper verankert ist, werden dadurch, daß wir uns über unserer Bewegungen mit uns selbst beschäftigen, unweigerlich Erinnerungen, Gefühle und Gedanken wachgerufen, positive wie negative. Sich diese zu erlauben, nicht in sie hineinzufallen, sondern sie einfach wahrzunehmen und zu beobachten ist ein wichtiger Schritt im Prozeß des Sich-bewußt werden.
+Dieses Wachbleiben oder Dranbleiben an der Beobachtung unserer Selbst ist untrennbar mit dem Lernen, mit Veränderung und Wandlung verbunden. Die sich selbst vertiefende Eigenwahrnehmung anhand unserer Bewegung macht es uns möglich, vollkommen bei dem zu sein, was wir gerade sind oder tun. Es ist dies ein Prozeß, der uns zur Sammlung verhilft, er hilft uns, unsere Aufmerksamkeit auf das zu richten, was in diesem Augenblick und in jedem Augenblick unseres Lebens wichtig ist. Dieses Da-Sein erfordert unsere Fähigkeit, uns völlig auf eine Sache einzulassen und ihren Reichtum auszuschöpfen. Quelle: Programmheft Woche des Gestischen Theaters 1990, Text: Anna Triebel-Thome""" ;
+    dcterms:type nvt:workshop ;
+    skos:prefLabel "Feldenkrais Workshop" .
+
+nvt:ev_film_horatier_kuriatier a nvto:Event ;
+    dcterms:source "Beschreibung: Für das DDR Fernsehen wurde eine Filmversion der produktion \"Viele Dinge sind in einem Ding\" (Die Horatier und die Kuriatier\") angefertigt." ;
+    skos:prefLabel "Fernsehdreh \"Die Horatier und Kuriatier\"" .
+
+nvt:ev_gapihan_ausstellung_1987_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_galerie_am_prater ;
+    nvto:hasSeason nvt:timespan_ev_gapihan_ausstellung_1987_001_1987_1987 ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001 ;
+    dcterms:type nvt:ausstellung ;
+    skos:prefLabel "Theatres du Geste. Photos de Jean Pierre Gapihan, Galerie am Prater, 138. Ausstellung" .
+
+nvt:ev_gespenst_der_freiheit_001 a nvto:Event ;
+    nvto:containsReferenceTo nvt:gert_weigelt ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_galerie_am_prater ;
+    nvto:hasConceptOriginator nvt:gert_weigelt ;
+    nvto:hasSeason nvt:timespan_ev_gespenst_der_freiheit_001_1990_1990 ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:source """Beschreibung: Voranstellen möchte ich dieser Ausstellung ein Wort von Roland Barthes, das - ich muß es gestehen - mir sehr zupaß kommt: Gleichwohl berührt die Photographie sich (wie mir scheint) nicht über die Malerie mit der Kunst, sondern über das Theater. (Aus: Die helle Kammer)
+"Das Gespenst der Freiheit" ist ein Titel in dieser Ausstellung, und dennoch ist er nicht nur ironisierend als Aperçu zur aktuellen Tagespolitik zu verstehen.
+Die politische Toleranz gegenüber der Sexualität (also auch gegenüber den künstlerischen Ausdrucksformen derselben) war schon immer ein genauer Gradmesser dafür, wie frei eine Gesellschaft wirklich ist. Auch wenn eine solche Ausstellung vor den entscheidenden Novembertagen in der DDR nicht denkbar gewesen wäre, sollten wir nicht frohlocken. Die Repression ist wieder unverkennbar (weltweit) auf dem Vormarsch. Wir sollten also mit erhöhter Wachsamkeit diese Entwicklung verfolgen. Quelle: Programmheft Woche des Gestischen Theaters 1990, Text: Gert Weigel""" ;
+    dcterms:type nvt:ausstellung ;
+    skos:prefLabel "Das Gespenst der Freiheit: Theatralische Fotografie. Eine Ausstellung von Gert Weigelt (Köln, BRD)" .
+
+nvt:ev_gestische_woche_1985_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasSeason nvt:timespan_ev_gestische_woche_1985_001_1985_1985 ;
+    dcterms:type nvt:festival ;
+    skos:prefLabel "Woche des gestischen Theaters 1985" .
+
+nvt:ev_gestische_woche_1989_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasSeason nvt:timespan_ev_gestische_woche_1989_001_1989_1989 ;
+    dcterms:type nvt:festival ;
+    skos:prefLabel "Woche des gestischen Theaters 1989" .
+
+nvt:ev_gestische_woche_1991 a nvto:Event ;
+    nvto:hasSeason nvt:timespan_ev_gestische_woche_1991_1991_1991 ;
+    dcterms:source "Beschreibung: Letzte Ausgabe des Internationalen Festivals. Initiator und künstlerischer Leiter: Eberhard Kube, Organisation: Mime Centrum Berlin" ;
+    dcterms:type nvt:festival ;
+    skos:prefLabel "Internationale Woche des Gestischen Theaters 1991" .
+
+nvt:ev_graefin_genowefa_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:bruenn,
+        nvt:loc_bruenner_kuenstlerhaus,
+        nvt:tschechoslowakei ;
+    nvto:hasComposer nvt:milos_stedron ;
+    nvto:hasConceptOriginator nvt:eva_talska ;
+    nvto:hasCostumedesigner nvt:jana_zborilova ;
+    nvto:hasDirector nvt:eva_talska ;
+    nvto:hasDramaturge nvt:petr_oslzly ;
+    nvto:hasMusician nvt:dagmar_jandova,
+        nvt:dagmar_valesova,
+        nvt:iva_bittova,
+        nvt:zdenek_fintes ;
+    nvto:hasPerformer nvt:irena_visnarova,
+        nvt:iva_bittova,
+        nvt:ivana_kaslova,
+        nvt:jiri_pecha,
+        nvt:lenka_loubalova,
+        nvt:martin_havelka,
+        nvt:miroslav_donutil,
+        nvt:mojmir_maderic,
+        nvt:pavel_zatloukal,
+        nvt:petr_malac,
+        nvt:vladimir_hauser,
+        nvt:vlastim_bartos ;
+    nvto:hasSetDesigner nvt:jana_zborilova ;
+    dcterms:contributor nvt:g_theater_an_der_schnur ;
+    dcterms:date "1983-04-07" ;
+    dcterms:isPartOf nvt:pr_graefin_genowefa ;
+    dcterms:type nvt:premiere ;
+    skos:prefLabel "Gräfing Genowefa" .
+
+nvt:ev_hamlet_macbeth_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    nvto:hasDirector nvt:bernd_lafrenz ;
+    nvto:hasPerformer nvt:bernd_lafrenz ;
+    dcterms:contributor nvt:g_theater_koenig_alfons ;
+    dcterms:date "1990-06-29" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_hamlet,
+        nvt:pr_macbeth ;
+    dcterms:source "Beschreibung: Zur [Woche des Gestischen Theater] '90 gastiert Bernd Lafrenz mit seinen faszinierenden Soloproduktionen \"Hamlet\" und \"Macbeth\" frei nach Shakespeare. Pantomime, Tanz, Parodie, Clownerie fließen hier ineinander über und sind doch schauspielerisch exakt getrennt. Mit beeindruckendem physischen Aktionspotential kreiert Lafrenz Slapstick-Figuren mit Comicgesten und -sprache, dazwischen immer wieder Originalzitate - Shakespeare mit Spaß. Ein Mitmachtheater, das unter die Haut geht, weil der Akteur auf der Bühne so viel Nähe herstellt, durch seine Persönlichkeit so viel Offenheit schafft. Lafrenz ist ein Feuerwerk, das ständig neue Ideen versprüht, der aber dabei nie sein Publikum aus den Augen verliert und dessen spontane Äußerungen sofort in sein Spiel einbezieht." ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Hamlet/Macbeth" .
+
+nvt:ev_hamlet_macbeth_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    nvto:hasDirector nvt:bernd_lafrenz ;
+    nvto:hasPerformer nvt:bernd_lafrenz ;
+    dcterms:contributor nvt:g_theater_koenig_alfons ;
+    dcterms:date "1990-06-30" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_hamlet,
+        nvt:pr_macbeth ;
+    dcterms:source "Beschreibung: Zur [Woche des Gestischen Theater] '90 gastiert Bernd Lafrenz mit seinen faszinierenden Soloproduktionen \"Hamlet\" und \"Macbeth\" frei nach Shakespeare. Pantomime, Tanz, Parodie, Clownerie fließen hier ineinander über und sind doch schauspielerisch exakt getrennt. Mit beeindruckendem physischen Aktionspotential kreiert Lafrenz Slapstick-Figuren mit Comicgesten und -sprache, dazwischen immer wieder Originalzitate - Shakespeare mit Spaß. Ein Mitmachtheater, das unter die Haut geht, weil der Akteur auf der Bühne so viel Nähe herstellt, durch seine Persönlichkeit so viel Offenheit schafft. Lafrenz ist ein Feuerwerk, das ständig neue Ideen versprüht, der aber dabei nie sein Publikum aus den Augen verliert und dessen spontane Äußerungen sofort in sein Spiel einbezieht." ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Hamlet/Macbeth" .
+
+nvt:ev_hamlet_macbeth_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    nvto:hasDirector nvt:bernd_lafrenz ;
+    nvto:hasPerformer nvt:bernd_lafrenz ;
+    dcterms:contributor nvt:g_theater_koenig_alfons ;
+    dcterms:date "1990-07-01" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_hamlet,
+        nvt:pr_macbeth ;
+    dcterms:source "Beschreibung: Zur [Woche des Gestischen Theater] '90 gastiert Bernd Lafrenz mit seinen faszinierenden Soloproduktionen \"Hamlet\" und \"Macbeth\" frei nach Shakespeare. Pantomime, Tanz, Parodie, Clownerie fließen hier ineinander über und sind doch schauspielerisch exakt getrennt. Mit beeindruckendem physischen Aktionspotential kreiert Lafrenz Slapstick-Figuren mit Comicgesten und -sprache, dazwischen immer wieder Originalzitate - Shakespeare mit Spaß. Ein Mitmachtheater, das unter die Haut geht, weil der Akteur auf der Bühne so viel Nähe herstellt, durch seine Persönlichkeit so viel Offenheit schafft. Lafrenz ist ein Feuerwerk, das ständig neue Ideen versprüht, der aber dabei nie sein Publikum aus den Augen verliert und dessen spontane Äußerungen sofort in sein Spiel einbezieht." ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Hamlet/Macbeth" .
+
+nvt:ev_hans_wurst_003 a nvto:Event ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1990-05-07" ;
+    dcterms:isPartOf nvt:pr_hanswurst ;
+    dcterms:source "Beschreibung: Probe auf Bühne mit Kostüm Quelle: img-004" ;
+    dcterms:type nvt:probe ;
+    skos:prefLabel "Hanswurst" .
+
+nvt:ev_hans_wurst_004 a nvto:Event ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1987" ;
+    dcterms:isPartOf nvt:pr_hanswurst ;
+    dcterms:source "Beschreibung: Probe mit teilweise Kostüm und teilweise Bühnenbild Quelle: img-009" ;
+    dcterms:type nvt:probe ;
+    skos:prefLabel "Hanswurst" .
+
+nvt:ev_hans_wurst_005 a nvto:Event ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1986" ;
+    dcterms:isPartOf nvt:pr_hanswurst ;
+    dcterms:source "Beschreibung: Probe ohne Kostüm Quelle: img-010" ;
+    dcterms:type nvt:probe ;
+    skos:prefLabel "Hanswurst" .
+
+nvt:ev_hanswurst_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:brd_001,
+        nvt:koeln ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1987" ;
+    dcterms:isPartOf nvt:pr_hanswurst ;
+    dcterms:source "Beschreibung: Gastspiel beim Internationalen Gaukler-Festival Quelle: CW; txt-080-001" ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Hanswurst" .
+
+nvt:ev_hanswurst_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1987-02-28" ;
+    dcterms:isPartOf nvt:pr_hanswurst ;
+    dcterms:type nvt:premiere ;
+    skos:prefLabel "Hanswurst" .
+
+nvt:ev_happy_end_station_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasConceptOriginator nvt:burkhart_seidemann ;
+    nvto:hasDirector nvt:peter_baumgart ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1990-11-14" ;
+    dcterms:isPartOf nvt:pr_happy_end_station ;
+    dcterms:type nvt:premiere ;
+    skos:prefLabel "Happy End Station" .
+
+nvt:ev_happy_end_station_002 a nvto:Event ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:isPartOf nvt:pr_happy_end_station ;
+    dcterms:type nvt:premiere ;
+    skos:prefLabel "Happy End Station" .
+
+nvt:ev_hasid_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    nvto:hasDirector nvt:richard_nieoczym ;
+    nvto:hasPerformer nvt:richard_nieoczym ;
+    dcterms:date "1990-07-06" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_hasid ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Hasid" .
+
+nvt:ev_himmelhoelle_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasCostumedesigner nvt:eberhard_keienburg ;
+    nvto:hasDirector nvt:guenter_richter ;
+    nvto:hasDramaturge nvt:susanne_thelemann ;
+    nvto:hasMaskDesigner nvt:wolfgang_utzt ;
+    nvto:hasMusician nvt:michael_vogt ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:constanze_schwendler,
+        nvt:gisela_bohmann,
+        nvt:hans_otto_reintsch,
+        nvt:michael_vogt,
+        nvt:peter_baumgart ;
+    nvto:hasSeason nvt:timespan_ev_himmelhoelle_001_1988 ;
+    nvto:hasSetDesigner nvt:eberhard_keienburg ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988-12-03" ;
+    dcterms:isPartOf nvt:ev_theater_in_bewegung_1988_001,
+        nvt:pr_himmelhoelle ;
+    dcterms:source """Beschreibung: (…) Günter Richter unternimmt mit den Pantomimen des Deutschen Theaters ein Spiel, bei dem die Erinnerung an Spiele unserer Kindheit wachgerufen wird als die unheimliche Einübungen ins große Gesellschaftsspiel unseres Erwachsenenseins. 
+Die Gäste einer Hochzeitsparty begegnen uns auf der Bühne. Eine ausgelassene Runde. Ein geschlossener Kreis. Man wetteifert amüsiert miteinander, und die harmvollen Leidenschaften mischen sich ins harmlose Spiel. Falltüren der Gefühle öffnen sich, und die goldene Brücke hat Risse, die bis ins eigene Fleisch gehen. Unversehens sind die Gäste in Siegen und Niederlagen, zwischen Lust und Notwehr ihrer Grausamkeit, ihren Lächerlichkeiten ausgesetzt. Der Reigen einer in ihr unbekanntes Selbst verschlagenen Gemeinschaft vor sich selbst entlarvt in der Maske kindlichen Spiels Quelle: CW; txt-007-001""" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Himmelhölle" .
+
+nvt:ev_himmelhoelle_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasCostumedesigner nvt:eberhard_keienburg ;
+    nvto:hasDirector nvt:guenter_richter ;
+    nvto:hasDramaturge nvt:susanne_thelemann ;
+    nvto:hasMaskDesigner nvt:wolfgang_utzt ;
+    nvto:hasMusician nvt:michael_vogt ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:constanze_schwendler,
+        nvt:gisela_bohmann,
+        nvt:hans_otto_reintsch,
+        nvt:michael_vogt,
+        nvt:peter_baumgart ;
+    nvto:hasSeason nvt:timespan_ev_himmelhoelle_002_1988 ;
+    nvto:hasSetDesigner nvt:eberhard_keienburg ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988-12-07" ;
+    dcterms:isPartOf nvt:ev_theater_in_bewegung_1988_001,
+        nvt:pr_himmelhoelle ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Himmelhölle" .
+
+nvt:ev_himmelhoelle_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasDirector nvt:guenter_richter ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988-12-03" ;
+    dcterms:isPartOf nvt:pr_himmelhoelle ;
+    dcterms:type nvt:premiere ;
+    skos:prefLabel "Himmelhölle" .
+
+nvt:ev_hoellenfahrt_des_doktor_faust_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kaf ;
+    nvto:hasDirector nvt:burkhart_seidemann ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1982-12-22" ;
+    dcterms:isPartOf nvt:pr_hoellenfahrt_des_doktor_faust ;
+    dcterms:type nvt:premiere ;
+    skos:prefLabel "Höllenfahrt des Doktor Faust" .
+
+nvt:ev_hoellenfahrt_des_doktor_faust_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasSeason nvt:timespan_ev_hoellenfahrt_des_doktor_faust_002_1985 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1985-12-07" ;
+    dcterms:isPartOf nvt:ev_internationale_tage_der_pantomime_1985_001,
+        nvt:pr_hoellenfahrt_des_doktor_faust ;
+    dcterms:source "Beschreibung: 50. Vorstellung" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Höllenfahrt des Doktor Faust" .
+
+nvt:ev_home_sweet_home_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    nvto:hasConceptOriginator nvt:georgo_peugot,
+        nvt:jack_millet ;
+    nvto:hasPerformer nvt:georgo_peugot,
+        nvt:jack_millet ;
+    dcterms:date "1988-07-02" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_home_sweet_home ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Home sweet home" .
+
+nvt:ev_home_sweet_home_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    nvto:hasConceptOriginator nvt:georgo_peugot,
+        nvt:jack_millet ;
+    nvto:hasPerformer nvt:georgo_peugot,
+        nvt:jack_millet ;
+    dcterms:date "1988-07-02" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_home_sweet_home ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Home sweet home" .
+
+nvt:ev_home_sweet_home_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    nvto:hasConceptOriginator nvt:georgo_peugot,
+        nvt:jack_millet ;
+    nvto:hasPerformer nvt:georgo_peugot,
+        nvt:jack_millet ;
+    dcterms:date "1988-07-02" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_home_sweet_home ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Home sweet home" .
+
+nvt:ev_horatier_karl_marx_allee a nvto:Event ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Freiluftaufführung von \"Die Horatier und die Kuriatier\" auf der Karl-Marx-Allee" .
+
+nvt:ev_hot_shots_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    dcterms:contributor nvt:g_impro_comedy_co ;
+    dcterms:date "1986-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1986_001,
+        nvt:pr_hot_shots ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Hot Shots" .
+
+nvt:ev_humor_der_bewegung_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasConceptOriginator nvt:gabor_dvorak,
+        nvt:peter_nagyivanyi ;
+    nvto:hasPerformer nvt:gabor_dvorak,
+        nvt:peter_nagyivanyi ;
+    dcterms:contributor nvt:g_ludens ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Humor der Bewegung" .
+
+nvt:ev_ich_bin_k_ein_clown_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasMusician nvt:dietrich_petzold ;
+    nvto:hasPerformer nvt:christoph_posselt ;
+    nvto:hasSeason nvt:timespan_ev_ich_bin_k_ein_clown_001_1988 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988-12-08" ;
+    dcterms:isPartOf nvt:ev_theater_in_bewegung_1988_001,
+        nvt:pr_ich_bin_k_ein_clown ;
+    dcterms:source "Beschreibung: Die Erwachsenen können immer alles, jedenfalls tun sie so. Auch Paul – der Clown (?) – gibt an, daß er alles kann. Aber es ist doch zu sehen, daß es nicht so ist. Das fällt sogar den Kindern auf. Und sie kommen ihm immer wieder auf die Schliche. Womit er auch prahlt – Paul beherrscht es nicht, und das Zaubern schon gar nicht. Aber üben darf er, was nicht klappen will? Das dürfen ja die Kinder auch – oder? Eine pantomimische Clownerie mit und ohne Worte für Kinder, bei der alle zeigen können, was in ihnen steckt, bei der alle mitmachen, mitlachen und mitlärmen können. Quelle: CW; txt-007-001" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Ich bin (k)ein Clown" .
+
+nvt:ev_ich_bin_k_ein_clown_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasMusician nvt:dietrich_petzold ;
+    nvto:hasPerformer nvt:christoph_posselt ;
+    nvto:hasSeason nvt:timespan_ev_ich_bin_k_ein_clown_002_1988 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988-12-10" ;
+    dcterms:isPartOf nvt:ev_theater_in_bewegung_1988_001,
+        nvt:pr_ich_bin_k_ein_clown ;
+    dcterms:source "Beschreibung: Die Erwachsenen können immer alles, jedenfalls tun sie so. Auch Paul – der Clown (?) – gibt an, daß er alles kann. Aber es ist doch zu sehen, daß es nicht so ist. Das fällt sogar den Kindern auf. Und sie kommen ihm immer wieder auf die Schliche. Womit er auch prahlt – Paul beherrscht es nicht, und das Zaubern schon gar nicht. Aber üben darf er, was nicht klappen will? Das dürfen ja die Kinder auch – oder? Eine pantomimische Clownerie mit und ohne Worte für Kinder, bei der alle zeigen können, was in ihnen steckt, bei der alle mitmachen, mitlachen und mitlärmen können. Quelle: CW; txt-007-001" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Ich bin (k)ein Clown" .
+
+nvt:ev_ich_bin_k_ein_clown_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:nicaragua ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988" ;
+    dcterms:isPartOf nvt:pr_ich_bin_k_ein_clown ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Ich bin (k)ein Clown" .
+
+nvt:ev_illusionen_und_die_alten_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasConceptOriginator nvt:gabor_dvorak,
+        nvt:peter_nagyivanyi ;
+    nvto:hasPerformer nvt:gabor_dvorak,
+        nvt:peter_nagyivanyi ;
+    dcterms:contributor nvt:g_ludens ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Illusionen und die Alten" .
+
+nvt:ev_improvisationen_fuer_schauspieler_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasConceptOriginator nvt:jean_soubeyran ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001 ;
+    dcterms:mediator nvt:jean_soubeyran ;
+    dcterms:type nvt:workshop ;
+    skos:prefLabel "Improvisationen für Schauspieler" .
+
+nvt:ev_jeder_hat_recht_001 a nvto:Event ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Jeder hat Recht" .
+
+nvt:ev_jenaer_pantomime_tage_1985 a nvto:Event ;
+    nvto:happenedAtPlace nvt:ddr,
+        nvt:jena ;
+    nvto:hasSeason nvt:timespan_ev_jenaer_pantomime_tage_1985_1985_1985 ;
+    dcterms:type nvt:festival ;
+    skos:prefLabel "Jenaer Pantomime-Tage" .
+
+nvt:ev_joachim_lemke_gw_1987_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasConceptOriginator nvt:joachim_lemke ;
+    nvto:hasPerformer nvt:joachim_lemke ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Programm von Joachim Lemke" .
+
+nvt:ev_kisseljow_und_gruppe_1988_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kreiskulturhaus_prater ;
+    nvto:hasConceptOriginator nvt:oleg_kisseljow ;
+    nvto:hasPerformer nvt:oleg_kisseljow ;
+    dcterms:date "1988-07-08" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_kisseljow_und_gruppe_1988 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Programm O. Kisseljow und Gruppe" .
+
+nvt:ev_kisseljow_und_gruppe_1988_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kreiskulturhaus_prater ;
+    nvto:hasConceptOriginator nvt:oleg_kisseljow ;
+    nvto:hasPerformer nvt:oleg_kisseljow ;
+    dcterms:date "1988-07-09" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_kisseljow_und_gruppe_1988 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Programm O. Kisseljow und Gruppe" .
+
+nvt:ev_kisseljow_und_gruppe_1988_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kreiskulturhaus_prater ;
+    nvto:hasConceptOriginator nvt:oleg_kisseljow ;
+    nvto:hasPerformer nvt:oleg_kisseljow ;
+    dcterms:date "1988-07-10" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_kisseljow_und_gruppe_1988 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Programm O. Kisseljow und Gruppe" .
+
+nvt:ev_kunst_der_maske_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_zeiss_grossplanetarium ;
+    nvto:hasSeason nvt:timespan_ev_kunst_der_maske_001_1990_1990 ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:source "Beschreibung: 1979 wurde das Zentrum \"Maschere e Strutture Gestuali\" von Donato Sartori gegründet. Es basiert auf der Aktivität der zeitgenössischen Skulptur, des Theaters und der Gestik. Man wollte damit eine auf mehreren Gebieten tätige Forschungsgruppe bilden, die den bereits von den Masken eingeschlagenen Weg wieder aufnahm. Das Zentrum hat sich als Hauptaufgabe die Verwirklichung, Wiedergewinnung und Verwendung von Werkzeugen und Ausdrucksweisen vorgenommen, die ihre Bedeutung verloren hatten. Dies ist das Ergebnis einer gründlichen Analyse der Commedia dell'Arte. Mit dieser Arbeit will die Gruppe einen neuen Begriff des \"Kulturmachens\" einführen und bemüht sich gleichzeitig auch um eine Wiederbelebung des Handwerks, wohl aber von einem modernen Gesichtspunkt aus gesehen. Sie wendet technologische Mittel an, die von der heutigen Gesellschaft zur Verfügung gestellt werden. Der gemeinsame Nenner zwischen diesen unterschiedlichen Personen und Ausdruckstendenzen ist schwer zu orten. Es handelt sich um eine undefinierbare Spannung, die eher beabsichtigt, den Gesprächspartner anzurühren und zu verwickeln, als ihn überzeugen zu wollen und ihm Kultur zu übertragen. Die Mitglieder des Zentrums lehnen jeglichen kulturellen Zwang und jede gesellschaftliche Einengung ab und trachten nach der Überwindung der vorgegebenen Schemata. Quelle: TN; Programmheft Woche des Gestischen Theaters 1990" ;
+    dcterms:type nvt:ausstellung ;
+    skos:prefLabel "Die Kunst der Maske. Ausstellung des Centro maschere e strutture gestuali (Padua, IT)" .
+
+nvt:ev_la_station_debout_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_filmtheater_am_friedrichshain ;
+    dcterms:contributor nvt:g_4_litres_12 ;
+    dcterms:date "1990-06-29" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_la_station_debout ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "La station debout" .
+
+nvt:ev_la_station_debout_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_filmtheater_am_friedrichshain ;
+    dcterms:contributor nvt:g_4_litres_12 ;
+    dcterms:date "1990-06-30" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_la_station_debout ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "La station debout" .
+
+nvt:ev_la_station_debout_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_filmtheater_am_friedrichshain ;
+    dcterms:contributor nvt:g_4_litres_12 ;
+    dcterms:date "1990-07-01" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_la_station_debout ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "La station debout" .
+
+nvt:ev_ladenhueter_der_pantomime_001 a nvto:Event ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Ladenhüter der Pantomime" .
+
+nvt:ev_le_petit_dictateur_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_filmtheater_am_friedrichshain ;
+    nvto:hasConceptOriginator nvt:corinne_soum,
+        nvt:steven_wasson ;
+    nvto:hasPerformer nvt:corinne_soum,
+        nvt:steven_wasson ;
+    dcterms:contributor nvt:g_theatre_de_l_ange_fou ;
+    dcterms:date "1990-07-02" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_le_petit_dictateur ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Le petit dictateur" .
+
+nvt:ev_le_petit_dictateur_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_filmtheater_am_friedrichshain ;
+    nvto:hasConceptOriginator nvt:corinne_soum,
+        nvt:steven_wasson ;
+    nvto:hasPerformer nvt:corinne_soum,
+        nvt:steven_wasson ;
+    dcterms:contributor nvt:g_theatre_de_l_ange_fou ;
+    dcterms:date "1990-07-03" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_le_petit_dictateur ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Le petit dictateur" .
+
+nvt:ev_le_petit_dictateur_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_filmtheater_am_friedrichshain ;
+    nvto:hasConceptOriginator nvt:corinne_soum,
+        nvt:steven_wasson ;
+    nvto:hasPerformer nvt:corinne_soum,
+        nvt:steven_wasson ;
+    dcterms:contributor nvt:g_theatre_de_l_ange_fou ;
+    dcterms:date "1990-07-04" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_le_petit_dictateur ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Le petit dictateur" .
+
+nvt:ev_marcel_marceau_gw_1990_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_volksbuehne ;
+    nvto:hasConceptOriginator nvt:marcel_marceau ;
+    nvto:hasPerformer nvt:marcel_marceau ;
+    dcterms:contributor nvt:g_compagnie_marcel_marceau ;
+    dcterms:date "1990-06-29" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Compagnie Marcel Marceau" .
+
+nvt:ev_marcel_marceau_gw_1990_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_volksbuehne ;
+    nvto:hasConceptOriginator nvt:marcel_marceau ;
+    nvto:hasPerformer nvt:marcel_marceau ;
+    dcterms:contributor nvt:g_compagnie_marcel_marceau ;
+    dcterms:date "1990-06-30" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Compagnie Marcel Marceau" .
+
+nvt:ev_marcel_marceau_gw_1990_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_volksbuehne ;
+    nvto:hasConceptOriginator nvt:marcel_marceau ;
+    nvto:hasPerformer nvt:marcel_marceau ;
+    dcterms:contributor nvt:g_compagnie_marcel_marceau ;
+    dcterms:date "1990-07-01" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Compagnie Marcel Marceau" .
+
+nvt:ev_masken_nasen_kastanien_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kreiskulturhaus_prater ;
+    nvto:hasSeason nvt:timespan_ev_masken_nasen_kastanien_001_1990_1990 ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:source "Beschreibung: Abschlussfest der \"Woche des Gestischen Theaters 1990\" mit mehr als 125 mitwirkenden Künstler*innen auf sechs Bühnen, 7 Bands, Gauklern, Feuerspuckern und Jongleuren. Quelle: TN; Programmheft Woche des Gestischen Theater 1990; Sponsoringantrag \"Woche des Gestischen Theaters 1990\"" ;
+    skos:prefLabel "Masken – Nasen – Kastanien" .
+
+nvt:ev_mime_corporel_gw_1990_001 a nvto:Event ;
+    nvto:hasConceptOriginator nvt:corinne_soum,
+        nvt:steven_wasson ;
+    dcterms:date "1990-00-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:mediator nvt:corinne_soum,
+        nvt:steven_wasson ;
+    dcterms:source """Beschreibung: Die Mime Corporel wurde von dem heute 92-jährigen Étienne Decroux begründet, der bis 1987 in Paris hunderte von Schülern in einer eigenen Schule ausbildete; sein bekanntester Schüler wurde Marcel Marceau.
+Die Entwicklung der Mime Corporel begannn zu einer Zeit, da Theatermacher wie Craig, Meyerhold und Tairow die "Theatralisierung des Theaters" forderten, um sich gegen den Naturalismus zu wenden. Sie entdeckten das erste Instrument des Theaters - den Körper des Schauspielers - wieder und arbeiteten mit der Pantomime, dem Tanz und der Commedia dell' Arte sowie mit asiatischen Theaterformen. Von Decroux wurde diese Entwicklung radikalisiert, indem er die schauspielreischen Möglichkeiten des "nackten Schauspielers auf der nackten Bühne" systematisch in jahrzehntelangen Experimenten erforschte.
+Die Mime Corporel ist eine Grundlagenausbildung für Schauspieler. Durch das Erlernen dieser Technik gewinnt der Akteur ein analytisches Körperbewußtsein mit dem genauen Wissen um Anspannung und Entspannung der Muskulatur sowie eine absolute Beherrschung seines Körpers und dessen Ausdrucksmöglichkeiten. Das Schauspiel wird mittels dieser Technik auf seine Grundlagen zurückgeführt: die Umsetzung des dramatischen Spiels in An- und Entspannungsprozesse der Muskulatur. Zum anderen ist die Mime Corporel eine eigenständige Darstellungsform, die sich allein der Ausdrucksformen des menschlichen Körpers bedient. Quelle: Programmheft Woche des Gestischen Theaters 1990, Text: Martina Leeker""" ;
+    dcterms:type nvt:workshop ;
+    skos:prefLabel "Mime Corporel Workshop" .
+
+nvt:ev_mimen_parade_82 a nvto:Event ;
+    nvto:happenedAtPlace nvt:leningrad,
+        nvt:udssr ;
+    nvto:hasSeason nvt:timespan_ev_mimen_parade_82_1982_1982 ;
+    dcterms:type nvt:festival ;
+    skos:prefLabel "Mimen prade 1982, Мим-Парад 82, Leningrad" .
+
+nvt:ev_mimentechnik_gw_1990_001 a nvto:Event ;
+    nvto:hasConceptOriginator nvt:ilja_rutberg ;
+    dcterms:date "1990-00-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:mediator nvt:ilja_rutberg ;
+    dcterms:type nvt:workshop ;
+    skos:prefLabel "Workshop Mimentechnik" .
+
+nvt:ev_mit_und_ohne_nase_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasDirector nvt:bernd_hahnke ;
+    nvto:hasMusician nvt:hermann_naehring ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:peter_baumgart ;
+    nvto:hasSeason nvt:timespan_ev_mit_und_ohne_nase_001_0000 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "0000-07-02" ;
+    dcterms:isPartOf nvt:ev_sommer_clowns_und_maskenspiele_001 ;
+    dcterms:source "Beschreibung: Maskenspiel von Bernd Hahnke „über Schwierigkeiten mit ‚seinem Gesicht‘ und ‚seinen Rollen‘ im Leben fertig zu werden.“ Quelle: CW; txt-008-001" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Mit und ohne Nase" .
+
+nvt:ev_mit_und_ohne_nase_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasDirector nvt:bernd_hahnke ;
+    nvto:hasMusician nvt:hermann_naehring ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:peter_baumgart ;
+    nvto:hasSeason nvt:timespan_ev_mit_und_ohne_nase_002_0000 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "0000-07-04" ;
+    dcterms:isPartOf nvt:ev_sommer_clowns_und_maskenspiele_001 ;
+    dcterms:source "Beschreibung: Maskenspiel von Bernd Hahnke „über Schwierigkeiten mit ‚seinem Gesicht‘ und ‚seinen Rollen‘ im Leben fertig zu werden.“ Quelle: CW; txt-008-001" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Mit und ohne Nase" .
+
+nvt:ev_mit_und_ohne_nase_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasDirector nvt:bernd_hahnke ;
+    nvto:hasMusician nvt:hermann_naehring ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:peter_baumgart ;
+    nvto:hasSeason nvt:timespan_ev_mit_und_ohne_nase_003_0000 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "0000-07-06" ;
+    dcterms:isPartOf nvt:ev_sommer_clowns_und_maskenspiele_001 ;
+    dcterms:source "Beschreibung: Maskenspiel von Bernd Hahnke „über Schwierigkeiten mit ‚seinem Gesicht‘ und ‚seinen Rollen‘ im Leben fertig zu werden.“ Quelle: CW; txt-008-001" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Mit und ohne Nase" .
+
+nvt:ev_mit_und_ohne_nase_004 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasDirector nvt:bernd_hahnke ;
+    nvto:hasMusician nvt:hermann_naehring ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:peter_baumgart ;
+    nvto:hasSeason nvt:timespan_ev_mit_und_ohne_nase_004_0000 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "0000-07-08" ;
+    dcterms:isPartOf nvt:ev_sommer_clowns_und_maskenspiele_001 ;
+    dcterms:source "Beschreibung: Maskenspiel von Bernd Hahnke „über Schwierigkeiten mit ‚seinem Gesicht‘ und ‚seinen Rollen‘ im Leben fertig zu werden.“ Quelle: CW; txt-008-001" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Mit und ohne Nase" .
+
+nvt:ev_mit_und_ohne_nase_005 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasDirector nvt:bernd_hahnke ;
+    nvto:hasMusician nvt:hermann_naehring ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:peter_baumgart ;
+    nvto:hasSeason nvt:timespan_ev_mit_und_ohne_nase_005_0000 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "0000-07-10" ;
+    dcterms:isPartOf nvt:ev_sommer_clowns_und_maskenspiele_001 ;
+    dcterms:source "Beschreibung: Maskenspiel von Bernd Hahnke „über Schwierigkeiten mit ‚seinem Gesicht‘ und ‚seinen Rollen‘ im Leben fertig zu werden.“ Quelle: CW; txt-008-001" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Mit und ohne Nase" .
+
+nvt:ev_mit_und_ohne_nase_006 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasComposer nvt:hermann_naehring ;
+    nvto:hasConceptOriginator nvt:bernd_hahnke ;
+    nvto:hasMaskDesigner nvt:wolfgang_utzt ;
+    nvto:hasSeason nvt:timespan_ev_mit_und_ohne_nase_006_1988 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988-03-27" ;
+    dcterms:isPartOf nvt:ev_welttheatertag_1988_001 ;
+    dcterms:source "Beschreibung: Uraufführung beim Welttheatertag '88. Experimentelles Maskenspiel Quelle: CW; ND1988-03-12" ;
+    dcterms:type nvt:premiere ;
+    skos:prefLabel "Mit und ohne Nase" .
+
+nvt:ev_mit_und_ohne_nase_007 a nvto:Event ;
+    nvto:happenedAtPlace nvt:vietnam ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1989" ;
+    dcterms:isPartOf nvt:pr_mit_und_ohne_nase ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Mit und ohne Nase" .
+
+nvt:ev_mit_und_ohne_nase_008 a nvto:Event ;
+    nvto:happenedAtPlace nvt:laos ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1989" ;
+    dcterms:isPartOf nvt:pr_mit_und_ohne_nase ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Mit und ohne Nase" .
+
+nvt:ev_mit_und_ohne_nase_009 a nvto:Event ;
+    nvto:happenedAtPlace nvt:kambodscha ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1989" ;
+    dcterms:isPartOf nvt:pr_mit_und_ohne_nase ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Mit und ohne Nase" .
+
+nvt:ev_morse_mime_gw_1987_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Programm der Morse Mime Compagnie" .
+
+nvt:ev_new_african_dance_gw_1990_001 a nvto:Event ;
+    nvto:hasConceptOriginator nvt:pashyo_leihs ;
+    dcterms:date "1990-00-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:mediator nvt:pashyo_leihs ;
+    dcterms:source """Beschreibung: Workshopbeschreibung:
+
+NEW AFRICAN DANCE bringt Dich zurück zu Deinen Wurzeln, in Deine Kraft, weckt das Feuer Deines Körpers. Du spürst den Rhythmus in Deinem Körper. Drückst ihn aus mit Stampfen, Klatschen, Singen; findest zurück zu Deiner natürlichen Bewegung. Du wirst lebendig, ekstatisch, kopflos, fühlst den Rhythmus der Trommeln in Deinen Füßen, Deinem Becken, Armen, Rippen und in Deinem Kopf ... bis nur noch Bewegung da ist, Rhythmus da ist und Deine Aufmerksamkeit. Quelle: Programmheft Woche des Gestischen Theaters 1990""" ;
+    dcterms:type nvt:workshop ;
+    skos:prefLabel "New African Dance Workshop" .
+
+nvt:ev_number_9_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kreiskulturhaus_prater ;
+    nvto:hasDirector nvt:vladimir_filonow ;
+    dcterms:contributor nvt:g_prospekt ;
+    dcterms:date "1990-07-02" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_number_9 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Number 9" .
+
+nvt:ev_number_9_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kreiskulturhaus_prater ;
+    nvto:hasDirector nvt:vladimir_filonow ;
+    dcterms:contributor nvt:g_prospekt ;
+    dcterms:date "1990-07-03" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_number_9 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Number 9" .
+
+nvt:ev_number_9_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kreiskulturhaus_prater ;
+    nvto:hasDirector nvt:vladimir_filonow ;
+    dcterms:contributor nvt:g_prospekt ;
+    dcterms:date "1990-07-04" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_number_9 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Number 9" .
+
+nvt:ev_orfeus_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasComposer nvt:hermann_naehring ;
+    nvto:hasConceptOriginator nvt:burkhart_seidemann ;
+    nvto:hasCostumedesigner nvt:heinz_wenzel ;
+    nvto:hasDirector nvt:burkhart_seidemann ;
+    nvto:hasMaskDesigner nvt:uwe_pahl,
+        nvt:wolfgang_utzt ;
+    nvto:hasPerformer nvt:andreas_schlosser,
+        nvt:anja_palitzsch,
+        nvt:anke_vetter,
+        nvt:bernd_hahnke,
+        nvt:christo_hanusch,
+        nvt:christoph_posselt,
+        nvt:edith_wittich,
+        nvt:elisabeth_richter,
+        nvt:frank_lohmann,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:joerg_stadler,
+        nvt:karin_jerosch,
+        nvt:michael_sens,
+        nvt:peter_baumgart,
+        nvt:ruediger_reissig ;
+    nvto:hasSeason nvt:timespan_ev_orfeus_001_1985 ;
+    nvto:hasSetDesigner nvt:heinz_wenzel ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1985-11-30" ;
+    dcterms:isPartOf nvt:ev_theater_in_bewegung_1985_001,
+        nvt:pr_orfeus ;
+    dcterms:type nvt:premiere ;
+    skos:prefLabel "Orfeus" .
+
+nvt:ev_orfeus_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasSeason nvt:timespan_ev_orfeus_002_1985 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1985-12-08" ;
+    dcterms:isPartOf nvt:ev_internationale_tage_der_pantomime_1985_001,
+        nvt:pr_orfeus ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Orfeus" .
+
+nvt:ev_pantomimosiade a nvto:Event ;
+    nvto:happenedAtPlace nvt:bonn,
+        nvt:brd_001 ;
+    nvto:hasSeason nvt:timespan_ev_pantomimosiade_1978_1978 ;
+    dcterms:contributor nvt:g_clowns_of_macloma,
+        nvt:g_domino_mime_theatre_group,
+        nvt:g_pt_pb,
+        nvt:g_theater_kefka ;
+    dcterms:source "Beschreibung: Internationales Festival für Pantomime, Künstlerische Leitung: Milan Sladek. Als Programmpunkt / Eingeladene*r Künstler*in steht auch Gong Sawan aus Bali auf dem Plakat. Veranstaltungsorte: Zirkuszelt, Poppelsdorfer; Marktplatz und Römerplatz. Im Rahmen des \"Bonner Sommer\"." ;
+    dcterms:type nvt:festival ;
+    skos:prefLabel "Pantomimosiade. Ein Pantomimenfestival" .
+
+nvt:ev_pedt_probenarbeit_001 a nvto:Event ;
+    nvto:hasDirector nvt:volkmar_otte ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1980-06-19" ;
+    dcterms:type nvt:probe ;
+    skos:prefLabel "PEDT Probenarbeit" .
+
+nvt:ev_percussion_gw_1990_001 a nvto:Event ;
+    nvto:hasConceptOriginator nvt:klaus_staffa ;
+    dcterms:date "1990-00-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:mediator nvt:klaus_staffa ;
+    dcterms:source """Beschreibung: Workshopbeschreibung:
+
+Das Trommeln auf Congas erfordert eine bestimmte Technik: wie halte ich die Finger, wo kommt der Schlag hin, welche Hand spielt …? Deine ganze Aufmerksamkeit wird gebraucht, damit Du einen Rhythmus spielen kannst und am Anfang klingt es vielleicht ganz holprig. Aber dann kommt der Punkt, wo Du Dich spielen siehst und es geht von selbst. Du bist im Fluß mit dem Rhythmus und anderen Spielern: Musik entsteht. Quelle: TN; Programmheft Woche des Gestischen Theaters 1990""" ;
+    dcterms:type nvt:workshop ;
+    skos:prefLabel "Percussion Workshop" .
+
+nvt:ev_phantasie_001 a nvto:Event ;
+    dcterms:contributor nvt:g_pantomimen_studio_berlin .
+
+nvt:ev_philippe_bizot_gw_1987_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasConceptOriginator nvt:philippe_bizot ;
+    nvto:hasPerformer nvt:philippe_bizot ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Programm von Philippe Bizot" .
+
+nvt:ev_plakate_zur_mime_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_galerie_am_prater ;
+    nvto:hasSeason nvt:timespan_ev_plakate_zur_mime_001_1988_1988 ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001 ;
+    dcterms:source "Beschreibung: Ausstellung mit Plakaten aus dem Nederlands Mime Centrum, 149. Ausstellung der Galerie am Prater, anläßlich der Woche des Gestischen Theaters 1988 Quelle: TN; txt-025-006" ;
+    dcterms:type nvt:ausstellung ;
+    skos:prefLabel "Plakate zur Mime" .
+
+nvt:ev_plastik_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    dcterms:contributor nvt:g_antagon_theater ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001,
+        nvt:pr_plastik ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Plastik - der Stoff aus dem die Schäume sind - Ein Polymerchen" .
+
+nvt:ev_platz_an_der_sonne_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    nvto:hasDirector nvt:rudi_rhode ;
+    nvto:hasPerformer nvt:rudi_rhode ;
+    dcterms:date "1990-07-04" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_platz_an_der_sonne ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Ein Platz an der Sonne" .
+
+nvt:ev_platz_an_der_sonne_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    nvto:hasDirector nvt:rudi_rhode ;
+    nvto:hasPerformer nvt:rudi_rhode ;
+    dcterms:date "1990-07-05" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_platz_an_der_sonne ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Ein Platz an der Sonne" .
+
+nvt:ev_platz_an_der_sonne_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    nvto:hasDirector nvt:rudi_rhode ;
+    nvto:hasPerformer nvt:rudi_rhode ;
+    dcterms:date "1990-07-06" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_platz_an_der_sonne ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Ein Platz an der Sonne" .
+
+nvt:ev_pressekonferenz_gw_90_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_zeiss_grossplanetarium ;
+    dcterms:date "1990-06-20:13:00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:type nvt:pressekonferenz ;
+    skos:prefLabel "Pressekonferenz zur Eröffnung der \"Internationalen Woche Gestisches Theater '90\"" .
+
+nvt:ev_programm_andrejew_beljanin_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kuenstlerhaus_bethanien ;
+    nvto:hasConceptOriginator nvt:alexandr_andrejew,
+        nvt:vladimir_beljanin ;
+    nvto:hasPerformer nvt:alexandr_andrejew,
+        nvt:vladimir_beljanin ;
+    dcterms:date "1990-07-03" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:source "Beschreibung: Bei der Internationalen Woche Gestisches Theater treten die Solo-Pantomimen Alexandr Andrejew und Vladimir Beljanin erstmal mit ihren Soloprogrammen gemeinsam auf." ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Miniaturen von Alexandr Andrejew und Vladimir Beljanin" .
+
+nvt:ev_programm_mobile_1988_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    dcterms:contributor nvt:g_mobile ;
+    dcterms:date "1988-07-05" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Programm von \"Mobile\"" .
+
+nvt:ev_programm_mobile_1988_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    dcterms:contributor nvt:g_mobile ;
+    dcterms:date "1988-07-06" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Programm von \"Mobile\"" .
+
+nvt:ev_programm_mobile_1988_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    dcterms:contributor nvt:g_mobile ;
+    dcterms:date "1988-07-07" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_programm_mobile ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Programm von \"Mobile\"" .
+
+nvt:ev_qigong_gw_1990_001 a nvto:Event ;
+    nvto:hasConceptOriginator nvt:brigitte_bergese ;
+    dcterms:date "1990-00-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:mediator nvt:brigitte_bergese ;
+    dcterms:source """Beschreibung: Workshopbeschreibung:
+
+Die Freude der Tierformen
+Altchinesische Tierformen
+
+"Die Freude der fünf Tiere" ist eine Bewegungssequenz, die in China, dem klassischen Land der Gesundheitsvorsorge, vermutlich schon in vorgeschichtlicher Zeit praktiziert wurde. Daß diese Tierformen uns bis heute erhalten geblieben sind und in aller Welt immer mehr Freunde gewinnen, spricht für ihren Wert und ihre Wirksamkeit, denn über Zeiten und Räume hinweg erhält sich nur das Förderliche.
+"Die Freude der fünf Tiere" gehört zu einer übergeordneten Bewegungsmethode, dem Qigong. Qi heißt Atem, Energie, Vitalkraft. Gong heißt Arbeit, Umgang, Art und Weise der Handhabung. Qigong ist also ein System, das Menschen hilft, mit der eigenen Energie umzugehen. In diesem System wechseln innere und äußere Übungen, Energiearbeit und geistige Sammlung im harmonischen Verlauf ab. Der chinesische Arzt Hua'to, der während der Han-Dynastie etwa um 200 u. Z. lebte, schreibt: "Ich beherrsche eine Kunst, nämlich die Freude der fünf Tiere Tiger, Hirsch, Bär, Affe, Vogel. Mit diesen Übungen kann ich meine Gesundheit erhalten und Krankheiten beseitigen. Wenn ich mich nicht wohl fühle, mache ich eine der fünf Übungen, bald verspüre ich eine Besserung des Unbehagens, ich schwitze und bekomme Appetit.
+
+Wir werden uns in den Tagen unserer Zusammenarbeit eine Auswahl einfacher Tierübungen aneignen. Wir vertiefen uns in das Wesen und die charakteristische Gestik jedes einzelnen Tieres und ziehen als Kraniche unsere Kreise, kommen als Tiger aus der Höhle, tragen als Bär den Mond herum, wir stampfen auf wie der Hirsch, bis alle Quellen springen und schaukeln als Affe am Ast, bis der Zustand, den Hua'to untertreibend als Besserung des Unbehagens beschreibt, sich nach und nach in Wohlbefinden und reine Lebenslust verwandelt. Quelle: TN; Programmheft Woche des Gestischen Theaters 1990""" ;
+    dcterms:type nvt:workshop ;
+    skos:prefLabel "Qigong Workshop" .
+
+nvt:ev_rock_spektakel_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kreiskulturhaus_prater ;
+    nvto:hasDirector nvt:alexandr_kot ;
+    dcterms:contributor nvt:g_musikalisches_theater_plastisches_drama ;
+    dcterms:date "1990-06-30" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_rockspektakel ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Rock-Spektakel" .
+
+nvt:ev_rock_spektakel_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kreiskulturhaus_prater ;
+    nvto:hasDirector nvt:alexandr_kot ;
+    dcterms:contributor nvt:g_musikalisches_theater_plastisches_drama ;
+    dcterms:date "1990-07-01" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_rockspektakel ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Rock-Spektakel" .
+
+nvt:ev_roeteln_im_plaenterwald_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:niederlande ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988" ;
+    dcterms:isPartOf nvt:pr_roeteln_im_plaenterwald ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Röteln im Plänterwald" .
+
+nvt:ev_roeteln_im_plaenterwald_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_west,
+        nvt:brd_001 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1989" ;
+    dcterms:isPartOf nvt:pr_roeteln_im_plaenterwald ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Röteln im Plänterwald" .
+
+nvt:ev_roeteln_im_plaenterwald_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:brd_001 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1990" ;
+    dcterms:isPartOf nvt:pr_roeteln_im_plaenterwald ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Röteln im Plänterwald" .
+
+nvt:ev_roeteln_im_plaenterwald_004 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_west,
+        nvt:brd_001 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1990" ;
+    dcterms:isPartOf nvt:pr_roeteln_im_plaenterwald ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Röteln im Plänterwald" .
+
+nvt:ev_roeteln_im_plaenterwald_005 a nvto:Event ;
+    nvto:happenedAtPlace nvt:aarhus,
+        nvt:daenemark ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1990" ;
+    dcterms:isPartOf nvt:pr_roeteln_im_plaenterwald ;
+    dcterms:source "Beschreibung: Gastspiel beim Aarhus-Festival Dänemark Quelle: CW; txt-080-001" ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Röteln im Plänterwald" .
+
+nvt:ev_roeteln_im_plaenterwald_006 a nvto:Event ;
+    nvto:happenedAtPlace nvt:nicaragua ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1990" ;
+    dcterms:isPartOf nvt:pr_roeteln_im_plaenterwald ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Röteln im Plänterwald" .
+
+nvt:ev_rotes_konzert_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kuenstlerhaus_bethanien ;
+    dcterms:contributor nvt:g_himbeerbeet ;
+    dcterms:date "1990-06-29" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_rotes_konzert ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Rotes Konzert" .
+
+nvt:ev_rotes_konzert_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kuenstlerhaus_bethanien ;
+    dcterms:contributor nvt:g_himbeerbeet ;
+    dcterms:date "1990-06-30" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_rotes_konzert ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Rotes Konzert" .
+
+nvt:ev_rotes_konzert_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kuenstlerhaus_bethanien ;
+    dcterms:contributor nvt:g_himbeerbeet ;
+    dcterms:date "1990-07-01" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_rotes_konzert ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Rotes Konzert" .
+
+nvt:ev_rotkaeppchen_packt_aus_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasMusician nvt:dietrich_petzold ;
+    nvto:hasPerformer nvt:bernd_hahnke,
+        nvt:christoph_posselt,
+        nvt:constanze_schwendler ;
+    nvto:hasSeason nvt:timespan_ev_rotkaeppchen_packt_aus_001_1988 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988-12-07" ;
+    dcterms:isPartOf nvt:ev_theater_in_bewegung_1988_001,
+        nvt:pr_rotkaeppchen_packt_aus ;
+    dcterms:source "Beschreibung: Märchen für Fortgeschrittene. Nonsens für drei Pantomimen und einen Musiker. Vom Bärenhunger der Wölfe auf Großmütter. War Schneewittchen noch Jungfrau? Was war wirklich in Rotkäppchens Korb? Fragen, die unsere getrübte Erinnerung an Grimms Märchen wieder kräftig aufrühren helfen. Leichtverdauliches, das die drei Akteure mit großem Löffel austeilen. Quatsch mit Sauce. Nichts für Trauerklöße! Jede tiefere Bedeutung wäre rein zufällig. Für Kinder über achtzehn zugelassen. Quelle: CW; txt-007-001" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Rotkäppchen packt aus" .
+
+nvt:ev_rotkaeppchen_packt_aus_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasMusician nvt:dietrich_petzold ;
+    nvto:hasPerformer nvt:bernd_hahnke,
+        nvt:christoph_posselt,
+        nvt:constanze_schwendler ;
+    nvto:hasSeason nvt:timespan_ev_rotkaeppchen_packt_aus_002_1988 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1988-12-09" ;
+    dcterms:isPartOf nvt:ev_theater_in_bewegung_1988_001,
+        nvt:pr_rotkaeppchen_packt_aus ;
+    dcterms:source "Beschreibung: Märchen für Fortgeschrittene. Nonsens für drei Pantomimen und einen Musiker. Vom Bärenhunger der Wölfe auf Großmütter. War Schneewittchen noch Jungfrau? Was war wirklich in Rotkäppchens Korb? Fragen, die unsere getrübte Erinnerung an Grimms Märchen wieder kräftig aufrühren helfen. Leichtverdauliches, das die drei Akteure mit großem Löffel austeilen. Quatsch mit Sauce. Nichts für Trauerklöße! Jede tiefere Bedeutung wäre rein zufällig. Für Kinder über achtzehn zugelassen. Quelle: CW; txt-007-001" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Rotkäppchen packt aus" .
+
+nvt:ev_rotkaeppchen_packt_aus_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:potugal ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1989" ;
+    dcterms:isPartOf nvt:pr_rotkaeppchen_packt_aus ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Rotkäppchen packt aus" .
+
+nvt:ev_rotkaeppchen_packt_aus_004 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_west,
+        nvt:brd_001 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1990" ;
+    dcterms:isPartOf nvt:pr_rotkaeppchen_packt_aus ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Rotkäppchen packt aus" .
+
+nvt:ev_salto_vitale_1988_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_theater_unterm_dach ;
+    dcterms:contributor nvt:g_salto_vitale ;
+    dcterms:date "1988-07-03" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_programm_salto_vitale ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Programm von \"Salto Vitale\"" .
+
+nvt:ev_salto_vitale_1988_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_theater_unterm_dach ;
+    dcterms:contributor nvt:g_salto_vitale ;
+    dcterms:date "1988-07-04" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_programm_salto_vitale ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Programm von \"Salto Vitale\"" .
+
+nvt:ev_schauspielimpro_gw_1990_001 a nvto:Event ;
+    nvto:hasConceptOriginator nvt:jean_soubeyran ;
+    dcterms:date "1990-00-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:mediator nvt:jean_soubeyran ;
+    dcterms:type nvt:workshop ;
+    skos:prefLabel "Workshop Schauspiel Improvisation" .
+
+nvt:ev_seance_friction_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasDirector nvt:yves_kerboul ;
+    nvto:hasPerformer nvt:elisabeth_cauchetiez,
+        nvt:gerard_chabanier,
+        nvt:gilbert_epron,
+        nvt:jean_marc_molines,
+        nvt:laurent_carouana,
+        nvt:lea_giovanelli,
+        nvt:marie_noel_bordeaux,
+        nvt:philippe_barrier ;
+    nvto:hasSeason nvt:timespan_ev_seance_friction_001_1988 ;
+    dcterms:contributor nvt:g_theatre_de_la_mie_de_pain ;
+    dcterms:date "1988-12-05" ;
+    dcterms:isPartOf nvt:ev_seance_friction,
+        nvt:pr_seance_friction ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Seance Friction" .
+
+nvt:ev_seance_friction_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasDirector nvt:yves_kerboul ;
+    nvto:hasPerformer nvt:elisabeth_cauchetiez,
+        nvt:gerard_chabanier,
+        nvt:gilbert_epron,
+        nvt:jean_marc_molines,
+        nvt:laurent_carouana,
+        nvt:lea_giovanelli,
+        nvt:marie_noel_bordeaux,
+        nvt:philippe_barrier ;
+    nvto:hasSeason nvt:timespan_ev_seance_friction_002_1988 ;
+    dcterms:contributor nvt:g_theatre_de_la_mie_de_pain ;
+    dcterms:date "1988-12-06" ;
+    dcterms:isPartOf nvt:ev_seance_friction,
+        nvt:pr_seance_friction ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Seance Friction" .
+
+nvt:ev_sie_werden_lachen_ausstellung_1986_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:galerie_am_prater ;
+    nvto:hasSeason nvt:timespan_ev_sie_werden_lachen_ausstellung_1986_001_1986_1987 ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1986_001 ;
+    dcterms:source "Beschreibung: Ausstellung mit Bildern bekannter Clowns, kuratiert von Markschiess van Trix. Quelle: TN" ;
+    dcterms:type nvt:ausstellung ;
+    skos:prefLabel "Sie werden lachen. Artistengeschichte in der Galerie am Prater" .
+
+nvt:ev_solo_duo_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kreiskulturhaus_prater ;
+    nvto:hasConceptOriginator nvt:ingrid_kuypers,
+        nvt:karina_holla ;
+    nvto:hasPerformer nvt:ingrid_kuypers,
+        nvt:karina_holla ;
+    dcterms:date "1988-07-02" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_solo_duo ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Solo/Duo" .
+
+nvt:ev_solo_duo_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kreiskulturhaus_prater ;
+    nvto:hasConceptOriginator nvt:ingrid_kuypers,
+        nvt:karina_holla ;
+    nvto:hasPerformer nvt:ingrid_kuypers,
+        nvt:karina_holla ;
+    dcterms:date "1988-07-03" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_solo_duo ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Solo/Duo" .
+
+nvt:ev_solo_duo_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kreiskulturhaus_prater ;
+    nvto:hasConceptOriginator nvt:ingrid_kuypers,
+        nvt:karina_holla ;
+    nvto:hasPerformer nvt:ingrid_kuypers,
+        nvt:karina_holla ;
+    dcterms:date "1988-07-04" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_solo_duo ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Solo/Duo" .
+
+nvt:ev_soum_wasson_gw_1987_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasConceptOriginator nvt:corinne_soum,
+        nvt:steven_wasson ;
+    nvto:hasPerformer nvt:corinne_soum,
+        nvt:steven_wasson ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Programm von Corinne Soum und Steven Wasson" .
+
+nvt:ev_sozialer_klang_der_geste_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_zeiss_grossplanetarium ;
+    nvto:hasSeason nvt:timespan_ev_sozialer_klang_der_geste_001_1990_1990 ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:source "Beschreibung: Internationales Symposium veranstaltet von Mime Centrum Berlin, tanzAKTUELL, Hebbel Theater Berlin. " ;
+    dcterms:type nvt:konferenz__symposium ;
+    skos:prefLabel "Der soziale Klang der Geste. Theoretische und Praktische Dimensionen menschlicher Körpererfahrung in Kunst und Alltag. Internationales Symposium" .
+
+nvt:ev_speedy_banana_gw_1987_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Programm von Speedy Banana" .
+
+nvt:ev_spielen_wir_pantomime_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasConceptOriginator nvt:gabor_dvorak,
+        nvt:peter_nagyivanyi ;
+    nvto:hasPerformer nvt:gabor_dvorak,
+        nvt:peter_nagyivanyi ;
+    dcterms:contributor nvt:g_ludens ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Spielen wir Pantomime" .
+
+nvt:ev_spritzer_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasConceptOriginator nvt:francois_pollawrence_small ;
+    nvto:hasDirector nvt:francois_pollawrence_small ;
+    nvto:hasPerformer nvt:francois_pollawrence_small ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001,
+        nvt:pr_spritzer ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Spritzer" .
+
+nvt:ev_studio_sofia_gw_1987_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasConceptOriginator nvt:miltscho_miltschew ;
+    dcterms:contributor nvt:g_studio_pantomime_sofia ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Programm des Studio-Pantomimentheater Sofia" .
+
+nvt:ev_sucking_stones_1988_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_theater_unterm_dach ;
+    nvto:hasConceptOriginator nvt:paul_clark ;
+    nvto:hasPerformer nvt:paul_clark ;
+    dcterms:date "1988-07-07" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_sucking_stones ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Sucking Stones" .
+
+nvt:ev_sucking_stones_1988_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_theater_unterm_dach ;
+    nvto:hasConceptOriginator nvt:paul_clark ;
+    nvto:hasPerformer nvt:paul_clark ;
+    dcterms:date "1988-07-08" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_sucking_stones ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Sucking Stones" .
+
+nvt:ev_sucking_stones_1988_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_theater_unterm_dach ;
+    nvto:hasConceptOriginator nvt:paul_clark ;
+    nvto:hasPerformer nvt:paul_clark ;
+    dcterms:date "1988-07-09" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_sucking_stones ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Sucking Stones" .
+
+nvt:ev_sunny_side_up_oder_ein_stueck_von_der_leiter_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasDirector nvt:patrice_bigel ;
+    nvto:hasLightDesigner nvt:jean_charles_clair ;
+    nvto:hasMusician nvt:walter_werzowa ;
+    nvto:hasPerformer nvt:walter_bartussek ;
+    nvto:hasSeason nvt:timespan_ev_sunny_side_up_oder_ein_stueck_von_der_leiter_001_1988 ;
+    nvto:hasSetDesigner nvt:clarisse_praun,
+        nvt:gera_graf ;
+    dcterms:date "1988-12-10" ;
+    dcterms:isPartOf nvt:ev_theater_in_bewegung_1988_001,
+        nvt:pr_sunny_side_up_oder_ein_stueck_von_der_leiter ;
+    dcterms:source "Beschreibung: Co-Produktion Compagnie Patrice Bigel/La Rumeur, Paris und studio gold egg, Wien. Für Walter Bartussek war diese Co-Produktion mit dem Pariser Regisseur Patrice Bigel ein Wagnis seiner bisherigen Arbeit im Bereich des neuen Bewegungstheaters. Walter BArtussek arbeitete erstmals mit einem Regisseur. Patrice Bigel als Leiter der 12-köpfigen Compagnie La Rumeur hingegen hatte noch nie ein Stück für einen Solisten inszeniert. In dem Arbeitsprozeß der Annäherung wurden nach und nach alle althergebrachten Stilmittel verbannt. Was blieb, war die Konzentration auf das wahrhafte Schauspiel, auf den Menschen hier und jetzt, ohne vorgegebene Handlungsmuster, ohne Story. Inspirativ ergibt sich das Thema, die Suche nach der ersehnten und gefürchteten Sicherheit – Sprosse um Sprosse vielschichtig und unzählig, verbunden mit Erinnerungen, Erlebnissen und Hoffnungen auf der Leiter. Getragen von der sensibel unterstützenden, oft auch führenden Musik von Walter Werzowa entstehen Szenen der Suche und Hoffnungen, Bilder der Sehnsüchte und Ängste in dem immerwährenden Bestreben, endlich einmal etwas klarzustellen. Es ist der scheinbar verzweifelte Versuch, die Bedeutung der „hohen Kunst“ für den Menschen zu erfassen, sei es in Oskar Werners Interpretation von Rilke, Mechelangelos Pieta, Beethovens Klavierkonzert oder Eschers irritierenden Zeichnungen von treppauf und treppab gehenden Gestalten. Trotz der Ungewißheit, ob die Sprossen der Leiter hinauf- oder hinunterführen, läßt Walter Bartusseks Darstellung die Hoffnung zu, daß uns all unser Bemühen um ein „Stück Leiter“ auch ein „Stück weiter“… sunny side up führt.  Quelle: CW; txt-007-001" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Sunny Side Up oder ein Stück von der Leiter" .
+
+nvt:ev_sunny_side_up_oder_ein_stueck_von_der_leiter_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasDirector nvt:patrice_bigel ;
+    nvto:hasLightDesigner nvt:jean_charles_clair ;
+    nvto:hasMusician nvt:walter_werzowa ;
+    nvto:hasPerformer nvt:walter_bartussek ;
+    nvto:hasSeason nvt:timespan_ev_sunny_side_up_oder_ein_stueck_von_der_leiter_002_1988 ;
+    nvto:hasSetDesigner nvt:clarisse_praun,
+        nvt:gera_graf ;
+    dcterms:date "1988-12-11" ;
+    dcterms:isPartOf nvt:ev_theater_in_bewegung_1988_001,
+        nvt:pr_sunny_side_up_oder_ein_stueck_von_der_leiter ;
+    dcterms:source "Beschreibung: Co-Produktion Compagnie Patrice Bigel/La Rumeur, Paris und studio gold egg, Wien. Für Walter Bartussek war diese Co-Produktion mit dem Pariser Regisseur Patrice Bigel ein Wagnis seiner bisherigen Arbeit im Bereich des neuen Bewegungstheaters. Walter BArtussek arbeitete erstmals mit einem Regisseur. Patrice Bigel als Leiter der 12-köpfigen Compagnie La Rumeur hingegen hatte noch nie ein Stück für einen Solisten inszeniert. In dem Arbeitsprozeß der Annäherung wurden nach und nach alle althergebrachten Stilmittel verbannt. Was blieb, war die Konzentration auf das wahrhafte Schauspiel, auf den Menschen hier und jetzt, ohne vorgegebene Handlungsmuster, ohne Story. Inspirativ ergibt sich das Thema, die Suche nach der ersehnten und gefürchteten Sicherheit – Sprosse um Sprosse vielschichtig und unzählig, verbunden mit Erinnerungen, Erlebnissen und Hoffnungen auf der Leiter. Getragen von der sensibel unterstützenden, oft auch führenden Musik von Walter Werzowa entstehen Szenen der Suche und Hoffnungen, Bilder der Sehnsüchte und Ängste in dem immerwährenden Bestreben, endlich einmal etwas klarzustellen. Es ist der scheinbar verzweifelte Versuch, die Bedeutung der „hohen Kunst“ für den Menschen zu erfassen, sei es in Oskar Werners Interpretation von Rilke, Mechelangelos Pieta, Beethovens Klavierkonzert oder Eschers irritierenden Zeichnungen von treppauf und treppab gehenden Gestalten. Trotz der Ungewißheit, ob die Sprossen der Leiter hinauf- oder hinunterführen, läßt Walter Bartusseks Darstellung die Hoffnung zu, daß uns all unser Bemühen um ein „Stück Leiter“ auch ein „Stück weiter“… sunny side up führt.  Quelle: CW; txt-007-001" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Sunny Side Up oder ein Stück von der Leiter" .
+
+nvt:ev_szenen_1986_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_filmtheater_am_friedrichshain ;
+    nvto:hasConceptOriginator nvt:abel_aboualitan,
+        nvt:monique_bertin,
+        nvt:philippe_monella ;
+    nvto:hasPerformer nvt:abel_aboualitan,
+        nvt:monique_bertin,
+        nvt:philippe_monella ;
+    dcterms:contributor nvt:g_le_theatre_nu ;
+    dcterms:date "1988-07-05" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_szenen ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Szenen" .
+
+nvt:ev_szenen_1986_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_filmtheater_am_friedrichshain ;
+    nvto:hasConceptOriginator nvt:abel_aboualitan,
+        nvt:monique_bertin,
+        nvt:philippe_monella ;
+    nvto:hasPerformer nvt:abel_aboualitan,
+        nvt:monique_bertin,
+        nvt:philippe_monella ;
+    dcterms:contributor nvt:g_le_theatre_nu ;
+    dcterms:date "1988-07-06" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_szenen ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Szenen" .
+
+nvt:ev_szenen_1986_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_filmtheater_am_friedrichshain ;
+    nvto:hasConceptOriginator nvt:abel_aboualitan,
+        nvt:monique_bertin,
+        nvt:philippe_monella ;
+    nvto:hasPerformer nvt:abel_aboualitan,
+        nvt:monique_bertin,
+        nvt:philippe_monella ;
+    dcterms:contributor nvt:g_le_theatre_nu ;
+    dcterms:date "1988-07-07" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_szenen ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Szenen" .
+
+nvt:ev_tage_der_pantomime a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_bat ;
+    dcterms:contributor nvt:g_pantomime_ensemble_jena,
+        nvt:g_pt_pb ;
+    dcterms:date "1964-02-00" ;
+    dcterms:source " Quelle: Txt-162" ;
+    dcterms:type nvt:festival ;
+    skos:prefLabel "Tage der Pantomime" .
+
+nvt:ev_tai_chi_chuan_gw_1986_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    dcterms:date "1986-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1986_001 ;
+    dcterms:mediator nvt:grit_krausse,
+        nvt:karl_michael_kulow ;
+    dcterms:type nvt:workshop ;
+    skos:prefLabel "Tai Chi Chuan Workshop Anfänger" .
+
+nvt:ev_tai_chi_chuan_gw_1987_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasConceptOriginator nvt:karl_michael_kulow ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1987_001 ;
+    dcterms:mediator nvt:karl_michael_kulow ;
+    dcterms:type nvt:workshop ;
+    skos:prefLabel "Tai Chi Chuan Workshop (Anfänger)" .
+
+nvt:ev_the_faust_quest_luzifer_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_west,
+        nvt:brd_001,
+        nvt:loc_hebbel_theater ;
+    nvto:hasDirector nvt:richard_nieoczym ;
+    nvto:hasPerformer nvt:richard_nieoczym ;
+    dcterms:contributor nvt:g_actors_theatre_laboratorium ;
+    dcterms:date "1990-07-02" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_the_faust_quest ;
+    dcterms:source "Beschreibung: Auf der Grundlage der ursprünglichen Faustgeschichte erarbeitet \"Actor's Theatre Laboratorium\" seit zwei Jahren selbstständig für sich stehende Teile dieses histporischen Zyklus. Die einzelnen Produktionen enthüllen die Archetypen, die im Innern eines jeden Menschen verborgen sind. Die Akteure begleiten das Publikum auf einer geistigen Reise, auf der Suche nach dem Konkreten und dem Verständnis dessen, was so oft im Unterbewußtsein liegt. Bühnenkunst und Rituale mischen sich mit quälenden Visionen, Gelächter wechselt mit Spannung, Trommeln und Tanz mit Stille, Vulgarität mit Geistigkeit, ruhige Bilder mit Handlung und Text. Nach den erfolgreichenen Produktionen \"Mephisto's Dream\" und \"Goddess\" erlebt \"Luizifers Lament\" anläßlich der Woche '90 in Berlin seine Welturaufführung. Quelle: Programmheft Woche des Gestischen Theaters 1990" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "The Faust Quest / Luzifers Lament" .
+
+nvt:ev_the_faust_quest_luzifer_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_west,
+        nvt:brd_001,
+        nvt:loc_hebbel_theater ;
+    nvto:hasDirector nvt:richard_nieoczym ;
+    nvto:hasPerformer nvt:richard_nieoczym ;
+    dcterms:contributor nvt:g_actors_theatre_laboratorium ;
+    dcterms:date "1990-07-03" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_the_faust_quest ;
+    dcterms:source "Beschreibung: Auf der Grundlage der ursprünglichen Faustgeschichte erarbeitet \"Actor's Theatre Laboratorium\" seit zwei Jahren selbstständig für sich stehende Teile dieses histporischen Zyklus. Die einzelnen Produktionen enthüllen die Archetypen, die im Innern eines jeden Menschen verborgen sind. Die Akteure begleiten das Publikum auf einer geistigen Reise, auf der Suche nach dem Konkreten und dem Verständnis dessen, was so oft im Unterbewußtsein liegt. Bühnenkunst und Rituale mischen sich mit quälenden Visionen, Gelächter wechselt mit Spannung, Trommeln und Tanz mit Stille, Vulgarität mit Geistigkeit, ruhige Bilder mit Handlung und Text. Nach den erfolgreichenen Produktionen \"Mephisto's Dream\" und \"Goddess\" erlebt \"Luizifers Lament\" anläßlich der Woche '90 in Berlin seine Welturaufführung. Quelle: Programmheft Woche des Gestischen Theaters 1990" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "The Faust Quest / Luzifers Lament" .
+
+nvt:ev_the_faust_quest_luzifer_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_west,
+        nvt:brd_001,
+        nvt:loc_hebbel_theater ;
+    nvto:hasDirector nvt:richard_nieoczym ;
+    nvto:hasPerformer nvt:richard_nieoczym ;
+    dcterms:contributor nvt:g_actors_theatre_laboratorium ;
+    dcterms:date "1990-07-04" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_the_faust_quest ;
+    dcterms:source "Beschreibung: Auf der Grundlage der ursprünglichen Faustgeschichte erarbeitet \"Actor's Theatre Laboratorium\" seit zwei Jahren selbstständig für sich stehende Teile dieses histporischen Zyklus. Die einzelnen Produktionen enthüllen die Archetypen, die im Innern eines jeden Menschen verborgen sind. Die Akteure begleiten das Publikum auf einer geistigen Reise, auf der Suche nach dem Konkreten und dem Verständnis dessen, was so oft im Unterbewußtsein liegt. Bühnenkunst und Rituale mischen sich mit quälenden Visionen, Gelächter wechselt mit Spannung, Trommeln und Tanz mit Stille, Vulgarität mit Geistigkeit, ruhige Bilder mit Handlung und Text. Nach den erfolgreichenen Produktionen \"Mephisto's Dream\" und \"Goddess\" erlebt \"Luizifers Lament\" anläßlich der Woche '90 in Berlin seine Welturaufführung. Quelle: Programmheft Woche des Gestischen Theaters 1990" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "The Faust Quest / Luzifers Lament" .
+
+nvt:ev_theatergrafik_gw_1990_001 a nvto:Event ;
+    nvto:containsReferenceTo nvt:fritz_van_hartingsveldt ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:type nvt:ausstellung ;
+    skos:prefLabel "Theatergrafik. Ausstellung von Frits van Hartingsveldt, Amsterdam" .
+
+nvt:ev_theaterpaedagogik_ge_1990_001 a nvto:Event ;
+    nvto:hasConceptOriginator nvt:ide_van_heiningen,
+        nvt:jost_ideler ;
+    dcterms:date "1990-00-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:mediator nvt:ide_van_heiningen,
+        nvt:jost_ideler ;
+    dcterms:source "Beschreibung: Der Workshop basiert auf den seit Jahren beständig ausgebauten künstlerischen und theaterpädagogischen Erfahrungen des Nederlands Mime Centrum in Amsterdam. Das Konzept hat das Ziel, Mimekünstler auszubilden, die fähig sind, aus ihrer eigenen künstlerischen Vision heraus Darstellungsprozesse sowohl innerhalb des Theaters wie auch der pädagodischen Arbeit zu bewältigen. Der Schwerpunkt liegt auf dem Kreieren einer eigenen Bildsprache, die Bewegungsdisziplin basiert auf der Analyse von Étienne Decroux. Der Workshop gliedert sich in zwei Teile. Im ersten erfolgt die Erarbeitung elementarer Mimetechniken wie Bewegung und Gegenbewegung, Kraft und Gegenkraft, Isolation und Balance. Im zweiten Teil werden gemeinsam die Arbeitsstufen einer Inszeneirung durchlaufen. Über die Momente Technik, Beobachtung, Analyse, Verarbeitung, Rückbezug auf Spielidee und Technik wird das pädagogische Instrumentarium einer systematischen Handhabung integriert. Der Workshop konzentriert sich auf das Mimetraining, das Elementarspiel, das Maskenspiel nach Lecoq, die Pantomime, die Mime corporel nach Decroux, die Mimographie / Komposition und Mimeregie. Quelle: Programmheft Woche des Gestischen Theaters 1990" ;
+    dcterms:type nvt:workshop ;
+    skos:prefLabel "Theaterprädagogik Workshop" .
+
+nvt:ev_tief_in_uns_001 a nvto:Event ;
+    dcterms:contributor nvt:g_salto_vitale ;
+    dcterms:date "1987-10-16" ;
+    dcterms:isPartOf nvt:pr_tief_in_uns ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Tief in uns. Seelisches Krankenblatt zweier Clowns" .
+
+nvt:ev_ueber_den_berg_kommen_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_filmtheater_am_friedrichshain ;
+    nvto:hasDirector nvt:yoshi_oida ;
+    dcterms:contributor nvt:g_werkaus_moosbach ;
+    dcterms:date "1988-07-08" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_ueber_den_berg_kommen ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Über den Berg kommen" .
+
+nvt:ev_ueber_den_berg_kommen_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_filmtheater_am_friedrichshain ;
+    nvto:hasDirector nvt:yoshi_oida ;
+    dcterms:contributor nvt:g_werkaus_moosbach ;
+    dcterms:date "1988-07-09" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_ueber_den_berg_kommen ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Über den Berg kommen" .
+
+nvt:ev_ueber_den_berg_kommen_003 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_filmtheater_am_friedrichshain ;
+    nvto:hasDirector nvt:yoshi_oida ;
+    dcterms:contributor nvt:g_werkaus_moosbach ;
+    dcterms:date "1988-07-10" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_ueber_den_berg_kommen ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Über den Berg kommen" .
+
+nvt:ev_ullyssee_ullyssee_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasConceptOriginator nvt:jean_pierre_amiel ;
+    nvto:hasPerformer nvt:jean_pierre_amiel ;
+    dcterms:date "1987-07-00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_ullyssee_ullyssee ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Ullysee, Ullyssee!" .
+
+nvt:ev_unternehmen_strassentheater_001 a nvto:Event ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Unternehmen Straßentheater" .
+
+nvt:ev_valentino_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_filmtheater_am_friedrichshain ;
+    dcterms:contributor nvt:g_the_birmingham_rep,
+        nvt:g_the_snarling_beasties ;
+    dcterms:date "1990-07-05:20:00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_valentino ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Valentino" .
+
+nvt:ev_valentino_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_filmtheater_am_friedrichshain ;
+    dcterms:contributor nvt:g_the_birmingham_rep,
+        nvt:g_the_snarling_beasties ;
+    dcterms:date "1990-07-06:20:00" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001,
+        nvt:pr_valentino ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Valentino" .
+
+nvt:ev_verruecktwaerts_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasDirector nvt:peter_baumgart ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1984-11-24" ;
+    dcterms:isPartOf nvt:pr_verruecktwaerts ;
+    dcterms:type nvt:premiere ;
+    skos:prefLabel "Verrücktwärts" .
+
+nvt:ev_verruecktwaerts_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:prag_001 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1985" ;
+    dcterms:isPartOf nvt:pr_verruecktwaerts ;
+    dcterms:type nvt:gastspiel ;
+    skos:prefLabel "Verrücktwärts" .
+
+nvt:ev_viele_dinge_sind_in_einem_ding_001 a nvto:Event ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Viele Dinge sind in einem Ding" .
+
+nvt:ev_vogelmogel_1988_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_theater_unterm_dach ;
+    nvto:hasConceptOriginator nvt:jens_finke,
+        nvt:matthias_falk ;
+    nvto:hasPerformer nvt:jens_finke,
+        nvt:matthias_falk ;
+    dcterms:contributor nvt:g_finke_faltz ;
+    dcterms:date "1988-07-02" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001,
+        nvt:pr_vogelmogel ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Vogelmogel" .
+
+nvt:ev_von_kalaf_und_prinzessin_turandot_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasConceptOriginator nvt:burkhart_seidemann,
+        nvt:volkmar_otte ;
+    nvto:hasDirector nvt:volkmar_otte ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1977-10-29" ;
+    dcterms:isPartOf nvt:pr_von_kalaf_und_prinzessin_turandot ;
+    dcterms:type nvt:premiere ;
+    skos:prefLabel "Von Kalaf und Prinzessin Turandot" .
+
+nvt:ev_waldemar_nowak_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    nvto:hasConceptOriginator nvt:waldemar_nowak ;
+    nvto:hasPerformer nvt:waldemar_nowak ;
+    dcterms:date "1988-07-08" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Solo von Waldemar Nowak" .
+
+nvt:ev_waldemar_nowak_002 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    nvto:hasConceptOriginator nvt:waldemar_nowak ;
+    nvto:hasPerformer nvt:waldemar_nowak ;
+    dcterms:date "1988-07-09" ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1988_001 ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Solo von Waldemar Nowak" .
+
+nvt:ev_we_residents a nvto:Event ;
+    nvto:happenedAtPlace nvt:katugasota,
+        nvt:loc_st_anthonys_college_hall,
+        nvt:sri_lanka ;
+    nvto:hasDirector nvt:eberhard_kube ;
+    nvto:hasPerformer nvt:eberhard_kube ;
+    dcterms:date "0000-10-14;18:30" ;
+    dcterms:isPartOf nvt:pr_wir_wohner ;
+    dcterms:source "Beschreibung: Gastspiel Eberhard Kubes in Sri Lanka u.a. mit einer Bearbeitung der Produktion \"Wir Wohner\" (\"We residents\"). Quelle: TN" ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Pantomime Show by Eberhard Kube: We Residents" .
+
+nvt:ev_wer_hat_angst_vor_m_schwarzen_mann_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_ei ;
+    nvto:hasDirector nvt:volkmar_otte ;
+    nvto:hasSeason nvt:timespan_ev_wer_hat_angst_vor_m_schwarzen_mann_001_1979 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1979-10-23" ;
+    dcterms:isPartOf nvt:pr_wer_hat_angst_vorm_schwarzen_mann ;
+    dcterms:source "Beschreibung: Gastspiel im Ei" ;
+    dcterms:type nvt:premiere ;
+    skos:prefLabel "Wer hat Angst vor'm schwarzen Mann" .
+
+nvt:ev_wir_wohner_001 a nvto:Event ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Wir Wohner" .
+
+nvt:ev_wir_wohner_ii_001 a nvto:Event ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Wir Wohner II" .
+
+nvt:ev_wir_wohner_iii_001 a nvto:Event ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "Wir Wohner III" .
+
+nvt:ev_wochen_der_pantomime_1963 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasSeason nvt:timespan_ev_wochen_der_pantomime_1963_1963_1963 ;
+    dcterms:source "Beschreibung: Jeweils an den Wochenende fanden Pantomime-Vorstellungen verschiedener Pantomimegruppen aus der DDR statt." ;
+    dcterms:type nvt:festival ;
+    skos:prefLabel "Wochen der Pantomime" .
+
+nvt:ev_zwischen_tuer_und_angel_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1975-05-04" ;
+    dcterms:isPartOf nvt:pr_zwischen_tuer_und_angel ;
+    dcterms:type nvt:premiere ;
+    skos:prefLabel "Zwischen Tür und Angel" .
+
+nvt:ev_theater_in_bewegung_1985_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:date "1985-00-00" ;
+    dcterms:source "Beschreibung: Erste Ausgabe des Festivals, das vom Pantomimen-Ensemble des Deutschen Theaters organisiert wurde. Quelle: CW; txt-007-001" ;
+    dcterms:type nvt:festival ;
+    skos:prefLabel "Theater in Bewegung 1985" .
+
+nvt:ev_und_alle_haben_ein_gesicht_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    dcterms:type nvt:auffuehrung ;
+    skos:prefLabel "und alle haben ein Gesicht" .
+
+nvt:ev_welttheatertag_1988_001 a nvto:Event .
+
+nvt:konferenz__symposium a skos:Concept .
+
+nvt:pressekonferenz a skos:Concept .
+
+nvt:timespan_ev_aber_macht_keine_dummheit_001_1985 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1985-12-04:20:00" .
+
+nvt:timespan_ev_aber_macht_keine_dummheit_002_1985 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1985-12-05:20:00" .
+
+nvt:timespan_ev_august_august_001_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-05:22:00" .
+
+nvt:timespan_ev_august_august_002_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-08:22:00" .
+
+nvt:timespan_ev_august_august_003_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-10:22:00" .
+
+nvt:timespan_ev_avant_theater_001_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-08:19:30" .
+
+nvt:timespan_ev_avant_theater_002_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-09:19:30" .
+
+nvt:timespan_ev_berliner_ballonfieber_1803_002_1987_1978 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1987-07-11T00:00:00"^^xsd:dateTime ;
+    nvto:endsAtTime "1978-08-02T00:00:00"^^xsd:dateTime .
+
+nvt:timespan_ev_capitombola_001_1985 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1985-12-06:20:00" .
+
+nvt:timespan_ev_clownerien_001_1980_1980 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1980-05-12:16:00" ;
+    nvto:endsAtTime "1980-05-12:17:00" .
+
+nvt:timespan_ev_clownerien_004_1985 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1985-12-04:16:00" .
+
+nvt:timespan_ev_clownonade_001_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-04:16:00" .
+
+nvt:timespan_ev_clownonade_002_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-05:16:00" .
+
+nvt:timespan_ev_clownonade_003_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-09:16:00" .
+
+nvt:timespan_ev_clownonade_004_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-11:16:00" .
+
+nvt:timespan_ev_clownonade_005_0000 a nvto:TimeSpan ;
+    nvto:beginsAtTime "0000-07-03:16:00" .
+
+nvt:timespan_ev_clownonade_006_0000 a nvto:TimeSpan ;
+    nvto:beginsAtTime "0000-07-05:16:00" .
+
+nvt:timespan_ev_clownonade_007_0000 a nvto:TimeSpan ;
+    nvto:beginsAtTime "0000-07-07:16:00" .
+
+nvt:timespan_ev_clownonade_008_0000 a nvto:TimeSpan ;
+    nvto:beginsAtTime "0000-07-09:16:00" .
+
+nvt:timespan_ev_clowns_non_stop_002_1985 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1985-12-01:20:00" .
+
+nvt:timespan_ev_don_juan_genovefa_001_1985 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1985-12-02:20:00" .
+
+nvt:timespan_ev_don_juan_genovefa_002_1985 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1985-12-03:20:00" .
+
+nvt:timespan_ev_dt_pantomime_ensemble_ungeschminkt_001_1985 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1985-12-01:16:00" .
+
+nvt:timespan_ev_gapihan_ausstellung_1987_001_1987_1987 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1987-07-02" ;
+    nvto:endsAtTime "1987-07-11" .
+
+nvt:timespan_ev_gespenst_der_freiheit_001_1990_1990 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1990-06-24" ;
+    nvto:endsAtTime "1990-07-15" .
+
+nvt:timespan_ev_gestische_woche_1985_001_1985_1985 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1985-07-08" ;
+    nvto:endsAtTime "1985-07-14" .
+
+nvt:timespan_ev_gestische_woche_1986_001_1986_1987 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1986-07-05" ;
+    nvto:endsAtTime "1987-07-12" .
+
+nvt:timespan_ev_gestische_woche_1987_001_1987_1987 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1987-07-03" ;
+    nvto:endsAtTime "1987-07-11" .
+
+nvt:timespan_ev_gestische_woche_1989_001_1989_1989 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1989-06-30" ;
+    nvto:endsAtTime "1989-07-09" .
+
+nvt:timespan_ev_gestische_woche_1990_001_1990_1990 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1990-06-22" ;
+    nvto:endsAtTime "1990-07-15" .
+
+nvt:timespan_ev_gestische_woche_1991_1991_1991 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1991-11-30" ;
+    nvto:endsAtTime "1991-12-07" .
+
+nvt:timespan_ev_himmelhoelle_001_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-03:19:30" .
+
+nvt:timespan_ev_himmelhoelle_002_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-07:19:30" .
+
+nvt:timespan_ev_hoellenfahrt_des_doktor_faust_002_1985 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1985-12-07:20:00" .
+
+nvt:timespan_ev_ich_bin_k_ein_clown_001_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-08:16:00" .
+
+nvt:timespan_ev_ich_bin_k_ein_clown_002_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-10:16:00" .
+
+nvt:timespan_ev_internationale_tage_der_pantomime_1985_001_1985_1985 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1985-11-30" ;
+    nvto:endsAtTime "1985-12-08" .
+
+nvt:timespan_ev_jenaer_pantomime_tage_1985_1985_1985 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1985-10-23" ;
+    nvto:endsAtTime "1985-10-27" .
+
+nvt:timespan_ev_kunst_der_maske_001_1990_1990 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1990-06-22" ;
+    nvto:endsAtTime "1990-07-15" .
+
+nvt:timespan_ev_masken_nasen_kastanien_001_1990_1990 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1990-07-07:19:00" ;
+    nvto:endsAtTime "1990-07-08:03:00" .
+
+nvt:timespan_ev_mimen_parade_82_1982_1982 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1982-10-03" ;
+    nvto:endsAtTime "1982-10-10" .
+
+nvt:timespan_ev_mit_und_ohne_nase_001_0000 a nvto:TimeSpan ;
+    nvto:beginsAtTime "0000-07-02:16:00" .
+
+nvt:timespan_ev_mit_und_ohne_nase_002_0000 a nvto:TimeSpan ;
+    nvto:beginsAtTime "0000-07-04:16:00" .
+
+nvt:timespan_ev_mit_und_ohne_nase_003_0000 a nvto:TimeSpan ;
+    nvto:beginsAtTime "0000-07-06:16:00" .
+
+nvt:timespan_ev_mit_und_ohne_nase_004_0000 a nvto:TimeSpan ;
+    nvto:beginsAtTime "0000-07-08:16:00" .
+
+nvt:timespan_ev_mit_und_ohne_nase_005_0000 a nvto:TimeSpan ;
+    nvto:beginsAtTime "0000-07-10:16:00" .
+
+nvt:timespan_ev_mit_und_ohne_nase_006_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-03-27:16:00" .
+
+nvt:timespan_ev_orfeus_001_1985 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1985-11-30:20:00" .
+
+nvt:timespan_ev_orfeus_002_1985 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1985-12-08:20:00" .
+
+nvt:timespan_ev_pantomimosiade_1978_1978 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1978-05-13" ;
+    nvto:endsAtTime "1978-05-21" .
+
+nvt:timespan_ev_plakate_zur_mime_001_1988_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-07-01" ;
+    nvto:endsAtTime "1988-07-16" .
+
+nvt:timespan_ev_rotkaeppchen_packt_aus_001_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-07:22:00" .
+
+nvt:timespan_ev_rotkaeppchen_packt_aus_002_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-09:22:00" .
+
+nvt:timespan_ev_seance_friction_001_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-05:19:30" .
+
+nvt:timespan_ev_seance_friction_002_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-06:19:30" .
+
+nvt:timespan_ev_sie_werden_lachen_ausstellung_1986_001_1986_1987 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1986-07-05" ;
+    nvto:endsAtTime "1987-07-12" .
+
+nvt:timespan_ev_sommer_clowns_und_maskenspiele_001_0000_0000 a nvto:TimeSpan ;
+    nvto:beginsAtTime "0000-07-02" ;
+    nvto:endsAtTime "0000-07-10" .
+
+nvt:timespan_ev_sozialer_klang_der_geste_001_1990_1990 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1990-06-27" ;
+    nvto:endsAtTime "1990-06-29" .
+
+nvt:timespan_ev_sunny_side_up_oder_ein_stueck_von_der_leiter_001_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-10:19:30" .
+
+nvt:timespan_ev_sunny_side_up_oder_ein_stueck_von_der_leiter_002_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-11:19:30" .
+
+nvt:timespan_ev_theater_in_bewegung_1988_001_1988_1988 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1988-12-03" ;
+    nvto:endsAtTime "1988-12-11" .
+
+nvt:timespan_ev_wer_hat_angst_vor_m_schwarzen_mann_001_1979 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1979-10-23:20:30" .
+
+nvt:timespan_ev_wochen_der_pantomime_1963_1963_1963 a nvto:TimeSpan ;
+    nvto:beginsAtTime "1963-11-15" ;
+    nvto:endsAtTime "1963-12-15" .
+
+nvt:probe a skos:Concept .
+
+nvt:ausstellung a skos:Concept .
+
+nvt:ev_gestische_woche_1986_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasSeason nvt:timespan_ev_gestische_woche_1986_001_1986_1987 ;
+    dcterms:contributor nvt:g_grupo_laboratorio_di_verona,
+        nvt:g_impro_comedy_co,
+        nvt:g_magenia,
+        nvt:g_mimobile,
+        nvt:g_pantomimentheater_georgien,
+        nvt:g_pt_pb,
+        nvt:g_salto_vitale ;
+    dcterms:type nvt:festival ;
+    skos:prefLabel "Woche des gestischen Theaters 1986" .
+
+nvt:ev_sommer_clowns_und_maskenspiele_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks_foyer ;
+    nvto:hasComposer nvt:hermann_naehring ;
+    nvto:hasMusician nvt:hermann_naehring ;
+    nvto:hasPerformer nvt:anja_palitzsch,
+        nvt:bernd_hahnke,
+        nvt:burkhart_seidemann,
+        nvt:christoph_posselt,
+        nvt:gisela_bohmann,
+        nvt:guenter_richter,
+        nvt:hans_otto_reintsch,
+        nvt:peter_baumgart ;
+    nvto:hasSeason nvt:timespan_ev_sommer_clowns_und_maskenspiele_001_0000_0000 ;
+    dcterms:contributor nvt:g_dt_pe ;
+    dcterms:source "Beschreibung: Sommerprogramm vom 2.- 10. Juli für Familien unter dem Motto „Sommer, Clowns und Maskenspiele“. An jedem der Nachmittage wurden abwechselnd die Inszenierungen „Mit und ohne Nase“ und „Clownonade“ im Foyer der Kammerspiele des Deutschen Theaters auf dem eigens hierfür aufgebauten Spielpodest aufgeführt. Quelle: CW; txt-008-001" ;
+    skos:prefLabel "Sommer, Clowns und Maskenspiele" .
+
+nvt:ev_internationale_tage_der_pantomime_1985_001 a nvto:Event ;
+    nvto:containsReferenceTo nvt:pr_orfeus ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_dtks ;
+    nvto:hasSeason nvt:timespan_ev_internationale_tage_der_pantomime_1985_001_1985_1985 ;
+    dcterms:source "Beschreibung: Vom PEDT veranstaltet in den Kammerspielen des DT. Anlass ist das zehnjährige Bestehen des PEDT" ;
+    dcterms:type nvt:festival ;
+    skos:prefLabel "Internationale Tage der Pantomime 1985" .
+
+nvt:festival a skos:Concept .
+
+nvt:workshop a skos:Concept .
+
+nvt:ev_theater_in_bewegung_1988_001 a nvto:Event ;
+    nvto:containsReferenceTo nvt:pr_august_august,
+        nvt:pr_avant_theater,
+        nvt:pr_clownade,
+        nvt:pr_clownsfamily,
+        nvt:pr_crazy_music,
+        nvt:pr_ein_stueck_von_der_leiter,
+        nvt:pr_himmelhoelle,
+        nvt:pr_ich_bin_k_ein_clown,
+        nvt:pr_rotkaeppchen_packt_aus,
+        nvt:pr_seance_friction,
+        nvt:pr_sunny_side_up ;
+    nvto:happenedAtPlace nvt:loc_dtks ;
+    nvto:hasSeason nvt:timespan_ev_theater_in_bewegung_1988_001_1988_1988 ;
+    dcterms:source "Beschreibung: Drei Jahre nach der ersten Ausgabe folgte die zweite des internationalen Festivals, das vom Pantomimen-Ensemble des Deutschen Theaters initiiert wurde. Es traten die Gruppen Théâtre de la Mie de Pain aus Paris, das Regionaltheater d’Oran aus Algerien und Walter Bartussek aus Wien vom 03. – 11.12.1988 in den Kammerspielen des Deutschen Theaters auf. Das Rahmenprogramm wurde vom Pantomimen-Ensemble im Foyer der Kammerspiele mit Clownsspielen „für Kinder zwischen sieben und siebzig“ gestaltet. Das Ministerium für Kultur der DDR sowie die Berliner Festtage und das Deutsche Theater unterstützten boten Unterstützung.  Quelle: CW" ;
+    dcterms:type nvt:festival ;
+    skos:prefLabel "Internationale Tage der Pantomime 1988" .
+
+nvt:premiere a skos:Concept .
+
+nvt:ev_gestische_woche_1987_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    nvto:hasSeason nvt:timespan_ev_gestische_woche_1987_001_1987_1987 ;
+    dcterms:contributor nvt:g_antagon_theater ;
+    dcterms:type nvt:festival ;
+    skos:prefLabel "Woche des gestischen Theaters 1987" .
+
+nvt:gastspiel a skos:Concept .
+
+nvt:ev_gestische_woche_1988_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    dcterms:type nvt:festival ;
+    skos:prefLabel "Woche des gestischen Theaters 1988" .
+
+nvt:ev_gestische_woche_1990_001 a nvto:Event ;
+    nvto:happenedAtPlace nvt:berlin ;
+    nvto:hasSeason nvt:timespan_ev_gestische_woche_1990_001_1990_1990 ;
+    dcterms:isPartOf nvt:ev_gestische_woche_1990_001 ;
+    dcterms:type nvt:festival ;
+    skos:prefLabel "Internationale Woche Gestisches Theater Berlin '90" .
+
+nvt:auffuehrung a skos:Concept .
+

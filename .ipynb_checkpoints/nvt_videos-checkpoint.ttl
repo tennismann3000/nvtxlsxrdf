@@ -1,0 +1,272 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix nvt: <http://lod.iti-germany.de/resource/> .
+@prefix nvto: <http://lod.iti-germany.de/schema/nvto/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nvt:vid_001 a nvto:InformationObject ;
+    nvto:containsAudioVisualReferenceTo nvt:pr_die_offene_tuer,
+        nvt:pr_kanon_und_fuge,
+        nvt:pr_le_violloncelliste,
+        nvt:pr_pantalon_und_colombine,
+        nvt:pr_studie ;
+    nvto:containsReferenceTo nvt:g_berliner_pantomimentheater,
+        nvt:pr_die_offene_tuer,
+        nvt:pr_kanon_und_fuge,
+        nvt:pr_le_violloncelliste,
+        nvt:pr_pantalon_und_colombine,
+        nvt:pr_studie ;
+    nvto:containsVisualReferenceTo nvt:marie_luise_anger ;
+    nvto:hasComposer nvt:fernando_lafferiere ;
+    nvto:hasInformationCarrier nvt:digi_vid_001,
+        nvt:phys_vid_001 ;
+    nvto:hasMusician nvt:christoph_heidemann,
+        nvt:kristina_krafft ;
+    nvto:hasPerformer nvt:hans_henning_wulf,
+        nvt:nancy_sanchez_perez,
+        nvt:nina_stadthaus,
+        nvt:stephan_dreher ;
+    nvto:originatedAtPlace nvt:berlin,
+        nvt:brd_002 ;
+    dcterms:created "1991-06-22" ;
+    dcterms:identifier "MCB-TV-25" ;
+    dcterms:title "Klangbilder" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Klangbilder" .
+
+nvt:vid_002_001 a nvto:InformationObject ;
+    nvto:hasInformationCarrier nvt:digi_vid_002_001,
+        nvt:phys_vid_002_001 ;
+    nvto:originatedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    dcterms:isPartOf nvt:col_woche_des_gestischen_theaters_0000,
+        nvt:col_woche_des_gestischen_theaters_1989,
+        nvt:vid_002 ;
+    dcterms:title "Unbekannte Inszenierung" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Unbekannte Inszenierung" .
+
+nvt:vid_002_002 a nvto:InformationObject ;
+    nvto:containsAudioVisualReferenceTo nvt:ev_human_power_flight,
+        nvt:pr_human_powerflight ;
+    nvto:containsVisualReferenceTo nvt:mitsuro_sasaki ;
+    nvto:hasCinematographer nvt:thilo_wittenbecher ;
+    nvto:hasInformationCarrier nvt:digi_vid_002_002,
+        nvt:phys_vid_002_002 ;
+    nvto:originatedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    dcterms:created "1989-07-07" ;
+    dcterms:identifier "MCB-DV-687" ;
+    dcterms:isPartOf nvt:col_woche_des_gestischen_theaters_0000,
+        nvt:col_woche_des_gestischen_theaters_1989,
+        nvt:vid_002 ;
+    dcterms:title "Human Power Flight" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Human Power Flight" .
+
+nvt:vid_002_003 a nvto:InformationObject ;
+    nvto:hasInformationCarrier nvt:digi_vid_002_003,
+        nvt:phys_vid_002_003 ;
+    nvto:originatedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    dcterms:created "1989-07-08" ;
+    dcterms:isPartOf nvt:col_woche_des_gestischen_theaters_0000,
+        nvt:col_woche_des_gestischen_theaters_1989,
+        nvt:vid_002 ;
+    dcterms:title "Unbekannte Inszenierung" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Unbekannte Inszenierung" .
+
+nvt:vid_002_004 a nvto:InformationObject ;
+    nvto:hasInformationCarrier nvt:digi_vid_002_004,
+        nvt:phys_vid_002_004 ;
+    nvto:originatedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    dcterms:created "1989-07-08" ;
+    dcterms:isPartOf nvt:col_woche_des_gestischen_theaters_0000,
+        nvt:col_woche_des_gestischen_theaters_1989,
+        nvt:vid_002 ;
+    dcterms:title "Unbekannte Inszenierung" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Unbekannte Inszenierung" .
+
+nvt:vid_003 a nvto:InformationObject ;
+    nvto:containsAudioVisualReferenceTo nvt:ev_film_horatier_kuriatier,
+        nvt:pr_horatier_kuriatier ;
+    nvto:containsReferenceTo nvt:g_pt_pb ;
+    nvto:containsVisualReferenceTo nvt:eberhard_kube ;
+    nvto:hasCinematographer nvt:bernd_mueller,
+        nvt:harri_muenzhardt,
+        nvt:helmut_fischer,
+        nvt:klaus_hesse,
+        nvt:rolf_dieter_graf ;
+    nvto:hasDirector nvt:margot_thyret ;
+    nvto:hasInformationCarrier nvt:digi_vid_003,
+        nvt:phys_vid_003 ;
+    nvto:hasLightDesigner nvt:hans_juergen_herrmann ;
+    nvto:hasMusician nvt:eckehard_binas,
+        nvt:thomas_naumann,
+        nvt:wolfgang_paulke ;
+    nvto:hasRecordist nvt:klaus_urbanski ;
+    nvto:hasSubtitle "Ein Lehrstück" ;
+    nvto:hasVideoEditor nvt:detlef_wolff,
+        nvt:rolf_wellingerhof ;
+    nvto:originatedAtPlace nvt:ddr,
+        nvt:loc_kalkwer_ruedersdor,
+        nvt:ruedersdorf ;
+    dcterms:contributor nvt:bernd_mnich ;
+    dcterms:created "1982-00-00" ;
+    dcterms:identifier "MCB-SV-1415" ;
+    dcterms:isPartOf nvt:col_eberhard_kube,
+        nvt:col_pt_pb ;
+    dcterms:language "de" ;
+    dcterms:title "Die Horatier und die Kuriatier" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Die Horatier und die Kuriatier" .
+
+nvt:vid_004_001 a nvto:InformationObject ;
+    nvto:containsAudioVisualReferenceTo nvt:ev_croisade,
+        nvt:pr_la_croisade ;
+    nvto:containsVisualReferenceTo nvt:corinne_soum,
+        nvt:steven_wasson ;
+    nvto:hasInformationCarrier nvt:digi_vid_004_001,
+        nvt:phys_vid_004_001 ;
+    nvto:originatedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    dcterms:created "1987-07-00" ;
+    dcterms:identifier "MCB-TV_23;MCB-TV-24" ;
+    dcterms:isPartOf nvt:col_woche_des_gestischen_theaters_0000,
+        nvt:col_woche_des_gestischen_theaters_1987,
+        nvt:vid_004 ;
+    dcterms:language "fr" ;
+    dcterms:title "La Croisade" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "La Croisade" .
+
+nvt:vid_004_002 a nvto:InformationObject ;
+    nvto:containsAudioVisualReferenceTo nvt:ev_ameriques_001,
+        nvt:pr_ameriques ;
+    nvto:hasInformationCarrier nvt:digi_vid_004_002,
+        nvt:phys_vid_004_002 ;
+    nvto:originatedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kreiskulturhaus_prater ;
+    dcterms:created "1987-07-00" ;
+    dcterms:identifier "MCB-TV-1" ;
+    dcterms:isPartOf nvt:col_woche_des_gestischen_theaters_0000,
+        nvt:col_woche_des_gestischen_theaters_1987,
+        nvt:vid_004 ;
+    dcterms:title "Les Ameriques" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Les Ameriques" .
+
+nvt:vid_004_003 a nvto:InformationObject ;
+    nvto:hasInformationCarrier nvt:digi_vid_004_003,
+        nvt:phys_vid_004_003 ;
+    nvto:originatedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kreiskulturhaus_prater ;
+    dcterms:created "1987-07-00" ;
+    dcterms:isPartOf nvt:col_woche_des_gestischen_theaters_0000,
+        nvt:col_woche_des_gestischen_theaters_1987,
+        nvt:vid_004 ;
+    dcterms:title "Les Ameriques" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Les Ameriques" .
+
+nvt:vid_004_004 a nvto:InformationObject ;
+    nvto:hasInformationCarrier nvt:digi_vid_004_004,
+        nvt:phys_vid_004_004 ;
+    dcterms:isPartOf nvt:vid_004 ;
+    dcterms:language "ru" ;
+    dcterms:title "Ausschnitte aus Clownsprogrammen" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Ausschnitte aus Clownsprogrammen" .
+
+nvt:vid_004_005 a nvto:InformationObject ;
+    nvto:hasCinematographer nvt:christian_mattis ;
+    nvto:hasInformationCarrier nvt:digi_vid_004_005,
+        nvt:phys_vid_004_005 ;
+    nvto:originatedAtPlace nvt:loc_theater_rigiblick,
+        nvt:schweiz,
+        nvt:zuerich ;
+    dcterms:created "1987-08-00" ;
+    dcterms:isPartOf nvt:vid_004 ;
+    dcterms:rightsHolder "2019-06-07T00:00:00"^^xsd:dateTime ;
+    dcterms:title "Klettomanie" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Klettomanie" .
+
+nvt:vid_005 a nvto:InformationObject ;
+    nvto:hasInformationCarrier nvt:digi_vid_005,
+        nvt:phys_vid_005 ;
+    dcterms:type nvt:av_objekt .
+
+nvt:phys_vid_001 nvto:hasDigitalVersion nvt:digi_vid_001 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_002 nvto:hasCondition "Zustand: Bild gelbstichig" ;
+    nvto:hasDigitalVersion nvt:digi_vid_002 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_002_001 nvto:hasCondition "Zustand: Bild gelbstichig" ;
+    nvto:hasDigitalVersion nvt:digi_vid_002_001 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_002_002 nvto:hasCondition "Zustand: Bild gelbstichig" ;
+    nvto:hasDigitalVersion nvt:digi_vid_002_002 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_002_003 nvto:hasCondition "Zustand: Bild gelbstichig" ;
+    nvto:hasDigitalVersion nvt:digi_vid_002_003 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_002_004 nvto:hasCondition "Zustand: Bild gelbstichig" ;
+    nvto:hasDigitalVersion nvt:digi_vid_002_004 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_003 nvto:hasDigitalVersion nvt:digi_vid_003 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_004 nvto:hasDigitalVersion nvt:digi_vid_004 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_004_001 nvto:hasDigitalVersion nvt:digi_vid_004_001 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_004_002 nvto:hasDigitalVersion nvt:digi_vid_004_002 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_004_003 nvto:hasDigitalVersion nvt:digi_vid_004_003 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_004_004 nvto:hasDigitalVersion nvt:digi_vid_004_004 .
+
+nvt:phys_vid_004_005 nvto:hasCondition "Zustand: Kontrast zu schwach, der Vor- und Abspann sind unleserlich" ;
+    nvto:hasDigitalVersion nvt:digi_vid_004_005 ;
+    dcterms:provenance "Tetra Theater" .
+
+nvt:phys_vid_005 nvto:hasDigitalVersion nvt:digi_vid_005 .
+
+nvt:vid_002 a nvto:InformationObject ;
+    nvto:hasInformationCarrier nvt:digi_vid_002,
+        nvt:phys_vid_002 ;
+    dcterms:type nvt:av_objekt .
+
+nvt:vid_004 a nvto:InformationObject ;
+    nvto:hasInformationCarrier nvt:digi_vid_004,
+        nvt:phys_vid_004 .
+
+nvt:av_objekt a skos:Concept .
+

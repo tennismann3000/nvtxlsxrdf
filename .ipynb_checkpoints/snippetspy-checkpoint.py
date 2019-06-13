@@ -220,3 +220,12 @@ for index, row in pr_clean.iterrows():
     print(row["ID"][0])
 end = time.time()
 print(end - start)
+
+def uri_list(column, predicate):
+    if isinstance(row[column], list):
+        for i in row[column]:
+             graph.add((nvt[id_id], predicate, nvt[str(i)]))
+                
+def lit_list(column, predicate):
+    if isinstance(row[column], str):
+        graph.add((nvt[id_id], predicate, Literal(row[column])))                

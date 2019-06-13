@@ -1,0 +1,223 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nvt: <http://lod.iti-germany.de/resource/> .
+@prefix nvto: <http://lod.iti-germany.de/schema/nvto/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nvt:g_bruenner_kuenstlerhaus a nvto:PerformingArtsGroup .
+
+nvt:g_dt a nvto:PerformingArtsGroup .
+
+nvt:g_hdjt a nvto:PerformingArtsGroup .
+
+nvt:g_volksbuehne a nvto:PerformingArtsGroup .
+
+nvt:loc_apollosaalds a nvto:PerformingArtsLocation ;
+    skos:prefLabel "Apollosaal der Deutschen Staatsoper" .
+
+nvt:loc_assel a nvto:PerformingArtsLocation ;
+    skos:prefLabel "Assel" .
+
+nvt:loc_babylon a nvto:PerformingArtsLocation ;
+    skos:prefLabel "Kino Babylon " .
+
+nvt:loc_bat a nvto:PerformingArtsLocation ;
+    nvto:hasAddress "Belforter Straße 15, 1055 Berlin" ;
+    dcterms:isPartOf nvt:berlin_ost,
+        nvt:ddr ;
+    skos:prefLabel "bat" .
+
+nvt:loc_brechtzentrumberlin a nvto:PerformingArtsLocation ;
+    skos:prefLabel "Brechtzentrum Berlin" .
+
+nvt:loc_bruenner_kuenstlerhaus a nvto:PerformingArtsLocation ;
+    nvto:hasAddress """Malinovského náměstí 2
+602 00 Brno""" ;
+    dcterms:isPartOf nvt:bruenn,
+        nvt:tschechoslowakei ;
+    skos:altLabel "Brünner Künstlerhaus" ;
+    skos:prefLabel "Dům umění " .
+
+nvt:loc_centre_action_culturelle_saint_quentin_en_yvelines a nvto:PerformingArtsLocation ;
+    dcterms:isPartOf nvt:elancourt,
+        nvt:frankreich ;
+    skos:prefLabel "Centre d'Action Culturelle de Saint-Quentin-en-Yvelines" .
+
+nvt:loc_chamaeleon a nvto:PerformingArtsLocation ;
+    skos:prefLabel "CHAMÄLEON" .
+
+nvt:loc_dtfoyer a nvto:PerformingArtsLocation ;
+    nvto:hasAddress "Schumannstraße 13A, 10117 Berlin" ;
+    nvto:isResidenceOf nvt:loc_dt ;
+    dcterms:isPartOf nvt:berlin_ost,
+        nvt:ddr ;
+    skos:altLabel "Deutsches Theater Berlin" ;
+    skos:prefLabel "Foyer" .
+
+nvt:loc_dtks a nvto:PerformingArtsLocation ;
+    nvto:hasAddress "Schumannstraße 13A, 10117 Berlin" ;
+    nvto:isResidenceOf nvt:loc_dt ;
+    dcterms:isPartOf nvt:berlin_ost,
+        nvt:ddr ;
+    skos:altLabel "Deutsches Theater Berlin" ;
+    skos:prefLabel "Kammerspiele" .
+
+nvt:loc_dtks_foyer a nvto:PerformingArtsLocation ;
+    nvto:hasAddress "Schumannstraße 13A, 10117 Berlin" ;
+    nvto:isResidenceOf nvt:loc_dt ;
+    dcterms:isPartOf nvt:berlin_ost,
+        nvt:ddr ;
+    skos:prefLabel "Foyer der Kammerspiele " .
+
+nvt:loc_ei a nvto:PerformingArtsLocation ;
+    skos:altLabel "Kleine Bühne im Friedrichstadtpalast" ;
+    skos:prefLabel "Das Ei" .
+
+nvt:loc_filmtheater_am_friedrichshain a nvto:PerformingArtsLocation ;
+    nvto:hasAddress "Bötzowstraße 1-5, 1055 Berlin" ;
+    dcterms:isPartOf nvt:berlin_ost,
+        nvt:ddr ;
+    skos:prefLabel "Filmtheater am Friedrichshain" .
+
+nvt:loc_galerie_am_prater a nvto:PerformingArtsLocation ;
+    nvto:hasAddress "Kastanienalle 100, 1058 Berlin" ;
+    dcterms:description "Beschreibung: Galerie des Kreiskulturhaus Prater (nach 1989 Prater Berlin)" ;
+    dcterms:isPartOf nvt:berlin_ost,
+        nvt:ddr ;
+    skos:prefLabel "Galerie am Prater" .
+
+nvt:loc_hdjt a nvto:PerformingArtsLocation ;
+    nvto:hasAddress "Klosterstraße 68, 10179 Berlin" ;
+    dcterms:description "Beschreibung: Am 07.03.1954 (Gründungstag der FDJ) eröffnetes zentrales Jugendkulturzentrum für die \"Berliner Jugend\" im ehemaligen \"Podelwilschen Palais\", das mit Mitteln des Berliner Magistrats und der FDJ finanziert wurde.  Quelle: http://www.hdjt.org/geschichte/" ;
+    dcterms:isPartOf nvt:berlin_ost,
+        nvt:ddr ;
+    skos:prefLabel "Haus der jungen Talente" .
+
+nvt:loc_hebbel_theater a nvto:PerformingArtsLocation ;
+    nvto:hasAddress "Stresemannstraße 29, 1 Berlin 61" ;
+    dcterms:isPartOf nvt:berlin,
+        nvt:brd_002 ;
+    skos:prefLabel "Hebbel-Theater Berlin" .
+
+nvt:loc_jugendclub_erich_franz a nvto:PerformingArtsLocation ;
+    nvto:hasAddress "Schönhauser Allee 36-39, 1058 Berlin" ;
+    dcterms:isPartOf nvt:berlin_ost,
+        nvt:ddr ;
+    skos:prefLabel "Jugendclub \"Erich Franz\"" .
+
+nvt:loc_kaf a nvto:PerformingArtsLocation ;
+    skos:altLabel "Filmtheater Friedrichshain" ;
+    skos:prefLabel "Kino am Friedrichshain" .
+
+nvt:loc_kreiskulturhaus_prater a nvto:PerformingArtsLocation ;
+    nvto:hasAddress "Kastanienalle 7-9,  1058 Berlin" ;
+    dcterms:description "Beschreibung: Der Prater Berlin vor 1989" ;
+    dcterms:isPartOf nvt:berlin_ost,
+        nvt:ddr ;
+    skos:prefLabel "Kreiskulturhaus Prater" .
+
+nvt:loc_kuenstlerhaus_bethanien a nvto:PerformingArtsLocation ;
+    nvto:hasAddress "Mariannenplatz 2, 1 Berlin 36" ;
+    dcterms:isPartOf nvt:berlin,
+        nvt:brd_002 ;
+    skos:prefLabel "Künstlerhaus Bethanien" .
+
+nvt:loc_kuenstlerhof_buch a nvto:PerformingArtsLocation ;
+    skos:prefLabel "Künstlerhof Buch" .
+
+nvt:loc_kunsthof a nvto:PerformingArtsLocation ;
+    nvto:hasAddress "Oranienburger Straße 27" ;
+    skos:prefLabel "Kunsthof Berlin" .
+
+nvt:loc_pantomimenstudio_61 a nvto:PerformingArtsLocation ;
+    nvto:hasAddress "Schönhauser Allee 73" ;
+    dcterms:description "Beschreibung: Spiel- und Arbeitsstätte der Gruppe Studio 61 unter der leitugn von Eberhard Kube" ;
+    dcterms:isPartOf nvt:berlin_ost,
+        nvt:ddr ;
+    skos:prefLabel "Pantomimen-Studio-61" .
+
+nvt:loc_pratergarten a nvto:PerformingArtsLocation ;
+    skos:prefLabel "Kreiskulturhaus Prater: Pratergarten" .
+
+nvt:loc_probenbuehnebe a nvto:PerformingArtsLocation ;
+    skos:prefLabel "Probenbühne des Berliner Ensemble" .
+
+nvt:loc_st_anthonys_college_hall a nvto:PerformingArtsLocation ;
+    dcterms:isPartOf nvt:katugasota,
+        nvt:sri_lanka ;
+    skos:prefLabel "St. Anthony's College Hall" .
+
+nvt:loc_studio_pantomimen_theater a nvto:PerformingArtsLocation ;
+    nvto:hasAddress "Schönhauser Alle 73, 1058 Berlin" ;
+    dcterms:isPartOf nvt:berlin_ost,
+        nvt:ddr ;
+    skos:prefLabel "Studio des Pantomimentheater vom Prenzlauer Berg" .
+
+nvt:loc_theater_50 a nvto:PerformingArtsLocation ;
+    dcterms:description "Beschreibung: Spielstätte der DDR-Pantomimengruppe \"Salto Vitale\"" ;
+    dcterms:isPartOf nvt:ddr,
+        nvt:dresden ;
+    skos:prefLabel "Theater 50" .
+
+nvt:loc_theater_am_gelaender a nvto:PerformingArtsLocation ;
+    dcterms:isPartOf nvt:prag_001,
+        nvt:tschechoslowakei ;
+    skos:altLabel "Divadlo Na zábradlí" ;
+    skos:prefLabel "Theater am Geländer" .
+
+nvt:loc_theater_gans_an_der_schnur a nvto:PerformingArtsLocation ;
+    dcterms:isPartOf nvt:bruenn,
+        nvt:tschechoslowakei ;
+    skos:altLabel "Divadlo Husa na Provázku" ;
+    skos:prefLabel "Theater \"Gans an der Schnur\"" .
+
+nvt:loc_theater_im_palais a nvto:PerformingArtsLocation ;
+    skos:prefLabel "Theater im Palais" .
+
+nvt:loc_theater_rigiblick a nvto:PerformingArtsLocation .
+
+nvt:loc_theater_unterm_dach a nvto:PerformingArtsLocation ;
+    nvto:hasAddress "Danziger Straße 101, 1020 Berlin" ;
+    dcterms:isPartOf nvt:berlin_ost,
+        nvt:ddr ;
+    skos:prefLabel "Kulturhaus im Ernst-Thälmann-Park: Theater unterm Dach" .
+
+nvt:loc_theaterverein_neunzehnneuzig a nvto:PerformingArtsLocation ;
+    nvto:hasAddress "Friedrichstraße 125" ;
+    skos:prefLabel "Theaterverein \"neunzehn-neunzig\"" .
+
+nvt:loc_tip a nvto:PerformingArtsLocation ;
+    skos:prefLabel "Theater im Palast" .
+
+nvt:loc_volksbuehne a nvto:PerformingArtsLocation ;
+    nvto:hasAddress "Rosa-Luxemburg-Platz, 1026 Berlin" ;
+    dcterms:isPartOf nvt:berlin_ost,
+        nvt:ddr ;
+    skos:prefLabel "Volksbühne am Rosa-Luxemburg-Platz" .
+
+nvt:loc_wabe a nvto:PerformingArtsLocation ;
+    nvto:hasAddress "Danziger Straße 101, 1020 Berlin" ;
+    dcterms:isPartOf nvt:berlin_ost,
+        nvt:ddr ;
+    skos:prefLabel "Kulturhaus im Ernst-Thälmann-Park: Wabe" .
+
+nvt:loc_zeiss_grossplanetarium a nvto:PerformingArtsLocation ;
+    skos:prefLabel "Zeiss-Großplanetarium Berlin" .
+
+nvt:loc_zirkuszelt a nvto:PerformingArtsLocation .
+
+nvt:loc_dt a nvto:PerformingArtsLocation ;
+    nvto:hasAddress "Schumannstraße 13A, 10117 Berlin" ;
+    dcterms:isPartOf nvt:berlin_ost,
+        nvt:ddr ;
+    skos:altLabel "Staatstheater der DDR" ;
+    skos:prefLabel "Deutsches Theater" .
+

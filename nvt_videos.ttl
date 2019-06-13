@@ -1,0 +1,335 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nvt: <http://lod.iti-germany.de/resource/> .
+@prefix nvto: <http://lod.iti-germany.de/schema/nvto/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nvt:vid_001 a nvto:InformationObject ;
+    nvto:containsAudioVisualReferenceTo nvt:pr_die_offene_tuer,
+        nvt:pr_kanon_und_fuge,
+        nvt:pr_le_violloncelliste,
+        nvt:pr_pantalon_und_colombine,
+        nvt:pr_studie ;
+    nvto:containsReferenceTo nvt:g_berliner_pantomimentheater,
+        nvt:pr_die_offene_tuer,
+        nvt:pr_kanon_und_fuge,
+        nvt:pr_le_violloncelliste,
+        nvt:pr_pantalon_und_colombine,
+        nvt:pr_studie ;
+    nvto:containsVisualReferenceTo nvt:marie_luise_anger ;
+    nvto:hasComposer nvt:fernando_lafferiere ;
+    nvto:hasInformationCarrier nvt:digi_vid_001,
+        nvt:phys_vid_001 ;
+    nvto:hasMusician nvt:christoph_heidemann,
+        nvt:kristina_krafft ;
+    nvto:hasPerformer nvt:hans_henning_wulf,
+        nvt:nancy_sanchez_perez,
+        nvt:nina_stadthaus,
+        nvt:stephan_dreher ;
+    nvto:originatedAtPlace nvt:berlin,
+        nvt:brd_002 ;
+    dcterms:created "1991-06-22" ;
+    dcterms:description "Beschreibung: Klangbilder - fünf Inszenierungen von Marie-Luise Anger: \"Die offene Tür\", \"Studie\", \"Kanon und Fuge\" (Co-Regie Katrin Adams) \"Le Violoncelliste\" und \"Pantalon und Colombine\" aus den Jahren 1990 bis 1991. Bearbeitete mit Vor- und Abspann (mit Nennung der Mitwirkenden). Eine Videoproduktion des Mime Centrum Berlin 1992. Quelle: http://archiv.mimecentrum.de/videos/MCB-TV-25" ;
+    dcterms:identifier "MCB-TV-25" ;
+    dcterms:title "Klangbilder" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Klangbilder" .
+
+nvt:vid_002_001 a nvto:InformationObject ;
+    nvto:hasInformationCarrier nvt:digi_vid_002_001,
+        nvt:phys_vid_002_001 ;
+    nvto:originatedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    dcterms:description "Beschreibung: Auf Bühne stehen fünf zylinderförmige Röhren, die beginnen, sich über die Bühne zu bewegen. Ihnen entsteigen nach und nach beinahe nackte Darsteller*innen mit abgeklebten oder rasierten Haaren.Die Aufnahme zeigt die gesamte Aufführung: Am Ende der Aufnahme Schlussapplaus Quelle: TN" ;
+    dcterms:isPartOf nvt:col_woche_des_gestischen_theaters_0000,
+        nvt:col_woche_des_gestischen_theaters_1989,
+        nvt:vid_002 ;
+    dcterms:title "Unbekannte Inszenierung" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Unbekannte Inszenierung" .
+
+nvt:vid_002_002 a nvto:InformationObject ;
+    nvto:containsAudioVisualReferenceTo nvt:ev_human_power_flight,
+        nvt:pr_human_powerflight ;
+    nvto:containsVisualReferenceTo nvt:mitsuro_sasaki ;
+    nvto:hasCinematographer nvt:thilo_wittenbecher ;
+    nvto:hasInformationCarrier nvt:digi_vid_002_002,
+        nvt:phys_vid_002_002 ;
+    nvto:originatedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    dcterms:created "1989-07-07" ;
+    dcterms:description "Beschreibung: Solo des japanischen Butho-Tänzers Mitsuru Sasaki. Eine Aufführung im Rahmen der Gestischen Woche 1989 in Berlin. Quelle: TN;http://archiv.mimecentrum.de/videos/MCB-DV-687" ;
+    dcterms:identifier "MCB-DV-687" ;
+    dcterms:isPartOf nvt:col_woche_des_gestischen_theaters_0000,
+        nvt:col_woche_des_gestischen_theaters_1989,
+        nvt:vid_002 ;
+    dcterms:title "Human Power Flight" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Human Power Flight" .
+
+nvt:vid_002_003 a nvto:InformationObject ;
+    nvto:hasInformationCarrier nvt:digi_vid_002_003,
+        nvt:phys_vid_002_003 ;
+    nvto:originatedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    dcterms:created "1989-07-08" ;
+    dcterms:description "Beschreibung: Solopantomime einer Darstellerin. Sie nimmt verschiedene Rollen ein." ;
+    dcterms:isPartOf nvt:col_woche_des_gestischen_theaters_0000,
+        nvt:col_woche_des_gestischen_theaters_1989,
+        nvt:vid_002 ;
+    dcterms:title "Unbekannte Inszenierung" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Unbekannte Inszenierung" .
+
+nvt:vid_002_004 a nvto:InformationObject ;
+    nvto:hasInformationCarrier nvt:digi_vid_002_004,
+        nvt:phys_vid_002_004 ;
+    nvto:originatedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_wabe ;
+    dcterms:created "1989-07-08" ;
+    dcterms:description "Beschreibung: Solopantomime einer Darstellerin. Sie nimmt verschiedene Rollen ein." ;
+    dcterms:isPartOf nvt:col_woche_des_gestischen_theaters_0000,
+        nvt:col_woche_des_gestischen_theaters_1989,
+        nvt:vid_002 ;
+    dcterms:title "Unbekannte Inszenierung" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Unbekannte Inszenierung" .
+
+nvt:vid_003 a nvto:InformationObject ;
+    nvto:containsAudioVisualReferenceTo nvt:ev_film_horatier_kuriatier,
+        nvt:pr_horatier_kuriatier ;
+    nvto:containsReferenceTo nvt:g_pt_pb ;
+    nvto:containsVisualReferenceTo nvt:eberhard_kube ;
+    nvto:hasCinematographer nvt:bernd_mueller,
+        nvt:harri_muenzhardt,
+        nvt:helmut_fischer,
+        nvt:klaus_hesse,
+        nvt:rolf_dieter_graf ;
+    nvto:hasDirector nvt:margot_thyret ;
+    nvto:hasInformationCarrier nvt:digi_vid_003,
+        nvt:phys_vid_003 ;
+    nvto:hasLightDesigner nvt:hans_juergen_herrmann ;
+    nvto:hasMusician nvt:eckehard_binas,
+        nvt:thomas_naumann,
+        nvt:wolfgang_paulke ;
+    nvto:hasRecordist nvt:klaus_urbanski ;
+    nvto:hasSubtitle "Ein Lehrstück" ;
+    nvto:hasVideoEditor nvt:detlef_wolff,
+        nvt:rolf_wellingerhof ;
+    nvto:originatedAtPlace nvt:ddr,
+        nvt:loc_kalkwer_ruedersdor,
+        nvt:ruedersdorf ;
+    dcterms:contributor nvt:bernd_mnich ;
+    dcterms:created "1982-00-00" ;
+    dcterms:description """Beschreibung: Die Horatier und die Kuriatier - Ein Lehrstück von Bertolt Brecht. Eine Produktion des Pantomimentheater vom Prenzlauer Berg, die in den 1980er Jahren netwickelt wurde und mit dem zuvor entwickelten Programm "Viele Dinge sind in einem Ding" korrespondiert. Aus dem Off sind Textpassagen über die mimischen Szenen gelegt, sowie Musik eingespielt.
+
+Eberhard Kube - Gründer und langjähriger künstlerischer Leiter des Theaters - verwendete für die Realisierung der Brechtschen Vorlage die chinesische Bewegungsform des Taiji. 
+Von der Berliner Dozentin Brigitte Berghese mit Taiji angeregt und ausgebildet, entwickelte Kube mit seinem Ensemble eine Verbindung der Vorlage Brechts mit der von diesem so geschätzten chinesischen Theater- und Lebenskunst.
+
+Die Inszenierung wurde von Kube für Theateräume sowie öffentliche Plätze entwickelt, das Band zeigt die zusammen mit dem Fernsehen der DDR entstandene Open-Air-Adaption im Kalkwerk Rüdersdorf bei Berlin. Quelle: TN;http://archiv.mimecentrum.de/videos/MCB-SV-1415""" ;
+    dcterms:identifier "MCB-SV-1415" ;
+    dcterms:isPartOf nvt:col_eberhard_kube,
+        nvt:col_pt_pb ;
+    dcterms:language "de" ;
+    dcterms:title "Die Horatier und die Kuriatier" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Die Horatier und die Kuriatier" .
+
+nvt:vid_004_001 a nvto:InformationObject ;
+    nvto:containsAudioVisualReferenceTo nvt:ev_croisade,
+        nvt:pr_la_croisade ;
+    nvto:containsVisualReferenceTo nvt:corinne_soum,
+        nvt:steven_wasson ;
+    nvto:hasInformationCarrier nvt:digi_vid_004_001,
+        nvt:phys_vid_004_001 ;
+    nvto:originatedAtPlace nvt:berlin_ost,
+        nvt:ddr ;
+    dcterms:created "1987-07-00" ;
+    dcterms:description "Beschreibung: Eine mime corporel-Produktion des französischen Duos Theatre de l'Ange Fou. Gastspiel bei der Woche des gestischen Theaters 1987. Darin arbeiten Steven Wasson und Corinne Soum u. a. mit Großpuppen. Quelle: TN" ;
+    dcterms:identifier "MCB-TV_23;MCB-TV-24" ;
+    dcterms:isPartOf nvt:col_woche_des_gestischen_theaters_0000,
+        nvt:col_woche_des_gestischen_theaters_1987,
+        nvt:vid_004 ;
+    dcterms:language "fr" ;
+    dcterms:title "La Croisade" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "La Croisade" .
+
+nvt:vid_004_002 a nvto:InformationObject ;
+    nvto:containsAudioVisualReferenceTo nvt:ev_ameriques_001,
+        nvt:pr_ameriques ;
+    nvto:hasInformationCarrier nvt:digi_vid_004_002,
+        nvt:phys_vid_004_002 ;
+    nvto:originatedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kreiskulturhaus_prater ;
+    dcterms:created "1987-07-00" ;
+    dcterms:description """Beschreibung: Ein Bewegungstheaterstück für acht Spieler zum Thema Erschliessung der Welt: Die Hoffnungen, Sehnsüchte, Nöte und Träume von acht Menschen, die durch eine gemeinsame Überfahrt in die Neue Welt Amerika eine willkürliche Gemeinschaft bilden.
+
+Auf der Bühne befinden sich acht Darsteller*innen. Die Kostüme sind realistisch. Die Darsteller*innen tragen (europäische) Alltagskleidung des 19. bzw. beginnenden 20. Jahrhunderts. Sie sehen ärmlich aus, bzw. wie von einer langen Reise mitgenommen. Außer den Reisegepäckstücken, die jede*r von ihnen bei sich trägt, gibt es keine weiteren Requisiten bzw. Bühnenbildelemente. Es werden u. a. Abschiedsszenen dargestellt. Die Darsteller*innen arbeiten sowohl vereinzelt als auch in synchronen bzw. chorischen Sequenzen zusammen. Eine düstere Cellokomposition spielt für die gesamte Aufführungsdauer, zeitweilig unterbrochen von einem Saxophon, was zu einer Veränderung der Bühnenstimmung führt. Zum Ende der Aufführung steigert sich die Musik zu einer Orchesterkomposition. Quelle: TN;http://archiv.mimecentrum.de/videos/MCB-TV-1""" ;
+    dcterms:identifier "MCB-TV-1" ;
+    dcterms:isPartOf nvt:col_woche_des_gestischen_theaters_0000,
+        nvt:col_woche_des_gestischen_theaters_1987,
+        nvt:vid_004 ;
+    dcterms:title "Les Ameriques" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Les Ameriques" .
+
+nvt:vid_004_003 a nvto:InformationObject ;
+    nvto:hasInformationCarrier nvt:digi_vid_004_003,
+        nvt:phys_vid_004_003 ;
+    nvto:originatedAtPlace nvt:berlin_ost,
+        nvt:ddr,
+        nvt:loc_kreiskulturhaus_prater ;
+    dcterms:created "1987-07-00" ;
+    dcterms:isPartOf nvt:col_woche_des_gestischen_theaters_0000,
+        nvt:col_woche_des_gestischen_theaters_1987,
+        nvt:vid_004 ;
+    dcterms:title "Les Ameriques" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Les Ameriques" .
+
+nvt:vid_004_004 a nvto:InformationObject ;
+    nvto:hasInformationCarrier nvt:digi_vid_004_004,
+        nvt:phys_vid_004_004 ;
+    dcterms:description "Beschreibung: Diverse Ausschnitte aus TV-Programmen, Aufnahmen von Open-Air Vorstellungen. Soweit gesprochen wird, geschieht dies auf Russisch." ;
+    dcterms:isPartOf nvt:vid_004 ;
+    dcterms:language "ru" ;
+    dcterms:title "Ausschnitte aus Clownsprogrammen" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Ausschnitte aus Clownsprogrammen" .
+
+nvt:vid_004_005 a nvto:InformationObject ;
+    nvto:hasCinematographer nvt:christian_mattis ;
+    nvto:hasInformationCarrier nvt:digi_vid_004_005,
+        nvt:phys_vid_004_005 ;
+    nvto:originatedAtPlace nvt:loc_theater_rigiblick,
+        nvt:schweiz,
+        nvt:zuerich ;
+    dcterms:created "1987-08-00" ;
+    dcterms:description """Beschreibung: Ein genreübergreifendes Stück mit Menschen in Klettanzügen; Mime Corporel, Slapstick, Performance, Comedy, Bildertheater... 
+
+Eine frühe Inszenierung von Christian Mattis in der Originalbesetzung, Zürich 1987.
+ Quelle: http://archiv.mimecentrum.de/videos/MCB-TV-788""" ;
+    dcterms:isPartOf nvt:vid_004 ;
+    dcterms:rightsHolder "2019-06-07T00:00:00"^^xsd:dateTime ;
+    dcterms:title "Klettomanie" ;
+    dcterms:type nvt:av_objekt ;
+    skos:prefLabel "Klettomanie" .
+
+nvt:vid_005 a nvto:InformationObject ;
+    nvto:hasInformationCarrier nvt:digi_vid_005,
+        nvt:phys_vid_005 ;
+    dcterms:type nvt:av_objekt .
+
+nvt:phys_vid_001 a nvto:PhysicalObject ;
+    nvto:hasDigitalVersion nvt:digi_vid_001 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_002 a nvto:PhysicalObject ;
+    nvto:hasCondition "Zustand: Bild gelbstichig" ;
+    nvto:hasDigitalVersion nvt:digi_vid_002 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_002_001 a nvto:PhysicalObject ;
+    nvto:hasCondition "Zustand: Bild gelbstichig" ;
+    nvto:hasDigitalVersion nvt:digi_vid_002_001 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_002_002 a nvto:PhysicalObject ;
+    nvto:hasCondition "Zustand: Bild gelbstichig" ;
+    nvto:hasDigitalVersion nvt:digi_vid_002_002 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_002_003 a nvto:PhysicalObject ;
+    nvto:hasCondition "Zustand: Bild gelbstichig" ;
+    nvto:hasDigitalVersion nvt:digi_vid_002_003 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_002_004 a nvto:PhysicalObject ;
+    nvto:hasCondition "Zustand: Bild gelbstichig" ;
+    nvto:hasDigitalVersion nvt:digi_vid_002_004 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_003 a nvto:PhysicalObject ;
+    nvto:hasDigitalVersion nvt:digi_vid_003 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_004 a nvto:PhysicalObject ;
+    nvto:hasDigitalVersion nvt:digi_vid_004 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_004_001 a nvto:PhysicalObject ;
+    nvto:hasDigitalVersion nvt:digi_vid_004_001 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_004_002 a nvto:PhysicalObject ;
+    nvto:hasDigitalVersion nvt:digi_vid_004_002 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_004_003 a nvto:PhysicalObject ;
+    nvto:hasDigitalVersion nvt:digi_vid_004_003 ;
+    dcterms:provenance "MCB" .
+
+nvt:phys_vid_004_004 a nvto:PhysicalObject ;
+    nvto:hasDigitalVersion nvt:digi_vid_004_004 .
+
+nvt:phys_vid_004_005 a nvto:PhysicalObject ;
+    nvto:hasCondition "Zustand: Kontrast zu schwach, der Vor- und Abspann sind unleserlich" ;
+    nvto:hasDigitalVersion nvt:digi_vid_004_005 ;
+    dcterms:provenance "Tetra Theater" .
+
+nvt:phys_vid_005 a nvto:PhysicalObject ;
+    nvto:hasDigitalVersion nvt:digi_vid_005 .
+
+nvt:digi_vid_001 a nvto:DigitalObject .
+
+nvt:digi_vid_002 a nvto:DigitalObject .
+
+nvt:digi_vid_002_001 a nvto:DigitalObject .
+
+nvt:digi_vid_002_002 a nvto:DigitalObject .
+
+nvt:digi_vid_002_003 a nvto:DigitalObject .
+
+nvt:digi_vid_002_004 a nvto:DigitalObject .
+
+nvt:digi_vid_003 a nvto:DigitalObject .
+
+nvt:digi_vid_004 a nvto:DigitalObject .
+
+nvt:digi_vid_004_001 a nvto:DigitalObject .
+
+nvt:digi_vid_004_002 a nvto:DigitalObject .
+
+nvt:digi_vid_004_003 a nvto:DigitalObject .
+
+nvt:digi_vid_004_004 a nvto:DigitalObject .
+
+nvt:digi_vid_004_005 a nvto:DigitalObject .
+
+nvt:digi_vid_005 a nvto:DigitalObject .
+
+nvt:vid_002 a nvto:InformationObject ;
+    nvto:hasInformationCarrier nvt:digi_vid_002,
+        nvt:phys_vid_002 ;
+    dcterms:type nvt:av_objekt .
+
+nvt:vid_004 a nvto:InformationObject ;
+    nvto:hasInformationCarrier nvt:digi_vid_004,
+        nvt:phys_vid_004 .
+
+nvt:av_objekt a skos:Concept .
+
