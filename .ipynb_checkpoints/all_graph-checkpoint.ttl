@@ -1,0 +1,157 @@
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://lod.iti-germany.de/resource/aachen> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/deutschland> ;
+    ns3:sameAs <https://www.geonames.org/3247449/aachen.html> ;
+    ns1:altLabel "Aachen" ;
+    ns1:prefLabel "Aachen" .
+
+<http://lod.iti-germany.de/resource/aarhus> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/daenemark> ;
+    ns1:altLabel "Aarhus" ;
+    ns1:prefLabel "Aarhus" .
+
+<http://lod.iti-germany.de/resource/amsterdam> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/niederlande> ;
+    ns1:altLabel "Amsterdam" ;
+    ns1:prefLabel "Amsterdam" .
+
+<http://lod.iti-germany.de/resource/berlin> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/brd_002> ;
+    ns1:altLabel "Berlin" ;
+    ns1:prefLabel "Berlin" .
+
+<http://lod.iti-germany.de/resource/berlin_ost> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/ddr> ;
+    ns1:altLabel "Berlin (East)",
+        "Berlin (Ost)" ;
+    ns1:prefLabel "Berlin (Ost)" .
+
+<http://lod.iti-germany.de/resource/berlin_west> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/brd_001> ;
+    ns1:altLabel "Berlin (West)" ;
+    ns1:prefLabel "Berlin (West)" .
+
+<http://lod.iti-germany.de/resource/birmingham> a <http://lod.iti-germany.de/schema/nvto/City> .
+
+<http://lod.iti-germany.de/resource/bruenn> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/tschechoslowakei> ;
+    ns1:altLabel "Brno",
+        "Brünn" ;
+    ns1:prefLabel "Brünn" .
+
+<http://lod.iti-germany.de/resource/budapest> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/ungarn> ;
+    ns1:altLabel "Budapest" ;
+    ns1:prefLabel "Budapest" .
+
+<http://lod.iti-germany.de/resource/dresden> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/ddr> ;
+    ns1:altLabel "Dresden" ;
+    ns1:prefLabel "Dresden" .
+
+<http://lod.iti-germany.de/resource/elancourt> a <http://lod.iti-germany.de/schema/nvto/City> .
+
+<http://lod.iti-germany.de/resource/essen> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/brd_001> ;
+    ns1:altLabel "Essen" ;
+    ns1:prefLabel "Essen" .
+
+<http://lod.iti-germany.de/resource/jena> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/ddr> ;
+    ns1:altLabel "Jena" ;
+    ns1:prefLabel "Jena" .
+
+<http://lod.iti-germany.de/resource/katugasota> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/sri_lanka> ;
+    ns1:altLabel "Katugasota" ;
+    ns1:prefLabel "Katugasota" .
+
+<http://lod.iti-germany.de/resource/koeln> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/brd_001> ;
+    ns1:altLabel "Cologne",
+        "Köln" ;
+    ns1:prefLabel "Köln" .
+
+<http://lod.iti-germany.de/resource/leningrad> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/udssr> ;
+    ns1:altLabel "Leningrad" ;
+    ns1:prefLabel "Leningrad" .
+
+<http://lod.iti-germany.de/resource/nancy> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/frankreich> ;
+    ns1:altLabel "Nancy" ;
+    ns1:prefLabel "Nancy" .
+
+<http://lod.iti-germany.de/resource/neubrandenburg> a <http://lod.iti-germany.de/schema/nvto/City> .
+
+<http://lod.iti-germany.de/resource/oran> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/algerien> ;
+    ns1:altLabel "Oran" ;
+    ns1:prefLabel "Oran" .
+
+<http://lod.iti-germany.de/resource/paris> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/frankreich> ;
+    ns1:altLabel "Paris" ;
+    ns1:prefLabel "Paris" .
+
+<http://lod.iti-germany.de/resource/prag_001> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/tschechoslowakei> ;
+    ns1:altLabel "Prag",
+        "Prague" ;
+    ns1:prefLabel "Prag" .
+
+<http://lod.iti-germany.de/resource/prag_002> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/tschechische_republik> ;
+    ns1:altLabel "Prag",
+        "Prague" ;
+    ns1:prefLabel "Prag" .
+
+<http://lod.iti-germany.de/resource/rostock> a <http://lod.iti-germany.de/schema/nvto/City> .
+
+<http://lod.iti-germany.de/resource/ruedersdorf> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns1:altLabel "Rüdersdorf bei Berlin" ;
+    ns1:prefLabel "Rüdersdorf bei Berlin" .
+
+<http://lod.iti-germany.de/resource/sofia> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/bulgarien> ;
+    ns1:altLabel "Sofia" ;
+    ns1:prefLabel "Sofia" .
+
+<http://lod.iti-germany.de/resource/spring_green> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns1:altLabel "Spring_Green" ;
+    ns1:prefLabel "Spring_Green" .
+
+<http://lod.iti-germany.de/resource/tbilissi> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/gssr> ;
+    ns1:altLabel "Tibilisi",
+        "Tiflis" ;
+    ns1:prefLabel "Tbilissi" .
+
+<http://lod.iti-germany.de/resource/toronto> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/kanada> .
+
+<http://lod.iti-germany.de/resource/ufa> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/udssr> ;
+    ns1:altLabel "Ufa" ;
+    ns1:prefLabel "Ufa" .
+
+<http://lod.iti-germany.de/resource/verona> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/italien> ;
+    ns1:altLabel "Verona" ;
+    ns1:prefLabel "Verona" .
+
+<http://lod.iti-germany.de/resource/wien> a <http://lod.iti-germany.de/schema/nvto/City> ;
+    ns2:isPartOf <http://lod.iti-germany.de/resource/oesterreich> ;
+    ns1:altLabel "Vienna",
+        "Wien" ;
+    ns1:prefLabel "Wien" .
+
+<http://lod.iti-germany.de/resource/zuerich> a <http://lod.iti-germany.de/schema/nvto/City> .
+

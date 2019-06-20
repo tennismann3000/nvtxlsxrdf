@@ -1,0 +1,3194 @@
+@prefix ns1: <http://www.example.com/> .
+@prefix ns2: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://lod.iti-germany.de/schema/nvto/> .
+@prefix ns6: <http://www.w3.org/2002/07/owl#> .
+@prefix ns7: <urn:x-rdflib:> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:pr {
+    <http://lod.iti-germany.de/resource/algerien> a ns5:Country ;
+        ns2:prefLabel "Demokratische Volksrepublik Algerien" .
+
+    <http://lod.iti-germany.de/resource/australien> a ns5:Country .
+
+    <http://lod.iti-germany.de/resource/belgien> a ns5:Country .
+
+    <http://lod.iti-germany.de/resource/brd_001> a ns5:Country .
+
+    <http://lod.iti-germany.de/resource/brd_002> a ns5:Country .
+
+    <http://lod.iti-germany.de/resource/bulgarien> a ns5:Country .
+
+    <http://lod.iti-germany.de/resource/csfr> a ns5:Country ;
+        ns2:altLabel "Czech and Slovak Federative Republic",
+            "Tschechische und Slowakische Föderative Republik" ;
+        ns2:prefLabel "Tschechische und Slowakische Föderative Republik" .
+
+    <http://lod.iti-germany.de/resource/daenemark> a ns5:Country ;
+        ns2:altLabel "Denmark",
+            "Dänemark" ;
+        ns2:prefLabel "Königreich Dänemark" .
+
+    <http://lod.iti-germany.de/resource/ddr> a ns5:Country ;
+        ns2:altLabel "Deutsche Demokratische Republik",
+            "German Democratic Republic" ;
+        ns2:prefLabel "Deutsche Demokratische Republik" .
+
+    <http://lod.iti-germany.de/resource/frankreich> a ns5:Country ;
+        ns2:prefLabel "Französische Republik" .
+
+    <http://lod.iti-germany.de/resource/grossbritannien> a ns5:Country .
+
+    <http://lod.iti-germany.de/resource/gssr> a ns5:Country ;
+        ns2:prefLabel "Georgische Sozialistische Sowjetrepublik" .
+
+    <http://lod.iti-germany.de/resource/italien> a ns5:Country .
+
+    <http://lod.iti-germany.de/resource/kambodscha> a ns5:Country ;
+        ns2:altLabel "Cambodia",
+            "Kambodscha" ;
+        ns2:prefLabel "Königreich Kambodscha" .
+
+    <http://lod.iti-germany.de/resource/kanada> a ns5:Country ;
+        ns2:altLabel "Canada",
+            "Kanada" ;
+        ns2:prefLabel "Kanada" .
+
+    <http://lod.iti-germany.de/resource/kroatien> a ns5:Country .
+
+    <http://lod.iti-germany.de/resource/laos> a ns5:Country ;
+        ns2:altLabel "Laos" ;
+        ns2:prefLabel "Demokratische Volksrepublik Laos" .
+
+    <http://lod.iti-germany.de/resource/mssr> a ns5:Country ;
+        ns2:altLabel "Moldauische Sozialistische Sowjetrepublik",
+            "Moldavian Soviet Socialist Republic" ;
+        ns2:prefLabel "Moldauische Sozialistische Sowjetrepublik" .
+
+    <http://lod.iti-germany.de/resource/nicaragua> a ns5:Country ;
+        ns2:altLabel "Nicaragua" ;
+        ns2:prefLabel "Republik Nicaragua" .
+
+    <http://lod.iti-germany.de/resource/niederlande> a ns5:Country ;
+        ns2:altLabel "Netherlands",
+            "Niederlande" ;
+        ns2:prefLabel "Niederlande" .
+
+    <http://lod.iti-germany.de/resource/oesterreich> a ns5:Country ;
+        ns2:prefLabel "Republik Österreich" .
+
+    <http://lod.iti-germany.de/resource/polen> a ns5:Country .
+
+    <http://lod.iti-germany.de/resource/portugal> a ns5:Country ;
+        ns2:altLabel "Portugal" ;
+        ns2:prefLabel "Portugisische Republik" .
+
+    <http://lod.iti-germany.de/resource/russland> a ns5:Country .
+
+    <http://lod.iti-germany.de/resource/schweiz> a ns5:Country .
+
+    <http://lod.iti-germany.de/resource/spanien> a ns5:Country .
+
+    <http://lod.iti-germany.de/resource/sri_lanka> a ns5:Country .
+
+    <http://lod.iti-germany.de/resource/tschechoslowakei> a ns5:Country .
+
+    <http://lod.iti-germany.de/resource/udssr> a ns5:Country .
+
+    <http://lod.iti-germany.de/resource/ukraine> a ns5:Country .
+
+    <http://lod.iti-germany.de/resource/ungarn> a ns5:Country .
+
+    <http://lod.iti-germany.de/resource/usa> a ns5:Country .
+
+    <http://lod.iti-germany.de/resource/vietnam> a ns5:Country ;
+        ns2:altLabel "Vietnam" ;
+        ns2:prefLabel "Sozialistische Republik Vietnam" .
+}
+
+ns1:gr {
+    <http://lod.iti-germany.de/resource/a_oloff> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Studio 61 Quelle: TN; txt-153" .
+
+    <http://lod.iti-germany.de/resource/a_wandtke> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Studio 61 Quelle: TN; txt-153" .
+
+    <http://lod.iti-germany.de/resource/abdelkader_belkeriou> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller im Ensemble Théâtre Regional d‘Oran Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Abdelkader Belkeriou" ;
+        ns3:familyName "Belkeriou" ;
+        ns3:firstName "Abdelkader" ;
+        ns3:name "Abdelkader Belkeriou" .
+
+    <http://lod.iti-germany.de/resource/abdelwahab_salah> a ns5:Agent ;
+        ns4:description "Beschreibung: Requisiteur im Ensemble Théâtre Regional d'Oran Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Abdelwahab Salah" ;
+        ns3:familyName "Salah" ;
+        ns3:firstName "Abdelwahab" ;
+        ns3:name "Abdelwahab Salah" .
+
+    <http://lod.iti-germany.de/resource/abel_aboualitan> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Pantomimen-Ensemble Le Théâtre Nu. Quelle: Programmheft Woche des Gestischen Theaters 1988" ;
+        ns2:prefLabel "Abel Aboualitan" ;
+        ns3:familyName "Aboualitan" ;
+        ns3:firstName "Abel" ;
+        ns3:name "Abel Aboualitan" .
+
+    <http://lod.iti-germany.de/resource/adelheid_wieser> a ns5:Agent ;
+        ns5:hasDateOfBirth "YYYY-MM-TT" ;
+        ns5:hasDateOfDeath "YYYY-MM-TT" ;
+        ns4:description "Beschreibung: Bühnenbildnerin" ;
+        ns2:prefLabel "Adelheid Wieser" ;
+        ns3:familyName "Adelheid Wieser" ;
+        ns3:firstName "Adelheid Wieser" ;
+        ns3:name "Adelheid Wieser" .
+
+    <http://lod.iti-germany.de/resource/alberto_foletti> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller, La Compagnia Teatro Dimitri Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Alberto Foletti" ;
+        ns3:familyName "Foletti" ;
+        ns3:firstName "Alberto " ;
+        ns3:name "Alberto Foletti" .
+
+    <http://lod.iti-germany.de/resource/alexander_jakowlewitsch_tairov> a ns5:Agent ;
+        ns5:hasDateOfBirth "1885-07-06" ;
+        ns4:description "Beschreibung: Sowjetischer Regisseur und Theatertheoretiker Quelle: CW, https://de.wikipedia.org/wiki/Alexander_Jakowlewitsch_Tairow" ;
+        ns6:sameAs <http://d-nb.info/gnd/118931717>,
+            <http://viaf.org/viaf/29591999>,
+            <https://www.wikidata.org/wiki/Q981151> ;
+        ns2:prefLabel "Alexandr JakowlewitschTairov" ;
+        ns3:familyName "Tairov" ;
+        ns3:firstName "Alexander Jakowlewitsch" ;
+        ns3:name "Alexandr JakowlewitschTairov" .
+
+    <http://lod.iti-germany.de/resource/alexander_munkas> a ns5:Agent ;
+        ns4:description "Beschreibung: Tontechniker bei \"Sunny Side Up\" Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Alexander Munkas" ;
+        ns3:familyName "Munkas" ;
+        ns3:firstName "Alexander" ;
+        ns3:name "Alexander Munkas" .
+
+    <http://lod.iti-germany.de/resource/alexandr_andrejew> a ns5:Agent ;
+        ns4:description "Beschreibung: Sowjetischer Solo-Pantomime, der v.a. auf dem Gebiet der Clownerie arbeitet. Quelle: TN; Programmheft Woche des Gestischen Theaters 1990" ;
+        ns2:prefLabel "Alexandr Andrejew" ;
+        ns3:familyName "Andrejew" ;
+        ns3:firstName "Alexandr" ;
+        ns3:name "Alexandr Andrejew" .
+
+    <http://lod.iti-germany.de/resource/alexandr_dscheromskij> a ns5:Agent ;
+        ns5:hasDateOfBirth "1944-06-23" ;
+        ns5:hasDateOfDeath "1994-04-28" ;
+        ns4:description "Beschreibung: Sowjetischer Schauspieler und Pantomime Quelle: TN" ;
+        ns2:prefLabel "Alexandr Borisowitsch Dscheromskij" ;
+        ns3:familyName "Dscheromskij" ;
+        ns3:firstName "Alexandr Borisowitsch" ;
+        ns3:name "Alexandr Borisowitsch Dscheromskij" .
+
+    <http://lod.iti-germany.de/resource/alexandr_kot> a ns5:Agent ;
+        ns4:description "Beschreibung: Gründer und künstlerischer Leiter des \"Musikalischen Theaters des Plastischen Dramas\" Quelle: TN; Programmheft Woche des Gestischen Theaters 1990" ;
+        ns2:prefLabel "Alexandr Kot" ;
+        ns3:familyName "Kot" ;
+        ns3:firstName "Alexandr" ;
+        ns3:name "Alexandr Kot" .
+
+    <http://lod.iti-germany.de/resource/alexandr_mollow> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/alf_mahlow> a ns5:Agent ;
+        ns2:prefLabel "Alf Mahlow" ;
+        ns3:familyName "Mahlow" ;
+        ns3:firstName "Alf" ;
+        ns3:name "Alf Mahlow" .
+
+    <http://lod.iti-germany.de/resource/alfred_kummer> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied Pantomimenstudio Berlin / Studio 61 [?] unter der Leitung von Eberhard Kube Quelle: TN; txt-155" .
+
+    <http://lod.iti-germany.de/resource/alfred_paszkowiak> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/amelie_kreutz> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/amiran_schalikaschwili> a ns5:Agent ;
+        ns4:description "Beschreibung: Gründer des Staatlichen Pantomimetheater der Georgischen SSR Quelle: TN" ;
+        ns2:prefLabel "Amiran Schalikaschwili" ;
+        ns3:familyName "Schalikaschwili" ;
+        ns3:firstName "Amiran" ;
+        ns3:name "Amiran Schalikaschwili" .
+
+    <http://lod.iti-germany.de/resource/amleto_sartori> a ns5:Agent ;
+        ns2:prefLabel "Amleto Sartori" ;
+        ns3:familyName "Sartori" ;
+        ns3:firstName "Amleto" ;
+        ns3:name "Amleto Sartori" .
+
+    <http://lod.iti-germany.de/resource/anatolij_elisarow> a ns5:Agent ;
+        ns5:hasDateOfBirth "1943-02-16" ;
+        ns2:prefLabel "Anatolij Aleksandrowitsch Elisarow" ;
+        ns3:familyName "Elisarow" ;
+        ns3:firstName "Anatolij Aleksandrowitsch" ;
+        ns3:name "Anatolij Aleksandrowitsch Elisarow" .
+
+    <http://lod.iti-germany.de/resource/andras_m_kecskes> a ns5:Agent ;
+        ns5:hasDateOfBirth "1955-00-00" ;
+        ns4:description " Quelle: Programmheft Woche des Gestischen Theaters 1988" .
+
+    <http://lod.iti-germany.de/resource/andreas_albrecht> a ns5:Agent ;
+        ns4:description "Beschreibung: Musiker und Komponist, PEDT Quelle: CW; Flyer \"Berliner Ballonfieber 1803\" (txt-002-001)" ;
+        ns6:sameAs <https://www.andreasalbrecht.com/> ;
+        ns2:prefLabel "Andreas Albrecht" ;
+        ns3:familyName "Albrecht" ;
+        ns3:firstName "Andreas" ;
+        ns3:name "Andreas Albrecht" .
+
+    <http://lod.iti-germany.de/resource/andreas_b_hewel> a ns5:Agent ;
+        ns2:prefLabel "Andreas B. Hewel" ;
+        ns3:familyName "Hewel" ;
+        ns3:firstName "Andreas B." ;
+        ns3:name "Andreas B. Hewel" .
+
+    <http://lod.iti-germany.de/resource/andreas_doelling> a ns5:Agent ;
+        ns2:prefLabel "Andreas Dölling" ;
+        ns3:familyName "Dölling" ;
+        ns3:firstName "Andreas" ;
+        ns3:name "Andreas Dölling" .
+
+    <http://lod.iti-germany.de/resource/andreas_haake> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/andreas_ittner> a ns5:Agent ;
+        ns4:description "Beschreibung: Regisseur und Darsteller, Pantomime-Theater Jena Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Andreas Ittner" ;
+        ns3:familyName "Ittner" ;
+        ns3:firstName "Andreas" ;
+        ns3:name "Andreas Ittner" .
+
+    <http://lod.iti-germany.de/resource/andreas_keil> a ns5:Agent ;
+        ns2:prefLabel "Andreas Keil" ;
+        ns3:familyName "Keil" ;
+        ns3:firstName "Andreas" ;
+        ns3:name "Andreas Keil" .
+
+    <http://lod.iti-germany.de/resource/andreas_nickler> a ns5:Agent ;
+        ns4:description "Beschreibung: Musiker, PEDT Quelle: CW; Flyer \"Berliner Ballonfieber 1803\" (txt-002-001)" ;
+        ns2:prefLabel "Andreas Nickler" ;
+        ns3:familyName "Nickler" ;
+        ns3:firstName "Andreas" ;
+        ns3:name "Andreas Nickler" .
+
+    <http://lod.iti-germany.de/resource/andreas_schlosser> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Amatuerstudios beim PEDT Quelle: CW; txt-074-002" ;
+        ns2:prefLabel "Andreas Schloßer" ;
+        ns3:familyName "Schloßer" ;
+        ns3:firstName "Andreas" ;
+        ns3:name "Andreas Schloßer" .
+
+    <http://lod.iti-germany.de/resource/andreas_schmetzstorff> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/anja_fengler> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/anja_maedel> a ns5:Agent ;
+        ns4:description "Beschreibung: Regieassistentin bei \"Sunny Side Up\" Quelle: CW; txt- 007-001" ;
+        ns2:prefLabel "Anja Maedel" ;
+        ns3:familyName "Maedel" ;
+        ns3:firstName "Anja" ;
+        ns3:name "Anja Maedel" .
+
+    <http://lod.iti-germany.de/resource/anja_noelte> a ns5:Agent ;
+        ns4:description "Beschreibung: Kostümassistenz bei der Herstellug der Kostüme in den Werkstätten der Staatstheater Quelle: CW; Flyer \"Berliner Ballonfieber 1803\" (txt-002-001)" ;
+        ns2:prefLabel "Anja Noelte" ;
+        ns3:familyName "Noelte" ;
+        ns3:firstName "Anja" ;
+        ns3:name "Anja Noelte" .
+
+    <http://lod.iti-germany.de/resource/anja_palitzsch> a ns5:Agent ;
+        ns4:description "Beschreibung: Darstellerin im Pantomimen Ensemble des Deutschen Theaters u.a. in \"Berliner Ballonfieber\" Quelle: CW; Flyer \"Berliner Ballonfieber 1803\" (txt-002-001)" ;
+        ns2:prefLabel "Anja Palitzsch" ;
+        ns3:familyName "Palitzsch" ;
+        ns3:firstName "Anja" ;
+        ns3:name "Anja Palitzsch" .
+
+    <http://lod.iti-germany.de/resource/anke_gerber> a ns5:Agent ;
+        ns4:description """Beschreibung: Ausbildung zur Bühnentänzerin an der Staatlichen Balletschule Berlin, abgeschlossenes Philosophiestudium an der Humboldt Universität zu Berlin; europaweit Bühnen-, Regie- und Lehrtätigkeit in den Bereich Tanz, Pantomime. Physisches Theater, Clownerie, Maskenspiel und Schauspiel; Lehraufträge u.a. an der Hochschule für Schauspielkunst "Ernst Busch" Berlin (Puppenspiel).
+
+Veröffentlichungen: das Fachlehrbuch "Anatomie der Pantomime" (Neuauflage 2016) und gemeinsam mit dem Schweizer Choreografen Christian Mattis das Werkbuch "Bewegung inszenieren" (2017Ausbildung zur Bühnentänzerin an der Staatlichen Balletschule Berlin, abgeschlossenes Philosophiestudium an der Humboldt Universität zu Berlin; europaweit Bühnen-, Regie- und Lehrtätigkeit in den Bereich Tanz, Pantomime. Physisches Theater, Clownerie, Maskenspiel und Schauspiel; Lehraufträge u.a. an der Hochschule für Schauspielkunst "Ernst Busch" Berlin (Puppenspiel).
+
+Veröffentlichungen: das Fachlehrbuch "Anatomie der Pantomime" (Neuauflage 2016) und gemeinsam mit dem Schweizer Choreografen Christian Mattis das Werkbuch "Bewegung inszenieren" (2017) Quelle: TN;https://www.mimecentrum.iti-germany.de/de/trainers/gerber [Stand: 08.04.2019]""" ;
+        ns2:prefLabel "Anke Gerber" ;
+        ns3:familyName "Gerber" ;
+        ns3:firstName "Anke" ;
+        ns3:name "Anke Gerber" .
+
+    <http://lod.iti-germany.de/resource/anke_vetter> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Amatuerstudios beim PEDT Quelle: CW; txt-074-002" ;
+        ns2:prefLabel "Anke Vetter" ;
+        ns3:familyName "Vetter" ;
+        ns3:firstName "Anke" ;
+        ns3:name "Anke Vetter" .
+
+    <http://lod.iti-germany.de/resource/anna_triebel> a ns5:Agent ;
+        ns4:description " Quelle: https://www.udk-berlin.de/personen/detailansicht/person/show/anna-triebel-thome/" ;
+        ns2:prefLabel "Anna Triebel" ;
+        ns3:familyName "Triebel" ;
+        ns3:firstName "Anna" ;
+        ns3:name "Anna Triebel" .
+
+    <http://lod.iti-germany.de/resource/annette_jacob> a ns5:Agent ;
+        ns4:description "Beschreibung: Darstellerin beim Pantomimen Ensemble des Deutschen Theaters Quelle: CW; txt-070-003" ;
+        ns2:prefLabel "Annette Jacob" ;
+        ns3:familyName "Jacob" ;
+        ns3:firstName "Annette" ;
+        ns3:name "Annette Jacob" .
+
+    <http://lod.iti-germany.de/resource/antonin_pridal> a ns5:Agent ;
+        ns4:description "Beschreibung: Tschechischer Übersetzer Quelle: TN;https://en.wikipedia.org/wiki/Anton%C3%ADn_P%C5%99idal" ;
+        ns2:prefLabel "Antonín Přidal" ;
+        ns3:familyName "Přidal" ;
+        ns3:firstName "Antonín" ;
+        ns3:name "Antonín Přidal" .
+
+    <http://lod.iti-germany.de/resource/arne_willebrand> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller, Pantomime-Theater Jena Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Arne Willebrand" ;
+        ns3:familyName "Willebrand" ;
+        ns3:firstName "Arne" ;
+        ns3:name "Arne Willebrand" .
+
+    <http://lod.iti-germany.de/resource/arsen_poladow> a ns5:Agent ;
+        ns2:prefLabel "Arsen Poladow" ;
+        ns3:familyName "Poladow" ;
+        ns3:firstName "Arsen" ;
+        ns3:name "Arsen Poladow" .
+
+    <http://lod.iti-germany.de/resource/arwid_lagenpusch> a ns5:Agent ;
+        ns2:prefLabel "Arwid Lagenpusch" ;
+        ns3:familyName "Lagenpusch" ;
+        ns3:firstName "Arwid" ;
+        ns3:name "Arwid Lagenpusch" .
+
+    <http://lod.iti-germany.de/resource/axel_tangerding> a ns5:Agent ;
+        ns2:prefLabel "Axel Tangerding" ;
+        ns3:familyName "Tangerding" ;
+        ns3:firstName "Axel" ;
+        ns3:name "Axel Tangerding" .
+
+    <http://lod.iti-germany.de/resource/b_hackert> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Studio 61 Quelle: TN; txt-153" .
+
+    <http://lod.iti-germany.de/resource/bachir_hammouda> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller im Ensemble Théâtre Regional d‘Oran Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Bachir Hammouda" ;
+        ns3:familyName "Hammouda" ;
+        ns3:firstName "Bachir" ;
+        ns3:name "Bachir Hammouda" .
+
+    <http://lod.iti-germany.de/resource/barbara_dressler> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/barbara_kunze> a ns5:Agent ;
+        ns2:prefLabel "Barbara Kunze" ;
+        ns3:familyName "Kunze" ;
+        ns3:firstName "Barbara" ;
+        ns3:name "Barbara Kunze" .
+
+    <http://lod.iti-germany.de/resource/barbara_meffert> a ns5:Agent ;
+        ns4:description "Beschreibung: Fotografin Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Barbara Meffert" ;
+        ns3:familyName "Meffert" ;
+        ns3:firstName "Barbara" ;
+        ns3:name "Barbara Meffert" .
+
+    <http://lod.iti-germany.de/resource/barbara_schnitzler> a ns5:Agent ;
+        ns4:description "Beschreibung: Deutsche Theater- und Filmschauspielerin. Seit 1977 Ensemblemitglied im Deutschen Theater  Quelle: CW; https://de.wikipedia.org/wiki/Barbara_Schnitzler" ;
+        ns6:sameAs <http://d-nb.info/gnd/134587197>,
+            <http://viaf.org/viaf/79684149>,
+            <https://www.wikidata.org/wiki/Q807625> ;
+        ns2:prefLabel "Barbara Schnitzler" ;
+        ns3:familyName "Schnitzler" ;
+        ns3:firstName "Barbara" ;
+        ns3:name "Barbara Schnitzler" .
+
+    <http://lod.iti-germany.de/resource/bernd_hahnke> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Pantomimen Ensemble des Deutschen Theaters von 1974 bis 1991. Quelle: http://hahnke.de/p/bernd/lebenslauf.htm" ;
+        ns6:sameAs <https://www.schauspielschule-berlin.de/team/hahnke-2-2/> ;
+        ns2:prefLabel "Bernd Hahnke" ;
+        ns3:familyName "Hahnke" ;
+        ns3:firstName "Bernd" ;
+        ns3:name "Bernd Hahnke" .
+
+    <http://lod.iti-germany.de/resource/bernd_lafrenz> a ns5:Agent ;
+        ns4:description "Beschreibung: Bernd Lafrenz (*1955) erhielt seine Theaterausbildung bei Peter Nickel, Kiel, Hans Galli, Freiburg, sowie bei Benito Gutmacher und Philippe Gaullier, Paris. Zusammen mit Andreas Balzer gründete Lafrenz 1982 die Zwei-Mann-Gruppe \"Theater König Alfons\". Neben seiner Arbeit in Seminaren und Workshops spielte Lafrenz mit großem Erfolg auf den führenden Theater-, Clown und Pantomimefestivals. Quelle: TN; Programmheft Woche des Gestischen Theaters 1990" ;
+        ns2:prefLabel "Bernd Lafrenz" ;
+        ns3:familyName "Lafrenz" ;
+        ns3:firstName "Bernd" ;
+        ns3:name "Bernd Lafrenz" .
+
+    <http://lod.iti-germany.de/resource/bernd_leinhos> a ns5:Agent ;
+        ns4:description "Beschreibung: Produktions- und Aufnahmeleitung bei der DDR TV-Produktion \"Die Horatier und die Kuriatier\" (1982)" .
+
+    <http://lod.iti-germany.de/resource/bernd_mnich> a ns5:Agent ;
+        ns4:description "Beschreibung: Bildtechnik bei der DDR TV-Produktion \"Die Horatier und die Kuriatier\" (1982)" .
+
+    <http://lod.iti-germany.de/resource/bernd_mueller> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/bertolt_brecht> a ns5:Agent ;
+        ns5:hasDateOfBirth "1898-02-10" ;
+        ns4:description "Beschreibung: Deutscher Dramatiker, Lyriker und Begründer des epischen Theaters Quelle: CW" ;
+        ns6:sameAs <http://d-nb.info/gnd/118514768>,
+            <http://viaf.org/viaf/2467372>,
+            <https://www.wikidata.org/wiki/Q38757> ;
+        ns2:prefLabel "Bertolt Brecht" ;
+        ns3:familyName "Brecht" ;
+        ns3:firstName "Bertolt" ;
+        ns3:name "Bertolt Brecht" .
+
+    <http://lod.iti-germany.de/resource/betty_friedan> a ns5:Agent ;
+        ns4:description "Beschreibung: US-amerikanische Feministin und Publizistin Quelle: CW; https://de.wikipedia.org/wiki/Betty_Friedan" ;
+        ns6:sameAs <http://d-nb.info/gnd/118535528>,
+            <http://viaf.org/viaf/49225729>,
+            <https://www.wikidata.org/wiki/Q234604> ;
+        ns2:prefLabel "Betty Friedan" ;
+        ns3:familyName "Friedan" ;
+        ns3:firstName "Betty" ;
+        ns3:name "Betty Friedan" .
+
+    <http://lod.iti-germany.de/resource/birgit_edenharter> a ns5:Agent ;
+        ns2:prefLabel "Birgit Edenharter" ;
+        ns3:familyName "Edenharter" ;
+        ns3:firstName "Birgit" ;
+        ns3:name "Birgit Edenharter" .
+
+    <http://lod.iti-germany.de/resource/birgit_wilski> a ns5:Agent ;
+        ns4:description "Beschreibung: Darstellerin, Pantomime-Theater Jena Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Birgit Wilski" ;
+        ns3:familyName "Wilski" ;
+        ns3:firstName "Birgit" ;
+        ns3:name "Birgit Wilski" .
+
+    <http://lod.iti-germany.de/resource/bodo_orejuela> a ns5:Agent ;
+        ns4:description "Beschreibung: Fotograf Quelle: CW; txt-txt-086-001" ;
+        ns2:prefLabel "Bodo Orejuela" ;
+        ns3:familyName "Orejuela" ;
+        ns3:firstName "Bodo" ;
+        ns3:name "Bodo Orejuela" .
+
+    <http://lod.iti-germany.de/resource/boris_hybner> a ns5:Agent ;
+        ns4:description "Beschreibung: Teil der sogenannten zweiten Genereation der tschechoslowakischen Pantomie.  Quelle: TN; Programmheft Woche des Gestischen Theaters 1987" ;
+        ns2:prefLabel "Boris Hybner" ;
+        ns3:familyName "Hybner" ;
+        ns3:firstName "Boris" ;
+        ns3:name "Boris Hybner" .
+
+    <http://lod.iti-germany.de/resource/borivoj_srba> a ns5:Agent ;
+        ns4:description "Beschreibung: Tschechischer Theaterwissenschaftler, Theaterhistoriker, Theoretiker und Kritiker, Dramaturg und Pädagoge Quelle: CW; https://cs.wikipedia.org/wiki/Bo%C5%99ivoj_Srba" ;
+        ns6:sameAs <http://viaf.org/viaf/43008496>,
+            <https://www.wikidata.org/wiki/Q11239897> ;
+        ns2:prefLabel "Bořivoj Srba" ;
+        ns3:familyName "Srba" ;
+        ns3:firstName "Bořivoj " ;
+        ns3:name "Bořivoj Srba" .
+
+    <http://lod.iti-germany.de/resource/brigitt_maag> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/brigitte_bergese> a ns5:Agent ;
+        ns4:description " Quelle: TN; Programmheft Woche des Gestischen Theaters 1987" ;
+        ns2:prefLabel "Brigitte Bergese" ;
+        ns3:familyName "Bergese" ;
+        ns3:firstName "Brigitte" ;
+        ns3:name "Brigitte Bergese" .
+
+    <http://lod.iti-germany.de/resource/burkhart_seidemann> a ns5:Agent ;
+        ns4:description """Beschreibung: 1974 Gründungsmitglied des Pantomimen Ensembles am Deutschen Theater. Dort bis 1991 als Darsteller, Autor, Regisseur. Gleichzeitig auch Pantomime-Dozent an der Schauspielschule "Ernst Busch". Nach Auflösung des DT-Pantomimen-Ensembles Gründung von DAT.Berlin / Das Andere Thater, als einer freien Künstler-Vereinigung. 1993 Gründung des Hackeschen Hof-Theaters, dessen künstlerischer Leiter bis 2006. Quelle: - CW
+
+- https://www.theaterderzeit.de/suche/erweitert/?search=Seidemann&area%5Bmagazine%5D=magazine&area%5Bbook%5D=book&area%5Bblog%5D=blog&area%5Bperson%5D=person&area%5Bpremiere%5D=premiere&area%5Bplace%5D=place&premiere_end=&premiere_begin=&book_isbn=""" ;
+        ns2:prefLabel "Burkhart Seidemann" ;
+        ns3:familyName "Seidemann" ;
+        ns3:firstName "Burkhart" ;
+        ns3:name "Burkhart Seidemann" .
+
+    <http://lod.iti-germany.de/resource/carlos_trafic> a ns5:Agent ;
+        ns2:prefLabel "Carlos Trafic" ;
+        ns3:familyName "Trafic" ;
+        ns3:firstName "Carlos" ;
+        ns3:name "Carlos Trafic" .
+
+    <http://lod.iti-germany.de/resource/cecile_adam> a ns5:Agent ;
+        ns2:prefLabel "Cécile Adam" ;
+        ns3:name "Cécile Adam" .
+
+    <http://lod.iti-germany.de/resource/cecilie_muenchhausen> a ns5:Agent ;
+        ns4:description "Beschreibung: Fotografin Quelle: CW; txt-083-001" ;
+        ns2:prefLabel "Cecilie Münchhausen" ;
+        ns3:familyName "Münchhausen" ;
+        ns3:firstName "Cecilie" ;
+        ns3:name "Cecilie Münchhausen" .
+
+    <http://lod.iti-germany.de/resource/charles_ferdinand_ramuz> a ns5:Agent ;
+        ns5:hasDateOfBirth "1878-09-24" ;
+        ns5:hasDateOfDeath "1947-05-23" ;
+        ns6:sameAs <http://d-nb.info/gnd/118598236>,
+            <https://viaf.org/viaf/22147577/>,
+            <https://www.wikidata.org/wiki/Q123635> ;
+        ns2:prefLabel "Charles-Ferdinand Ramuz" ;
+        ns3:familyName "Ramuz" ;
+        ns3:firstName "Charles-Ferdinand" ;
+        ns3:name "Charles-Ferdinand Ramuz" .
+
+    <http://lod.iti-germany.de/resource/cheikh_abdelaoui> a ns5:Agent ;
+        ns4:description "Beschreibung: Musiker im Ensemble des Theatre Regional d'Oran Quelle: CW: txt-007-001" ;
+        ns2:prefLabel "Cheikh Abdelaoui" ;
+        ns3:familyName "Abdelaoui" ;
+        ns3:firstName "Cheikh" ;
+        ns3:name "Cheikh Abdelaoui" .
+
+    <http://lod.iti-germany.de/resource/christa_wolf> a ns5:Agent ;
+        ns4:description "Beschreibung: Deutsche Schriftstellerin Quelle: CW" ;
+        ns6:sameAs <http://d-nb.info/gnd/118634666>,
+            <http://viaf.org/viaf/109289723>,
+            <https://www.wikidata.org/wiki/Q57382> ;
+        ns2:prefLabel "Christa Wolf" ;
+        ns3:familyName "Wolf" ;
+        ns3:firstName "Christa" ;
+        ns3:name "Christa Wolf" .
+
+    <http://lod.iti-germany.de/resource/christian_huber> a ns5:Agent ;
+        ns2:prefLabel "Christian Huber" ;
+        ns3:name "Christian Huber" .
+
+    <http://lod.iti-germany.de/resource/christian_lehmann> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/christian_mattis> a ns5:Agent ;
+        ns6:sameAs <https://mattis.ch/> .
+
+    <http://lod.iti-germany.de/resource/christian_werdin> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/christiane_loch> a ns5:Agent ;
+        ns2:prefLabel "Christiane Loch" ;
+        ns3:name "Christiane Loch" .
+
+    <http://lod.iti-germany.de/resource/christina_busch> a ns5:Agent ;
+        ns2:prefLabel "Christina Busch" ;
+        ns3:familyName "Busch" ;
+        ns3:firstName "Christina" ;
+        ns3:name "Christina Busch" .
+
+    <http://lod.iti-germany.de/resource/christine_bandlow> a ns5:Agent ;
+        ns4:description "Beschreibung: Darstellerin beim Pantomimen Ensemble des Deutschen Theaters Quelle: CW; txt-070-003" ;
+        ns2:prefLabel "Christine Bandlow" ;
+        ns3:familyName "Bandlow" ;
+        ns3:firstName "Christine" ;
+        ns3:name "Christine Bandlow" .
+
+    <http://lod.iti-germany.de/resource/christine_stromberg> a ns5:Agent ;
+        ns4:description "Beschreibung: Kostümbildnerin beim Pantomimen Ensemble des Deutschen Theaters u.a. für \"Berliner Ballonfieber 1803\". Quelle: CW; txt-002-001" ;
+        ns2:prefLabel "Christine Stromberg" ;
+        ns3:familyName "Stromberg" ;
+        ns3:firstName "Christine" ;
+        ns3:name "Christine Stromberg" .
+
+    <http://lod.iti-germany.de/resource/christo_hanusch> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Amatuerstudios beim PEDT Quelle: CW; txt-074-002" ;
+        ns2:prefLabel "Christof Hanusch" ;
+        ns3:familyName "Hanusch" ;
+        ns3:firstName "Christof" ;
+        ns3:name "Christof Hanusch" .
+
+    <http://lod.iti-germany.de/resource/christoffer_petschow> a ns5:Agent ;
+        ns2:prefLabel "Christoffer Petschow" ;
+        ns3:familyName "Petschow" ;
+        ns3:firstName "Christoffer" ;
+        ns3:name "Christoffer Petschow" .
+
+    <http://lod.iti-germany.de/resource/christoph_heidemann> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/christoph_posselt> a ns5:Agent ;
+        ns4:description """Beschreibung: Gründungsmitglied des Pantomimen Ensemble des Deutschen Theaters und von 1974  bis 1991 Mitglied. Ab 1911 Arbeit als Regisseur und Choreograph, 1984-1989 Studium der Theaterwissenschaft in Leipzig, Gastspielreisen als Pantomime, Clown und Regisseur . Seit 2001 Trainingsarbeit für Wirtschaftsunternehmen. Quelle: - CW; Flyer txt-002-001
+- http://www.christophposselt.de/christophposselt""" ;
+        ns6:sameAs <http://www.christophposselt.de/> ;
+        ns2:prefLabel "Christoph Posselt" ;
+        ns3:familyName "Posselt" ;
+        ns3:firstName "Christoph" ;
+        ns3:name "Christoph Posselt" .
+
+    <http://lod.iti-germany.de/resource/christopher_marlowe> a ns5:Agent ;
+        ns5:hasDateOfBirth "1564-02-26" ;
+        ns5:hasDateOfDeath "1593-05-30" ;
+        ns4:description "Beschreibung: Dichter, Dramatiker und Übersetzer aus dem elisabethanischen Zeitalter. Quelle: https://de.wikipedia.org/wiki/Christopher_Marlowe" ;
+        ns6:sameAs <http://d-nb.info/gnd/118578065>,
+            <http://viaf.org/viaf/32000005>,
+            <https://www.wikidata.org/wiki/Q28975> ;
+        ns2:prefLabel "Christopher Marlowe" ;
+        ns3:familyName "Marlowe" ;
+        ns3:firstName "Christopher" ;
+        ns3:name "Christopher Marlowe" .
+
+    <http://lod.iti-germany.de/resource/clarisse_praun> a ns5:Agent ;
+        ns4:description "Beschreibung: Zuständig für Bühnenbild und Ausstattung bei \"Sunny Side Up\" Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Clarisse Praun" ;
+        ns3:familyName "Praun" ;
+        ns3:firstName "Clarisse" ;
+        ns3:name "Clarisse Praun" .
+
+    <http://lod.iti-germany.de/resource/claudia_tschach> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/conny_hege> a ns5:Agent ;
+        ns4:description """Beschreibung: 1975-1980: Studium klassisches Ballett an der Fachhochschule für Tanz, Leipzig, Abschluss als Bühnentänzerin (Examen)
+1980-1985: Engagement beim Pantomime-Ensemble des Deutschen Theaters Berlin, Darstellerin in Stücken unter der Regie von V.Otte und B.Seidemann (u.a. "Blaubart", "Höllenfahrt des Dr. Faustus"). 
+1985-1987: Studium an der Hochschule für Schauspielkunst "Ernst Busch" (Schauspiel),
+sowie zwei Jahre Choreografie-Studium an der Theaterhochschule "Hans Otto" in Leipzig. 
+Dozentin für Bewegung, tanzpädagogische Arbeit mit Kindern, Regie bei vershciedenen Bewegungstheatern, tänzerische Improvisation im Zusammenspiel mit anderen Künstlern,Tanzpädagogin und Choreografin  Quelle: https://www.greifswald.de/de/freizeit-kultur/kultur/musikschule/Unsere-Musikschule/conny-hege/""" ;
+        ns2:prefLabel "Conny Hege" ;
+        ns3:familyName "Hege" ;
+        ns3:firstName "Conny" ;
+        ns3:name "Conny Hege" .
+
+    <http://lod.iti-germany.de/resource/constance_debus> a ns5:Agent ;
+        ns2:prefLabel "Constance Debus" ;
+        ns3:familyName "Debus" ;
+        ns3:firstName "Constance" ;
+        ns3:name "Constance Debus" .
+
+    <http://lod.iti-germany.de/resource/constanze_schwendler> a ns5:Agent ;
+        ns4:description "Beschreibung: Darstellerin und Mitglied im Pantomimen Ensemble des Deutschen Theaters. Quelle: CW: txt-007-001" ;
+        ns2:prefLabel "Constanze Schwendler" ;
+        ns3:familyName "Schwendler" ;
+        ns3:firstName "Constanze" ;
+        ns3:name "Constanze Schwendler" .
+
+    <http://lod.iti-germany.de/resource/corinne_soum> a ns5:Agent ;
+        ns2:prefLabel "Corinne Soum" ;
+        ns3:familyName "Soum" ;
+        ns3:firstName "Corinne" ;
+        ns3:name "Corinne Soum" .
+
+    <http://lod.iti-germany.de/resource/ctibor_turba> a ns5:Agent ;
+        ns2:prefLabel "Ctibor Turba" ;
+        ns3:familyName "Turba" ;
+        ns3:firstName "Ctibor" ;
+        ns3:name "Ctibor Turba" .
+
+    <http://lod.iti-germany.de/resource/dagmar_jandova> a ns5:Agent ;
+        ns4:description "Beschreibung: Musikerin, \"Gräfing Genowefa\" Quelle: CW; txt-010-001" ;
+        ns2:prefLabel "Dagmar Jandová" ;
+        ns3:familyName "Jandová" ;
+        ns3:firstName "Dagmar" ;
+        ns3:name "Dagmar Jandová" .
+
+    <http://lod.iti-germany.de/resource/dagmar_melchers> a ns5:Agent ;
+        ns4:description "Beschreibung: Ausstatterin, Pantomime-Theater Jena Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Dagmar Melchers" ;
+        ns3:familyName "Melchers" ;
+        ns3:firstName "Dagmar" ;
+        ns3:name "Dagmar Melchers" .
+
+    <http://lod.iti-germany.de/resource/dagmar_valesova> a ns5:Agent ;
+        ns4:description "Beschreibung: Musikerin, \"Gräfing Genowefa\" Quelle: CW; txt-010-001" ;
+        ns2:prefLabel "Dagmar Valešová" ;
+        ns3:familyName "Valešová" ;
+        ns3:firstName "Dagmar" ;
+        ns3:name "Dagmar Valešová" .
+
+    <http://lod.iti-germany.de/resource/daniel_stein> a ns5:Agent ;
+        ns2:prefLabel "Daniel Stein" ;
+        ns3:familyName "Stein" ;
+        ns3:firstName "Daniel" ;
+        ns3:name "Daniel Stein" .
+
+    <http://lod.iti-germany.de/resource/detlef_wolff> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/detlev_friedrich> a ns5:Agent ;
+        ns4:description "Beschreibung: Redakteurin  Quelle: CW; txt-074-002" ;
+        ns2:prefLabel "Detlev Friedrich" ;
+        ns3:familyName "Friedrich" ;
+        ns3:firstName "Detlev" ;
+        ns3:name "Detlev Friedrich" .
+
+    <http://lod.iti-germany.de/resource/dieter_heimlich> a ns5:Agent ;
+        ns4:description "Beschreibung: Autor und Journalist Quelle: CW; txt-069-002" ;
+        ns2:prefLabel "Dieter Heimlich" ;
+        ns3:familyName "Heimlich" ;
+        ns3:firstName "Dieter" ;
+        ns3:name "Dieter Heimlich" .
+
+    <http://lod.iti-germany.de/resource/dieter_kraft> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/dieter_mann> a ns5:Agent ;
+        ns4:description "Beschreibung: Intendant des Deutschen Theaters 1987 Quelle: CW; Flyer \"Berliner Ballonfieber 1803\" (txt-002-001)" ;
+        ns2:prefLabel "Dieter Mann" ;
+        ns3:familyName "Mann" ;
+        ns3:firstName "Dieter" ;
+        ns3:name "Dieter Mann" .
+
+    <http://lod.iti-germany.de/resource/dietrich_knote> a ns5:Agent ;
+        ns4:description "Beschreibung: Produktionsleitung Gesänge" ;
+        ns2:prefLabel "Dietrich Knote" ;
+        ns3:familyName "Knote" ;
+        ns3:firstName "Dietrich" ;
+        ns3:name "Dietrich Knote" .
+
+    <http://lod.iti-germany.de/resource/dietrich_petzold> a ns5:Agent ;
+        ns4:description "Beschreibung: Geiger, Komponist und Hörbuchregisseur. Seit 1975 ist er freiberuflich als Geiger und Bratscher solistisch tätig in verschiedenen Besetzungen, LP- und CD- Produktionen, Film und TV. Seit 1980 komponiert Dietrich Petzold darüber hinaus für Theater, Film und Fernsehen. Quelle: https://de.wikipedia.org/wiki/Dietrich_Petzold" ;
+        ns6:sameAs <http://viaf.org/viaf/27699276>,
+            <https://www.wikidata.org/wiki/Q1223979> ;
+        ns2:prefLabel "Dietrich Petzold" ;
+        ns3:familyName "Petzold" ;
+        ns3:firstName "Dietrich" ;
+        ns3:name "Dietrich Petzold" .
+
+    <http://lod.iti-germany.de/resource/dirk_von_nayhauss> a ns5:Agent ;
+        ns2:prefLabel "Dirk von Nayhauß" ;
+        ns3:familyName "von Nayhauß" ;
+        ns3:firstName "Dirk" ;
+        ns3:name "Dirk von Nayhauß" .
+
+    <http://lod.iti-germany.de/resource/djelloul_abdelhak> a ns5:Agent ;
+        ns4:description "Beschreibung: Beleuchter im Ensemble Theatre Regional d'Oran Quelle: CW: txt-007-001" ;
+        ns2:prefLabel "Djelloul Abdelhak" ;
+        ns3:familyName "Abdelhak" ;
+        ns3:firstName "Djelloul" ;
+        ns3:name "Djelloul Abdelhak" .
+
+    <http://lod.iti-germany.de/resource/dominique_benaim> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/doris_haussmann> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/dorothea_koerner> a ns5:Agent ;
+        ns4:description "Beschreibung: Studium der Theologie in Berlin und Greifswald, 1970 kurz Pastorin, 1971-1977 Redakteurin bei der Deutschen Literaturzeitung für Kritik der internationalen Wissenschaft bei der Akademie der Wissenschaften der DDR (Ost-Berlin), 1978-1983 Kulturredakteurin bei der Tageszeitung ?Der Morgen? (Ost-Berlin), 1983-1991 Lektorin im Buchverlag Der Morgen (Ost-Berlin). Seitdem Mitarbeit an verschiedenen Projekten des Luisenstädtischen Bildungsvereins (Berlin) und im Institut für vergleichende Staat-Kirche-Forschung (Berlin). Quelle: https://www.hentrichhentrich.de/autor-dorothea-koerner.html" ;
+        ns2:prefLabel "Dorothea Körner" ;
+        ns3:familyName "Körner" ;
+        ns3:firstName "Dorothea" ;
+        ns3:name "Dorothea Körner" .
+
+    <http://lod.iti-germany.de/resource/e_beyer> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Studio 61 Quelle: TN; txt-153" .
+
+    <http://lod.iti-germany.de/resource/e_grecki> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Studio 61 Quelle: TN; txt-153" ;
+        ns2:prefLabel "E. Grecki" ;
+        ns3:familyName "Grecki" ;
+        ns3:firstName "E." ;
+        ns3:name "E. Grecki" .
+
+    <http://lod.iti-germany.de/resource/eberhard_buchner> a ns5:Agent ;
+        ns4:description "Beschreibung: Autor Quelle: CW; txt-087-002" ;
+        ns2:prefLabel "Eberhard Buchner" ;
+        ns3:familyName "Buchner" ;
+        ns3:firstName "Eberhard" ;
+        ns3:name "Eberhard Buchner" .
+
+    <http://lod.iti-germany.de/resource/eberhard_keienburg> a ns5:Agent ;
+        ns4:description "Beschreibung: Bühnen- und Kostümbildner PEDT Quelle: CW: txt-005-001" ;
+        ns2:prefLabel "Eberhard Keienburg" ;
+        ns3:familyName "Keienburg" ;
+        ns3:firstName "Eberhard" ;
+        ns3:name "Eberhard Keienburg" .
+
+    <http://lod.iti-germany.de/resource/eberhard_kube> a ns5:Agent ;
+        ns2:prefLabel "Eberhard Kube" ;
+        ns3:familyName "Kube" ;
+        ns3:firstName "Eberhard" ;
+        ns3:name "Eberhard Kube" .
+
+    <http://lod.iti-germany.de/resource/eckard_ewert> a ns5:Agent ;
+        ns4:description "Beschreibung: Musiker, PEDT Quelle: CW; Flyer \"Berliner Ballonfieber 1803\" (txt-002-001)" ;
+        ns2:prefLabel "Eckard Ewert" ;
+        ns3:familyName "Ewert" ;
+        ns3:firstName "Eckard" ;
+        ns3:name "Eckard Ewert" .
+
+    <http://lod.iti-germany.de/resource/eckehard_binas> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/edgar_varese> a ns5:Agent ;
+        ns2:prefLabel "Edgar Varèse" ;
+        ns3:name "Edgar Varèse" .
+
+    <http://lod.iti-germany.de/resource/edith_hanusch> a ns5:Agent ;
+        ns2:prefLabel "Edith Hanusch" ;
+        ns3:familyName "Hanusch" ;
+        ns3:firstName "Edith" ;
+        ns3:name "Edith Hanusch" .
+
+    <http://lod.iti-germany.de/resource/edith_wittich> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Amatuerstudios beim PEDT Quelle: CW; txt-074-002" ;
+        ns2:prefLabel "Edith Wittich" ;
+        ns3:familyName "Wittich" ;
+        ns3:firstName "Edith" ;
+        ns3:name "Edith Wittich" .
+
+    <http://lod.iti-germany.de/resource/el_hadj_seghir> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller im Ensemble Théâtre Regional d‘Oran Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "El-Hadj Seghir" ;
+        ns3:familyName "Seghir" ;
+        ns3:firstName "El-Hadj" ;
+        ns3:name "El-Hadj Seghir" .
+
+    <http://lod.iti-germany.de/resource/elisabeth_cauchetiez> a ns5:Agent ;
+        ns4:description "Beschreibung: Darstellerin im Ensemble Théâtre de la Mie de Pain Quelle: CW: txt-007-001" ;
+        ns2:prefLabel "Elisabeth Cauchetiez" ;
+        ns3:familyName "Cauchetiez" ;
+        ns3:firstName "Elisabeth" ;
+        ns3:name "Elisabeth Cauchetiez" .
+
+    <http://lod.iti-germany.de/resource/elisabeth_frenzel> a ns5:Agent ;
+        ns4:description "Beschreibung: Deutsche Literaturwissenschaftlerin Quelle: CW; https://de.wikipedia.org/wiki/Elisabeth_Frenzel" ;
+        ns6:sameAs <http://d-nb.info/gnd/118535277>,
+            <http://viaf.org/viaf/109464676>,
+            <https://www.wikidata.org/wiki/Q1329915> ;
+        ns2:prefLabel "Elisabeth Frenzel" ;
+        ns3:familyName "Frenzel" ;
+        ns3:firstName "Elisabeth" ;
+        ns3:name "Elisabeth Frenzel" .
+
+    <http://lod.iti-germany.de/resource/elisabeth_lappe> a ns5:Agent ;
+        ns4:description "Beschreibung: Anfertigung der Kostüme. Leiterin der Werkstätten der Staatstheater Quelle: CW; Besetzungszettel txt-004-001" ;
+        ns2:prefLabel "Elisabeth Lappe" ;
+        ns3:familyName "Lappe" ;
+        ns3:firstName "Elisabeth" ;
+        ns3:name "Elisabeth Lappe" .
+
+    <http://lod.iti-germany.de/resource/elisabeth_richter> a ns5:Agent ;
+        ns5:hasDateOfBirth "1955-00-00" ;
+        ns4:description """Beschreibung: Darstellerin im PEDT bei "Berliner Ballonfieber 1803"
+- Heutiger Name: Elisabeth Richter- Kubbutat
+- Schauspielstudium an der "Hochschule für Schauspielkunst Ernst Busch Berlin". Engagement am "Theater Meiningen"; a.G. am "Deutschen Theater Berlin", "Maxim Gorki Theater Berlin" und "Berliner Ensemble"; Arbeit in Film und Fernsehen sowie als freiberufliche Schauspielerin in Berlin berufsbegleitende Qualifizierung auf dem Gebiet der Atemarbeit und Stimmbildung.
+Solostücke und experimentelle Theaterprojekte, Szenische Lesungen, Schauspielunterricht und Wochenendkurse (Atem und Stimme, Textarbeit). Theaterpädagogische Arbeit mit Kindern Quelle: CW; Flyer "Berliner Ballonfieber 1803" (txt-002-001)""" ;
+        ns6:sameAs <http://www.richter-kubbutat.de/> ;
+        ns2:prefLabel "Elisabeth Richter" ;
+        ns3:familyName "Richter" ;
+        ns3:firstName "Elisabeth" ;
+        ns3:name "Elisabeth Richter" .
+
+    <http://lod.iti-germany.de/resource/elizabeth_shaw> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/ella_jaroszewicz> a ns5:Agent ;
+        ns4:description "Beschreibung: Pantomime, Leiterin von MAGENIA Mime-Danse-Theatre Paris (Stand 1986) Quelle: Programmheft Woche des Gestischen Theaters 1986" ;
+        ns2:prefLabel "Ella Jaroszewicz" ;
+        ns3:familyName "Jaroszewicz" ;
+        ns3:firstName "Ella" ;
+        ns3:name "Ella Jaroszewicz" .
+
+    <http://lod.iti-germany.de/resource/emil_frantisek_burian> a ns5:Agent ;
+        ns4:description "Beschreibung: Tschechischer Komponist, Dichter, Publizist, Säner, Schauspieler, Musiker, Dramatiker, Regisseur und Dramaturg.  Quelle: CW; https://de.wikipedia.org/wiki/Emil_Franti%C5%A1ek_Burian" ;
+        ns6:sameAs <http://d-nb.info/gnd/118665235>,
+            <http://viaf.org/viaf/100987352>,
+            <https://www.wikidata.org/wiki/Q457687> ;
+        ns2:prefLabel "Emil František Burian" ;
+        ns3:familyName "Burian" ;
+        ns3:firstName "Emil František" ;
+        ns3:name "Emil František Burian" .
+
+    <http://lod.iti-germany.de/resource/erhard_ertel> a ns5:Agent ;
+        ns4:description "Beschreibung: Deutscher Theaterwissenschaftler" ;
+        ns2:prefLabel "Erhard Ertel" ;
+        ns3:familyName "Ertel" ;
+        ns3:firstName "Ertel" ;
+        ns3:name "Erhard Ertel" .
+
+    <http://lod.iti-germany.de/resource/eric_audoly> a ns5:Agent ;
+        ns4:description "Beschreibung: Fotograf Quelle: CW; 007-001" ;
+        ns2:prefLabel "Eric Audoly" ;
+        ns3:familyName "Audoly" ;
+        ns3:firstName "Eric" ;
+        ns3:name "Eric Audoly" .
+
+    <http://lod.iti-germany.de/resource/erich_mueller> a ns5:Agent ;
+        ns4:description "Beschreibung: Gewandmeister im DT Quelle: CW; txt-070-003" ;
+        ns2:prefLabel "Erich Müller" ;
+        ns3:familyName "Müller" ;
+        ns3:firstName "Erich" ;
+        ns3:name "Erich Müller" .
+
+    <http://lod.iti-germany.de/resource/erika_triebsch> a ns5:Agent ;
+        ns2:prefLabel "Erika Triebsch" ;
+        ns3:familyName "Triebsch" ;
+        ns3:firstName "Erika" ;
+        ns3:name "Erika Triebsch" .
+
+    <http://lod.iti-germany.de/resource/erna_block> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/ernesto_graf> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/ernst_schumacher> a ns5:Agent ;
+        ns4:description "Beschreibung: Deutscher Theaterwissenschaftler und -kritiker Quelle: https://de.wikipedia.org/wiki/Ernst_Schumacher" ;
+        ns6:sameAs <http://d-nb.info/gnd/128379359>,
+            <http://viaf.org/viaf/79254900>,
+            <https://www.wikidata.org/wiki/Q1360169> ;
+        ns2:prefLabel "Ernst Schumacher" ;
+        ns3:familyName "Schumacher" ;
+        ns3:firstName "Ernst" ;
+        ns3:name "Ernst Schumacher" .
+
+    <http://lod.iti-germany.de/resource/ernstgeorg_hering> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/esther_rietschin> a ns5:Agent ;
+        ns4:description "Beschreibung: Darstellerin, La Compagnia Teatro Dimitri Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Esther Rietschin" ;
+        ns3:familyName "Rietschin" ;
+        ns3:firstName "Esther" ;
+        ns3:name "Esther Rietschin" .
+
+    <http://lod.iti-germany.de/resource/etienne_decroux> a ns5:Agent ;
+        ns5:hasDateOfBirth "1898-07-19" ;
+        ns5:hasDateOfDeath "1991-03-12" ;
+        ns6:sameAs <http://d-nb.info/gnd/119140934>,
+            <https://www.wikidata.org/wiki/Q289588> ;
+        ns2:prefLabel "Étienne Decroux" ;
+        ns3:familyName "Decroux" ;
+        ns3:firstName "Étienne" ;
+        ns3:name "Étienne Decroux" .
+
+    <http://lod.iti-germany.de/resource/eua_saaun> a ns5:Agent ;
+        ns2:prefLabel "Eua Saaun" ;
+        ns3:familyName "Saaun" ;
+        ns3:firstName "Eua" ;
+        ns3:name "Eua Saaun" .
+
+    <http://lod.iti-germany.de/resource/eugen_nosko> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/eva_maria_otte> a ns5:Agent ;
+        ns4:description "Beschreibung: Redaktion von Flyern des PEDT Quelle: Flyer \"Wer hat Angst vor'm schwarzen Mann\"" ;
+        ns2:prefLabel "Eva-Maria Otte" ;
+        ns3:familyName "Otte" ;
+        ns3:firstName "Eva-Maria" ;
+        ns3:name "Eva-Maria Otte" .
+
+    <http://lod.iti-germany.de/resource/eva_talska> a ns5:Agent ;
+        ns4:description "Beschreibung: Tschechische Regisseurin und Gründungsmitglied des Theaters an der Schnur in Brünn Quelle: CW; txt-010-002" ;
+        ns2:prefLabel "Eva Tálská" ;
+        ns3:familyName "Tálská" ;
+        ns3:firstName "Eva" ;
+        ns3:name "Eva Tálská" .
+
+    <http://lod.iti-germany.de/resource/evzen_sokolovsky> a ns5:Agent ;
+        ns4:description "Beschreibung: Tschechischer Theater- und Fernsehregisseur und Theaterpädagoge sowie Leiter des Theaters Křesadlo Quelle: CW; txt-010-002 und https://cs.wikipedia.org/wiki/Ev%C5%BEen_Sokolovsk%C3%BD" ;
+        ns6:sameAs <http://d-nb.info/gnd/137599773>,
+            <http://viaf.org/viaf/81770306>,
+            <https://www.wikidata.org/wiki/Q11985509> ;
+        ns2:prefLabel "Evžen Sokolovský" ;
+        ns3:familyName "Sokolovský" ;
+        ns3:firstName "Evžen" ;
+        ns3:name "Evžen Sokolovský" .
+
+    <http://lod.iti-germany.de/resource/ezio_maria_caserta> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Gruppo Laboratori di Verona (Stand 1986) Quelle: Programmheft Woche des Gestischen Theaters 1986" ;
+        ns2:prefLabel "Ezio Maria Caserta" ;
+        ns3:familyName "Caserta" ;
+        ns3:firstName "Ezio Maria" ;
+        ns3:name "Ezio Maria Caserta" .
+
+    <http://lod.iti-germany.de/resource/falko_seime> a ns5:Agent ;
+        ns2:prefLabel "Falko Seime" ;
+        ns3:familyName "Seime" ;
+        ns3:firstName "Falko" ;
+        ns3:name "Falko Seime" .
+
+    <http://lod.iti-germany.de/resource/felicitas_hoppe> a ns5:Agent ;
+        ns2:prefLabel "Felicitas Hoppe" ;
+        ns3:familyName "Hoppe" ;
+        ns3:firstName "Felicitas" ;
+        ns3:name "Felicitas Hoppe" .
+
+    <http://lod.iti-germany.de/resource/feliks_buettner> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/fernando_gaillardo> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/fernando_lafferiere> a ns5:Agent ;
+        ns2:prefLabel "Fernando Lafferière" ;
+        ns3:name "Fernando Lafferière" .
+
+    <http://lod.iti-germany.de/resource/fethi_osmane> a ns5:Agent ;
+        ns4:description "Beschreibung: Regisseur und Darsteller im Ensemble Théâtre Regional d‘Oran Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Fethi Osmane" ;
+        ns3:familyName "Osmane" ;
+        ns3:firstName "Fethi" ;
+        ns3:name "Fethi Osmane" .
+
+    <http://lod.iti-germany.de/resource/fine_kwiatkowski> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/frana_sramek> a ns5:Agent ;
+        ns2:prefLabel "Fráňa Šrámek" ;
+        ns3:familyName "Šrámek" ;
+        ns3:firstName "Fráňa" ;
+        ns3:name "Fráňa Šrámek" .
+
+    <http://lod.iti-germany.de/resource/francois_couperin> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/francois_pollawrence_small> a ns5:Agent ;
+        ns4:description "Beschreibung: Bekannt als der Clown Smol." ;
+        ns2:prefLabel "Francois Pol Lawrence Small" ;
+        ns3:familyName "Small" ;
+        ns3:firstName "Francois Pol Lawrence" ;
+        ns3:name "Francois Pol Lawrence Small" .
+
+    <http://lod.iti-germany.de/resource/frank_lohmann> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Amatuerstudios beim PEDT Quelle: CW; txt-074-002" ;
+        ns2:prefLabel "Frank Lohmann" ;
+        ns3:familyName "Lohmann" ;
+        ns3:firstName "Frank" ;
+        ns3:name "Frank Lohmann" .
+
+    <http://lod.iti-germany.de/resource/franz_fuehrmann> a ns5:Agent ;
+        ns2:prefLabel "Franz Führmann" ;
+        ns3:familyName "Führmann" ;
+        ns3:firstName "Franz" ;
+        ns3:name "Franz Führmann" .
+
+    <http://lod.iti-germany.de/resource/franz_magnus_boehme> a ns5:Agent ;
+        ns5:hasDateOfBirth "1827-03-11" ;
+        ns5:hasDateOfDeath "1898-10-18" ;
+        ns4:description "Beschreibung: Deutscher Hochschullehrer, Komponist, Volksliedforscher und -sammler Quelle: CW; https://de.wikipedia.org/wiki/Franz_Magnus_B%C3%B6hme" ;
+        ns2:prefLabel "Franz Magnus Böhme" ;
+        ns3:familyName "Böhme" ;
+        ns3:firstName "Franz Magnus" ;
+        ns3:name "Franz Magnus Böhme" .
+
+    <http://lod.iti-germany.de/resource/franziska_schmidt> a ns5:Agent ;
+        ns4:description "Beschreibung: Fotografin" .
+
+    <http://lod.iti-germany.de/resource/frits_van_hartingsveldt> a ns5:Agent ;
+        ns5:hasDateOfBirth "1954-00-00" ;
+        ns4:description "Beschreibung: Van Hartingsveldt wurde 1954 in Amsterdam geboren. In den siebziger und Anfang der achtziger Jahre war er bereits für verschiedene gesellschaftskritische Gruppen als Plakatdesigner aktiv. Doch erst nach einem abgesprochenen Universitätsstudium der Geschichte entschloß er sich endgültig für den Weg des Grafikers und Designers. Während seiner Ausbildung an der Gerrit-Rietveld-Akademie in Amsterdam spezialisierte er sich auf Szenographie. 1986 beendete er ein Studium als Bühnenbildner und Gestalter. Seitdem produziert van Hartingsveldt Bühnenbilder für verschiedene Theaterensembles. Doch waren es vor allem seine Plakate, die sich einer wachsenden Popularität erfreuten. Nachdem er zunächst hauptsächlich mit Photomontage arbeitete, entwickelte er für die avantgardistische niederländische Theatergruppe ART & PRO eine sehr eigenwillige Reihe von Postern. Das Amsterdamer Stedelijk Museum sammelt schon seit jahren seine Entwürfe und 1988 wurden seine Plakate mit großem Erfolg auf der WORLD TRIENNIAL OF POSTERS in Tovama/Japan ausgestellt. Quelle: TN; Programmheft Woche des Gestischen Theaters 1990" ;
+        ns2:prefLabel "Frits van Hartingsfeldt" ;
+        ns3:familyName "van Hartingsfeldt" ;
+        ns3:firstName "Fritz" ;
+        ns3:name "Frits van Hartingsfeldt" .
+
+    <http://lod.iti-germany.de/resource/fritz_schimmelpfennig> a ns5:Agent ;
+        ns4:description "Beschreibung: Ton bei \"Berliner Ballonfieber 1803\" Quelle: CW; txt-002-001" ;
+        ns2:prefLabel "Fritz Schimmelpfennig" ;
+        ns3:familyName "Schimmelpfennig" ;
+        ns3:firstName "Fritz" ;
+        ns3:name "Fritz Schimmelpfennig" .
+
+    <http://lod.iti-germany.de/resource/g_barz> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Studio 61 Quelle: TN; txt-153" .
+
+    <http://lod.iti-germany.de/resource/g_wroblewsky> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Studio 61 Quelle: TN; txt-153" ;
+        ns2:prefLabel "G. von Wroblewsky" ;
+        ns3:name "G. von Wroblewsky" .
+
+    <http://lod.iti-germany.de/resource/gabor_dvorak> a ns5:Agent ;
+        ns4:description "Beschreibung: Pantomime, der gemeinsam mit Peter Nagyivanyi das ungarische Pantomimenduo \"Ludens\" bildet." ;
+        ns2:prefLabel "Gabor Dvorak" ;
+        ns3:familyName "Dvorak" ;
+        ns3:firstName "Gabor" ;
+        ns3:name "Gabor Dvorak" .
+
+    <http://lod.iti-germany.de/resource/gabriele_acker> a ns5:Agent ;
+        ns2:prefLabel "Gabriele Acker" ;
+        ns3:familyName "Acker" ;
+        ns3:firstName "Gabriele" ;
+        ns3:name "Gabriele Acker" .
+
+    <http://lod.iti-germany.de/resource/gabriele_haenel> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/gabriele_ruschin> a ns5:Agent ;
+        ns4:description "Beschreibung: Regieassistentin bei der DDR TV-Produktion \"Die Horatier und die Kuriatier\" (1982)" .
+
+    <http://lod.iti-germany.de/resource/georg_eichinger> a ns5:Agent ;
+        ns2:prefLabel "Georg Eichinger" ;
+        ns3:familyName "Eichinger" ;
+        ns3:firstName "Georg" ;
+        ns3:name "Georg Eichinger" .
+
+    <http://lod.iti-germany.de/resource/george_tschellan> a ns5:Agent ;
+        ns2:prefLabel "George Tschellan" ;
+        ns3:familyName "Tschellan" ;
+        ns3:firstName "George" ;
+        ns3:name "George Tschellan" .
+
+    <http://lod.iti-germany.de/resource/georgo_peugot> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/gera_graf> a ns5:Agent ;
+        ns4:description "Beschreibung: Bühnenbildner und Ausstatter bei \"Sunny Side Up\" Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Gera Graf" ;
+        ns3:familyName "Graf" ;
+        ns3:firstName "Gera" ;
+        ns3:name "Gera Graf" .
+
+    <http://lod.iti-germany.de/resource/gerard_chabanier> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller im Ensemble Théâtre de la Mie de Pain Quelle: CW: txt-007-001" ;
+        ns2:prefLabel "Gérard Chabanier" ;
+        ns3:familyName "Chabanier" ;
+        ns3:firstName "Gérard" ;
+        ns3:name "Gérard Chabanier" .
+
+    <http://lod.iti-germany.de/resource/gerd_koeppen> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Pantomimestudio Berlin (später Pantomimen-Theater vom Prenzlauer Berg) in den 1960ern Quelle: TN; txt-162" ;
+        ns2:prefLabel "Gerd,Köppen" ;
+        ns3:name "Gerd,Köppen" .
+
+    <http://lod.iti-germany.de/resource/gerd_walter> a ns5:Agent ;
+        ns4:description "Beschreibung: Aikido Dozent, hat u.a. mit Peter Stein an der Berliner Schaubühne und mit Ariane Mnouchkine am Théâtre du Soleil gearbeitet. Quelle: TN; Programmheft Woche des Gestischen Theaters, 1986" ;
+        ns2:prefLabel "Gerd Walter" ;
+        ns3:familyName "Walter" ;
+        ns3:firstName "Gerd" ;
+        ns3:name "Gerd Walter" .
+
+    <http://lod.iti-germany.de/resource/gerhard_durna> a ns5:Agent ;
+        ns4:description "Beschreibung: Leiter der Werkstätten der Staatstheater  Quelle: CW; txt-082-002" ;
+        ns2:prefLabel "Gerhard Durna" ;
+        ns3:familyName "Durna" ;
+        ns3:firstName "Gerhard" ;
+        ns3:name "Gerhard Durna" .
+
+    <http://lod.iti-germany.de/resource/gerhard_ebert> a ns5:Agent ;
+        ns2:prefLabel "Gerhard Ebert" ;
+        ns3:familyName "Ebert" ;
+        ns3:firstName "Gerhard" ;
+        ns3:name "Gerhard Ebert" .
+
+    <http://lod.iti-germany.de/resource/gerhard_henschel> a ns5:Agent ;
+        ns4:description "Beschreibung: Beleuchter beim Pantomimen Ensemble des Deutschen Theaters Quelle: CW; txt-002-001" ;
+        ns2:prefLabel "Gerhard Henschel" ;
+        ns3:familyName "Henschel" ;
+        ns3:firstName "Gerhard" ;
+        ns3:name "Gerhard Henschel" .
+
+    <http://lod.iti-germany.de/resource/gerhard_wolfram> a ns5:Agent ;
+        ns4:description """Beschreibung: -  	Schauspielausbildung während des 2. Weltkrieges in Dresden, 1945 Engagement als Schauspieler, Dramaturg und Regisseur in Köthen, von 1946 bis 1948 Referent, Regisseur und Dramaturg für den Landessender Halle und den Mitteldeutschen Rundfunk, 1948/49 Regisseur und Schauspieler an der Volksbühne Leipzig, von 1949 bis 1951 Abteilungsleiter und Literaturredakteur beim Berliner Rundfunk, von 1951 bis 1952 beim DEFA-Synchronstudio, 1952 bis 1953 Redakteur bei der Täglichen Rundschau in Berlin; von 1953 bis 1965 Chefdramaturg Maxim Gorki Theater, Berlin, unter Maxim Vallentin, später auch Stellvertreter des Intendanten, von 1966 bis 1972 Intendant Landestheater Halle, von 1972 bis 1982 Intendant Deutsches Theater Berlin, 1983 bis 1990 Intendant Sstaatsschauspiel Dresden
+- Intendant des DT während 95. Spielzeit Quelle: - https://archiv.adk.de/bigobjekt/30655
+- Flyer "Wer hat Angst vor'm schwarzen Mann" (txt-001-003)""" ;
+        ns6:sameAs <http://d-nb.info/gnd/108209711X>,
+            <http://viaf.org/viaf/158145542423196641369>,
+            <https://www.wikidata.org/wiki/Q1232543> ;
+        ns2:prefLabel "Gerhard Wolfram" ;
+        ns3:familyName "Wolfram" ;
+        ns3:firstName "Gerhard" ;
+        ns3:name "Gerhard Wolfram" .
+
+    <http://lod.iti-germany.de/resource/gerhardt_kastner> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/gerolf_ristau> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller beim Pantomimen Ensemble des Deutschen Theaters Quelle: CW; txt-070-003" ;
+        ns2:prefLabel "Gerolf Ristau" ;
+        ns3:familyName "Ristau" ;
+        ns3:firstName "Gerolf" ;
+        ns3:name "Gerolf Ristau" .
+
+    <http://lod.iti-germany.de/resource/gert_weigelt> a ns5:Agent ;
+        ns4:description "Beschreibung: Nach dem Abitur absolvierte Weigelt eine Ausbildung zum Tänzer. Bis 1975 arbeitete er als solcher in Berlin, Kopenhagen, Stockholm und Den Haag. Danach studierte er Kunst und Design in Köln. 1985 war er Meisterschüler bei Prof. Arno Jansen. Schwerpunkte seiner Fotografie: Tanz, inszenierte Portraits, Körperinszenierungen. Quelle: TN; Programmheft Woche des Gestischen Theaters 1990" ;
+        ns6:sameAs <http://d-nb.info/gnd/128777923>,
+            <https://gertweigelt.wordpress.com/>,
+            <https://www.wikidata.org/wiki/Q15453502> ;
+        ns2:prefLabel "Gert Weigelt" ;
+        ns3:familyName "Weigelt" ;
+        ns3:firstName "Gert" ;
+        ns3:name "Gert Weigelt" .
+
+    <http://lod.iti-germany.de/resource/gertraud_listmann> a ns5:Agent ;
+        ns4:description "Beschreibung: Garderobiere PEDT Quelle: CW; txt-002-001" ;
+        ns2:prefLabel "Gertraud Listmann" ;
+        ns3:familyName "Listmann" ;
+        ns3:firstName "Gertraud" ;
+        ns3:name "Gertraud Listmann" .
+
+    <http://lod.iti-germany.de/resource/gerty_koerner> a ns5:Agent ;
+        ns4:description "Beschreibung: Darstellerin beim Pantomimen Ensemble des Deutschen Theaters Quelle: CW; txt-070-003" ;
+        ns2:prefLabel "Gerty Körner" ;
+        ns3:familyName "Körner" ;
+        ns3:firstName "Gerty" ;
+        ns3:name "Gerty Körner" .
+
+    <http://lod.iti-germany.de/resource/gil_galliot> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/gilbert_epron> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller im Ensemble Théâtre de la Mie de Pain" ;
+        ns2:prefLabel "Gilbert Epron" ;
+        ns3:familyName "Epron" ;
+        ns3:firstName "Gilbert" ;
+        ns3:name "Gilbert Epron" .
+
+    <http://lod.iti-germany.de/resource/giovanni_costa> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Gruppo Laboratori di Verona (Stand 1986) Quelle: TN; Programmheft Woche des Gestischen Theaters 1986" ;
+        ns2:prefLabel "Giovanni Costa" ;
+        ns3:familyName "Costa" ;
+        ns3:firstName "Giovanni" ;
+        ns3:name "Giovanni Costa" .
+
+    <http://lod.iti-germany.de/resource/gisela_bohmann> a ns5:Agent ;
+        ns4:description "Beschreibung: Darstellerin im PEDT Quelle: CW, Programmhefte und Flyer u.a. txt-002-001" ;
+        ns2:prefLabel "Gisela Bohmann" ;
+        ns3:familyName "Bohmann" ;
+        ns3:firstName "Gisela" ;
+        ns3:name "Gisela Bohmann" .
+
+    <http://lod.iti-germany.de/resource/gisela_brand> a ns5:Agent ;
+        ns4:description "Beschreibung: Fotografie Flyer PTDT \"Wer hat Angst vor'm schwarzen Mann\"" ;
+        ns2:prefLabel "Gisela Brand" ;
+        ns3:familyName "Brand" ;
+        ns3:firstName "Gisela" ;
+        ns3:name "Gisela Brand" .
+
+    <http://lod.iti-germany.de/resource/gisela_harich> a ns5:Agent ;
+        ns4:description "Beschreibung: Fotografin Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Gisela Harich" ;
+        ns3:familyName "Harich" ;
+        ns3:firstName "Gisela" ;
+        ns3:name "Gisela Harich" .
+
+    <http://lod.iti-germany.de/resource/gisela_hoyer> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/gislen_engelmann> a ns5:Agent ;
+        ns4:description "Beschreibung: Darstellerin, Pantomime-Theater Jena Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Gislèn Engelmann" ;
+        ns3:familyName "Engelmann" ;
+        ns3:firstName "Gislèn" ;
+        ns3:name "Gislèn Engelmann" .
+
+    <http://lod.iti-germany.de/resource/goetz_strassburg> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/gotthold_gloger> a ns5:Agent ;
+        ns4:description """Beschreibung: - Schriftsteller und Maler
+- Idee zu "Berliner Ballonfieber 1803" 
+- Schriftsteller des Stücks "Berliner Ballonfieber 1803" Quelle: - https://de.wikipedia.org/wiki/Gotthold_Gloger
+- CW; Flyer "Berliner Ballonfieber 1803" (txt-002-001)
+- ND 1987-04-4""" ;
+        ns6:sameAs <http://d-nb.info/gnd/130099317>,
+            <http://viaf.org/viaf/13406420>,
+            <http://www.gotthold-gloger.de/leben.html>,
+            <https://www.wikidata.org/wiki/Q1539730> ;
+        ns2:prefLabel "Gotthold Gloger" ;
+        ns3:familyName "Gloger" ;
+        ns3:firstName "Gotthold" ;
+        ns3:name "Gotthold Gloger" .
+
+    <http://lod.iti-germany.de/resource/grit_krausse> a ns5:Agent ;
+        ns2:prefLabel "Grit Krauße" ;
+        ns3:familyName "Krauße" ;
+        ns3:firstName "Grit" ;
+        ns3:name "Grit Krauße" .
+
+    <http://lod.iti-germany.de/resource/guenter_linke> a ns5:Agent ;
+        ns4:description "Beschreibung: Fotograf Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Günter Linke" ;
+        ns3:familyName "Linke" ;
+        ns3:firstName "Günter" ;
+        ns3:name "Günter Linke" .
+
+    <http://lod.iti-germany.de/resource/guenter_richter> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller beim Pantomimen Ensemble des Deutschen Theaters u.a. in \"Berliner Ballonfieber 1803\" Quelle: CW; Flyer \"Berliner Ballonfieber 1803\" (txt-002-001)" ;
+        ns2:prefLabel "Günter Richter" ;
+        ns3:familyName "Richter" ;
+        ns3:firstName "Günter" ;
+        ns3:name "Günter Richter" .
+
+    <http://lod.iti-germany.de/resource/guenter_weinhold> a ns5:Agent ;
+        ns4:description "Beschreibung: Maskenbildner und Figurenbauer, Bühnenbildner und Theaterplastiker Quelle: CW; http://www.figurenbau-weinhold.de/guenter_weinhold.html" ;
+        ns6:sameAs <http://www.figurenbau-weinhold.de/index.html> ;
+        ns2:prefLabel "Günter Weinhold" ;
+        ns3:familyName "Weinhold" ;
+        ns3:firstName "Günter" ;
+        ns3:name "Günter Weinhold" .
+
+    <http://lod.iti-germany.de/resource/guenther_gueffroy> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/guenther_lindner> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/gundula_sonsalla> a ns5:Agent ;
+        ns4:description "Beschreibung: Musikerin, Gitarre Quelle: CW; txt-075-002" ;
+        ns2:prefLabel "Gundula Sonsalla" ;
+        ns3:familyName "Sonsalla" ;
+        ns3:firstName "Gunula" ;
+        ns3:name "Gundula Sonsalla" .
+
+    <http://lod.iti-germany.de/resource/gunnar_helm> a ns5:Agent ;
+        ns4:description """Beschreibung: - deutscher Synchronsprecher und Schauspieler
+- Darsteller beim PEDT, u.a. "Blaubart" Quelle: CW; Flyer "Blaubart\"""" ;
+        ns6:sameAs <http://d-nb.info/gnd/1061343871>,
+            <http://viaf.org/viaf/311613217>,
+            <https://agenturneuffer.de/profil/gunnar-helm/>,
+            <https://www.wikidata.org/wiki/Q17673382> ;
+        ns2:prefLabel "Gunnar Helm" ;
+        ns3:familyName "Helm" ;
+        ns3:firstName "Gunnar" ;
+        ns3:name "Gunnar Helm" .
+
+    <http://lod.iti-germany.de/resource/gustav_hoffmann> a ns5:Agent ;
+        ns4:description "Beschreibung: Leitung Werkstätten der Staatshteater Quelle: CW; txt-082-002" ;
+        ns2:prefLabel "Gustav Hoffmann" ;
+        ns3:familyName "Hoffmann" ;
+        ns3:firstName "Gustav" ;
+        ns3:name "Gustav Hoffmann" .
+
+    <http://lod.iti-germany.de/resource/h_meinhard> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Pantomimenstudio Berlin (später Pantomimen-Theater vom Prenzlauer Berg) in den 1960er Jahren Quelle: TN; txt-153, txt-162" ;
+        ns2:prefLabel "H. J. Meinhard" ;
+        ns3:familyName "Meinhard" ;
+        ns3:firstName "H. J." ;
+        ns3:name "H. J. Meinhard" .
+
+    <http://lod.iti-germany.de/resource/hannelore_kowitzke> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Pantomimenstudio Berlin Quelle: TN; txt-154" .
+
+    <http://lod.iti-germany.de/resource/hanninka_luitwieder> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/hans_hass> a ns5:Agent ;
+        ns2:prefLabel "Hans Hass" ;
+        ns3:familyName "Hass" ;
+        ns3:firstName "Hans" ;
+        ns3:name "Hans Hass" .
+
+    <http://lod.iti-germany.de/resource/hans_henning_wulf> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/hans_joachim_mueller> a ns5:Agent ;
+        ns4:description "Beschreibung: Musiker, PEDT Quelle: CW; Flyer \"Berliner Ballonfieber 1803\" (txt-002-001)" ;
+        ns2:prefLabel "Hans-Joachim Müller" ;
+        ns3:familyName "Müller" ;
+        ns3:firstName "Hans-Joachim" ;
+        ns3:name "Hans-Joachim Müller" .
+
+    <http://lod.iti-germany.de/resource/hans_juergen_herrmann> a ns5:Agent ;
+        ns2:prefLabel "Hans-Jürgen Herrmann" ;
+        ns3:name "Hans-Jürgen Herrmann" .
+
+    <http://lod.iti-germany.de/resource/hans_juergen_nikulka> a ns5:Agent ;
+        ns4:description "Beschreibung: Ausstattungsassistent, PEDT \"Don Quichote in Murzedelo\" Quelle: CW; txt-082-002" ;
+        ns2:prefLabel "Hans-Jürgen Nikulka" ;
+        ns3:familyName "Nikulka" ;
+        ns3:firstName "Hans-Jürgen" ;
+        ns3:name "Hans-Jürgen Nikulka" .
+
+    <http://lod.iti-germany.de/resource/hans_otto_jerosch> a ns5:Agent ;
+        ns2:prefLabel "Hans-Otto Jerosch" ;
+        ns3:familyName "Jerosch" ;
+        ns3:firstName "Hans-Otto" ;
+        ns3:name "Hans-Otto Jerosch" .
+
+    <http://lod.iti-germany.de/resource/hans_otto_reintsch> a ns5:Agent ;
+        ns4:description """Beschreibung: Darsteller im PEDT, Schauspieler  Quelle: - CW, 
+- https://www.deutschlandfunkkultur.de/die-ddr-und-ich-wie-ich-meine-vergangenheit-aufarbeitete.976.de.html?dram:article_id=430798""" ;
+        ns2:prefLabel "Hans-Otto Reintsch" ;
+        ns3:familyName "Reintsch" ;
+        ns3:firstName "Hans-Otto" ;
+        ns3:name "Hans-Otto Reintsch" .
+
+    <http://lod.iti-germany.de/resource/hans_peter_fitzi> a ns5:Agent ;
+        ns4:description "Beschreibung: Regisseur, La Compagnia Teatro Dimitri  Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Hans Peter Fitzi" ;
+        ns3:familyName "Fitzi" ;
+        ns3:firstName "Hans Peter" ;
+        ns3:name "Hans Peter Fitzi" .
+
+    <http://lod.iti-germany.de/resource/harald_mohr> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/harald_seime> a ns5:Agent ;
+        ns4:description "Beschreibung: Regisseur und Darsteller, Pantomime-Theater Jena Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Harald Seime" ;
+        ns3:familyName "Seime" ;
+        ns3:firstName "Harald" ;
+        ns3:name "Harald Seime" .
+
+    <http://lod.iti-germany.de/resource/harri_muenzhardt> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/hector_malamud> a ns5:Agent ;
+        ns2:prefLabel "Hector Malamud" ;
+        ns3:familyName "Malamud" ;
+        ns3:firstName "Hector" ;
+        ns3:name "Hector Malamud" .
+
+    <http://lod.iti-germany.de/resource/heide_landschek> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/heidelinde_schroeder> a ns5:Agent ;
+        ns4:description "Beschreibung: Garderobiere PEDT" ;
+        ns2:prefLabel "Heidelinde Schröder" ;
+        ns3:familyName "Schröder" ;
+        ns3:firstName "Heidelinde" ;
+        ns3:name "Heidelinde Schröder" .
+
+    <http://lod.iti-germany.de/resource/heidelore_gramser> a ns5:Agent ;
+        ns4:description "Beschreibung: Produktionsleiterin bei \"Sunny Side Up\" Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Heidelore Gramser" ;
+        ns3:familyName "Gramser" ;
+        ns3:firstName "Heidelore" ;
+        ns3:name "Heidelore Gramser" .
+
+    <http://lod.iti-germany.de/resource/heiner_mueller> a ns5:Agent ;
+        ns2:prefLabel "Heiner Müller" ;
+        ns3:familyName "Müller" ;
+        ns3:firstName "Heiner" ;
+        ns3:name "Heiner Müller" .
+
+    <http://lod.iti-germany.de/resource/heinz_handschick> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/heinz_richter> a ns5:Agent ;
+        ns4:description "Beschreibung: Leitung der Dekoration in den Werkstätten der Staatstheater Quelle: CW; txt-002-001" ;
+        ns2:prefLabel "Heinz Richter" ;
+        ns3:familyName "Richter" ;
+        ns3:firstName "Heinz" ;
+        ns3:name "Heinz Richter" .
+
+    <http://lod.iti-germany.de/resource/heinz_rohloff> a ns5:Agent ;
+        ns4:description "Beschreibung: Gestaltung von Flyern für das Pantomimen Ensemble des Deutschen Theaters u.a. \"Blaubart\"  Quelle: CW; txt-001-003" ;
+        ns2:prefLabel "Heinz Rohloff" ;
+        ns3:familyName "Rohloff" ;
+        ns3:firstName "Heinz" ;
+        ns3:name "Heinz Rohloff" .
+
+    <http://lod.iti-germany.de/resource/heinz_wenzel> a ns5:Agent ;
+        ns4:description "Beschreibung: Ausstatter für einige Inszenierungen beim Pantomimen Ensemble des Deutschen Theaters Quelle: CW; u.a. Flyer \"Blaubart\" txt-001-002" ;
+        ns2:prefLabel "Heinz Wenzel" ;
+        ns3:familyName "Wenzel" ;
+        ns3:firstName "Heinz" ;
+        ns3:name "Heinz Wenzel" .
+
+    <http://lod.iti-germany.de/resource/helmut_fischer> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/helmut_hilger> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/helmut_strassburger> a ns5:Agent ;
+        ns2:prefLabel "Helmut Straßburger" ;
+        ns3:familyName "Straßburger" ;
+        ns3:firstName "Helmut" ;
+        ns3:name "Helmut Straßburger" .
+
+    <http://lod.iti-germany.de/resource/helmut_ullrich> a ns5:Agent ;
+        ns4:description """Beschreibung: Theaterkritiker, schrieb in der DDR für die Neue Zeit, Berlin
+
+u.a. "Von Marionetten und Menschen" aus Neue Zeit 18.11.81 Quelle: https://www.theaterderzeit.de/person/helmut_ullrich/""" ;
+        ns2:prefLabel "Helmut Ullrich" ;
+        ns3:familyName "Ullrich" ;
+        ns3:firstName "Helmut" ;
+        ns3:name "Helmut Ullrich" .
+
+    <http://lod.iti-germany.de/resource/hermann_naehring> a ns5:Agent ;
+        ns4:description """Beschreibung: Perkussionist, Arrangeur und Komponist. Bekannt ist er unter anderem für die LP Sehnsucht nach Veränderung, die er 1989 als Mitglied der Band L?art de passage einspielte und die die erfolgreichste Jazz-LP der DDR wurde. Hermann Naehring absolvierte ein Musikstudium an der Hochschule für Musik ?Hanns Eisler? Berlin im Fach Klavier und Schlagzeug sowie ein Zusatzstudium asiatischer und afroamerikanischer Musik.
+Nach einer 10-jährigen Tätigkeit als Studiomusiker im Rundfunkorchester Berlin wurde er freiberuflicher Perkussionist. Von 1973 bis 1974 war er Mitglied der Rockband Brot und Salz. Naehring spielte in Sinfonieorchestern und in Jazzbands, komponierte für Hörspiel, Film und Theateraufführungen, etwa für das Pantomime-Ensemble des Deutschen Theaters Berlin und kooperierte mit Puppenspielern, Tänzern und Chansonsängern. Er spielte mit Musikern wie Ernst-Ludwig Petrowsky, Hannes Zerbe, Gerhard Schöne, Jens Naumilkat, Mikis Theodorakis, Tobias Morgenstern, Albrecht Riermeier, Hans-Günther Wauer und Warnfried Altmann. Von 1995 bis 2002 engagierte er sich für das Theater des Lachens in Frankfurt (Oder). Heute leitet er dort die ?percussion local?, eine private Trommelschule für Kinder, Jugendliche und Erwachsene. Hermann Naehring wirkte an rund 40 Schallplattenproduktionen mit und erhielt zweimal den Kritikerpreis der Berliner Zeitung. Naehring lebt in Regenmantel.  Quelle: https://de.wikipedia.org/wiki/Hermann_Naehring""" ;
+        ns6:sameAs <http://d-nb.info/gnd/134470168>,
+            <http://viaf.org/viaf/55925766> ;
+        ns2:prefLabel "Hermann Naehring" ;
+        ns3:familyName "Naehring" ;
+        ns3:firstName "Hermann" ;
+        ns3:name "Hermann Naehring" .
+
+    <http://lod.iti-germany.de/resource/horst_heitzenroether> a ns5:Agent ;
+        ns4:description "Beschreibung: Journalist für \"Stimme der DDR\" und \"National-Zeitung\" Quelle: CW: txt-005-002 und txt-006-001" ;
+        ns2:prefLabel "Horst Heitzenröther" ;
+        ns3:familyName "Heitzenröther" ;
+        ns3:firstName "Horst" ;
+        ns3:name "Horst Heitzenröther" .
+
+    <http://lod.iti-germany.de/resource/horst_j_lonius> a ns5:Agent ;
+        ns4:description "Beschreibung: Regieassistent bei \"Himmelhölle\", PEDT Quelle: CW; txt-086-002" ;
+        ns2:prefLabel "Horst-J. Lonius" ;
+        ns3:familyName "Lonius" ;
+        ns3:firstName "Horst-J." ;
+        ns3:name "Horst-J. Lonius" .
+
+    <http://lod.iti-germany.de/resource/horst_spaetling> a ns5:Agent ;
+        ns4:description "Beschreibung: Aikido Dozent Quelle: TN" ;
+        ns2:prefLabel "Horst Spätling" ;
+        ns3:familyName "Spätling" ;
+        ns3:firstName "Horst" ;
+        ns3:name "Horst Spätling" .
+
+    <http://lod.iti-germany.de/resource/hubert_lankes> a ns5:Agent ;
+        ns2:prefLabel "Hubert,Lankes" ;
+        ns3:familyName "Lankes" ;
+        ns3:firstName "Hubert" ;
+        ns3:name "Hubert,Lankes" .
+
+    <http://lod.iti-germany.de/resource/hugues_hollenstein> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/i_hesse> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/ida_kelarova> a ns5:Agent ;
+        ns4:description "Beschreibung: Musikerin, \"Gräfing Genowefa\" Quelle: CW; txt-010-001" ;
+        ns2:prefLabel "Ida Kelarová" ;
+        ns3:familyName "Kelarová" ;
+        ns3:firstName "Ida" ;
+        ns3:name "Ida Kelarová" .
+
+    <http://lod.iti-germany.de/resource/ide_van_heiningen> a ns5:Agent ;
+        ns2:prefLabel "Ide van Heiningen" ;
+        ns3:firstName "Ide" ;
+        ns3:name "Ide van Heiningen" .
+
+    <http://lod.iti-germany.de/resource/iduna_hegen> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/igor_fjodorowitsch_strawinski> a ns5:Agent ;
+        ns5:hasDateOfBirth "1882-06-17" ;
+        ns5:hasDateOfDeath "1971-04-06" ;
+        ns6:sameAs <http://d-nb.info/gnd/118642545>,
+            <https://viaf.org/viaf/17309155/>,
+            <https://www.wikidata.org/wiki/Q7314> ;
+        ns2:prefLabel "Igor Fjodorowitsch Strawinski" ;
+        ns3:familyName "Strawinski" ;
+        ns3:firstName "Igor Fjodorowitsch" ;
+        ns3:name "Igor Fjodorowitsch Strawinski" .
+
+    <http://lod.iti-germany.de/resource/ilja_rutberg> a ns5:Agent ;
+        ns4:description """Beschreibung: Ilja Rutberg gilt als einer der subtilsten Kenner und Förderer der sowjetischen Pantomimen- und Mimeentwicklung. Seit 1957 selbst als professioneller Mime tätig, arbeitet Rutberg heute vor allem auf dem Gebiet der Pädagogik und Publizistik. Neben seiner Arbeit an Theatern und für den Film betreut er mehrere professionelle Mimegruppen in Moskau, er ist Initiator von Workshops des sowjetischen Theaterverbandes sowie von Pantomime- und Theaterfestivals.
+Rutberg ist Autor von vier Büchern über Theorie und Methode der Pantomime sowie zahlreicher Fachartikel.
+In der Auseinandersetzung mit traditionellen und modernen Theatermethoden erarbeitete Rutberg das "Impuls-Reaktions-Training". Dieses zielt auf die umfassende Freisetzung körperlichen Ausdrucks bei Pantomimen, Schauspielern und Artisten. Quelle: Programmheft Woche des Gestischen Theaters 1990""" ;
+        ns2:prefLabel "Ilja Rutberg" ;
+        ns3:familyName "Rutberg" ;
+        ns3:firstName "Ilja" ;
+        ns3:name "Ilja Rutberg" .
+
+    <http://lod.iti-germany.de/resource/ilona_ripke> a ns5:Agent ;
+        ns4:description "Beschreibung: Fotografin Quelle: CW; txt-082-001" ;
+        ns2:prefLabel "Ilona Ripke" ;
+        ns3:familyName "Ripke" ;
+        ns3:firstName "Ilona" ;
+        ns3:name "Ilona Ripke" .
+
+    <http://lod.iti-germany.de/resource/inge_hoefig> a ns5:Agent ;
+        ns4:description "Beschreibung: Leitung bei der Herstellug der Kostüme in den Werkstätten der Staatstheater  Quelle: CW; txt-002-001" ;
+        ns2:prefLabel "Inge Höfig" ;
+        ns3:familyName "Höfig" ;
+        ns3:firstName "Inge" ;
+        ns3:name "Inge Höfig" .
+
+    <http://lod.iti-germany.de/resource/ingeborg_pietzsch> a ns5:Agent ;
+        ns4:description """Beschreibung: Theaterkritikerin, langjährige Mitarbeiterin und Redakteurin von Theater der Zeit (mitverantwortlich für Schauspiel/Kindertheater/Puppentheater) 
+
+u.a. "Variationen über einen Frauenmörder" inTdZ 2/82 (txt-1-1) Quelle: https://www.theaterderzeit.de/person/1016/""" ;
+        ns2:prefLabel "Ingeborg Pietzsch" ;
+        ns3:familyName "Pietzsch" ;
+        ns3:firstName "Ingeborg" ;
+        ns3:name "Ingeborg Pietzsch" .
+
+    <http://lod.iti-germany.de/resource/ingo_greiser> a ns5:Agent ;
+        ns4:description "Beschreibung: Beleuchter beim Pantomimen Ensemble des Deutschen Theaters Quelle: CW: txt-003-002" ;
+        ns2:prefLabel "Ingo Greiser" ;
+        ns3:familyName "Greiser" ;
+        ns3:firstName "Ingo" ;
+        ns3:name "Ingo Greiser" .
+
+    <http://lod.iti-germany.de/resource/ingrid_kuypers> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/irena_visnarova> a ns5:Agent ;
+        ns4:description "Beschreibung: Darstellerin in \"Gräfin Genowefa\" Quelle: CW; txt-010-001" ;
+        ns2:prefLabel "Irena Visnarová" ;
+        ns3:familyName "Visnarová" ;
+        ns3:firstName "Irena" ;
+        ns3:name "Irena Visnarová" .
+
+    <http://lod.iti-germany.de/resource/irene_sieben> a ns5:Agent ;
+        ns2:prefLabel "Irene Sieben" ;
+        ns3:familyName "Sieben" ;
+        ns3:firstName "Irene" ;
+        ns3:name "Irene Sieben" .
+
+    <http://lod.iti-germany.de/resource/irmgard_lorenz> a ns5:Agent ;
+        ns4:description "Beschreibung: Kostümgestalterin beim DT Quelle: CW; txt-002-001" ;
+        ns2:prefLabel "Irmgard Lorenz" ;
+        ns3:familyName "Lorenz" ;
+        ns3:firstName "Irmgard" ;
+        ns3:name "Irmgard Lorenz" .
+
+    <http://lod.iti-germany.de/resource/irmgard_wagner_strauss> a ns5:Agent ;
+        ns4:description "Beschreibung: Fotografin Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Irmgard Wagner-Strauß" ;
+        ns3:familyName "Wagner-Strauß" ;
+        ns3:firstName "Irmgard" ;
+        ns3:name "Irmgard Wagner-Strauß" .
+
+    <http://lod.iti-germany.de/resource/isao_tomita> a ns5:Agent ;
+        ns4:description "Beschreibung: Japanischer Musiker und Komponist" ;
+        ns6:sameAs <http://d-nb.info/gnd/134540913>,
+            <https://viaf.org/viaf/76501700/> .
+
+    <http://lod.iti-germany.de/resource/iva_bittova> a ns5:Agent ;
+        ns4:description "Beschreibung: Musikerin und Darstellerin in \"Gräfin Genowefa\" Quelle: CW; txt-010-001" ;
+        ns2:prefLabel "Iva Bittová" ;
+        ns3:familyName "Bittová" ;
+        ns3:firstName "Iva" ;
+        ns3:name "Iva Bittová" .
+
+    <http://lod.iti-germany.de/resource/ivan_lukes> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Prager Theater am Geländer Quelle: TN; txt-155" ;
+        ns2:prefLabel "Ivan Lukeš" ;
+        ns3:name "Ivan Lukeš" .
+
+    <http://lod.iti-germany.de/resource/ivana_kaslova> a ns5:Agent ;
+        ns4:description "Beschreibung: Darstellerin in \"Gräfin Genowefa\" Quelle: CW; txt-010-001" ;
+        ns2:prefLabel "Ivana Kaslová" ;
+        ns3:familyName "Kaslová" ;
+        ns3:firstName "Ivana" ;
+        ns3:name "Ivana Kaslová" .
+
+    <http://lod.iti-germany.de/resource/j_thiele> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Studio 61 Quelle: TN; txt-153" .
+
+    <http://lod.iti-germany.de/resource/jack_millet> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/jacques_lecoq> a ns5:Agent ;
+        ns5:hasDateOfBirth "1921-12-15" ;
+        ns5:hasDateOfDeath "1999-01-19" ;
+        ns6:sameAs <http://d-nb.info/gnd/119099497>,
+            <https://www.wikidata.org/wiki/Q586956> ;
+        ns2:prefLabel "Jacques Lecoq" ;
+        ns3:familyName "Lecoq" ;
+        ns3:firstName "Jacques" ;
+        ns3:name "Jacques Lecoq" .
+
+    <http://lod.iti-germany.de/resource/jakob_dimitri> a ns5:Agent ;
+        ns4:description "Beschreibung: Schweizer Clown, genannt Clown Dimitri (geb. Dimitri Jakob Müller) Quelle: CW; https://de.wikipedia.org/wiki/Dimitri_(Clown)" ;
+        ns6:sameAs <http://d-nb.info/gnd/112950809>,
+            <http://viaf.org/viaf/10031688>,
+            <https://www.wikidata.org/wiki/Q559389> ;
+        ns2:prefLabel "Jakob Dimitri" ;
+        ns3:familyName "Dimitri" ;
+        ns3:firstName "Jakob" ;
+        ns3:name "Jakob Dimitri" .
+
+    <http://lod.iti-germany.de/resource/jakob_grimm> a ns5:Agent ;
+        ns2:prefLabel "Jakob Grimm" ;
+        ns3:familyName "Grimm" ;
+        ns3:firstName "Jakob" ;
+        ns3:name "Jakob Grimm" .
+
+    <http://lod.iti-germany.de/resource/james_thurber> a ns5:Agent ;
+        ns4:description "Beschreibung: US- amerikanischer Schriftsteller Quelle: CW" ;
+        ns2:prefLabel "James Thurber" ;
+        ns3:familyName "Thurber" ;
+        ns3:firstName "James" ;
+        ns3:name "James Thurber" .
+
+    <http://lod.iti-germany.de/resource/jana_balkan> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Gruppo Laboratori di Verona (Stand 1986) Quelle: Programmheft Woche des Gestischen Theaters 1986" ;
+        ns2:prefLabel "Jana Balkan" ;
+        ns3:familyName "Balkan" ;
+        ns3:firstName "Jana" ;
+        ns3:name "Jana Balkan" .
+
+    <http://lod.iti-germany.de/resource/jana_zborilova> a ns5:Agent ;
+        ns4:description "Beschreibung: Ausstatterin bei \"Gräfin Genowefa\" des Theaters an der Schnur Quelle: CW; txt-010-001" ;
+        ns2:prefLabel "Jana Zbořilová" ;
+        ns3:familyName "Zbořilová" ;
+        ns3:firstName "Jana" ;
+        ns3:name "Jana Zbořilová" .
+
+    <http://lod.iti-germany.de/resource/jean_charles_clair> a ns5:Agent ;
+        ns4:description "Beschreibung: Malerei und Licht bei \"Sunny Side Up\" Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Jean Charles Clair" ;
+        ns3:familyName "Clair" ;
+        ns3:firstName "Jean Charles" ;
+        ns3:name "Jean Charles Clair" .
+
+    <http://lod.iti-germany.de/resource/jean_marc_molines> a ns5:Agent ;
+        ns2:prefLabel "Jean Marc Moklnès" ;
+        ns3:familyName "Molinès" ;
+        ns3:firstName "Jean Marc" ;
+        ns3:name "Jean Marc Moklnès" .
+
+    <http://lod.iti-germany.de/resource/jean_philippe_hemery> a ns5:Agent ;
+        ns2:prefLabel "Jean-Philippe hemery" ;
+        ns3:name "Jean-Philippe hemery" .
+
+    <http://lod.iti-germany.de/resource/jean_pierre_amiel> a ns5:Agent ;
+        ns2:prefLabel "Jean Pierre Amiel" ;
+        ns3:familyName "Amiel" ;
+        ns3:firstName "Jean Pierre" ;
+        ns3:name "Jean Pierre Amiel" .
+
+    <http://lod.iti-germany.de/resource/jean_pierre_gapihan> a ns5:Agent ;
+        ns2:prefLabel "Jean-Pierre Gapihan" ;
+        ns3:familyName "Gapihan" ;
+        ns3:firstName "Jean-Pierre" ;
+        ns3:name "Jean-Pierre Gapihan" .
+
+    <http://lod.iti-germany.de/resource/jean_soubeyran> a ns5:Agent ;
+        ns2:prefLabel "Jean,Soubeyran" ;
+        ns3:familyName "Soubeyran" ;
+        ns3:firstName "Jean" ;
+        ns3:name "Jean,Soubeyran" .
+
+    <http://lod.iti-germany.de/resource/jens_finke> a ns5:Agent ;
+        ns4:description "Beschreibung: Zusammen mit Matthias Falz bildet er das Pantomimen-Duo Finke Falz Quelle: Programmheft Woche des Gestischen Theaters 1988" .
+
+    <http://lod.iti-germany.de/resource/jindrich_honzl> a ns5:Agent ;
+        ns5:hasDateOfBirth "1894-05-14" ;
+        ns4:description "Beschreibung: Tschechischer Dramaturg, Regisseur und Theatertheoretiker Quelle: CW; txt-010-002 und https://de.wikipedia.org/wiki/Jind%C5%99ich_Honzl" ;
+        ns6:sameAs <http://d-nb.info/gnd/11895508X>,
+            <http://viaf.org/viaf/45101529>,
+            <https://www.wikidata.org/wiki/Q12024787> ;
+        ns2:prefLabel "Jindřich Honzl" ;
+        ns3:familyName "Honzl" ;
+        ns3:firstName "Jindřich" ;
+        ns3:name "Jindřich Honzl" .
+
+    <http://lod.iti-germany.de/resource/jiri_mahen> a ns5:Agent ;
+        ns5:hasDateOfBirth "1882-12-12" ;
+        ns4:description "Beschreibung: Tschechischer Dramatiker, Dichter, Journalist und Bibliothekar Quelle: https://de.wikipedia.org/wiki/Ji%C5%99%C3%AD_Mahen" ;
+        ns6:sameAs <http://d-nb.info/gnd/11878126X>,
+            <http://viaf.org/viaf/61589020>,
+            <https://www.wikidata.org/wiki/Q966067> ;
+        ns2:prefLabel "Jiří Mahen" ;
+        ns3:familyName "Mahen" ;
+        ns3:firstName "Jiří" ;
+        ns3:name "Jiří Mahen" .
+
+    <http://lod.iti-germany.de/resource/jiri_pecha> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller in \"Gräfin Genowefa\" Quelle: CW; txt-010-001" ;
+        ns2:prefLabel "Jiří Pecha" ;
+        ns3:familyName "Pecha" ;
+        ns3:firstName "Jiří" ;
+        ns3:name "Jiří Pecha" .
+
+    <http://lod.iti-germany.de/resource/joachim_kaps> a ns5:Agent ;
+        ns2:prefLabel "Joachim Kaps" ;
+        ns3:familyName "Kaps" ;
+        ns3:firstName "Joachim" ;
+        ns3:name "Joachim Kaps" .
+
+    <http://lod.iti-germany.de/resource/joachim_lemke> a ns5:Agent ;
+        ns4:description " Quelle: TN; Programmheft Woche des Gestischen Theaters 1987" ;
+        ns2:prefLabel "Joachim Lemke" ;
+        ns3:familyName "Lemke" ;
+        ns3:firstName "Joachim" ;
+        ns3:name "Joachim Lemke" .
+
+    <http://lod.iti-germany.de/resource/joachim_wanderer> a ns5:Agent ;
+        ns4:description "Beschreibung: Technische Leitung bei der DDR TV-Produktion \"Die Horatier und die Kuriatier\" (1982)" .
+
+    <http://lod.iti-germany.de/resource/jochen_finke> a ns5:Agent ;
+        ns4:description "Beschreibung: Deutscher Bühnenbildner Quelle: CW; https://de.wikipedia.org/wiki/Jochen_Finke" ;
+        ns2:prefLabel "Jochen Finke" ;
+        ns3:familyName "Finke" ;
+        ns3:firstName "Jochen" ;
+        ns3:name "Jochen Finke" .
+
+    <http://lod.iti-germany.de/resource/jochen_wermann> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/joe_sebastian_fenner> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller, La Compagnia Teatro Dimitri Quelle: CW, txt-081-003" ;
+        ns2:prefLabel "Joe Sebastian Fenner" ;
+        ns3:familyName "Fenner" ;
+        ns3:firstName "Joe Sebastian" ;
+        ns3:name "Joe Sebastian Fenner" .
+
+    <http://lod.iti-germany.de/resource/joerg_juesche> a ns5:Agent ;
+        ns2:prefLabel "Jörg Jüsche" ;
+        ns3:name "Jörg Jüsche" .
+
+    <http://lod.iti-germany.de/resource/joerg_stadler> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Amatuerstudios beim PEDT Quelle: CW; txt-074-002" ;
+        ns2:prefLabel "Jörg Stadler" ;
+        ns3:familyName "Stadler" ;
+        ns3:firstName "Jörg" ;
+        ns3:name "Jörg Stadler" .
+
+    <http://lod.iti-germany.de/resource/joern_gehlker> a ns5:Agent ;
+        ns2:prefLabel "Jörn Gehlker" ;
+        ns3:familyName "Gehlker" ;
+        ns3:firstName "Jörn" ;
+        ns3:name "Jörn Gehlker" .
+
+    <http://lod.iti-germany.de/resource/johan_helm> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/johan_wolfgang_von_goethe> a ns5:Agent ;
+        ns5:hasDateOfBirth "1749-08-28" ;
+        ns5:hasDateOfDeath "1832-03-22" ;
+        ns4:description " Quelle: CW" ;
+        ns6:sameAs <http://d-nb.info/gnd/118540238>,
+            <http://viaf.org/viaf/24602065>,
+            <https://www.wikidata.org/wiki/Q5879> ;
+        ns2:prefLabel "Johann Wolfgang von Goethe" ;
+        ns3:familyName "von Goethe" ;
+        ns3:firstName "Johann Wolfgang" ;
+        ns3:name "Johann Wolfgang von Goethe" .
+
+    <http://lod.iti-germany.de/resource/johannes_knoth> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/johannes_odenthal> a ns5:Agent ;
+        ns4:description "Beschreibung: Johannes Odenthal studierte Kunstgeschichte und Archäologie in Köln, Bonn und Paris. Er publizierte zahlreiche kulturhistorische Essays und Bücher, ist Mitbegründer und Herausgeber der Zeitschriften \"tanz aktuell\" und \"ballet international/tanz aktuell\". Sein Arbeitsschwerpunkt gilt den zeitgenössischen Performing Arts. Er übernahm Festivalleitungen in Stuttgart und Berlin. Von 1997 bis 2006 war Odenthal künstlerischer Leiter des Programmbereichs Musik Tanz Theater im Haus der Kulturen der Welt: Projektleitung unter anderem von DisOrientation (2003), IN TRANSIT (2002-2006), Heimat Kunst, Kulturelle Vielfalt in Deutschland (2000). Im Verlag Theater der Zeit gab er die Bücher \"The Third Body. Das Haus der Kulturen der Welt und die Performing Arts\" (2004) sowie \"tanz.de. Zeitgenössischer Tanz in Deutschland - Strukturen im Wandel - Eine neue Wissenschaft\" (2005) heraus, sowie 2006 den Band \"Lebendige Erinnerung - Xiqu\" - Zeitgenössische Entwicklungen im chinesischen Musiktheater. Seit 2006 ist Odenthal Programmbeauftragter der Akademie der Künste, Berlin. Er ist seit 2009 Herausgeber von Steidl/Positionen. 2009 entwickelte er die Programmreihe \"Politische Körper\" zur Erinnerung der Tanzmoderne in Deutschland. Quelle: TN; https://blog.berlinerfestspiele.de/author/johannes-odenthal/" ;
+        ns2:prefLabel "Johannes Odenthal" ;
+        ns3:familyName "Odenthal" ;
+        ns3:firstName "Johannes" ;
+        ns3:name "Johannes Odenthal" .
+
+    <http://lod.iti-germany.de/resource/johannes_ohla> a ns5:Agent ;
+        ns4:description "Beschreibung: Maskenbildner, Pantomime-Theater Jena Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Johannes Ohla" ;
+        ns3:familyName "Ohla" ;
+        ns3:firstName "Johannes" ;
+        ns3:name "Johannes Ohla" .
+
+    <http://lod.iti-germany.de/resource/jost_ideler> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/juergen_altmann> a ns5:Agent ;
+        ns4:description " Quelle: CW; txt-075-002" ;
+        ns2:prefLabel "Jürgen Altmann" ;
+        ns3:familyName "Altmann" ;
+        ns3:firstName "Jürgen " ;
+        ns3:name "Jürgen Altmann" .
+
+    <http://lod.iti-germany.de/resource/juergen_heidenreich> a ns5:Agent ;
+        ns2:prefLabel "Jürgen Heidenreich" ;
+        ns3:familyName "Heidenreich" ;
+        ns3:firstName "Jürgen" ;
+        ns3:name "Jürgen Heidenreich" .
+
+    <http://lod.iti-germany.de/resource/juergen_hohmuth> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/juergen_liebau> a ns5:Agent ;
+        ns4:description "Beschreibung: Leiter der Abteilung Maskenbildner im DT Quelle: CW; txt-070-003" ;
+        ns2:prefLabel "Jürgen Liebau" ;
+        ns3:familyName "Liebau" ;
+        ns3:firstName "Jürgen" ;
+        ns3:name "Jürgen Liebau" .
+
+    <http://lod.iti-germany.de/resource/juergen_manz> a ns5:Agent ;
+        ns2:prefLabel "Jürgen Manz" ;
+        ns3:familyName "Manz" ;
+        ns3:firstName "Jürgen" ;
+        ns3:name "Jürgen Manz" .
+
+    <http://lod.iti-germany.de/resource/juergen_marten> a ns5:Agent ;
+        ns2:prefLabel "Jürgen Marten" ;
+        ns3:familyName "Marten" ;
+        ns3:firstName "Jürgen" ;
+        ns3:name "Jürgen Marten" .
+
+    <http://lod.iti-germany.de/resource/juergen_mueller> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller, Pantomime-Theater Jena Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Jürgen Müller" ;
+        ns3:familyName "Müller" ;
+        ns3:firstName "Jürgen" ;
+        ns3:name "Jürgen Müller" .
+
+    <http://lod.iti-germany.de/resource/juergen_reuter> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/julius_markschiess_van_trix> a ns5:Agent ;
+        ns4:description "Beschreibung: Autor, \"Historiker für Artistengeschichte\" Quelle: Programmheft Woche des Gestischen Theaters 1986" ;
+        ns2:prefLabel "Julius Markschiess van Trix" ;
+        ns3:familyName "Markschiess van Trix" ;
+        ns3:firstName "Julius" ;
+        ns3:name "Julius Markschiess van Trix" .
+
+    <http://lod.iti-germany.de/resource/jutta_engler> a ns5:Agent ;
+        ns4:description "Beschreibung: Kulturdirektorin Berlin 1987 Quelle: CW; txt- 071-002" ;
+        ns2:prefLabel "Jutta Engler" ;
+        ns3:familyName "Engler" ;
+        ns3:firstName "Jutta" ;
+        ns3:name "Jutta Engler" .
+
+    <http://lod.iti-germany.de/resource/jutta_voss> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/k_j_wendlandt> a ns5:Agent ;
+        ns4:description "Beschreibung: Autor für ND: \"Burlesken um den wilden Ritter Blaubart\" Quelle: Flyer \"Blaubart\" (txt-1-1)" ;
+        ns2:prefLabel "K. J. Wendlandt" ;
+        ns3:familyName "Wendlandt" ;
+        ns3:firstName "K. J." ;
+        ns3:name "K. J. Wendlandt" .
+
+    <http://lod.iti-germany.de/resource/k_katzenstein> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Studio 61 Quelle: TN; txt-153" ;
+        ns2:prefLabel "K. Katzenstein" ;
+        ns3:familyName "Katzenstein" ;
+        ns3:firstName "K." ;
+        ns3:name "K. Katzenstein" .
+
+    <http://lod.iti-germany.de/resource/karin_freitag> a ns5:Agent ;
+        ns4:description "Beschreibung: Redaktion für die DDR TV-Produktion \"Die Horatier und die Kuriatier\" (1982)" .
+
+    <http://lod.iti-germany.de/resource/karin_jerosch> a ns5:Agent ;
+        ns4:description """Beschreibung: - Ballett- und Schauspielstudium; 15 Jahre Solistin am Pantomime-Ensemble des Deutschen Theaters in Berlin. Seit 1989 ist sie Dozentin an der Musikhochschule Berlin und in verschiedenen Fortbildungslehrgängen. 
+- Darstellerin im PEDT u.a. "Blaubart" Quelle: https://www.papagenomusik.de/inhalt/Zusatzausbildung/Dozenten/Dozenten.htm""" ;
+        ns2:prefLabel "Karin Jerosch" ;
+        ns3:familyName "Jerosch" ;
+        ns3:firstName "Karin" ;
+        ns3:name "Karin Jerosch" .
+
+    <http://lod.iti-germany.de/resource/karina_holla> a ns5:Agent ;
+        ns4:description "Beschreibung: Niederländische Darstellerin und Regisseurin. Holla absolvierte eine Mimeausbildung an der Theaterschule Amsterdam. Ab 1974 arbeitete sie u.a. in der Gruppe \"Mimeliga\", bei Adriaan Adriaansen und Frederik de Groot. Zudem erarbeitet die Soloproduktionen. Quelle: Programmheft Woche des Gestischen Theaters 1988" ;
+        ns6:sameAs <http://www.karinaholla.nl/> .
+
+    <http://lod.iti-germany.de/resource/karl_michael_kulow> a ns5:Agent ;
+        ns2:prefLabel "Karl Michael Kulow" ;
+        ns3:familyName "Kulow" ;
+        ns3:firstName "Karl-Michael" ;
+        ns3:name "Karl Michael Kulow" .
+
+    <http://lod.iti-germany.de/resource/karl_rhinow> a ns5:Agent ;
+        ns2:prefLabel "Karl Rhinow" ;
+        ns3:familyName "Rhinow" ;
+        ns3:firstName "Karl" ;
+        ns3:name "Karl Rhinow" .
+
+    <http://lod.iti-germany.de/resource/katharina_hallier> a ns5:Agent ;
+        ns4:description "Beschreibung: Produktionsassistenz bei der Herstellung der Dekorationen in den Werkstätten der Staatstheater Quelle: CW; txt-087-002" ;
+        ns2:prefLabel "Katharina Hallier" ;
+        ns3:familyName "Hallier" ;
+        ns3:firstName "Katharina" ;
+        ns3:name "Katharina Hallier" .
+
+    <http://lod.iti-germany.de/resource/katharina_hanhart> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/kathleen_monden> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/katja_noelte> a ns5:Agent ;
+        ns4:description "Beschreibung: Kostümassistenz bei der Herstellug der Kostüme in den Werkstätten der Staatstheater Quelle: CW; txt-087-002" ;
+        ns2:prefLabel "Katja Nölte" ;
+        ns3:familyName "Nölte" ;
+        ns3:firstName "Katja" ;
+        ns3:name "Katja Nölte" .
+
+    <http://lod.iti-germany.de/resource/katrin_adams> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/katrin_klein> a ns5:Agent ;
+        ns4:description "Beschreibung: Schauspielerin, seit 1979 Ensemblemitglied am Deutschen Theater" ;
+        ns6:sameAs <http://d-nb.info/gnd/140952306>,
+            <http://viaf.org/viaf/120216278>,
+            <https://www.deutschestheater.de/ensemble/katrin_klein/>,
+            <https://www.wikidata.org/wiki/Q1736717> ;
+        ns2:prefLabel "Katrin Klein" ;
+        ns3:familyName "Klein" ;
+        ns3:firstName "Katrin" ;
+        ns3:name "Katrin Klein" .
+
+    <http://lod.iti-germany.de/resource/kika_groszkopf> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/kiran_segal> a ns5:Agent ;
+        ns2:prefLabel "Kiran Segal" ;
+        ns3:familyName "Segal" ;
+        ns3:firstName "Kiran" ;
+        ns3:name "Kiran Segal" .
+
+    <http://lod.iti-germany.de/resource/klaus_hesse> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/klaus_rex> a ns5:Agent ;
+        ns4:description "Beschreibung: Technischer Einrichter bei \"Berliner Ballonfieber 1803\", Pantomimen Ensemble des Deutschen Theaters Quelle: CW; txt-002-001" ;
+        ns2:prefLabel "Klaus Rex" ;
+        ns3:familyName "Rex" ;
+        ns3:firstName "Klaus" ;
+        ns3:name "Klaus Rex" .
+
+    <http://lod.iti-germany.de/resource/klaus_richter> a ns5:Agent ;
+        ns4:description "Beschreibung: Musiker, PEDT Quelle: CW; txt-002-001" ;
+        ns2:prefLabel "Klaus Richter" ;
+        ns3:familyName "Richter" ;
+        ns3:firstName "Klaus" ;
+        ns3:name "Klaus Richter" .
+
+    <http://lod.iti-germany.de/resource/klaus_staffa> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/klaus_urbanski> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/knut_guggenheim> a ns5:Agent ;
+        ns2:prefLabel "Knut Guggenheim" ;
+        ns3:name "Knut Guggenheim" .
+
+    <http://lod.iti-germany.de/resource/koffi_koko> a ns5:Agent ;
+        ns4:description """Beschreibung: Der Tänzer und Choreograph Koffi Kôkô gilt als einer der Initiatoren und prominentesten Vertreter der modernen afrikanischen Tanzszene. Kôkô arbeitet und lebt in Benin und Frankreich. Koffi Kôkô wurde in Benin Westafrika geboren, wo er in engem Kontakt mit der animistischen Religion seiner Heimat aufwuchs. Von Anfang an interessierte sich Kôkôs künstlerisches Interesse für eine Tanzform, die in ihrer Initiierung und ihrem rituellen Charakter später die Grundlage für seine Wahrnehmung und Neugestaltung der zeitgenössischen Tanz- und Theaterkultur bilden sollte. Diese Symbiose spiegelt sich auch in der Zusammenarbeit von Koffi Kôkô mit einigen der wichtigsten Vertreter des westlichen Tanzes und Theaters wider. Zu seinen Partnern gehören Namen wie Pierre Doussaint, Bruno Boêglin, Shiro Daimon und Yoshi Oida, Gabriel Gbadamosi, die Flamenco-Tänzerin Mari Carmen Gracia und Peter Badejo. Darüber hinaus arbeitete er mit Ismael Ivo zusammen, mit dem er im März 2001 unter der Leitung von Yoshi Oida die "Zofen" nach Jean Genet erarbeitete. In London wurde die Arbeit 2003 mit dem Time Out Prize für die beste Produktion des Jahres ausgezeichnet. Für die Jahre 2004 und 2005 war Koffi Kôkô künstlerischer Leiter des internationalen In Transit Festivals im Haus der Kulturen der Welt in Berlin. Koffi Kôkôs internationale Reputation erstreckt sich auch auf seine Arbeit als Lehrer: In Europa, Afrika und den USA hat er verschiedene Positionen als Professor inne und hält Meisterkurse. 
+
+Übersetzt mit www.DeepL.com/Translator Quelle: TN; https://www.geisteswissenschaften.fu-berlin.de/en/v/interweaving-performance-cultures/fellows/fellows_2016_2017/koffi_koko/index.html""" ;
+        ns2:prefLabel "Koffi Kôkô" ;
+        ns3:familyName "Kôkô" ;
+        ns3:firstName "Koffi" ;
+        ns3:name "Koffi Kôkô" .
+
+    <http://lod.iti-germany.de/resource/kristina_krafft> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/ladislav_fialka> a ns5:Agent ;
+        ns5:hasDateOfBirth "1931-09-22" ;
+        ns5:hasDateOfDeath "1991-02-22" ;
+        ns4:description "Beschreibung: Tschoslowakischer Pantomime, Darsteller, Regisseur, Professor an der Prager Akademie der Künste. Quelle: TN " ;
+        ns6:sameAs <http://d-nb.info/gnd/118686992>,
+            <https://viaf.org/viaf/8181653/>,
+            <https://www.wikidata.org/wiki/Q913013> ;
+        ns2:prefLabel "Ladislav Fialka" ;
+        ns3:familyName "Fialka" ;
+        ns3:firstName "Ladislav" ;
+        ns3:name "Ladislav Fialka" .
+
+    <http://lod.iti-germany.de/resource/laid_abderahmane> a ns5:Agent ;
+        ns4:description "Beschreibung: Techniker im Ensemble Théâtre Regional d'Oran Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Laid Abderahmane" ;
+        ns3:familyName "Abderahmane" ;
+        ns3:firstName "Laid" ;
+        ns3:name "Laid Abderahmane" .
+
+    <http://lod.iti-germany.de/resource/laszlo_rokas> a ns5:Agent ;
+        ns4:description "Beschreibung: Journalist für \"Táncmüvészet\" (Tanzkunst) aus Budapest Quelle: CW: txt-006-001" ;
+        ns2:prefLabel "László Rókás" ;
+        ns3:familyName "Rókás" ;
+        ns3:firstName "László" ;
+        ns3:name "László Rókás" .
+
+    <http://lod.iti-germany.de/resource/laurent_carouana> a ns5:Agent ;
+        ns4:description "Beschreibung: Darstellerin im Ensemble Théâtre de la Mie de Pain Quelle: CW: txt-007-001" ;
+        ns2:prefLabel "Laurent Carouana" ;
+        ns3:familyName "Carouana" ;
+        ns3:firstName "Laurent" ;
+        ns3:name "Laurent Carouana" .
+
+    <http://lod.iti-germany.de/resource/lea_giovanelli> a ns5:Agent ;
+        ns4:description "Beschreibung: Darstellerin im Ensemble Théâtre de la Mie de Pain Quelle: CW: txt-007-001" ;
+        ns2:prefLabel "Léa Giovanelli" ;
+        ns3:familyName "Giovanelli" ;
+        ns3:firstName "Léa" ;
+        ns3:name "Léa Giovanelli" .
+
+    <http://lod.iti-germany.de/resource/leni_junghans> a ns5:Agent ;
+        ns4:description "Beschreibung: Fotografin Quelle: CW; txt-087-002" ;
+        ns2:prefLabel "Leni Junghans" ;
+        ns3:familyName "Junghans" ;
+        ns3:firstName "Leni" ;
+        ns3:name "Leni Junghans" .
+
+    <http://lod.iti-germany.de/resource/lenka_loubalova> a ns5:Agent ;
+        ns4:description "Beschreibung: Darstellerin in \"Gräfin Genowefa\" Quelle: CW; txt-010-001" ;
+        ns2:prefLabel "Lenka Loubalová" ;
+        ns3:familyName "Loubalová" ;
+        ns3:firstName "Lenka" ;
+        ns3:name "Lenka Loubalová" .
+
+    <http://lod.iti-germany.de/resource/lina_do_carmo> a ns5:Agent ;
+        ns2:prefLabel "Lina do Carmo" ;
+        ns3:familyName "do Carmo" ;
+        ns3:firstName "Lina" ;
+        ns3:name "Lina do Carmo" .
+
+    <http://lod.iti-germany.de/resource/lorenzo_forlati> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Gruppo Laboratori di Verona (Stand 1986) Quelle: Programmheft Woche des Gestischen Theaters 1986" ;
+        ns2:prefLabel "Lorenzo Forlati" ;
+        ns3:familyName "Forlati" ;
+        ns3:firstName "Lorenzo" ;
+        ns3:name "Lorenzo Forlati" .
+
+    <http://lod.iti-germany.de/resource/lothar_scharsich> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/lothar_tarelkin> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/ludmila_kovarova> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Prager Theater am Geländer Quelle: TN; txt-155" ;
+        ns2:prefLabel "Ludmila Kovářová" ;
+        ns3:name "Ludmila Kovářová" .
+
+    <http://lod.iti-germany.de/resource/ludwig_uhland> a ns5:Agent ;
+        ns2:prefLabel "Ludwig Uhland" ;
+        ns3:familyName "Uhland" ;
+        ns3:firstName "Ludwig" ;
+        ns3:name "Ludwig Uhland" .
+
+    <http://lod.iti-germany.de/resource/ludwig_van_beethoven> a ns5:Agent ;
+        ns2:prefLabel "Ludwig van Beethoven" ;
+        ns3:familyName "van Beethoven" ;
+        ns3:firstName "Ludwig" ;
+        ns3:name "Ludwig van Beethoven" .
+
+    <http://lod.iti-germany.de/resource/lutz_jope> a ns5:Agent ;
+        ns2:prefLabel "Lutz Jope" ;
+        ns3:familyName "Jope" ;
+        ns3:firstName "Lutz" ;
+        ns3:name "Lutz Jope" .
+
+    <http://lod.iti-germany.de/resource/lutz_pretzsch> a ns5:Agent ;
+        ns2:prefLabel "Lutz Pretzsch" ;
+        ns3:familyName "Pretzsch" ;
+        ns3:firstName "Lutz" ;
+        ns3:name "Lutz Pretzsch" .
+
+    <http://lod.iti-germany.de/resource/m_klein> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Studio 61 Quelle: TN; txt-153" .
+
+    <http://lod.iti-germany.de/resource/magdalena_lorenz> a ns5:Agent ;
+        ns2:prefLabel "B. Magdalena Lorenz" ;
+        ns3:familyName "Lorenz" ;
+        ns3:firstName "B. Magdalena" ;
+        ns3:name "B. Magdalena Lorenz" .
+
+    <http://lod.iti-germany.de/resource/maike_schoernick> a ns5:Agent ;
+        ns4:description "Beschreibung: Darstellerin, Pantomime-Theater Jena Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Maike Schörnick" ;
+        ns3:familyName "Schörnick" ;
+        ns3:firstName "Maike" ;
+        ns3:name "Maike Schörnick" .
+
+    <http://lod.iti-germany.de/resource/manfred_bofinger> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/manfred_dostall> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Pantomimenstudio Berlin Quelle: TN; txt-154" .
+
+    <http://lod.iti-germany.de/resource/manfred_ketzler> a ns5:Agent ;
+        ns4:description "Beschreibung: Musiker, PEDT Quelle: CW; txt-002-001" ;
+        ns2:prefLabel "Manfred Ketzler" ;
+        ns3:familyName "Ketzler" ;
+        ns3:firstName "Manfred" ;
+        ns3:name "Manfred Ketzler" .
+
+    <http://lod.iti-germany.de/resource/manfred_strahl> a ns5:Agent ;
+        ns4:description "Beschreibung: Deutscher Journalist, Redakteur und Schriftsteller Quelle: CW; https://de.wikipedia.org/wiki/Manfred_Strahl" ;
+        ns6:sameAs <http://d-nb.info/gnd/1062533240>,
+            <http://viaf.org/viaf/311726519> ;
+        ns2:prefLabel "Manfred Strahl" ;
+        ns3:familyName "Strahl" ;
+        ns3:firstName "Manfred" ;
+        ns3:name "Manfred Strahl" .
+
+    <http://lod.iti-germany.de/resource/marcel_marceau> a ns5:Agent ;
+        ns2:prefLabel "Marcel Marceau" ;
+        ns3:familyName "Marceau" ;
+        ns3:firstName "Marcel" ;
+        ns3:name "Marcel Marceau" .
+
+    <http://lod.iti-germany.de/resource/mareike_schnitker> a ns5:Agent ;
+        ns2:prefLabel "Mareike Schnitker" ;
+        ns3:familyName "Schnitker" ;
+        ns3:firstName "Mareike" ;
+        ns3:name "Mareike Schnitker" .
+
+    <http://lod.iti-germany.de/resource/margit_schroeder> a ns5:Agent ;
+        ns4:description "Beschreibung: Produktionsassistenz bei Herstellung der Dekoration in den Werkstätten der Staatstheater Quelle: CW; txt-002-001" ;
+        ns2:prefLabel "Margit Schröder" ;
+        ns3:familyName "Schröder" ;
+        ns3:firstName "Margit" ;
+        ns3:name "Margit Schröder" .
+
+    <http://lod.iti-germany.de/resource/margot_thyret> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/margrit_strassburger> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/maria_pawlowa> a ns5:Agent ;
+        ns4:description "Beschreibung: Inspizientin, PEDT Quelle: CW; txt-087-002" ;
+        ns2:prefLabel "Maria Pawlowa" ;
+        ns3:familyName "Pawlowa" ;
+        ns3:firstName "Maria" ;
+        ns3:name "Maria Pawlowa" .
+
+    <http://lod.iti-germany.de/resource/marie_luise_anger> a ns5:Agent ;
+        ns5:hasDateOfBirth "1931-00-00" ;
+        ns5:hasDateOfDeath "2008-00-00" ;
+        ns4:description "Beschreibung: Marie Luise Anger (geboren 1931) war eine deutsche Schauspielerin, Lehrerin, Mimin und Pantomimin. Sie wohnte und arbeitete von 1959-1965 in Paris und studierte dort Mime Corporel bei Etienne Decroux (1898-1991), seinem Sohn Maximilian und Wolgang Mehring. In Berlin gründete sie eine eigene Schule für Pantomime, die sie 26 Jahre leitete, darüber hinaus hatte sie einen langjährigen Lehrauftrag an der Hochschule der Künste. 1981 wurde ihr ein Honorarprofessorentitel verliehen. In ihrer letzten Lebensphase widmete Sie sich intensiv der ergotherapeutischen Arbeit mit geistig behinderten Menschen und erhielt für diese Arbeit auf Vorschlag des Regierenden Bügermeisters von Berlin Klaus Wowereit im Jahre 2000 das Verdienstkreuz am Bande des Verdienstordens der Bundesrepublik Deutschland.\"Außergewöhnlich und auszeichnungswürdig ist auch, dass Frau Professor Anger diesen unermüdlichen künstlerischen und pädagogischen Einsatz auf dem Gebiet der Behindertenarbeit in einem Lebensabschnitt begonnen hat, in dem die meisten Menschen sich zur Ruhe setzen, den sie für sich selbst aber als Unruhezustand beschreibt.“(Auszug aus der Vorschlagsbegründung). 2008 verstarb Frau Marie Lusie Anger in Berlin. Das MimeCentrum verwahrt einen Teil des Nachlasses von Marie Lusie Anger der einen umfangreichen Bestand an VHS Bänder beiinhaltet. In diesem Nachlass befindet sich unter anderem eine videodokumentierte Reihe ihrer ergotherapeutischen Pantomimearbeit, sowie Bücher und eine kurze Korrespondenz mit Etienne Decroux, desweiteren Aufnahmen von Aufführungen einer von ihr geleiteten Theatergruppe Quelle: TN;http://archiv.mimecentrum.de/searches/7?type=person" ;
+        ns2:prefLabel "Marie-Luise Anger" ;
+        ns3:familyName "Anger" ;
+        ns3:firstName "Marie-Luise" ;
+        ns3:name "Marie-Luise Anger" .
+
+    <http://lod.iti-germany.de/resource/marie_noel_bordeaux> a ns5:Agent ;
+        ns4:description "Beschreibung: Darstellerin im Ensemble Théâtre de la Mie de Pain Quelle: CW: txt-007-001" ;
+        ns2:prefLabel "Marie-Noel Bordeaux" ;
+        ns3:familyName "Bordeaux" ;
+        ns3:firstName "Marie-Noel" ;
+        ns3:name "Marie-Noel Bordeaux" .
+
+    <http://lod.iti-germany.de/resource/marion_jesionek> a ns5:Agent ;
+        ns4:description "Beschreibung: Garderobiere PEDT Quelle: CW; txt-002-001" ;
+        ns2:prefLabel "Marion Jesionek" ;
+        ns3:familyName "Jesionek" ;
+        ns3:firstName "Marion" ;
+        ns3:name "Marion Jesionek" .
+
+    <http://lod.iti-germany.de/resource/markus_heller> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/martha_zuercher> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/martin_brosch> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/martin_dettloff> a ns5:Agent ;
+        ns4:description "Beschreibung: Fotograf Quelle: CW; txt-081-002" ;
+        ns2:prefLabel "Martin Dettloff" ;
+        ns3:familyName "Dettloff" ;
+        ns3:firstName "Martin" ;
+        ns3:name "Martin Dettloff" .
+
+    <http://lod.iti-germany.de/resource/martin_goering> a ns5:Agent ;
+        ns2:prefLabel "Martin Göring" ;
+        ns3:name "Martin Göring" .
+
+    <http://lod.iti-germany.de/resource/martin_havelka> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller in \"Gräfin Genowefa\" Quelle: CW; txt-010-001" ;
+        ns2:prefLabel "Martin Havelka" ;
+        ns3:familyName "Havelka" ;
+        ns3:firstName "Martin" ;
+        ns3:name "Martin Havelka" .
+
+    <http://lod.iti-germany.de/resource/martin_henzi> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/martin_wilke> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/martina_leeker> a ns5:Agent ;
+        ns2:prefLabel "Martina Leeker" ;
+        ns3:familyName "Leeker" ;
+        ns3:firstName "Martina" ;
+        ns3:name "Martina Leeker" .
+
+    <http://lod.iti-germany.de/resource/matthias_falz> a ns5:Agent ;
+        ns4:description "Beschreibung: Zusammen mit Jens Finke bildet er das Pantomimen-Duo Finke Falz Quelle: Programmheft Woche des Gestischen Theaters 1988" .
+
+    <http://lod.iti-germany.de/resource/matthias_hille> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/matthias_krahnert> a ns5:Agent ;
+        ns4:description "Beschreibung: Leiter des Pantomimenensemble Salto Vitale (Dresden, DDR)" ;
+        ns2:prefLabel "Matthias Krahnert" ;
+        ns3:familyName "Krahnert" ;
+        ns3:firstName "Matthias" ;
+        ns3:name "Matthias Krahnert" .
+
+    <http://lod.iti-germany.de/resource/matthias_rosenfeld> a ns5:Agent ;
+        ns4:description "Beschreibung: Gestalter Programmheft" ;
+        ns2:prefLabel "Matthias Rosenfeld" ;
+        ns3:familyName "Rosenfeld" ;
+        ns3:firstName "Matthias" ;
+        ns3:name "Matthias Rosenfeld" .
+
+    <http://lod.iti-germany.de/resource/maxie_wander> a ns5:Agent ;
+        ns2:prefLabel "Maxie Wander" ;
+        ns3:familyName "Wander" ;
+        ns3:firstName "Maxie " ;
+        ns3:name "Maxie Wander" .
+
+    <http://lod.iti-germany.de/resource/maya_brosch> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/michael_freundt> a ns5:Agent ;
+        ns4:description """Beschreibung: Michael Freundt studierte an der Theaterhochschule Hans Otto und der Universität Leipzig Theaterwissenschaft, Philosophie und Tanzwissenschaft. Er war als freier Journalist und Kritiker u. a. für zitty, Wochenpost, Theater der Zeit und die Berliner Zeitung tätig. Als Regisseur, Dramaturg und Theaterproduzent gehörte Michael Freundt zum Gründungs- und Leitungsteam verschiedener freier Theaterprojekte in Leipzig, Münster und Berlin. Seit 1997 war er als Pressereferent und künstlerischer Mitarbeiter und 2001 bis 2002 als Künstlerischer Leiter der euro-scene Leipzig tätig.
+Nach einer Mitarbeit in mehreren freien Produktionen im Bereich Theater, Tanz und Alte Musik, wechselte Michael Freundt Anfang 2003 als Stellvertretender Direktor in die Geschäftsführung des Internationalen Theaterinstituts (ITI) - Zentrum Deutschland.
+Seit 2004 engagiert sich Michael Freundt in den Treffen der Ständigen Konferenz Tanz, koordinierte die Formierung zum eingetragenen Verein und wurde mit der Gründung der SK Tanz (jetzt: Dachverband Tanz Deutschland) im März 2006 zum Geschäftsführer berufen. Quelle: TN; http://www.tanzpakt.de/ueber-tanzpakt/team/""" ;
+        ns2:prefLabel "Michael Freundt" ;
+        ns3:familyName "Freundt" ;
+        ns3:firstName "Michael" ;
+        ns3:name "Michael Freundt" .
+
+    <http://lod.iti-germany.de/resource/michael_kerstgens> a ns5:Agent ;
+        ns5:hasDateOfBirth "1960-00-00" ;
+        ns6:sameAs <http://d-nb.info/gnd/1021821179>,
+            <http://kerstgens.de/>,
+            <https://viaf.org/viaf/256827297/>,
+            <https://www.wikidata.org/wiki/Q1475708> ;
+        ns2:prefLabel "Michael Kerstgens" ;
+        ns3:familyName "Kerstgens" ;
+        ns3:firstName "Michael" ;
+        ns3:name "Michael Kerstgens" .
+
+    <http://lod.iti-germany.de/resource/michael_pan> a ns5:Agent ;
+        ns4:description "Beschreibung: Deutscher Schauspieler, Synchron- und Hörspielsprecher. Michael Pans Vater war der Kabarettist und Chansonnier Peter Pan alias Alfred Nathan, der wegen des nationalsozialistischen Regimes nach Spanien emigriert war. Dort wurde Michael Pan 1952 geboren. 1957 siedelte die Familie nach Deutschland über. Auf Einladung des Schauspielers Ernst Busch zog Peter Pan 1958 nach Ost-Berlin. Hier gab sein Sohn Michael an der Seite von Busch 1960 im Alter von nur acht Jahren am Berliner Ensemble sein Bühnendebüt in einer Aufführung von Bertolt Brechts Leben des Galilei. In den Folgejahren arbeitete Pan als Kinderdarsteller am Berliner Ensemble und an der Volksbühne. 1970 nahm er ein Schauspielstudium an der Staatlichen Schauspielschule in Berlin-Schöneweide auf, das er 1973 abschloss. Es folgten Engagements in Berlin und Gera. 1974 wechselte Pan an das Deutsche Theater Berlin, in dessen Ensemble er bis 1989 blieb. Zudem agierte er im dortigen Pantomime?Ensemble. Daneben gab er Gastspiele am Maxim-Gorki-Theater sowie an der Deutschen Staatsoper in Berlin. 1987 stellte Pan einen Antrag auf Entlassung aus der Staatsbürgerschaft der DDR, der zwei Jahre später bewilligt wurde. Seither arbeitet er als freischaffender Künstler an verschiedenen Berliner Bühnen und Revuen.  Quelle: https://de.wikipedia.org/wiki/Michael_Pan" ;
+        ns2:prefLabel "Michael Pan" ;
+        ns3:familyName "Pan" ;
+        ns3:firstName "Michael" ;
+        ns3:name "Michael Pan" .
+
+    <http://lod.iti-germany.de/resource/michael_schroedter> a ns5:Agent ;
+        ns2:prefLabel "Michael Schoedter" ;
+        ns3:name "Michael Schoedter" .
+
+    <http://lod.iti-germany.de/resource/michael_schwamm> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/michael_sens> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Amatuerstudios beim PEDT, Musiker Quelle: CW; txt-074-002" ;
+        ns2:prefLabel "Michael Sens" ;
+        ns3:familyName "Sens" ;
+        ns3:firstName "Michael" ;
+        ns3:name "Michael Sens" .
+
+    <http://lod.iti-germany.de/resource/michael_vogt> a ns5:Agent ;
+        ns4:description "Beschreibung: Musiker, Komponist und Klanginstallateur Quelle: http://www.kulturwirtschaft-info.de/michael_vogt.htm" ;
+        ns2:prefLabel "Michael Vogt" ;
+        ns3:familyName "Vogt" ;
+        ns3:firstName "Michael" ;
+        ns3:name "Michael Vogt" .
+
+    <http://lod.iti-germany.de/resource/michel_willebrand> a ns5:Agent ;
+        ns2:prefLabel "Michael Willebrand" ;
+        ns3:familyName "Willebrand" ;
+        ns3:firstName "Michael" ;
+        ns3:name "Michael Willebrand" .
+
+    <http://lod.iti-germany.de/resource/mike_luft> a ns5:Agent ;
+        ns2:prefLabel "Mike Luft" ;
+        ns3:familyName "Luft" ;
+        ns3:firstName "Mike" ;
+        ns3:name "Mike Luft" .
+
+    <http://lod.iti-germany.de/resource/milan_sladek> a ns5:Agent ;
+        ns5:hasDateOfBirth "1938-02-23" ;
+        ns6:sameAs <http://d-nb.info/gnd/118614924>,
+            <https://viaf.org/viaf/166404000/>,
+            <https://www.wikidata.org/wiki/Q884258> ;
+        ns2:prefLabel "Milan Sládek" ;
+        ns3:familyName "Sládek" ;
+        ns3:firstName "Milan" ;
+        ns3:name "Milan Sládek" .
+
+    <http://lod.iti-germany.de/resource/milos_stedron> a ns5:Agent ;
+        ns4:description "Beschreibung: Tschechischer Komponist, Musikwissenschaftler und Dozent. Musiker bei \"Gräfing Genowefa\" des Theaters an der Schnur. Quelle: CW; txt-010-001" ;
+        ns2:prefLabel "Miloš Štědroň" ;
+        ns3:familyName "Štědroň" ;
+        ns3:firstName "Miloš " ;
+        ns3:name "Miloš Štědroň" .
+
+    <http://lod.iti-germany.de/resource/miltscho_miltschew> a ns5:Agent ;
+        ns2:prefLabel "Miltscho Miltschew" ;
+        ns3:familyName "Miltschew" ;
+        ns3:firstName "Miltscho" ;
+        ns3:name "Miltscho Miltschew" .
+
+    <http://lod.iti-germany.de/resource/miroslav_donutil> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller in \"Gräfin Genowefa\" Quelle: CW; txt-010-001" ;
+        ns2:prefLabel "Miroslav Donutil" ;
+        ns3:familyName "Donutil" ;
+        ns3:firstName "Miroslav" ;
+        ns3:name "Miroslav Donutil" .
+
+    <http://lod.iti-germany.de/resource/mitsuro_sasaki> a ns5:Agent ;
+        ns2:prefLabel "Mitsuru,Sasaki" ;
+        ns3:familyName "Sasaki" ;
+        ns3:firstName "Mitsuru" ;
+        ns3:name "Mitsuru,Sasaki" .
+
+    <http://lod.iti-germany.de/resource/modest_petrowitsch_mussorgski> a ns5:Agent ;
+        ns4:description "Beschreibung: Russischer Komponist" .
+
+    <http://lod.iti-germany.de/resource/mojmir_maderic> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller in \"Gräfin Genowefa\" Quelle: CW; txt-010-001" ;
+        ns2:prefLabel "Mojmír Maděrič" ;
+        ns3:familyName "Maděrič" ;
+        ns3:firstName "Mojmír" ;
+        ns3:name "Mojmír Maděrič" .
+
+    <http://lod.iti-germany.de/resource/mokhtar_benyahlou> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller im Ensemble Théâtre Regional d‘Oran" ;
+        ns2:prefLabel "Mokhatar Benyahlou" ;
+        ns3:familyName "Benyahlou" ;
+        ns3:firstName "Mokhatar" ;
+        ns3:name "Mokhatar Benyahlou" .
+
+    <http://lod.iti-germany.de/resource/monika_bienert> a ns5:Agent ;
+        ns4:description """Beschreibung: - Schauspielerin; Staatliche Schauspielschule „Ernst Busch“, Berlin; danach Engagements in Quedlinburg, Rudolstadt, Altenburg, Prenzlau; 1975 - 1988 als Regieassistentin, Schauspielerin, Pantomime im Deutschen Theater, Berlin; danach als Schauspielerin bzw. Regisseurin: Theater Greifswald, Uckermärkische Bühnen Schwedt; Theater im Friedrichstadtpalast ?Das Ei?, Puppentheater in der Zitadelle; Berliner Compagnie, Theater Unterwegs; Schauspiellehrerin für Kinder und Jugendliche, Stage Coach Arts; Lesungen, Filme.
+- Regie-Assistenz beim PEDT u.a. bei "Blaubart", Darstellerin bei "Berliner Ballonfieber 1803" Quelle: - http://www.berlinercompagnie.de/www/ensemble.htm
+- CW aus PH "Blaubart" (txt-001-003) """ ;
+        ns6:sameAs <https://www.monika-bienert.de/> ;
+        ns2:prefLabel "Monika Bienert" ;
+        ns3:familyName "Bienert" ;
+        ns3:firstName "Monika" ;
+        ns3:name "Monika Bienert" .
+
+    <http://lod.iti-germany.de/resource/monika_dueren> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Pantomimenstudio Berlin Quelle: TN; txt-154" ;
+        ns2:prefLabel "Monika Düren" ;
+        ns3:name "Monika Düren" .
+
+    <http://lod.iti-germany.de/resource/monika_kwiatkowski> a ns5:Agent ;
+        ns2:prefLabel "Monika Kwiatkowski" ;
+        ns3:familyName "Kwiatkowski" ;
+        ns3:firstName "Monika" ;
+        ns3:name "Monika Kwiatkowski" .
+
+    <http://lod.iti-germany.de/resource/monika_rodis> a ns5:Agent ;
+        ns4:description "Beschreibung: Leiterin bei der Herstellug der Kostüme in den Werkstätten der Staatstheater Quelle: CW; txt-002-001" ;
+        ns2:prefLabel "Monika Rodis" ;
+        ns3:familyName "Rodis" ;
+        ns3:firstName "Monika" ;
+        ns3:name "Monika Rodis" .
+
+    <http://lod.iti-germany.de/resource/monique_bertin> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Pantomimen-Ensemble Le Théâtre Nu. Quelle: Programmheft Woche des Gestischen Theaters 1988" .
+
+    <http://lod.iti-germany.de/resource/monique_schnyder> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/nancy_sanchez_perez> a ns5:Agent ;
+        ns2:prefLabel "Nancy Sanchez-Perez" ;
+        ns3:name "Nancy Sanchez-Perez" .
+
+    <http://lod.iti-germany.de/resource/nelly_aeby> a ns5:Agent ;
+        ns4:description "Beschreibung: Kostümbildnerin, La Compagnia Teatro Dimitri Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Nelly Aeby" ;
+        ns3:familyName "Aeby" ;
+        ns3:firstName "Nelly" ;
+        ns3:name "Nelly Aeby" .
+
+    <http://lod.iti-germany.de/resource/nicoletta_vicentini> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Gruppo Laboratori di Verona (Stand 1986) Quelle: Programmheft Woche des Gestischen Theaters 1986" ;
+        ns2:prefLabel "Nicoletta Vicentini" ;
+        ns3:familyName "Vicentini" ;
+        ns3:firstName "Nicoletta" ;
+        ns3:name "Nicoletta Vicentini" .
+
+    <http://lod.iti-germany.de/resource/nikola_rusew> a ns5:Agent ;
+        ns2:prefLabel "Nikola Rusew" ;
+        ns3:familyName "Rusew" ;
+        ns3:firstName "Nikola" ;
+        ns3:name "Nikola Rusew" .
+
+    <http://lod.iti-germany.de/resource/nina_stadthaus> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/nino_sandow> a ns5:Agent ;
+        ns4:description """Beschreibung: - Opernsänger, Schauspieler und Regisseur
+- Musik bei Café Fatal des PEDT Quelle: - https://de.wikipedia.org/wiki/Nino_Sandow
+- Programmheft txt-003-002""" ;
+        ns6:sameAs <http://d-nb.info/gnd/134919610>,
+            <http://viaf.org/viaf/79855976>,
+            <https://www.wikidata.org/wiki/Q1724928> ;
+        ns2:prefLabel "Nino Sandow" ;
+        ns3:familyName "Sandow" ;
+        ns3:firstName "Nino" ;
+        ns3:name "Nino Sandow" .
+
+    <http://lod.iti-germany.de/resource/oleg_kisseljow> a ns5:Agent ;
+        ns4:description "Beschreibung: Schauspieler und Pantomime, lange Leiter des Studios für \"plastische Improvisation\" am Kulturpalast des ASLK in Moskau, seit 1985 arbeitet er am Theater an der Taganka. Quelle: Programmheft Woche des Gestischen Theaters 1988" .
+
+    <http://lod.iti-germany.de/resource/oliviero_giovannoni> a ns5:Agent ;
+        ns4:description "Beschreibung: Musiker, La Compagnia Teatro Dimitri Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Oliviero Giovannoni" ;
+        ns3:familyName "Giovannoni" ;
+        ns3:firstName "Oliviero" ;
+        ns3:name "Oliviero Giovannoni" .
+
+    <http://lod.iti-germany.de/resource/omar_saavedra_santis> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/pashyo_leihs> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/patrice_bigel> a ns5:Agent ;
+        ns4:description "Beschreibung: Regisseur und Leiter der Compagnie La Rumeur Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Patrice Bigel" ;
+        ns3:familyName "Bigel" ;
+        ns3:firstName "Patrice" ;
+        ns3:name "Patrice Bigel" .
+
+    <http://lod.iti-germany.de/resource/paul_clark> a ns5:Agent ;
+        ns4:description " Quelle: Programmheft Woche des Gestischen Theaters 1988" .
+
+    <http://lod.iti-germany.de/resource/paul_loomans> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/paul_weilenmann> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/paula_sandovale_stein> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/pavel_zatloukal> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller in \"Gräfin Genowefa\" Quelle: CW; txt-010-001" ;
+        ns2:prefLabel "Pavel Zatloukal" ;
+        ns3:familyName "Zatloukal" ;
+        ns3:firstName "Pavel" ;
+        ns3:name "Pavel Zatloukal" .
+
+    <http://lod.iti-germany.de/resource/pepita_engel> a ns5:Agent ;
+        ns4:description "Beschreibung: Fotografie PH PTDT \"Blaubart\" Quelle: CW aus txt-001-003" ;
+        ns2:prefLabel "Pepita Engel" ;
+        ns3:familyName "Engel" ;
+        ns3:firstName "Pepita" ;
+        ns3:name "Pepita Engel" .
+
+    <http://lod.iti-germany.de/resource/peter_baumgart> a ns5:Agent ;
+        ns4:description """Beschreibung: - Leiter des Pantomime-Ensembles des Deutschen Theaters Berlin
+- Darsteller des Professor Hermbstädt in "Berliner Ballonfieber 1803" Quelle: - https://www.theaterderzeit.de/person/peter_baumgart/
+- CW; Flyer "Berliner Ballonfieber 1803" (txt-002-001)""" ;
+        ns2:prefLabel "Peter Baumgart" ;
+        ns3:familyName "Baumgart" ;
+        ns3:firstName "Peter" ;
+        ns3:name "Peter Baumgart" .
+
+    <http://lod.iti-germany.de/resource/peter_goebel> a ns5:Agent ;
+        ns2:prefLabel "Peter Göbel" ;
+        ns3:firstName "Peter" ;
+        ns3:name "Peter Göbel" .
+
+    <http://lod.iti-germany.de/resource/peter_honegger> a ns5:Agent ;
+        ns4:description "Beschreibung: Absolvent der Schule von Jaqcues Lecoq in Paris, Regisseur der Pantomimengruppe \"Karl's kühne Gassenschau\". Quelle: TN; Programmheft Woche des Gestischen Theaters 1990" .
+
+    <http://lod.iti-germany.de/resource/peter_lux> a ns5:Agent ;
+        ns2:prefLabel "Peter Lux" ;
+        ns3:familyName "Lux" ;
+        ns3:firstName "Peter" ;
+        ns3:name "Peter Lux" .
+
+    <http://lod.iti-germany.de/resource/peter_nagyivanyi> a ns5:Agent ;
+        ns4:description "Beschreibung: Pantomime, der gemeinsam mit Gabor Dvorak das ungarische Pantomimenduo \"Ludens\" bildet. Quelle: Programmheft Woche des Gestischen Theaters 1987" ;
+        ns2:prefLabel "Peter Nagyivanyi" ;
+        ns3:familyName "Nagyivanyi" ;
+        ns3:firstName "Peter" ;
+        ns3:name "Peter Nagyivanyi" .
+
+    <http://lod.iti-germany.de/resource/peter_reusse> a ns5:Agent ;
+        ns4:description """Beschreibung: - Schauspieler und Schriftsteller. Nach dem Abitur in Kleinmachnow nahm Peter Reusse 1959 ein Studium an der Filmhochschule Babelsberg auf, das er 1963 abschloss. Im Anschluss daran arbeitete er bis 1970 als freier Schauspieler. 1970 erhielt er eine Festanstellung am Deutschen Theater in Berlin.
+- Darsteller des Ladislaus Dussek und Hofmusikus in "Berliner Ballonfieber 1803" Quelle: - https://de.wikipedia.org/wiki/Peter_Reusse
+- CW; Flyer "Berliner Ballonfieber 1803" (txt-002-001)""" ;
+        ns6:sameAs <http://d-nb.info/gnd/11934808X>,
+            <http://viaf.org/viaf/229381263>,
+            <https://www.wikidata.org/wiki/Q1347233> ;
+        ns2:prefLabel "Peter Reusse" ;
+        ns3:familyName "Reusse" ;
+        ns3:firstName "Peter" ;
+        ns3:name "Peter Reusse" .
+
+    <http://lod.iti-germany.de/resource/peter_scherhaufer> a ns5:Agent ;
+        ns4:description "Beschreibung: Gründungsmitglied des Theaters Gans an der Schnur in Brünn Quelle: CW; txt-010-002" ;
+        ns2:prefLabel "Peter Scherhaufer" ;
+        ns3:familyName "Scherhaufer" ;
+        ns3:firstName "Peter" ;
+        ns3:name "Peter Scherhaufer" .
+
+    <http://lod.iti-germany.de/resource/peter_waschinsky> a ns5:Agent ;
+        ns4:description """Beschreibung: - Darsteller im PEDT bei "Berliner Ballonfieber 1803" 
+- Waschinsky, Peter, deutscher Puppenspieler, Regisseur und Hochschullehrer (*1950 Halle an der Saale/DDR) beendete 1974 das Puppenspielstudium in Berlin. Danach folgten die Soloprogramme „Regenwürmer“ und „Kasparett“. 1976 wurde Waschinsky künstlerischer Leiter am Puppentheater Neubrandenburg, das mit Inszenierungen wie „Der Teilhaber“ (B. Hines, Handpuppen 1977), „Furcht und Elend des Dritten Reiches“ (B. Brecht, Marionetten 1980) und „Marionettenopern“ (J. Haydn, mit der Staatsoper Berlin 1981) schnell überregionale Anerkennung fand. Ab 1982 arbeitete er als Regisseur von Puppenfilmen, er entwickelte die Improvisationsreihe „Puppenjazz“ und wurde Aktivist der politischen Wende in der Deutschen Demokratischen Republik 1989/90. Seitdem entstanden Soloprogramme wie „Good bye, Berlin“ und „HAND biss FUSS“; Waschinsky wirkte als Hochschullehrer in Berlin und Charleville-Mézières, als Puppenspieler in Schauspielaufführungen (Berlin, Cottbus, Hamburg) sowie Regisseur u. a. bei „Gaukler, Gott und Gliedermann“ (nach Storm und Kleist 1997), zweimal „Faust“ (Puppenspiel und Goethe 1998), „Max und Moritz – die wahre Geschichte“ (nach W. Busch 2001). Als ebenso originell-kreativer wie unbequem-streitbarer Künstler ist Waschinsky einer der markantesten Vertreter des zeitgenössischen deutschen Puppenspiels. Quelle: - CW; Flyer "Berliner Ballonfieber 1803" (txt-002-001)
+- https://www.fidena.de/publish/viewfull.cfm?objectid=cc077f0c_e081_515d_74d86448c3a15d56""" ;
+        ns6:sameAs <http://www.peter-waschinsky.de/index2.htm>,
+            <https://www.fidena.de/publish/viewfull.cfm?objectid=cc077f0c_e081_515d_74d86448c3a15d56> ;
+        ns2:prefLabel "Peter Waschinsky" ;
+        ns3:familyName "Waschinsky" ;
+        ns3:firstName "Peter" ;
+        ns3:name "Peter Waschinsky" .
+
+    <http://lod.iti-germany.de/resource/peter_wyssbrodt> a ns5:Agent ;
+        ns2:prefLabel "Peter Wyssbrodt" ;
+        ns3:familyName "Wyssbrodt" ;
+        ns3:firstName "Peter" ;
+        ns3:name "Peter Wyssbrodt" .
+
+    <http://lod.iti-germany.de/resource/petr_malac> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller in \"Gräfin Genowefa\" Quelle: CW; txt-010-001" ;
+        ns2:prefLabel "Petr Maláč" ;
+        ns3:familyName "Maláč" ;
+        ns3:firstName "Petr" ;
+        ns3:name "Petr Maláč" .
+
+    <http://lod.iti-germany.de/resource/petr_oslzly> a ns5:Agent ;
+        ns4:description "Beschreibung: Tschechischer Dramaturg Quelle: CW; txt-010-001" ;
+        ns2:prefLabel "Petr Oslzlý" ;
+        ns3:familyName "Oslzlý" ;
+        ns3:firstName "Petr" ;
+        ns3:name "Petr Oslzlý" .
+
+    <http://lod.iti-germany.de/resource/petra_hofmann> a ns5:Agent ;
+        ns4:description "Beschreibung: Leiterin bei der Herstellung der Kostüme in den Werkstetten der Staatstheater  Quelle: CW; txt-087-002" ;
+        ns2:prefLabel "Petra Hofmann" ;
+        ns3:familyName "Hofmann" ;
+        ns3:firstName "Petra" ;
+        ns3:name "Petra Hofmann" .
+
+    <http://lod.iti-germany.de/resource/philippe_barrier> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller im Ensemble Théâtre de la Mie de Pain Quelle: CW: txt-007-001" ;
+        ns2:prefLabel "Philippe Barrier" ;
+        ns3:familyName "Barrier" ;
+        ns3:firstName "Philippe" ;
+        ns3:name "Philippe Barrier" .
+
+    <http://lod.iti-germany.de/resource/philippe_bizot> a ns5:Agent ;
+        ns2:prefLabel "Philippe Bizot" ;
+        ns3:familyName "Bizot" ;
+        ns3:firstName "Philippe" ;
+        ns3:name "Philippe Bizot" .
+
+    <http://lod.iti-germany.de/resource/philippe_monella> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Pantomimen-Ensemble Le Théâtre Nu. Quelle: Programmheft Woche des Gestischen Theaters 1988" .
+
+    <http://lod.iti-germany.de/resource/pierre_byland> a ns5:Agent ;
+        ns2:prefLabel "Pierre Byland" ;
+        ns3:familyName "Byland" ;
+        ns3:firstName "Pierre" ;
+        ns3:name "Pierre Byland" .
+
+    <http://lod.iti-germany.de/resource/pino_de_colle> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Gruppo Laboratori di Verona (Stand 1986) Quelle: Programmheft Woche des Gestischen Theaters 1986" ;
+        ns2:prefLabel "Pino De Colle" ;
+        ns3:familyName "De Colle" ;
+        ns3:firstName "Pino" ;
+        ns3:name "Pino De Colle" .
+
+    <http://lod.iti-germany.de/resource/rainer_koenig> a ns5:Agent ;
+        ns2:prefLabel "Rainer König" ;
+        ns3:familyName "König" ;
+        ns3:firstName "Rainer" ;
+        ns3:name "Rainer König" .
+
+    <http://lod.iti-germany.de/resource/rainer_kretzschmar> a ns5:Agent ;
+        ns4:description "Beschreibung: Theatermeister  Quelle: CW; txt-070-003" ;
+        ns2:prefLabel "Rainer Kretzschmar" ;
+        ns3:familyName "Kretzschmar" ;
+        ns3:firstName "Rainer" ;
+        ns3:name "Rainer Kretzschmar" .
+
+    <http://lod.iti-germany.de/resource/ralf_fiedler> a ns5:Agent ;
+        ns2:prefLabel "Ralf Fiedler" ;
+        ns3:familyName "Fiedler" ;
+        ns3:firstName "Ralf" ;
+        ns3:name "Ralf Fiedler" .
+
+    <http://lod.iti-germany.de/resource/regula_siegfried> a ns5:Agent ;
+        ns2:prefLabel "Regula Siegrfried" ;
+        ns3:familyName "Siegfried" ;
+        ns3:firstName "Regula" ;
+        ns3:name "Regula Siegrfried" .
+
+    <http://lod.iti-germany.de/resource/reiner_bredemeyer> a ns5:Agent ;
+        ns4:description "Beschreibung: Deutscher Musiker und Komponist  Quelle: CW; https://de.wikipedia.org/wiki/Liste_der_Werke_von_Reiner_Bredemeyer" ;
+        ns6:sameAs <http://d-nb.info/gnd/124867286>,
+            <http://viaf.org/viaf/117060741>,
+            <https://www.wikidata.org/wiki/Q2140395> ;
+        ns2:prefLabel "Reiner Bredemeyer" ;
+        ns3:familyName "Bredemeyer" ;
+        ns3:firstName "Reiner" ;
+        ns3:name "Reiner Bredemeyer" .
+
+    <http://lod.iti-germany.de/resource/reinhard_boehm> a ns5:Agent ;
+        ns4:description "Beschreibung: Beleuchtungsmeister DT Quelle: CW; txt-082-002" ;
+        ns2:prefLabel "Reinhard Böhm" ;
+        ns3:familyName "Böhm" ;
+        ns3:firstName "Reinhard" ;
+        ns3:name "Reinhard Böhm" .
+
+    <http://lod.iti-germany.de/resource/reinhard_reim> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/reinhard_roesler> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/remi_steinegger> a ns5:Agent ;
+        ns4:description "Beschreibung: Fotograf Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Remi Steinegger" ;
+        ns3:familyName "Steinegger" ;
+        ns3:firstName "Remi" ;
+        ns3:name "Remi Steinegger" .
+
+    <http://lod.iti-germany.de/resource/renate_bause> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/renate_kardetz> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Studio 61 Quelle: TN; txt-153" .
+
+    <http://lod.iti-germany.de/resource/renate_kordack> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/rene_ley> a ns5:Agent ;
+        ns4:description "Beschreibung: Tanzeinstudierung \"Himmelhölle\" Quelle: CW; txt-087-002" ;
+        ns2:prefLabel "René Ley" ;
+        ns3:familyName "Ley" ;
+        ns3:firstName "René" ;
+        ns3:name "René Ley" .
+
+    <http://lod.iti-germany.de/resource/richard_nieoczym> a ns5:Agent ;
+        ns4:description "Beschreibung: Richard Nieoczym ist Autor, Regisseur und künstlerischer Leiter des in Toronto beheimateten \"Actor's Theatre Laboratorium\". Als Schüler von Jerzy Grotowski arbeitet Nieoczym sowohl in seinen Soloprogrammen wie auch in den Ensembleproduktionen an der Entwicklung eines ganzheitlichen, emotional wie intellektuell expressiven Theaters. Quelle: TN; Programmheft Woche des Gestischen Theaters 1990" ;
+        ns2:prefLabel "Richard Nieoczym" ;
+        ns3:familyName "Nieoczym" ;
+        ns3:firstName "Richard" ;
+        ns3:name "Richard Nieoczym" .
+
+    <http://lod.iti-germany.de/resource/richard_strauss> a ns5:Agent ;
+        ns2:prefLabel "Richard Strauß" ;
+        ns3:familyName "Strauß" ;
+        ns3:firstName "Richard" ;
+        ns3:name "Richard Strauß" .
+
+    <http://lod.iti-germany.de/resource/rimensberger_maja> a ns5:Agent ;
+        ns2:prefLabel "Maja Riemensberger" ;
+        ns3:name "Maja Riemensberger" .
+
+    <http://lod.iti-germany.de/resource/rita_may> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/robert_wendel> a ns5:Agent ;
+        ns4:description """Beschreibung: - Bühnenbildner und Ausstatter 
+- Ausstattungsassistent bei "Berliner Ballonfieber 1803" Quelle: CW; txt-002-001""" ;
+        ns2:prefLabel "Robert Wendel" ;
+        ns3:familyName "Wendel" ;
+        ns3:firstName "Robert" ;
+        ns3:name "Robert Wendel" .
+
+    <http://lod.iti-germany.de/resource/rolf_dieter_graf> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/rolf_uhlig> a ns5:Agent ;
+        ns5:hasDateOfBirth " " ;
+        ns4:description "Beschreibung: Fotograf Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Rolf Uhlig" ;
+        ns3:familyName "Uhlig" ;
+        ns3:firstName "Rolf" ;
+        ns3:name "Rolf Uhlig" .
+
+    <http://lod.iti-germany.de/resource/rolf_wellingerhof> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/ronald_kern> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/rosa_anna_beck> a ns5:Agent ;
+        ns4:description "Beschreibung: Kostümassistentin Quelle: CW; txt-082-002" ;
+        ns2:prefLabel "Rosa- Anna Beck" ;
+        ns3:familyName "Beck" ;
+        ns3:firstName "Rosa- Anna" ;
+        ns3:name "Rosa- Anna Beck" .
+
+    <http://lod.iti-germany.de/resource/rosalind_lindemann> a ns5:Agent ;
+        ns4:description "Beschreibung: Kostümbildnerin PEDT" ;
+        ns2:prefLabel "Rosalind Lindemann" ;
+        ns3:familyName "Lindemann" ;
+        ns3:firstName "Rosalind" ;
+        ns3:name "Rosalind Lindemann" .
+
+    <http://lod.iti-germany.de/resource/rudi_rhode> a ns5:Agent ;
+        ns4:description "Beschreibung: Rudi Rhode produzierte seit 1983 zahlreiche Soloprogramme. In Zusammenarbeit mit Dietmar Schönherr und Javier Alonso sowie mit dem Theater \"Nahua\" stellte er sich besonders Themen der \"Dritten Welt\". Seine Synthese aus Tanz, Tanztheater, Pantomime und Maskentheater entwickelte Rhode unter dem Eindruck mehrerer Aufenthalte in Lateinamerika weiter. Rhode arbeitete als Lehrer für Bewegungstheater an der Schauspielschule von Managua und trat auf Festivals in Laterinamerika und Europa auf. Quelle: TN; Programmheft Woche des Gestischen Theaters 1990" ;
+        ns2:prefLabel "Rudi Rhode" ;
+        ns3:familyName "Rhode" ;
+        ns3:firstName "Rudi" ;
+        ns3:name "Rudi Rhode" .
+
+    <http://lod.iti-germany.de/resource/rudolf_zur_lippe> a ns5:Agent ;
+        ns5:hasDateOfBirth "1937-00-00" ;
+        ns4:description "Beschreibung: Deutscher Philosoph, Er habilitierte bei Theodor W. Adorno zur Geschichte des Leibes in der Moderne, er lehrte u.a. in Frankfurt a. M. Philosophie und Soziologie als Professor für Kulturtheorie und in Oldenburg als Inhaber des Lehrstuhls für Ästhetik. Quelle: http://www.philosophie.uni-oldenburg.de/mitglieder/zurLippe.html" ;
+        ns6:sameAs <http://www.philosophie.uni-oldenburg.de/mitglieder/zurLippe.html> ;
+        ns2:prefLabel "Rudolf zur Lippe" ;
+        ns3:familyName "zur Lippe" ;
+        ns3:firstName "Rudolf" ;
+        ns3:name "Rudolf zur Lippe" .
+
+    <http://lod.iti-germany.de/resource/ruediger_philipp> a ns5:Agent ;
+        ns2:prefLabel "Rüdiger Philipp" ;
+        ns3:familyName "Philipp" ;
+        ns3:firstName "Rüdiger" ;
+        ns3:name "Rüdiger Philipp" .
+
+    <http://lod.iti-germany.de/resource/ruediger_reissig> a ns5:Agent ;
+        ns4:description "Beschreibung: Mitglied des Amatuerstudios beim PEDT Quelle: CW; txt-074-002" ;
+        ns2:prefLabel "Rüdiger Reißig" ;
+        ns3:familyName "Reißig" ;
+        ns3:firstName "Rüdiger" ;
+        ns3:name "Rüdiger Reißig" .
+
+    <http://lod.iti-germany.de/resource/ruth_bartussek> a ns5:Agent ;
+        ns4:description "Beschreibung: Produktionsleiterin bei \"Sunny Side Up\" Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Ruth Bartussek" ;
+        ns3:familyName "Bartussek" ;
+        ns3:firstName "Ruth" ;
+        ns3:name "Ruth Bartussek" .
+
+    <http://lod.iti-germany.de/resource/sabine_adler> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/sabine_balkow> a ns5:Agent ;
+        ns4:description "Beschreibung: Requisite PEDT Quelle: CW; txt-087-001" ;
+        ns2:prefLabel "Sabine Balkow" ;
+        ns3:familyName "Balkow" ;
+        ns3:firstName "Sabine" ;
+        ns3:name "Sabine Balkow" .
+
+    <http://lod.iti-germany.de/resource/sabine_eckert> a ns5:Agent ;
+        ns4:description """Beschreibung: - Ausstattungsassistenz bei "Berliner Ballonfieber"
+- Ausstatterin beim PEDT Quelle: CW; txt-002-001""" ;
+        ns2:prefLabel "Sabine Eckert" ;
+        ns3:familyName "Eckert" ;
+        ns3:firstName "Sabine" ;
+        ns3:name "Sabine Eckert" .
+
+    <http://lod.iti-germany.de/resource/sabine_lippold> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/sabine_reifeldt> a ns5:Agent ;
+        ns4:description "Beschreibung: Garderobiere PEDT Quelle: CW; txt-074-002" ;
+        ns2:prefLabel "Sabine Reinfeldt" ;
+        ns3:familyName "Reinfeldt" ;
+        ns3:firstName "Sabine" ;
+        ns3:name "Sabine Reinfeldt" .
+
+    <http://lod.iti-germany.de/resource/said_benyoucef> a ns5:Agent ;
+        ns4:description "Beschreibung: Regisseur, Bühnenbildner und Darsteller im Ensemble Théâtre Regional d‘Oran Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Said Benyoucef" ;
+        ns3:familyName "Benyoucef" ;
+        ns3:firstName "Said" ;
+        ns3:name "Said Benyoucef" .
+
+    <http://lod.iti-germany.de/resource/said_missoum> a ns5:Agent ;
+        ns4:description "Beschreibung: Tonmeister im Ensemble Théâtre Regional d'Oran Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Said Missoum" ;
+        ns3:familyName "Missoum" ;
+        ns3:firstName "Said" ;
+        ns3:name "Said Missoum" .
+
+    <http://lod.iti-germany.de/resource/salem_safir> a ns5:Agent ;
+        ns4:description "Beschreibung: Techniker im Ensemble Théâtre Regional d'Oran" ;
+        ns2:prefLabel "Salem Safir" ;
+        ns3:familyName "Safir" ;
+        ns3:firstName "Salem" ;
+        ns3:name "Salem Safir" .
+
+    <http://lod.iti-germany.de/resource/samuel_beckett> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/sandra_luzina> a ns5:Agent ;
+        ns2:prefLabel "Sandra Luzina" ;
+        ns3:familyName "Luzina" ;
+        ns3:firstName "Sandra" ;
+        ns3:name "Sandra Luzina" .
+
+    <http://lod.iti-germany.de/resource/sergei_michailowitsch_eisenstein> a ns5:Agent ;
+        ns5:hasDateOfBirth "1898-01-22" ;
+        ns4:description "Beschreibung: Sowjetischer Regisseur Quelle: CW" ;
+        ns6:sameAs <http://d-nb.info/gnd/118529684>,
+            <http://viaf.org/viaf/56609269>,
+            <https://www.wikidata.org/wiki/Q8003> ;
+        ns2:prefLabel "Sergei Michailowitsch Eisenstein" ;
+        ns3:familyName "Eisenstein" ;
+        ns3:firstName "Sergei Michailowitsch" ;
+        ns3:name "Sergei Michailowitsch Eisenstein" .
+
+    <http://lod.iti-germany.de/resource/shanti_oyarzabal> a ns5:Agent ;
+        ns2:prefLabel "Shanti Oyarzabal" ;
+        ns3:familyName "Oyarzabal" ;
+        ns3:firstName "Shanti" ;
+        ns3:name "Shanti Oyarzabal" .
+
+    <http://lod.iti-germany.de/resource/siegline_budack> a ns5:Agent ;
+        ns2:prefLabel "Siegline Budack" ;
+        ns3:familyName "Budack" ;
+        ns3:firstName "Siegline" ;
+        ns3:name "Siegline Budack" .
+
+    <http://lod.iti-germany.de/resource/sigrun_kirstein> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/silke_schreiner> a ns5:Agent ;
+        ns4:description "Beschreibung: Darstellerin, Pantomime-Theater Jena Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Silke Schreiner" ;
+        ns3:familyName "Schreiner" ;
+        ns3:firstName "Silke" ;
+        ns3:name "Silke Schreiner" .
+
+    <http://lod.iti-germany.de/resource/simone_bechtum> a ns5:Agent ;
+        ns4:description "Beschreibung: Darstellerin, Pantomime-Theater Jena Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Simone Bechtum" ;
+        ns3:familyName "Bechtum" ;
+        ns3:firstName "Simone" ;
+        ns3:name "Simone Bechtum" .
+
+    <http://lod.iti-germany.de/resource/simone_schmollack> a ns5:Agent ;
+        ns2:prefLabel "Simone Schmollack" ;
+        ns3:familyName "Schmollack" ;
+        ns3:firstName "Simone" ;
+        ns3:name "Simone Schmollack" .
+
+    <http://lod.iti-germany.de/resource/simone_von_zglinicki> a ns5:Agent ;
+        ns4:description """Beschreibung: - Nach dem Abitur studierte Simone von Zglinicki von 1969 bis 1974 an der Theaterhochschule Leipzig und ist seit Studiumsende Mitglied des Deutschen Theaters Berlin.
+- Datstellerin des Zirkusdirektors in "Berliner Ballonfieber 1803" Quelle: -  https://de.wikipedia.org/wiki/Simone_von_Zglinicki
+- CW; Flyer "Berliner Ballonfieber 1803" (txt-002-001)""" ;
+        ns6:sameAs <http://d-nb.info/gnd/123612683>,
+            <http://viaf.org/viaf/121313798>,
+            <https://www.defa-stiftung.de/defa/kuenstlerin/simone-von-zglinicki/>,
+            <https://www.wikidata.org/wiki/Q2288180> ;
+        ns2:prefLabel "Simone von Zglinicki" ;
+        ns3:familyName "von Zglinicki" ;
+        ns3:firstName "Simone" ;
+        ns3:name "Simone von Zglinicki" .
+
+    <http://lod.iti-germany.de/resource/sophia_ferdinand> a ns5:Agent ;
+        ns2:prefLabel "Sophia Ferdinand" ;
+        ns3:familyName "Ferdinand" ;
+        ns3:firstName "Sophia" ;
+        ns3:name "Sophia Ferdinand" .
+
+    <http://lod.iti-germany.de/resource/stanislaw_jerzy_lec> a ns5:Agent ;
+        ns5:hasDateOfBirth "1909" ;
+        ns5:hasDateOfDeath "1966" ;
+        ns4:description "Beschreibung: Polnischer Aphoristiker und Lyricer Quelle: CW; https://de.wikiquote.org/wiki/Stanis%C5%82aw_Jerzy_Lec" ;
+        ns2:prefLabel "Stanisław Jerzy Lec" ;
+        ns3:familyName "Lec" ;
+        ns3:firstName "Stanisław Jerzy" ;
+        ns3:name "Stanisław Jerzy Lec" .
+
+    <http://lod.iti-germany.de/resource/stephan_dreher> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/stephen_findeisen> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/steven_wasson> a ns5:Agent ;
+        ns2:prefLabel "Steven Wasson" ;
+        ns3:familyName "Wasson" ;
+        ns3:firstName "Steven" ;
+        ns3:name "Steven Wasson" .
+
+    <http://lod.iti-germany.de/resource/susanne_steffen> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/susanne_thelemann> a ns5:Agent ;
+        ns4:description "Beschreibung: Dramaturgin Quelle: https://www.theaterderzeit.de/person/susanne_thelemann/" ;
+        ns2:prefLabel "Susanne Thelemann" ;
+        ns3:familyName "Thelemann" ;
+        ns3:firstName "Susanne" ;
+        ns3:name "Susanne Thelemann" .
+
+    <http://lod.iti-germany.de/resource/szilard_szekely> a ns5:Agent ;
+        ns4:description "Beschreibung: Akrobat, La Compagnia Teatro Dimitri Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Szilard Szekely" ;
+        ns3:familyName "Szekely" ;
+        ns3:firstName "Szilard" ;
+        ns3:name "Szilard Szekely" .
+
+    <http://lod.iti-germany.de/resource/thilo_wittenbecher> a ns5:Agent ;
+        ns2:prefLabel "Thilo,Wittenbecher" ;
+        ns3:familyName "Wittenbecher" ;
+        ns3:firstName "Thilo" ;
+        ns3:name "Thilo,Wittenbecher" .
+
+    <http://lod.iti-germany.de/resource/thomas_boerner> a ns5:Agent ;
+        ns4:description "Beschreibung: Requisiteur, PEDT Quelle: CW; txt-002-001" ;
+        ns2:prefLabel "Thomas Börner" ;
+        ns3:familyName "Börner" ;
+        ns3:firstName "Thomas" ;
+        ns3:name "Thomas Börner" .
+
+    <http://lod.iti-germany.de/resource/thomas_naumann> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/tobias_dutschke> a ns5:Agent ;
+        ns4:description "Beschreibung: Musiker, PEDT Quelle: CW; txt-002-001" ;
+        ns6:sameAs <http://www.schindelkilliusdutschke.de/html/de/tobias_dutschke.html> ;
+        ns2:prefLabel "Tobias Dutschke" ;
+        ns3:familyName "Dutschke" ;
+        ns3:firstName "Tobias" ;
+        ns3:name "Tobias Dutschke" .
+
+    <http://lod.iti-germany.de/resource/ulrich_belaschk> a ns5:Agent ;
+        ns4:description "Beschreibung: Bühnenbildassistent PEDT \"Orfeus\" Quelle: CW; txt-074-002" ;
+        ns2:prefLabel "Ulrich Belaschk" ;
+        ns3:familyName "Belaschk" ;
+        ns3:firstName "Ulrich" ;
+        ns3:name "Ulrich Belaschk" .
+
+    <http://lod.iti-germany.de/resource/ulrich_hoch> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller beim Pantomimen Ensemble des Deutschen Theaters Quelle: CW; txt-070-003" ;
+        ns2:prefLabel "Ulrich Hoch" ;
+        ns3:familyName "Hoch" ;
+        ns3:firstName "Ulrich" ;
+        ns3:name "Ulrich Hoch" .
+
+    <http://lod.iti-germany.de/resource/ulrich_pietzsch> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/ulrike_doepfer> a ns5:Agent ;
+        ns2:prefLabel "Ulrike Döpfer" ;
+        ns3:familyName "Döpfer" ;
+        ns3:firstName "Ulrike" ;
+        ns3:name "Ulrike Döpfer" .
+
+    <http://lod.iti-germany.de/resource/uta_kolbow> a ns5:Agent ;
+        ns2:prefLabel "Uta Kolbow" ;
+        ns3:familyName "Kolbow" ;
+        ns3:firstName "Uta" ;
+        ns3:name "Uta Kolbow" .
+
+    <http://lod.iti-germany.de/resource/uta_schulz> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/uwe_hilprecht> a ns5:Agent ;
+        ns4:description "Beschreibung: Musiker und Komponist, PEDT Quelle: CW; Flyer \"Berliner Ballonfieber 1803\" (txt002-001)" ;
+        ns6:sameAs <https://www.deutschestheater.de/ensemble/uwe_hilprecht/> ;
+        ns2:prefLabel "Uwe Hilprecht" ;
+        ns3:familyName "Hilprecht" ;
+        ns3:firstName "Uwe" ;
+        ns3:name "Uwe Hilprecht" .
+
+    <http://lod.iti-germany.de/resource/uwe_pahl> a ns5:Agent ;
+        ns4:description "Beschreibung: Maskenbildner PEDT Quelle: CW; txt-074-002" ;
+        ns2:prefLabel "Uwe Pahl" ;
+        ns3:familyName "Pahl" ;
+        ns3:firstName "Uwe" ;
+        ns3:name "Uwe Pahl" .
+
+    <http://lod.iti-germany.de/resource/uwe_voelkner> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/vaclav_sramek> a ns5:Agent ;
+        ns2:prefLabel "Vaclav Sramek" ;
+        ns3:familyName "Sramek" ;
+        ns3:firstName "Vaclav" ;
+        ns3:name "Vaclav Sramek" .
+
+    <http://lod.iti-germany.de/resource/veljo_goranow> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/vera_boehm> a ns5:Agent ;
+        ns2:prefLabel "Vera Böhm" ;
+        ns3:name "Vera Böhm" .
+
+    <http://lod.iti-germany.de/resource/vladimir_beljanin> a ns5:Agent ;
+        ns4:description "Beschreibung: Sowjetischer Solo-Pantomime, der v.a. auf dem Gebiet der Pantomime arbeitet. Quelle: TN; Programmheft Woche des Gestischen Theaters 1990" ;
+        ns2:prefLabel "Vladimir Beljanin" ;
+        ns3:familyName "Beljanin" ;
+        ns3:firstName "Vladimir" ;
+        ns3:name "Vladimir Beljanin" .
+
+    <http://lod.iti-germany.de/resource/vladimir_filonow> a ns5:Agent ;
+        ns2:prefLabel "Vladimir Filonow" ;
+        ns3:familyName "Filonow" ;
+        ns3:firstName "Vladimir" ;
+        ns3:name "Vladimir Filonow" .
+
+    <http://lod.iti-germany.de/resource/vladimir_gamza> a ns5:Agent ;
+        ns4:description "Beschreibung: Tschechischer Theaterschaffender, Regisseur, Schauspieler und Übersetzer, Bühnenbildner und Kostümbilder Quelle: CW; txt-010-002 und https://cs.wikipedia.org/wiki/Vladim%C3%ADr_Gamza" ;
+        ns6:sameAs <http://viaf.org/viaf/83714987>,
+            <https://www.wikidata.org/wiki/Q11904463> ;
+        ns2:prefLabel "Vladimír,Gamza" ;
+        ns3:familyName "Gamza" ;
+        ns3:firstName "Vladimír" ;
+        ns3:name "Vladimír,Gamza" .
+
+    <http://lod.iti-germany.de/resource/vladimir_hauser> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller in \"Gräfin Genowefa\" Quelle: CW; txt-010-001" ;
+        ns2:prefLabel "Vladimír Hauser" ;
+        ns3:familyName "Hauser" ;
+        ns3:firstName "Vladimír" ;
+        ns3:name "Vladimír Hauser" .
+
+    <http://lod.iti-germany.de/resource/vladislav_vanak> a ns5:Agent ;
+        ns4:description "Beschreibung: Fotograf Quelle: CW; txt-081-003" ;
+        ns2:prefLabel "Vladislav Vanák" ;
+        ns3:familyName "Vanák" ;
+        ns3:firstName "Vladislav" ;
+        ns3:name "Vladislav Vanák" .
+
+    <http://lod.iti-germany.de/resource/vlastim_bartos> a ns5:Agent ;
+        ns4:description "Beschreibung: Darsteller in \"Gräfin Genowefa\" Quelle: CW; txt-010-001" ;
+        ns2:prefLabel "Vlastim Bartoš" ;
+        ns3:familyName "Bartoš" ;
+        ns3:firstName "Vlastim" ;
+        ns3:name "Vlastim Bartoš" .
+
+    <http://lod.iti-germany.de/resource/volker_braun> a ns5:Agent ;
+        ns4:description "Beschreibung: Deutscher Schriftsteller und Dramatiker Quelle: CW; https://de.wikipedia.org/wiki/Volker_Braun" ;
+        ns6:sameAs <http://d-nb.info/gnd/118514644>,
+            <http://viaf.org/viaf/90062697>,
+            <https://www.wikidata.org/wiki/Q643904> ;
+        ns2:prefLabel "Volker Braun" ;
+        ns3:familyName "Braun" ;
+        ns3:firstName "Volker" ;
+        ns3:name "Volker Braun" .
+
+    <http://lod.iti-germany.de/resource/volkhard_kuehl> a ns5:Agent ;
+        ns2:prefLabel "Volkhard Kühl" ;
+        ns3:name "Volkhard Kühl" .
+
+    <http://lod.iti-germany.de/resource/volkmar_otte> a ns5:Agent ;
+        ns2:prefLabel "Volkmar Otte" ;
+        ns3:familyName "Otte" ;
+        ns3:firstName "Volkmar" ;
+        ns3:name "Volkmar Otte" .
+
+    <http://lod.iti-germany.de/resource/waldemar_nowak> a ns5:Agent ;
+        ns4:description "Beschreibung: Polnischer Pantomime, der die Staatliche Zirkusschule in Julinek bei Warschau absolvierte. Er erhielt zudem eine Ballettausbildung. Er arbeitete u.a. in der Theatergruppe von Jerzy Grotowski. Ab 1982 entwickelt er Soloprogramme als Pantomime. Quelle: Programmheft Woche des Gestischen Theaters 1988" .
+
+    <http://lod.iti-germany.de/resource/walentin_andrejew> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/walter_bartussek> a ns5:Agent ;
+        ns4:description "Beschreibung: Österreichischer Pantomime. 1973 Beginn des Pantomimestudiums bei Rolf Scharre. 1979/80 -studienaufenthalt in London: „Mime, Mask and Movement“ bei Justin Case und am „Mime Centre London“ unter Adam Darius (technique of expressive mime). Ab 1983 intnesive Arbeit mit Pierre Byland (Clownerie). 1986/87 Arbeit mit Daniel Stein (mime corporel). Drei Soloprogramme: „Gewicht mit Ein“; „Don Quichote/Eric Satie“ und „Plastomania“. Ausgedehnte Gastspielreisen in Europa, Asien und Nordamerika. Seminartätigkeit und Lehraufträge (Universität Graz und Salzburg). Initiative und künstlerische Leitung des ersten internationalen Festivals „New Mimes in Austria“ 1986 und „Direkt bewegt“ (Festival für Bewegungstheater, Wiener Festwochen 1988). Quelle: CW; txt-077-001" ;
+        ns6:sameAs <http://d-nb.info/gnd/122539400>,
+            <http://viaf.org/viaf/57498086>,
+            <http://www.bartussek.info/>,
+            <https://www.wikidata.org/wiki/Q2546046> ;
+        ns2:prefLabel "Walter Bartussek" ;
+        ns3:familyName "Bartussek" ;
+        ns3:firstName "Walter" ;
+        ns3:name "Walter Bartussek" .
+
+    <http://lod.iti-germany.de/resource/walter_siegfried> a ns5:Agent ;
+        ns5:hasDateOfBirth "1949-00-00" ;
+        ns4:description """Beschreibung: 1949 geboren in Zofingen. Jugend und Studium in der Schweiz. 1977 Promotion an der Universität Zürich in der Fächerkombination Psychologie, Kunstgeschichte und Philosophie. Danach Lehraufträge über Wahrnehmung und Tanz an mehreren Universitäten und Akademien. Ab 1982 Forschungsarbeit (MPIV, Seewiesen) über: Aesthetik als Verhalten - am Modell des menschlichen Tanzes - publiziert in: Beauty and the Brain. Birkhäuser, Basel, Boston, Berlin 1988.
+
+Seit 1986 Kunstprojekte und Performances. 1986-2005 kontinuierliche Lehrtätigkeiten an der Akademie der Bildenden Künste München und an der Hochschule für Gestaltung und Kunst in Zürich.
+
+Siegfrieds Arbeiten wurden gefördert und ausgezeichnet vom Schweizerischen Nationalfonds und Pro Helvetia, vom Siemens Kulturprogramm und von der der Landeshauptstadt München, sowie von Philip Morris und dem Aargauer Kuratorium.  Quelle: http://www.ariarium.de/bio.html""" ;
+        ns6:sameAs <http://d-nb.info/gnd/119100878>,
+            <http://www.ariarium.de/>,
+            <https://www.wikidata.org/wiki/Q19004327> ;
+        ns2:prefLabel "Walter Siegfried" ;
+        ns3:familyName "Siegfried" ;
+        ns3:firstName "Walter" ;
+        ns3:name "Walter Siegfried" .
+
+    <http://lod.iti-germany.de/resource/walter_werzowa> a ns5:Agent ;
+        ns4:description "Beschreibung: Musiker Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Walter Werzowa" ;
+        ns3:familyName "Werzowa" ;
+        ns3:firstName "Walter" ;
+        ns3:name "Walter Werzowa" .
+
+    <http://lod.iti-germany.de/resource/werner_becker> a ns5:Agent ;
+        ns4:description "Beschreibung: Leitung bei der Herstellung der Dekoration in den Werkstätten der Staatstheater Quelle: CW; txt-002-001; txt-004-001" ;
+        ns2:prefLabel "Werner Becker" ;
+        ns3:familyName "Becker" ;
+        ns3:firstName "Werner" ;
+        ns3:name "Werner Becker" .
+
+    <http://lod.iti-germany.de/resource/werner_keller> a ns5:Agent ;
+        ns4:description "Beschreibung: Technischer Leiter u.a. bei \"Berliner Ballonfieber 1803\", PEDT Quelle: CW; txt-002-001" ;
+        ns2:prefLabel "Werner Keller" ;
+        ns3:familyName "Keller" ;
+        ns3:firstName "Werner" ;
+        ns3:name "Werner Keller" .
+
+    <http://lod.iti-germany.de/resource/werner_lange> a ns5:Agent ;
+        ns4:description "Beschreibung: Requisiteur  Quelle: CW; txt-002-001" ;
+        ns2:prefLabel "Werner Lange" ;
+        ns3:familyName "Lange" ;
+        ns3:firstName "Werner" ;
+        ns3:name "Werner Lange" .
+
+    <http://lod.iti-germany.de/resource/wiktor_charitonow> a ns5:Agent ;
+        ns5:hasDateOfBirth "1937-04-25" ;
+        ns5:hasDateOfDeath "2015-11-08" ;
+        ns4:description "Beschreibung: Sowjetischer / Russischer Schauspieler, Regisseur und Professor. Quelle: TN" ;
+        ns2:prefLabel "Wiktor Wladimirowitsch Charitonow" ;
+        ns3:familyName "Charitonow" ;
+        ns3:firstName "Wiktor Wladimirowitsch" ;
+        ns3:name "Wiktor Wladimirowitsch Charitonow" .
+
+    <http://lod.iti-germany.de/resource/wilhelm_grimm> a ns5:Agent ;
+        ns2:prefLabel "Wilhelm Grimm" ;
+        ns3:familyName "Grimm" ;
+        ns3:firstName "Wilhelm" ;
+        ns3:name "Wilhelm Grimm" .
+
+    <http://lod.iti-germany.de/resource/william_shakespeare> a ns5:Agent ;
+        ns4:description "Beschreibung: Englischer Dramatiker, Lyriker und Schauspieler Quelle: CW" ;
+        ns6:sameAs <http://d-nb.info/gnd/118613723>,
+            <http://viaf.org/viaf/96994048>,
+            <https://www.wikidata.org/wiki/Q692> ;
+        ns2:prefLabel "William Shakespeare" ;
+        ns3:familyName "Shakespeare" ;
+        ns3:firstName "William" ;
+        ns3:name "William Shakespeare" .
+
+    <http://lod.iti-germany.de/resource/winfried_wagner> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/wolfgang_amadeus_mozart> a ns5:Agent ;
+        ns2:prefLabel "Wolfgang Amadeus Mozart" ;
+        ns3:familyName "Mozart" ;
+        ns3:firstName "Wolfgang Amadeus" ;
+        ns3:name "Wolfgang Amadeus Mozart" .
+
+    <http://lod.iti-germany.de/resource/wolfgang_paulke> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/wolfgang_ritter> a ns5:Agent ;
+        ns4:description "Beschreibung: Tonmeister am DT Quelle: CW; txt-0012-001" ;
+        ns6:sameAs <https://www.deutschestheater.de/ensemble/leitung-und-mitarbeiter/> ;
+        ns2:prefLabel "Wolfgang Ritter" ;
+        ns3:familyName "Ritter" ;
+        ns3:firstName "Wolfgang" ;
+        ns3:name "Wolfgang Ritter" .
+
+    <http://lod.iti-germany.de/resource/wolfgang_utzt> a ns5:Agent ;
+        ns4:description """Beschreibung: Maskenbildner beim PEDT Quelle: CW; u.a. Flyer "Blaubart" txt-1-2
+- https://de.wikipedia.org/wiki/Wolfgang_Utzt""" ;
+        ns6:sameAs <http://d-nb.info/gnd/142282162>,
+            <http://viaf.org/viaf/146182638>,
+            <https://www.wikidata.org/wiki/Q1551326> ;
+        ns2:prefLabel "Wolfgang Utzt" ;
+        ns3:familyName "Utzt" ;
+        ns3:firstName "Wolfgang" ;
+        ns3:name "Wolfgang Utzt" .
+
+    <http://lod.iti-germany.de/resource/wolfhard_theile> a ns5:Agent ;
+        ns4:description "Beschreibung: Fotograf Quelle: CW; txt-007-001" ;
+        ns2:prefLabel "Wolfhard Theile" ;
+        ns3:familyName "Theile" ;
+        ns3:firstName "Wolfhard" ;
+        ns3:name "Wolfhard Theile" .
+
+    <http://lod.iti-germany.de/resource/wsevolod_emiljewitsch_meyerhold> a ns5:Agent ;
+        ns5:hasDateOfBirth "1874-01-09" ;
+        ns4:description "Beschreibung: Russischer Regisseur und Schauspieler. Entwickler einer radikal antirealistischen Bühnenkunst Quelle: CW; https://de.wikipedia.org/wiki/Wsewolod_Emiljewitsch_Meyerhold" ;
+        ns6:sameAs <http://d-nb.info/gnd/118641050>,
+            <http://viaf.org/viaf/71394940>,
+            <https://www.wikidata.org/wiki/Q165721> ;
+        ns2:prefLabel "Wsevolod Emiljewitsch Meyerhold" ;
+        ns3:familyName "Meyerhold" ;
+        ns3:firstName "Wsevolod Emiljewitsch" ;
+        ns3:name "Wsevolod Emiljewitsch Meyerhold" .
+
+    <http://lod.iti-germany.de/resource/yoshi_oida> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/yurgen_schoora> a ns5:Agent .
+
+    <http://lod.iti-germany.de/resource/yves_kerboul> a ns5:Agent ;
+        ns4:description "Beschreibung: Regisseur beim Théâtre de la Mie de Pain Quelle: CW: txt-007-001" ;
+        ns2:prefLabel "Yves Kerboul" ;
+        ns3:familyName "Kerboul" ;
+        ns3:firstName "Yves" ;
+        ns3:name "Yves Kerboul" .
+
+    <http://lod.iti-germany.de/resource/zdenek_fintes> a ns5:Agent ;
+        ns4:description "Beschreibung: Musiker, \"Gräfin Genowefa\" Quelle: CW; txt-010-001" ;
+        ns2:prefLabel "Zden?k Fintes" ;
+        ns3:familyName "Fintes" ;
+        ns3:firstName "Zden?k" ;
+        ns3:name "Zden?k Fintes" .
+
+    <http://lod.iti-germany.de/resource/zdenek_pospisil> a ns5:Agent ;
+        ns4:description "Beschreibung: Gründungsmitglied des Theaters an der Schnur in Brünn Quelle: CW; txt-010-002" ;
+        ns2:prefLabel "Zdenèk Pospiŝil" ;
+        ns3:familyName "Pospiŝil" ;
+        ns3:firstName "Zdenèk " ;
+        ns3:name "Zdenèk Pospiŝil" .
+}
+

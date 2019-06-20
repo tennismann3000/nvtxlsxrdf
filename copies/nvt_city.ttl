@@ -1,0 +1,164 @@
+@prefix context: <http://lod.iti-germany.de/contexts/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nvt: <http://lod.iti-germany.de/resource/> .
+@prefix nvto: <http://lod.iti-germany.de/schema/nvto/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nvt:aachen a nvto:City ;
+    dcterms:isPartOf nvt:deutschland ;
+    owl:sameAs <https://www.geonames.org/3247449/aachen.html> ;
+    skos:altLabel "Aachen" ;
+    skos:prefLabel "Aachen" .
+
+nvt:aarhus a nvto:City ;
+    dcterms:isPartOf nvt:daenemark ;
+    skos:altLabel "Aarhus" ;
+    skos:prefLabel "Aarhus" .
+
+nvt:amsterdam a nvto:City ;
+    dcterms:isPartOf nvt:niederlande ;
+    skos:altLabel "Amsterdam" ;
+    skos:prefLabel "Amsterdam" .
+
+nvt:berlin a nvto:City ;
+    dcterms:isPartOf nvt:brd_002 ;
+    skos:altLabel "Berlin" ;
+    skos:prefLabel "Berlin" .
+
+nvt:berlin_ost a nvto:City ;
+    dcterms:isPartOf nvt:ddr ;
+    skos:altLabel "Berlin (East)",
+        "Berlin (Ost)" ;
+    skos:prefLabel "Berlin (Ost)" .
+
+nvt:berlin_west a nvto:City ;
+    dcterms:isPartOf nvt:brd_001 ;
+    skos:altLabel "Berlin (West)" ;
+    skos:prefLabel "Berlin (West)" .
+
+nvt:birmingham a nvto:City .
+
+nvt:bruenn a nvto:City ;
+    dcterms:isPartOf nvt:tschechoslowakei ;
+    skos:altLabel "Brno",
+        "Brünn" ;
+    skos:prefLabel "Brünn" .
+
+nvt:budapest a nvto:City ;
+    dcterms:isPartOf nvt:ungarn ;
+    skos:altLabel "Budapest" ;
+    skos:prefLabel "Budapest" .
+
+nvt:dresden a nvto:City ;
+    dcterms:isPartOf nvt:ddr ;
+    skos:altLabel "Dresden" ;
+    skos:prefLabel "Dresden" .
+
+nvt:elancourt a nvto:City .
+
+nvt:essen a nvto:City ;
+    dcterms:isPartOf nvt:brd_001 ;
+    skos:altLabel "Essen" ;
+    skos:prefLabel "Essen" .
+
+nvt:jena a nvto:City ;
+    dcterms:isPartOf nvt:ddr ;
+    skos:altLabel "Jena" ;
+    skos:prefLabel "Jena" .
+
+nvt:katugasota a nvto:City ;
+    dcterms:isPartOf nvt:sri_lanka ;
+    skos:altLabel "Katugasota" ;
+    skos:prefLabel "Katugasota" .
+
+nvt:koeln a nvto:City ;
+    dcterms:isPartOf nvt:brd_001 ;
+    skos:altLabel "Cologne",
+        "Köln" ;
+    skos:prefLabel "Köln" .
+
+nvt:leningrad a nvto:City ;
+    dcterms:isPartOf nvt:udssr ;
+    skos:altLabel "Leningrad" ;
+    skos:prefLabel "Leningrad" .
+
+nvt:nancy a nvto:City ;
+    dcterms:isPartOf nvt:frankreich ;
+    skos:altLabel "Nancy" ;
+    skos:prefLabel "Nancy" .
+
+nvt:neubrandenburg a nvto:City .
+
+nvt:oran a nvto:City ;
+    dcterms:isPartOf nvt:algerien ;
+    skos:altLabel "Oran" ;
+    skos:prefLabel "Oran" .
+
+nvt:paris a nvto:City ;
+    dcterms:isPartOf nvt:frankreich ;
+    skos:altLabel "Paris" ;
+    skos:prefLabel "Paris" .
+
+nvt:prag_001 a nvto:City ;
+    dcterms:isPartOf nvt:tschechoslowakei ;
+    skos:altLabel "Prag",
+        "Prague" ;
+    skos:prefLabel "Prag" .
+
+nvt:prag_002 a nvto:City ;
+    dcterms:isPartOf nvt:tschechische_republik ;
+    skos:altLabel "Prag",
+        "Prague" ;
+    skos:prefLabel "Prag" .
+
+nvt:rostock a nvto:City .
+
+nvt:ruedersdorf a nvto:City ;
+    skos:altLabel "Rüdersdorf bei Berlin" ;
+    skos:prefLabel "Rüdersdorf bei Berlin" .
+
+nvt:sofia a nvto:City ;
+    dcterms:isPartOf nvt:bulgarien ;
+    skos:altLabel "Sofia" ;
+    skos:prefLabel "Sofia" .
+
+nvt:spring_green a nvto:City ;
+    skos:altLabel "Spring_Green" ;
+    skos:prefLabel "Spring_Green" .
+
+nvt:tbilissi a nvto:City ;
+    dcterms:isPartOf nvt:gssr ;
+    skos:altLabel "Tibilisi",
+        "Tiflis" ;
+    skos:prefLabel "Tbilissi" .
+
+nvt:toronto a nvto:City ;
+    dcterms:isPartOf nvt:kanada .
+
+nvt:ufa a nvto:City ;
+    dcterms:isPartOf nvt:udssr ;
+    skos:altLabel "Ufa" ;
+    skos:prefLabel "Ufa" .
+
+nvt:verona a nvto:City ;
+    dcterms:isPartOf nvt:italien ;
+    skos:altLabel "Verona" ;
+    skos:prefLabel "Verona" .
+
+nvt:wien a nvto:City ;
+    dcterms:isPartOf nvt:oesterreich ;
+    skos:altLabel "Vienna",
+        "Wien" ;
+    skos:prefLabel "Wien" .
+
+nvt:zuerich a nvto:City .
+
