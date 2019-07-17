@@ -229,3 +229,8 @@ def uri_list(column, predicate):
 def lit_list(column, predicate):
     if isinstance(row[column], str):
         graph.add((nvt[id_id], predicate, Literal(row[column])))                
+        
+columns_mapped = pd.read_excel('./Mapping_Meta_Py.xlsx', sheet_name=None)
+
+for idx, i in enumerate([sheet for sheet in columns_mapped.keys()]):
+    print("hi")
